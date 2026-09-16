@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk" data-base="">
+<html lang="en" data-base="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,12 +14,12 @@
 <body>
 <main class="wrap">
   <div class="page-head">
-    <p class="eyebrow">Grammar · граматика</p>
-    <h1>Правила, які нам потрібні</h1>
-    <p class="lede">Кожна тема — форма, коли вживаємо, приклади й типові помилки. Внизу кожної теми є міні-квіз на 3 питання.</p>
+    <p class="eyebrow">Grammar</p>
+    <h1>The rules we need</h1>
+    <p class="lede">Every topic gives you the form, when to use it, examples and the mistakes people usually make. At the bottom of each topic there is a three-question quiz.</p>
   </div>
   <div class="toolbar">
-    <input class="search" id="q" type="search" placeholder="Пошук теми…">
+    <input class="search" id="q" type="search" placeholder="Search a topic…">
     <div class="chips" id="filters"></div>
   </div>
   <div id="list"></div>
@@ -33,7 +33,7 @@
   let group = 'all', query = '';
   const fEl = document.getElementById('filters'), lEl = document.getElementById('list');
   const groups = [...new Set(topics.map(t => t.group))];
-  fEl.innerHTML = [['all', 'усі теми'], ...groups.map(g => [g, g])]
+  fEl.innerHTML = [['all', 'all topics'], ...groups.map(g => [g, g])]
     .map(([v, t]) => `<button class="chip" data-f="${esc(v)}" aria-pressed="${v === 'all'}">${esc(t)}</button>`).join('');
   fEl.onclick = e => {
     const b = e.target.closest('.chip'); if (!b) return;
@@ -48,7 +48,7 @@
         <h3>${esc(r.name)}</h3>
         <div class="form">${esc(r.form)}</div>
         <p class="muted" style="margin:0 0 8px">${esc(r.when)}</p>
-        ${r.examples.map(x => `<p class="ex"><b>${esc(x.en)}</b><br><span class="uk">${esc(x.uk)}</span></p>`).join('')}
+        ${r.examples.map(x => `<p class="ex"><b>${esc(x.en)}</b>${x.uk ? `<br><span class="uk uk-tr">${esc(x.uk)}</span>` : ''}</p>`).join('')}
       </div>`).join('');
     const mistakes = t.mistakes.map(m => `<div class="mistake">
         <span class="no">✗ ${esc(m.wrong)}</span>
@@ -62,9 +62,9 @@
       <div class="acc-body">
         <p class="muted" style="margin-top:0">${esc(t.summary)}</p>
         ${rules}
-        <h3 style="margin-top:22px">Типові помилки</h3>
+        <h3 style="margin-top:22px">Common mistakes</h3>
         ${mistakes}
-        <h3 style="margin-top:22px">Перевір себе</h3>
+        <h3 style="margin-top:22px">Check yourself</h3>
         <div class="quiz" data-id="${esc(t.id)}"></div>
       </div></details>`;
   }
@@ -72,7 +72,7 @@
     const rows = topics.filter(t =>
       (group === 'all' || t.group === group) &&
       (!query || (t.title + t.uk + t.summary).toLowerCase().includes(query)));
-    lEl.innerHTML = rows.map(topicHtml).join('') || '<p class="empty">Такої теми ще немає.</p>';
+    lEl.innerHTML = rows.map(topicHtml).join('') || '<p class="empty">No such topic yet.</p>';
     rows.forEach(t => quiz(t));
   }
   function quiz(t) {
@@ -84,9 +84,9 @@
         const prev = scores[t.id];
         if (!prev || score > prev.score) { scores[t.id] = { score, total: t.quiz.length }; EW.set('grammar:scores', scores); }
         EW.push('quiz', { area: 'grammar', topic: t.id, score, total: t.quiz.length });
-        box.innerHTML = `<p style="font-weight:700;font-size:18px">Результат: ${score} / ${t.quiz.length}
+        box.innerHTML = `<p style="font-weight:700;font-size:18px">Your score: ${score} / ${t.quiz.length}
           ${score === t.quiz.length ? ' 🔥' : ''}</p>
-          <button class="btn btn-ghost btn-sm" data-again="1">Пройти ще раз</button>`;
+          <button class="btn btn-ghost btn-sm" data-again="1">Try again</button>`;
         box.querySelector('[data-again]').onclick = () => { i = 0; score = 0; draw(); };
         return;
       }
@@ -103,7 +103,7 @@
           if (k === q.answer) x.classList.add('correct');
           else if (k === n) x.classList.add('wrong');
         });
-        setTimeout(() => { i++; draw(); }, 800);
+        setTimeout(() => { i++; draw(); }, 850);
       };
     };
     draw();

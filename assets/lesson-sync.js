@@ -1,4 +1,4 @@
-/* Мірорить відповіді учня з аркуша уроку в спільне сховище (і в Supabase, якщо підключено). */
+/* Mirrors the student's worksheet answers into the shared store (and Supabase, if connected). */
 (() => {
   const id = document.currentScript?.dataset.lesson || 'lesson';
   const key = `lesson:${id}:answers`;

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk" data-base="">
+<html lang="en" data-base="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +14,9 @@
 <body>
 <main class="wrap">
   <div class="page-head">
-    <p class="eyebrow">Links · корисні посилання</p>
-    <h1>Куди зазирати між уроками</h1>
-    <p class="lede">Відео, тренажери й словники. Не треба все одразу — обери одне-два і користуйся регулярно.</p>
+    <p class="eyebrow">Links</p>
+    <h1>Where to go between lessons</h1>
+    <p class="lede">Videos, practice sites and dictionaries. You don't need all of them — pick one or two and use them regularly.</p>
   </div>
   <div class="toolbar" id="filters"></div>
   <div class="grid g2" id="list"></div>
@@ -32,7 +32,7 @@
   let active = 'all';
   const fEl = document.getElementById('filters'), lEl = document.getElementById('list');
   fEl.innerHTML = types.map(t =>
-    `<button class="chip" data-t="${t}" aria-pressed="${t === 'all'}">${t === 'all' ? 'усі' : t}</button>`).join('');
+    `<button class="chip" data-t="${t}" aria-pressed="${t === 'all'}">${t}</button>`).join('');
   fEl.onclick = e => {
     const b = e.target.closest('.chip'); if (!b) return;
     active = b.dataset.t;
@@ -49,7 +49,7 @@
       </div>
       <h3 style="margin:12px 0 6px">${esc(l.title)}</h3>
       <p class="muted" style="margin:0">${esc(l.note)}</p></a>`).join('')
-      || '<p class="empty">Тут поки порожньо.</p>';
+      || '<p class="empty">Nothing here yet.</p>';
   }
   render();
 })();

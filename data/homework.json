@@ -5,13 +5,13 @@
     "title": "Homework after Lesson 2",
     "assigned": "2026-09-15",
     "due": "2026-09-18",
-    "note": "Роби по частинах, не все за раз. Якщо щось незрозуміло — пиши, розберемо на уроці.",
+    "note": "Do it in parts, not all at once. If something is unclear, tell me and we'll go through it in the lesson.",
     "items": [
-      { "id": "hw-02-1", "text": "Вивчи 10 нових слів зі словника (Lesson 2) — прогони їх у тренажері двічі.", "type": "vocab" },
-      { "id": "hw-02-2", "text": "Напиши 6 речень про своє хобі: 2 в Present Simple, 2 в Present Continuous, 2 в Past Simple.", "type": "writing" },
-      { "id": "hw-02-3", "text": "Пройди квіз у розділі Grammar: Past Simple і Past Continuous.", "type": "grammar" },
-      { "id": "hw-02-4", "text": "Подивись одне відео 6 Minute English і випиши 5 нових слів.", "type": "listening" },
-      { "id": "hw-02-5", "text": "Підготуй усну розповідь на 1 хвилину: How I started my hobby.", "type": "speaking" }
+      { "id": "hw-02-1", "text": "Learn 10 new words from the Lesson 2 vocabulary — run them through the trainer twice.", "type": "vocab" },
+      { "id": "hw-02-2", "text": "Write 6 sentences about your hobby: 2 in the Present Simple, 2 in the Present Continuous, 2 in the Past Simple.", "type": "writing" },
+      { "id": "hw-02-3", "text": "Take the quizzes in the Grammar section: Past Simple and Past Continuous.", "type": "grammar" },
+      { "id": "hw-02-4", "text": "Watch one 6 Minute English episode and write down 5 new words.", "type": "listening" },
+      { "id": "hw-02-5", "text": "Prepare a one-minute talk: How I started my hobby.", "type": "speaking" }
     ]
   },
   {
@@ -20,10 +20,10 @@
     "title": "Homework after Lesson 1",
     "assigned": "2026-09-08",
     "due": "2026-09-14",
-    "note": "Перший блок слів із тексту.",
+    "note": "The first set of words from the reading text.",
     "items": [
-      { "id": "hw-01-1", "text": "Вивчи 9 слів із Lesson 1 у словнику.", "type": "vocab" },
-      { "id": "hw-01-2", "text": "Склади 5 речень із новими словами.", "type": "writing" }
+      { "id": "hw-01-1", "text": "Learn the 9 words from Lesson 1 in the vocabulary section.", "type": "vocab" },
+      { "id": "hw-01-2", "text": "Write 5 sentences using the new words.", "type": "writing" }
     ]
   }
 ]

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk" data-base="">
+<html lang="en" data-base="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,53 +14,48 @@
 <body>
 <main class="wrap">
   <div class="page-head">
-    <p class="eyebrow">Teacher view · тільки для вчителя</p>
-    <h1>Прогрес учня</h1>
-    <p class="lede">Сторінка тягне дані з Supabase. Якщо ключі не заповнені в <span class="mono">data/config.json</span> — показує тільки те, що збережено в цьому браузері.</p>
+    <p class="eyebrow">Teacher view</p>
+    <h1>Student progress</h1>
+    <p class="lede">This page reads from Supabase. If the keys in <span class="mono">data/config.json</span> are empty, it only shows what is stored in this browser.</p>
   </div>
   <div id="state"></div>
   <div class="stats" id="stats" style="margin-bottom:26px"></div>
   <div class="grid g2">
-    <div class="card"><h2>Домашка</h2><div id="hw"></div></div>
-    <div class="card"><h2>Словник</h2><div id="voc"></div></div>
+    <div class="card"><h2>Homework</h2><div id="hw"></div></div>
+    <div class="card"><h2>Vocabulary</h2><div id="voc"></div></div>
   </div>
-  <div class="section"><div class="card"><h2>Останні результати квізів</h2><div id="events"></div></div></div>
-  <div class="section"><div class="card"><h2>Відповіді в аркушах уроків</h2><div id="sheets"></div></div></div>
+  <div class="section"><div class="card"><h2>Recent quiz results</h2><div id="events"></div></div></div>
+  <div class="section"><div class="card"><h2>Answers in lesson worksheets</h2><div id="sheets"></div></div></div>
 </main>
 <script src="assets/store.js"></script>
 <script src="assets/app.js"></script>
 <script>
 (async () => {
-  const [cfg, hw, vocab, grammar] = await Promise.all([
-    EW.config(), EW.data('homework'), EW.data('vocabulary'), EW.data('grammar')
+  const [cfg, hw, vocab, grammar, lessons] = await Promise.all([
+    EW.config(), EW.data('homework'), EW.data('vocabulary'), EW.data('grammar'), EW.data('lessons')
   ]);
   const sid = (cfg.supabase && cfg.supabase.studentId) || 'student-1';
   const $ = s => document.querySelector(s);
 
   let done = EW.get('hw:done', {}), known = EW.get('vocab:known', []), events = [];
+  const sheets = {};
+
   if (EW.connected()) {
     const rows = await EW.read('progress', `student_id=eq.${encodeURIComponent(sid)}&select=key,value,updated_at`);
     if (rows) {
       for (const r of rows) {
         if (r.key === 'hw:done') done = r.value || {};
         if (r.key === 'vocab:known') known = r.value || [];
+        if (r.key.startsWith('lesson:')) sheets[r.key] = r.value;
       }
-      $('#state').innerHTML = `<p class="muted">Дані з Supabase · учень <span class="mono">${esc(sid)}</span></p>`;
+      $('#state').innerHTML = `<p class="muted">Live data from Supabase · student <span class="mono">${esc(sid)}</span></p>`;
     } else {
-      $('#state').innerHTML = `<p class="muted">Не вдалося прочитати Supabase — показую локальні дані.</p>`;
+      $('#state').innerHTML = `<p class="muted">Could not read Supabase — showing local data instead.</p>`;
     }
     events = await EW.read('events', `student_id=eq.${encodeURIComponent(sid)}&select=kind,payload,created_at&order=created_at.desc&limit=25`) || [];
   } else {
-    $('#state').innerHTML = `<p class="muted">Supabase не налаштовано — показую дані з цього браузера.</p>`;
-  }
-
-  /* аркуші уроків */
-  const sheets = {};
-  if (EW.connected()) {
-    const rows = await EW.read('progress', `student_id=eq.${encodeURIComponent(sid)}&key=like.lesson:*&select=key,value`);
-    (rows || []).forEach(r => sheets[r.key] = r.value);
-  } else {
-    for (const l of (await EW.data('lessons'))) {
+    $('#state').innerHTML = `<p class="muted">Supabase is not configured — showing data from this browser.</p>`;
+    for (const l of lessons) {
       const v = EW.get(`lesson:${l.id}:answers`, null);
       if (v) sheets[`lesson:${l.id}:answers`] = v;
     }
@@ -69,9 +64,9 @@
   const items = hw.flatMap(h => h.items);
   const dn = items.filter(i => done[i.id]).length;
   $('#stats').innerHTML = `
-    <div class="stat"><div class="n">${dn}/${items.length}</div><div class="l">пунктів домашки виконано</div></div>
-    <div class="stat"><div class="n">${known.length}/${vocab.length}</div><div class="l">слів позначено вивченими</div></div>
-    <div class="stat"><div class="n">${EW.connected() ? events.filter(e => e.kind === 'quiz').length : Object.keys(EW.get('grammar:scores', {})).length}</div><div class="l">пройдених квізів</div></div>`;
+    <div class="stat"><div class="n">${dn}/${items.length}</div><div class="l">homework tasks done</div></div>
+    <div class="stat"><div class="n">${known.length}/${vocab.length}</div><div class="l">words marked as known</div></div>
+    <div class="stat"><div class="n">${EW.connected() ? events.filter(e => e.kind === 'quiz').length : Object.keys(EW.get('grammar:scores', {})).length}</div><div class="l">quizzes taken</div></div>`;
 
   $('#hw').innerHTML = hw.map(h => {
     const n = h.items.filter(i => done[i.id]).length;
@@ -83,38 +78,39 @@
   }).join('');
 
   const notKnown = vocab.filter(v => !known.includes(v.word));
-  $('#voc').innerHTML = `<p class="muted">Ще не позначені як вивчені (${notKnown.length}):</p>
-    <div class="chips">${notKnown.map(v => `<span class="chip">${esc(v.word)}</span>`).join('') || '<span class="muted">усе вивчено 🎉</span>'}</div>`;
+  $('#voc').innerHTML = `<p class="muted">Not marked as known yet (${notKnown.length}):</p>
+    <div class="chips">${notKnown.map(v => `<span class="chip">${esc(v.word)}</span>`).join('') || '<span class="muted">all learnt 🎉</span>'}</div>`;
 
   const gname = id => (grammar.find(g => g.id === id) || {}).title || id;
   if (!EW.connected()) {
     const local = EW.get('grammar:scores', {});
     const keys = Object.keys(local);
     $('#events').innerHTML = keys.length
-      ? `<p class="muted">Найкращі результати з цього браузера:</p><ul class="list">${keys.map(k =>
+      ? `<p class="muted">Best scores from this browser:</p><ul class="list">${keys.map(k =>
           `<li class="row"><span class="tag t-violet">grammar</span><span class="grow">${esc(gname(k))}</span>
            <b>${local[k].score}/${local[k].total}</b></li>`).join('')}</ul>`
-      : '<p class="muted">Поки немає записів.</p>';
+      : '<p class="muted">No results yet.</p>';
   } else $('#events').innerHTML = events.length
     ? `<ul class="list">${events.filter(e => e.kind === 'quiz').map(e => {
         const p = e.payload || {};
         return `<li class="row"><span class="tag t-violet">${esc(p.area || '')}</span>
-          <span class="grow">${esc(p.topic ? gname(p.topic) : 'словник')}</span>
+          <span class="grow">${esc(p.topic ? gname(p.topic) : 'vocabulary')}</span>
           <b>${p.score}/${p.total}</b>
-          <span class="muted mono">${new Date(e.created_at).toLocaleString('uk-UA')}</span></li>`;
+          <span class="muted mono">${new Date(e.created_at).toLocaleString('en-GB')}</span></li>`;
       }).join('')}</ul>`
-    : '<p class="muted">Поки немає записів. Вони зʼявляться, коли підключиш Supabase і учень пройде квіз.</p>';
+    : '<p class="muted">No records yet. They appear once Supabase is connected and the student takes a quiz.</p>';
+
   const skeys = Object.keys(sheets);
   $('#sheets').innerHTML = skeys.length
     ? skeys.map(k => {
         const v = sheets[k] || {};
         const a = v.answers || {};
-        return `<h3 style="margin-top:16px">${esc(k.split(':')[1])} <span class="muted" style="font-weight:400">— ${v.filled || 0} полів, ${v.updated ? new Date(v.updated).toLocaleString('uk-UA') : ''}</span></h3>
+        return `<h3 style="margin-top:16px">${esc(k.split(':')[1])} <span class="muted" style="font-weight:400">— ${v.filled || 0} fields, ${v.updated ? new Date(v.updated).toLocaleString('en-GB') : ''}</span></h3>
           <ul class="list">${Object.keys(a).slice(0, 60).map(f =>
             `<li class="row" style="padding:8px 12px"><span class="mono muted" style="min-width:90px">${esc(f)}</span>
              <span class="grow">${esc(String(a[f]))}</span></li>`).join('')}</ul>`;
       }).join('')
-    : '<p class="muted">Учень ще нічого не вписав в аркуші уроків.</p>';
+    : '<p class="muted">The student has not typed anything into the lesson worksheets yet.</p>';
 })();
 </script>
 </body>

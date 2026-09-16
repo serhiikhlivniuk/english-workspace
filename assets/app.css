@@ -54,14 +54,16 @@ a{color:var(--accent); text-underline-offset:3px}
 /* ===== Top bar ===== */
 .topbar{position:sticky; top:0; z-index:40; backdrop-filter:blur(12px);
   background:color-mix(in srgb, var(--bg) 82%, transparent); border-bottom:1px solid var(--line)}
-.topbar-in{max-width:1060px; margin:0 auto; padding:12px 20px; display:flex; align-items:center; gap:16px; flex-wrap:wrap}
+.topbar-in{max-width:1060px; margin:0 auto; padding:12px 20px; display:flex; align-items:center; gap:12px; flex-wrap:wrap}
 .brand{display:flex; align-items:center; gap:10px; font-family:var(--display); font-weight:700;
   font-size:17px; letter-spacing:-.02em; color:var(--ink); text-decoration:none; margin-right:auto}
 .brand .dot{width:30px; height:30px; border-radius:10px; display:grid; place-items:center;
   background:linear-gradient(135deg, var(--violet), var(--pink)); color:#fff; font-size:14px; font-weight:700}
-.nav{display:flex; gap:4px; flex-wrap:wrap}
+.nav{display:flex; gap:4px; flex:1 1 auto; min-width:0; overflow-x:auto; scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.topbar-actions{display:flex; gap:6px; flex:0 0 auto}
 .nav a{font-size:14px; font-weight:600; color:var(--ink-soft); text-decoration:none;
-  padding:7px 12px; border-radius:999px; white-space:nowrap}
+  padding:7px 11px; border-radius:999px; white-space:nowrap; flex:0 0 auto}
 .nav a:hover{background:var(--surface-2); color:var(--ink)}
 .nav a[aria-current="page"]{background:var(--accent); color:var(--on-accent)}
 .theme-btn{border:1px solid var(--line); background:var(--surface); color:var(--ink-soft);
@@ -163,7 +165,8 @@ a.card:hover{transform:translateY(-3px); box-shadow:var(--shadow-lift); border-c
 /* ===== Vocabulary ===== */
 .word-card{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); padding:16px 18px; box-shadow:var(--shadow)}
 .word-card .w{font-family:var(--display); font-size:20px; font-weight:700; letter-spacing:-.02em}
-.word-card .tr{color:var(--accent); font-weight:600; margin-top:2px}
+.word-card .tr{color:var(--ink); font-weight:500; margin-top:4px}
+.word-card .uk-tr{color:var(--accent); font-weight:600; font-size:14px}
 .word-card .ex{font-size:14px; color:var(--ink-soft); margin-top:8px; font-style:italic}
 
 /* Flashcard */
@@ -224,3 +227,12 @@ details.acc > summary:hover{background:var(--surface-2)}
   .card,.hero{padding:18px}
 }
 @media print{.topbar,.footer,.theme-btn{display:none}}
+
+/* ===== translation hints (UA toggle in the top bar) ===== */
+:root:not([data-tr="on"]) .uk-tr{display:none !important}
+.tr-btn{border:1px solid var(--line); background:var(--surface); color:var(--ink-soft);
+  height:34px; padding:0 11px; border-radius:11px; cursor:pointer; font:inherit; font-size:12.5px;
+  font-weight:700; font-family:var(--mono); letter-spacing:.04em}
+.tr-btn:hover{color:var(--ink); border-color:var(--accent)}
+.tr-btn[aria-pressed="true"]{background:var(--accent); color:var(--on-accent); border-color:transparent}
+.uk-tr{color:var(--ink-soft)}

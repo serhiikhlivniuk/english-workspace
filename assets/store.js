@@ -1,7 +1,7 @@
 /* ===== English Workspace — data + progress store =====
-   Працює повністю без бекенду: усе лягає в localStorage.
-   Якщо в data/config.json заповнені supabase.url і supabase.anonKey —
-   ті самі дані дублюються в Supabase, щоб вчитель бачив прогрес.        */
+   Works with no backend at all: everything goes to localStorage.
+   If supabase.url and supabase.anonKey are filled in data/config.json,
+   the same data is mirrored to Supabase so the teacher can see progress. */
 
 const EW = (() => {
   const BASE = document.documentElement.dataset.base || '';
@@ -32,12 +32,12 @@ const EW = (() => {
     catch { return fallback; }
   }
   function set(key, value) {
-    try { localStorage.setItem(LS + key, JSON.stringify(value)); } catch { /* приватний режим */ }
+    try { localStorage.setItem(LS + key, JSON.stringify(value)); } catch { /* private mode */ }
     push('progress', { key, value });
     return value;
   }
 
-  /* ---------- supabase (REST, без SDK) ---------- */
+  /* ---------- supabase (REST, no SDK) ---------- */
   async function sbFetch(path, opts = {}) {
     if (!sb) return null;
     try {
@@ -92,11 +92,12 @@ const EW = (() => {
   }
   function humanUntil(date) {
     const ms = date - new Date();
-    if (ms <= 0) return 'зараз';
+    if (ms <= 0) return 'right now';
     const days = Math.floor(ms / 864e5), hours = Math.floor(ms / 36e5) % 24, mins = Math.floor(ms / 6e4) % 60;
-    if (days) return `через ${days} дн. ${hours} год.`;
-    if (hours) return `через ${hours} год. ${mins} хв.`;
-    return `через ${mins} хв.`;
+    const pl = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
+    if (days) return `in ${pl(days, 'day')} ${pl(hours, 'hour')}`;
+    if (hours) return `in ${pl(hours, 'hour')} ${pl(mins, 'minute')}`;
+    return `in ${pl(mins, 'minute')}`;
   }
 
   return { BASE, data, config, get, set, push, connected, read, nextLesson, humanUntil };

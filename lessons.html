@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk" data-base="">
+<html lang="en" data-base="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +14,9 @@
 <body>
 <main class="wrap">
   <div class="page-head">
-    <p class="eyebrow">Lessons · уроки</p>
-    <h1>Наші уроки</h1>
-    <p class="lede">Кожен урок відкривається окремою сторінкою — з усіма завданнями, відео й граматикою. Все, що ти вписав у завдання, зберігається.</p>
+    <p class="eyebrow">Lessons</p>
+    <h1>Our lessons</h1>
+    <p class="lede">Each lesson opens as its own page, with all the tasks, videos and grammar. Everything you type into the tasks is saved.</p>
   </div>
   <div class="grid g2" id="list"></div>
 </main>
@@ -34,12 +34,12 @@
         <span class="tag t-amber">${esc(l.level)}</span>
       </div>
       <h2 style="margin:12px 0 4px">${esc(l.title)}</h2>
-      <p class="muted" style="margin:0 0 10px">${esc(l.titleUk)} · ${esc(l.duration)} · ${l.vocabCount} слів</p>
+      <p class="muted" style="margin:0 0 10px">${esc(l.titleUk)} · ${esc(l.duration)} · ${l.vocabCount} words</p>
       <p style="margin:0 0 14px">${esc(l.summary)}</p>
       <div class="chips" style="margin-bottom:6px">${tags}</div>`;
     return l.file
-      ? `<a class="card" href="${esc(l.file)}">${body}<p style="margin:14px 0 0;color:var(--accent);font-weight:700">Відкрити урок →</p></a>`
-      : `<div class="card">${body}<p class="muted" style="margin:14px 0 0">Сторінка уроку ще не оформлена</p></div>`;
+      ? `<a class="card" href="${esc(l.file)}">${body}<p style="margin:14px 0 0;color:var(--accent);font-weight:700">Open the lesson →</p></a>`
+      : `<div class="card">${body}<p class="muted" style="margin:14px 0 0">No worksheet page for this lesson yet</p></div>`;
   }).join('');
 })();
 </script>

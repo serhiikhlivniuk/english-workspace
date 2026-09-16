@@ -3,12 +3,12 @@
   "student": "Student",
   "teacher": "Serhii",
   "meet": {
-    "url": "https://meet.google.com/xxx-xxxx-xxx",
-    "note": "Той самий лінк на всі заняття — просто натисни у призначений час.",
+    "url": "https://meet.google.com/cmg-cwmu-cgg",
+    "note": "Same link for every lesson — just click it at the right time.",
     "timezone": "Europe/Kyiv",
     "schedule": [
-      { "dayIndex": 1, "day": "Понеділок", "dayEn": "Monday", "time": "17:30", "duration": 60 },
-      { "dayIndex": 5, "day": "Пʼятниця", "dayEn": "Friday", "time": "17:00", "duration": 60 }
+      { "dayIndex": 1, "day": "Monday", "time": "17:30", "duration": 60 },
+      { "dayIndex": 5, "day": "Friday", "time": "17:00", "duration": 60 }
     ]
   },
   "supabase": {

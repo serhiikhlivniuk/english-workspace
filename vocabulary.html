@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk" data-base="">
+<html lang="en" data-base="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,30 +14,30 @@
 <body>
 <main class="wrap">
   <div class="page-head">
-    <p class="eyebrow">Vocabulary · словник</p>
-    <h1>Мої слова</h1>
-    <p class="lede">Усі слова з наших уроків. Познач ✓ ті, які вже точно знаєш — і тренуй решту картками або квізом.</p>
+    <p class="eyebrow">Vocabulary</p>
+    <h1>My words</h1>
+    <p class="lede">All the words from our lessons. Tick the ones you already know, and train the rest with flashcards or the quiz. Need the Ukrainian? Press <b>UA</b> at the top.</p>
   </div>
 
   <div class="stats" style="margin-bottom:24px">
-    <div class="stat"><div class="n" id="s-total">0</div><div class="l">слів усього</div></div>
-    <div class="stat"><div class="n" id="s-known">0</div><div class="l">позначено як вивчені</div>
+    <div class="stat"><div class="n" id="s-total">0</div><div class="l">words in total</div></div>
+    <div class="stat"><div class="n" id="s-known">0</div><div class="l">marked as known</div>
       <div class="bar lime" style="margin-top:10px"><i id="s-bar" style="width:0%"></i></div></div>
-    <div class="stat"><div class="n" id="s-left">0</div><div class="l">лишилось підтягнути</div></div>
+    <div class="stat"><div class="n" id="s-left">0</div><div class="l">still to learn</div></div>
   </div>
 
   <div class="card" style="margin-bottom:28px">
-    <div class="section-head"><h2>Тренажер</h2><span class="muted" id="tr-count"></span></div>
+    <div class="section-head"><h2>Trainer</h2><span class="muted" id="tr-count"></span></div>
     <div class="toolbar">
-      <button class="btn btn-accent btn-sm" id="m-flash">🃏 Картки</button>
-      <button class="btn btn-ghost btn-sm" id="m-quiz">🎯 Квіз</button>
-      <button class="btn btn-ghost btn-sm" id="m-off">✕ Закрити</button>
+      <button class="btn btn-accent btn-sm" id="m-flash">🃏 Flashcards</button>
+      <button class="btn btn-ghost btn-sm" id="m-quiz">🎯 Quiz</button>
+      <button class="btn btn-ghost btn-sm" id="m-off">✕ Close</button>
     </div>
     <div id="trainer"></div>
   </div>
 
   <div class="toolbar">
-    <input class="search" id="q" type="search" placeholder="Пошук слова або перекладу…">
+    <input class="search" id="q" type="search" placeholder="Search a word or a meaning…">
     <div class="chips" id="filters"></div>
   </div>
   <div class="grid g2" id="list"></div>
@@ -54,7 +54,7 @@
   const $ = s => document.querySelector(s);
   const fEl = $('#filters'), lEl = $('#list');
   const groups = [...new Set(vocab.map(v => v.lesson))];
-  fEl.innerHTML = [['all', 'усі'], ...groups.map(g => [g, title(g)]), ['todo', 'не вивчені']]
+  fEl.innerHTML = [['all', 'all'], ...groups.map(g => [g, title(g)]), ['todo', 'not learnt yet']]
     .map(([v, t]) => `<button class="chip" data-f="${v}" aria-pressed="${v === 'all'}">${esc(t)}</button>`).join('');
   fEl.onclick = e => {
     const b = e.target.closest('.chip'); if (!b) return;
@@ -68,29 +68,29 @@
     const k = known.length, t = vocab.length;
     $('#s-total').textContent = t; $('#s-known').textContent = k; $('#s-left').textContent = t - k;
     $('#s-bar').style.width = (t ? Math.round(k / t * 100) : 0) + '%';
-    $('#tr-count').textContent = `${t - k} слів у черзі на тренування`;
+    $('#tr-count').textContent = `${t - k} words waiting to be trained`;
   }
   function visible() {
     return vocab.filter(v =>
       (filter === 'all' || (filter === 'todo' ? !known.includes(v.word) : v.lesson === filter)) &&
-      (!query || v.word.toLowerCase().includes(query) || v.uk.toLowerCase().includes(query)));
+      (!query || (v.word + ' ' + v.def + ' ' + v.uk).toLowerCase().includes(query)));
   }
   function render() {
     stats();
-    const rows = visible();
-    lEl.innerHTML = rows.map(v => {
+    lEl.innerHTML = visible().map(v => {
       const on = known.includes(v.word);
       return `<div class="word-card">
         <div style="display:flex;gap:12px;align-items:flex-start">
           <div class="grow" style="flex:1">
             <div class="w">${esc(v.word)}</div>
-            <div class="tr">${esc(v.uk)}</div>
+            <div class="tr">${esc(v.def)}</div>
+            ${uk(v.uk)}
             <div class="muted mono" style="font-size:12px;margin-top:4px">${esc(v.pos)} · ${esc(title(v.lesson))}</div>
             <div class="ex">${esc(v.example)}</div>
           </div>
-          <button class="btn btn-sm ${on ? 'btn-accent' : 'btn-ghost'}" data-w="${esc(v.word)}">${on ? '✓ знаю' : 'знаю?'}</button>
+          <button class="btn btn-sm ${on ? 'btn-accent' : 'btn-ghost'}" data-w="${esc(v.word)}">${on ? '✓ known' : 'I know it'}</button>
         </div></div>`;
-    }).join('') || '<p class="empty">Нічого не знайшлось.</p>';
+    }).join('') || '<p class="empty">Nothing found.</p>';
   }
   lEl.onclick = e => {
     const b = e.target.closest('[data-w]'); if (!b) return;
@@ -112,12 +112,13 @@
       const v = deck[i % deck.length];
       tEl.innerHTML = `<div class="flash" id="fc"><div class="flash-inner">
           <div class="flash-face flash-front"><div><div class="big">${esc(v.word)}</div>
-            <div class="sm">${esc(v.pos)} · натисни, щоб перевернути</div></div></div>
-          <div class="flash-face flash-back"><div><div class="big">${esc(v.uk)}</div>
-            <div class="sm">${esc(v.example)}</div></div></div></div></div>
+            <div class="sm">${esc(v.pos)} · tap to flip</div></div></div>
+          <div class="flash-face flash-back"><div><div class="big" style="font-size:clamp(18px,4vw,24px)">${esc(v.def)}</div>
+            <div class="sm">${esc(v.example)}</div>
+            <div class="sm uk-tr" style="opacity:1;font-weight:700">${esc(v.uk)}</div></div></div></div></div>
         <div class="toolbar" style="justify-content:center;margin-top:16px">
-          <button class="btn btn-ghost btn-sm" id="f-known">✓ знаю це слово</button>
-          <button class="btn btn-accent btn-sm" id="f-next">далі →</button>
+          <button class="btn btn-ghost btn-sm" id="f-known">✓ I know this word</button>
+          <button class="btn btn-accent btn-sm" id="f-next">next →</button>
           <span class="muted">${(i % deck.length) + 1} / ${deck.length}</span>
         </div>`;
       const fc = document.getElementById('fc');
@@ -137,28 +138,27 @@
         EW.push('quiz', { area: 'vocabulary', score, total: deck.length });
         tEl.innerHTML = `<div style="text-align:center;padding:20px">
           <div class="stat" style="display:inline-block;min-width:200px">
-            <div class="n">${score}/${deck.length}</div><div class="l">правильних відповідей</div></div>
-          <p class="muted" style="margin-top:14px">${score === deck.length ? 'Ідеально! 🔥' : score >= deck.length * 0.7 ? 'Добре, ще трохи 💪' : 'Треба повторити — прожени картки.'}</p>
-          <button class="btn btn-accent btn-sm" id="q-again">Ще раз</button></div>`;
+            <div class="n">${score}/${deck.length}</div><div class="l">correct answers</div></div>
+          <p class="muted" style="margin-top:14px">${score === deck.length ? 'Perfect! 🔥' : score >= deck.length * 0.7 ? 'Good — almost there 💪' : 'Worth another look — run the flashcards.'}</p>
+          <button class="btn btn-accent btn-sm" id="q-again">Try again</button></div>`;
         document.getElementById('q-again').onclick = () => $('#m-quiz').click();
         return;
       }
       const v = deck[i];
-      const wrongs = shuffle(vocab.filter(x => x.word !== v.word)).slice(0, 3).map(x => x.uk);
-      const opts = shuffle([v.uk, ...wrongs]);
-      tEl.innerHTML = `<p class="muted mono" style="margin:0 0 6px">Питання ${i + 1} з ${deck.length} · рахунок ${score}</p>
+      const wrongs = shuffle(vocab.filter(x => x.word !== v.word)).slice(0, 3).map(x => x.def);
+      const opts = shuffle([v.def, ...wrongs]);
+      tEl.innerHTML = `<p class="muted mono" style="margin:0 0 6px">Question ${i + 1} of ${deck.length} · score ${score}</p>
         <p class="quiz-q" style="font-size:22px;font-family:var(--display)">${esc(v.word)}</p>
         <div class="opts">${opts.map(o => `<button class="opt" data-o="${esc(o)}">${esc(o)}</button>`).join('')}</div>`;
       tEl.querySelector('.opts').onclick = e => {
         const b = e.target.closest('.opt'); if (!b) return;
-        const ok = b.dataset.o === v.uk;
-        if (ok) score++;
+        if (b.dataset.o === v.def) score++;
         tEl.querySelectorAll('.opt').forEach(x => {
           x.disabled = true;
-          if (x.dataset.o === v.uk) x.classList.add('correct');
+          if (x.dataset.o === v.def) x.classList.add('correct');
           else if (x === b) x.classList.add('wrong');
         });
-        setTimeout(() => { i++; draw(); }, 850);
+        setTimeout(() => { i++; draw(); }, 900);
       };
     };
     draw();

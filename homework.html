@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk" data-base="">
+<html lang="en" data-base="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +14,9 @@
 <body>
 <main class="wrap">
   <div class="page-head">
-    <p class="eyebrow">Homework · домашнє завдання</p>
-    <h1>Що зробити до наступного уроку</h1>
-    <p class="lede">Постав галочку, коли зробиш пункт. Прогрес зберігається — і його видно вчителю.</p>
+    <p class="eyebrow">Homework</p>
+    <h1>What to do before the next lesson</h1>
+    <p class="lede">Tick a task when you finish it. Your progress is saved — and your teacher can see it.</p>
   </div>
   <div id="list"></div>
 </main>
@@ -37,10 +37,10 @@
       const pct = Math.round(n / h.items.length * 100);
       const overdue = new Date(h.due + 'T23:59:59') < new Date() && n < h.items.length;
       return `<details class="acc" ${idx === 0 ? 'open' : ''}>
-        <summary><span class="tag ${pct === 100 ? 't-ok' : overdue ? 't-pink' : 't-violet'}">${pct === 100 ? 'готово' : overdue ? 'протерміновано' : 'до ' + fmtDate(h.due)}</span>
+        <summary><span class="tag ${pct === 100 ? 't-ok' : overdue ? 't-pink' : 't-violet'}">${pct === 100 ? 'done' : overdue ? 'overdue' : 'due ' + fmtDate(h.due)}</span>
           ${esc(h.title)} <span class="muted" style="font-weight:400">— ${n}/${h.items.length}</span></summary>
         <div class="acc-body">
-          <p class="muted" style="margin-top:0">${esc(lname(h.lesson))} · задано ${fmtDate(h.assigned)}</p>
+          <p class="muted" style="margin-top:0">${esc(lname(h.lesson))} · set on ${fmtDate(h.assigned)}</p>
           <div class="bar" style="margin:0 0 18px"><i style="width:${pct}%"></i></div>
           <ul class="list">${h.items.map(i => {
             const [ic, tone] = TYPE[i.type] || ['•', 't-violet'];
