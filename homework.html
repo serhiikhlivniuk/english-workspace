@@ -25,6 +25,7 @@
 <script>
 (async () => {
   const [hw, lessons] = await Promise.all([EW.data('homework'), EW.data('lessons')]);
+  await EW.hydrate();
   const lname = id => { const l = lessons.find(x => x.id === id); return l ? `Lesson ${l.number} — ${l.title}` : id; };
   const TYPE = { vocab: ['🔤', 't-cyan'], writing: ['✍️', 't-violet'], grammar: ['🧩', 't-amber'],
                  listening: ['🎧', 't-pink'], speaking: ['🗣', 't-lime'], reading: ['📖', 't-cyan'] };

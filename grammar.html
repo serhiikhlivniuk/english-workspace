@@ -29,6 +29,7 @@
 <script>
 (async () => {
   const topics = await EW.data('grammar');
+  await EW.hydrate();
   const scores = EW.get('grammar:scores', {});
   let group = 'all', query = '';
   const fEl = document.getElementById('filters'), lEl = document.getElementById('list');

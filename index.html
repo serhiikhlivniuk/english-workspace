@@ -45,6 +45,7 @@
   const [cfg, lessons, vocab, hw] = await Promise.all([
     EW.config(), EW.data('lessons'), EW.data('vocabulary'), EW.data('homework')
   ]);
+  await EW.hydrate();
 
   document.getElementById('meet-link').href = cfg.meet.url;
   document.getElementById('meet-rows').innerHTML = cfg.meet.schedule.map(s =>

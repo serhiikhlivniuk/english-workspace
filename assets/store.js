@@ -35,8 +35,13 @@ const EW = (() => {
     try { const v = localStorage.getItem(LS + key); return v === null ? fallback : JSON.parse(v); }
     catch { return fallback; }
   }
-  function set(key, value) {
+  function setLocal(key, value) {
     try { localStorage.setItem(LS + key, JSON.stringify(value)); } catch { /* private mode */ }
+    return value;
+  }
+  function set(key, value) {
+    setLocal(key, value);
+    setLocal(key + ':ts', Date.now());
     push('progress', { key, value });
     return value;
   }
@@ -77,6 +82,45 @@ const EW = (() => {
   const connected = () => !!sb;
   const read = (table, query = '') => sbFetch(`${table}?${query}`);
 
+  /* ---------- hydrate: pull the student's progress back down ----------
+     Without this, progress only travels one way: a student who opens the
+     site on another device (or clears their browser) sees an empty page
+     while the database knows better. Newest write wins per key; word lists
+     are merged, because "known" is only ever added to.                    */
+  let hydrated = null;
+  function hydrate() {
+    if (hydrated) return hydrated;
+    // never let a slow or dead network hold up the page: give up after 5s
+    hydrated = Promise.race([pull(), new Promise(r => setTimeout(() => r(false), 5000))]);
+    return hydrated;
+  }
+  function pull() {
+    return (async () => {
+      await config();
+      if (!sb) return false;
+      const rows = await sbFetch(`progress?student_id=eq.${encodeURIComponent(sb.student)}&select=key,value,updated_at`);
+      if (!rows) return false;
+      for (const r of rows) {
+        if (!r.key || r.key.endsWith(':ts')) continue;
+        const localVal = get(r.key, null);
+        const localTs = get(r.key + ':ts', 0);
+        const remoteTs = Date.parse(r.updated_at) || 0;
+        if (Array.isArray(r.value) && Array.isArray(localVal)) {
+          const merged = [...new Set([...localVal, ...r.value])];
+          setLocal(r.key, merged);
+          setLocal(r.key + ':ts', Math.max(localTs, remoteTs));
+          if (merged.length > r.value.length) push('progress', { key: r.key, value: merged });
+        } else if (localVal === null || remoteTs > localTs) {
+          setLocal(r.key, r.value);
+          setLocal(r.key + ':ts', remoteTs);
+        } else if (localTs > remoteTs) {
+          push('progress', { key: r.key, value: localVal });
+        }
+      }
+      return true;
+    })();
+  }
+
   /* ---------- schedule ---------- */
   function nextLesson(meet) {
     const now = new Date();
@@ -104,5 +148,5 @@ const EW = (() => {
     return `in ${pl(mins, 'minute')}`;
   }
 
-  return { BASE, data, config, get, set, push, connected, read, nextLesson, humanUntil };
+  return { BASE, data, config, get, set, push, connected, read, hydrate, nextLesson, humanUntil };
 })();

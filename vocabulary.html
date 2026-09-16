@@ -47,6 +47,7 @@
 <script>
 (async () => {
   const [vocab, lessons] = await Promise.all([EW.data('vocabulary'), EW.data('lessons')]);
+  await EW.hydrate();
   const title = id => { const l = lessons.find(x => x.id === id); return l ? `Lesson ${l.number}` : id; };
   let known = EW.get('vocab:known', []);
   let filter = 'all', query = '';
