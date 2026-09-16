@@ -1,0 +1,259 @@
+[
+  {
+    "id": "present-simple",
+    "group": "Tenses",
+    "title": "Present Simple",
+    "uk": "Теперішній простий",
+    "level": "A2",
+    "summary": "Звички, розклад, факти і те, що взагалі правда.",
+    "lessons": ["lesson-02"],
+    "rules": [
+      {
+        "name": "Форма",
+        "form": "I / you / we / they + V  ·  he / she / it + V-s",
+        "when": "Стверджувальне речення.",
+        "examples": [
+          { "en": "I play football every weekend.", "uk": "Я граю у футбол щовихідних." },
+          { "en": "She plays the guitar.", "uk": "Вона грає на гітарі." }
+        ]
+      },
+      {
+        "name": "Заперечення і питання",
+        "form": "do / does + not + V  ·  Do / Does + subject + V?",
+        "when": "Після do/does дієслово завжди без -s.",
+        "examples": [
+          { "en": "He doesn't play chess.", "uk": "Він не грає в шахи." },
+          { "en": "Does she like drawing?", "uk": "Їй подобається малювати?" }
+        ]
+      },
+      {
+        "name": "Маркери",
+        "form": "always · usually · often · sometimes · hardly ever · never · every day · on Mondays",
+        "when": "Ці слова майже завжди тягнуть за собою Present Simple.",
+        "examples": [
+          { "en": "I hardly ever watch TV.", "uk": "Я майже ніколи не дивлюсь телевізор." }
+        ]
+      }
+    ],
+    "mistakes": [
+      { "wrong": "He don't like it.", "right": "He doesn't like it.", "note": "he / she / it → doesn't" },
+      { "wrong": "Does she plays tennis?", "right": "Does she play tennis?", "note": "після does — базова форма" }
+    ],
+    "quiz": [
+      { "q": "She ___ (go) to the gym on Mondays.", "options": ["go", "goes", "is going"], "answer": 1 },
+      { "q": "They ___ like horror films.", "options": ["doesn't", "don't", "aren't"], "answer": 1 },
+      { "q": "___ your brother play the piano?", "options": ["Do", "Does", "Is"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "present-continuous",
+    "group": "Tenses",
+    "title": "Present Continuous",
+    "uk": "Теперішній тривалий",
+    "level": "A2",
+    "summary": "Що відбувається зараз або в цей період життя.",
+    "lessons": ["lesson-02"],
+    "rules": [
+      {
+        "name": "Форма",
+        "form": "am / is / are + V-ing",
+        "when": "Дія в момент мовлення або тимчасова ситуація.",
+        "examples": [
+          { "en": "I'm doing my homework right now.", "uk": "Я саме роблю домашнє завдання." },
+          { "en": "He's learning to skateboard this month.", "uk": "Цього місяця він учиться кататися на скейті." }
+        ]
+      },
+      {
+        "name": "Маркери",
+        "form": "now · right now · at the moment · today · this week",
+        "when": "Сигнал, що дія триває, а не є звичкою.",
+        "examples": [
+          { "en": "Look! They're playing in the yard.", "uk": "Дивись! Вони граються у дворі." }
+        ]
+      },
+      {
+        "name": "State verbs",
+        "form": "like, love, hate, want, know, understand, need — без -ing",
+        "when": "Дієслова стану не вживаються в Continuous.",
+        "examples": [
+          { "en": "I like this song. (NOT I'm liking)", "uk": "Мені подобається ця пісня." }
+        ]
+      }
+    ],
+    "mistakes": [
+      { "wrong": "She is liking it.", "right": "She likes it.", "note": "like — state verb" },
+      { "wrong": "I playing now.", "right": "I'm playing now.", "note": "не забувай am/is/are" }
+    ],
+    "quiz": [
+      { "q": "Be quiet — the baby ___ (sleep).", "options": ["sleeps", "is sleeping", "sleep"], "answer": 1 },
+      { "q": "I ___ this book at the moment.", "options": ["read", "am reading", "reads"], "answer": 1 },
+      { "q": "Which sentence is correct?", "options": ["I am wanting a new phone.", "I want a new phone.", "I am want a new phone."], "answer": 1 }
+    ]
+  },
+  {
+    "id": "past-simple",
+    "group": "Tenses",
+    "title": "Past Simple",
+    "uk": "Минулий простий",
+    "level": "A2+",
+    "summary": "Завершена дія в минулому — головний час для історій.",
+    "lessons": ["lesson-02"],
+    "rules": [
+      {
+        "name": "Форма",
+        "form": "V-ed  ·  неправильні дієслова: go → went, break → broke",
+        "when": "Дія сталася і закінчилася в минулому.",
+        "examples": [
+          { "en": "I started skateboarding two years ago.", "uk": "Я почав кататися на скейті два роки тому." },
+          { "en": "He fell off and broke his arm.", "uk": "Він упав і зламав руку." }
+        ]
+      },
+      {
+        "name": "Заперечення і питання",
+        "form": "didn't + V  ·  Did + subject + V?",
+        "when": "Після did — завжди базова форма.",
+        "examples": [
+          { "en": "We didn't go out yesterday.", "uk": "Ми вчора не виходили." },
+          { "en": "Did you win the match?", "uk": "Ви виграли матч?" }
+        ]
+      },
+      {
+        "name": "Маркери",
+        "form": "yesterday · last week · in 2020 · two days ago · when I was 10",
+        "when": "Конкретний момент у минулому.",
+        "examples": [
+          { "en": "I took up chess when I was ten.", "uk": "Я почав грати в шахи, коли мені було десять." }
+        ]
+      }
+    ],
+    "mistakes": [
+      { "wrong": "I goed home.", "right": "I went home.", "note": "go — неправильне дієслово" },
+      { "wrong": "Did you went there?", "right": "Did you go there?", "note": "після did — базова форма" }
+    ],
+    "quiz": [
+      { "q": "We ___ (buy) tickets last Friday.", "options": ["buyed", "bought", "buy"], "answer": 1 },
+      { "q": "She ___ come to the lesson yesterday.", "options": ["didn't", "doesn't", "wasn't"], "answer": 0 },
+      { "q": "___ they win the game?", "options": ["Did", "Do", "Were"], "answer": 0 }
+    ]
+  },
+  {
+    "id": "past-continuous",
+    "group": "Tenses",
+    "title": "Past Continuous",
+    "uk": "Минулий тривалий",
+    "level": "B1",
+    "summary": "Дія тривала в певний момент минулого — фон для історії.",
+    "lessons": ["lesson-02"],
+    "rules": [
+      {
+        "name": "Форма",
+        "form": "was / were + V-ing",
+        "when": "Дія була в процесі в конкретний момент минулого.",
+        "examples": [
+          { "en": "At 7 p.m. I was practising the guitar.", "uk": "О 7-й вечора я тренувався на гітарі." }
+        ]
+      },
+      {
+        "name": "while і when",
+        "form": "while + Past Continuous · when + Past Simple",
+        "when": "Довга дія перебивається короткою.",
+        "examples": [
+          { "en": "While I was riding my bike, it started to rain.", "uk": "Поки я їхав на велосипеді, почався дощ." },
+          { "en": "I was playing football when I hurt my knee.", "uk": "Я грав у футбол, коли забив коліно." }
+        ]
+      }
+    ],
+    "mistakes": [
+      { "wrong": "While I rode my bike, I fell.", "right": "While I was riding my bike, I fell.", "note": "while → тривала дія" },
+      { "wrong": "They was playing.", "right": "They were playing.", "note": "we / you / they → were" }
+    ],
+    "quiz": [
+      { "q": "I ___ (watch) a film when he called.", "options": ["watched", "was watching", "watch"], "answer": 1 },
+      { "q": "While she ___ dinner, the lights went out.", "options": ["cooked", "was cooking", "cooks"], "answer": 1 },
+      { "q": "We ___ waiting for you at 6.", "options": ["was", "were", "are"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "adverbs-of-frequency",
+    "group": "Word order",
+    "title": "Adverbs of frequency",
+    "uk": "Прислівники частотності",
+    "level": "A2",
+    "summary": "Де ставити always, usually, often, never — і чому це місце не випадкове.",
+    "lessons": ["lesson-02"],
+    "rules": [
+      {
+        "name": "Основне правило",
+        "form": "перед смисловим дієсловом, але ПІСЛЯ to be",
+        "when": "always · usually · often · sometimes · hardly ever · never",
+        "examples": [
+          { "en": "I always do my homework.", "uk": "Я завжди роблю домашнє завдання." },
+          { "en": "He is never late.", "uk": "Він ніколи не запізнюється." }
+        ]
+      },
+      {
+        "name": "З допоміжним дієсловом",
+        "form": "auxiliary + adverb + main verb",
+        "when": "Коли є can, will, have, am/is/are + -ing.",
+        "examples": [
+          { "en": "She can usually help me.", "uk": "Вона зазвичай може мені допомогти." }
+        ]
+      },
+      {
+        "name": "Частотні вирази",
+        "form": "once a week · twice a month · every day — на початку або в кінці речення",
+        "when": "Ці вирази не ставлять у середину.",
+        "examples": [
+          { "en": "We train twice a week.", "uk": "Ми тренуємося двічі на тиждень." }
+        ]
+      }
+    ],
+    "mistakes": [
+      { "wrong": "I go always to school by bus.", "right": "I always go to school by bus.", "note": "перед смисловим дієсловом" },
+      { "wrong": "He never is tired.", "right": "He is never tired.", "note": "після to be" }
+    ],
+    "quiz": [
+      { "q": "Обери правильне: ", "options": ["I never am bored.", "I am never bored.", "Never I am bored."], "answer": 1 },
+      { "q": "She ___ goes to bed late.", "options": ["usually", "a usually", "usual"], "answer": 0 },
+      { "q": "Куди ставимо 'twice a week'?", "options": ["в середину речення", "на початок або в кінець", "одразу після підмета"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "play-go-do",
+    "group": "Collocations",
+    "title": "play / go / do",
+    "uk": "Дієслова з видами спорту й хобі",
+    "level": "A2",
+    "summary": "Три дієслова, які йдуть із різними типами активностей.",
+    "lessons": ["lesson-02"],
+    "rules": [
+      {
+        "name": "play",
+        "form": "play + гра з мʼячем або з правилами і суперником",
+        "when": "football, basketball, tennis, chess, video games, the guitar",
+        "examples": [{ "en": "They play basketball after school.", "uk": "Вони грають у баскетбол після школи." }]
+      },
+      {
+        "name": "go",
+        "form": "go + активність із закінченням -ing",
+        "when": "swimming, running, cycling, skateboarding, shopping, fishing",
+        "examples": [{ "en": "I go swimming twice a week.", "uk": "Я ходжу плавати двічі на тиждень." }]
+      },
+      {
+        "name": "do",
+        "form": "do + індивідуальна активність без мʼяча",
+        "when": "yoga, karate, gymnastics, athletics, exercise, homework",
+        "examples": [{ "en": "She does karate on Saturdays.", "uk": "Вона займається карате по суботах." }]
+      }
+    ],
+    "mistakes": [
+      { "wrong": "I play swimming.", "right": "I go swimming.", "note": "-ing активність → go" },
+      { "wrong": "He goes karate.", "right": "He does karate.", "note": "бойові мистецтва → do" }
+    ],
+    "quiz": [
+      { "q": "___ cycling", "options": ["play", "go", "do"], "answer": 1 },
+      { "q": "___ chess", "options": ["play", "go", "do"], "answer": 0 },
+      { "q": "___ gymnastics", "options": ["play", "go", "do"], "answer": 2 }
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="uk" data-base="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%236C4CF1'/><text x='50' y='68' font-size='52' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>EN</text></svg>">
+<title>Grammar · English Workspace</title>
+</head>
+<body>
+<main class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Grammar · граматика</p>
+    <h1>Правила, які нам потрібні</h1>
+    <p class="lede">Кожна тема — форма, коли вживаємо, приклади й типові помилки. Внизу кожної теми є міні-квіз на 3 питання.</p>
+  </div>
+  <div class="toolbar">
+    <input class="search" id="q" type="search" placeholder="Пошук теми…">
+    <div class="chips" id="filters"></div>
+  </div>
+  <div id="list"></div>
+</main>
+<script src="assets/store.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(async () => {
+  const topics = await EW.data('grammar');
+  const scores = EW.get('grammar:scores', {});
+  let group = 'all', query = '';
+  const fEl = document.getElementById('filters'), lEl = document.getElementById('list');
+  const groups = [...new Set(topics.map(t => t.group))];
+  fEl.innerHTML = [['all', 'усі теми'], ...groups.map(g => [g, g])]
+    .map(([v, t]) => `<button class="chip" data-f="${esc(v)}" aria-pressed="${v === 'all'}">${esc(t)}</button>`).join('');
+  fEl.onclick = e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    group = b.dataset.f;
+    fEl.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c.dataset.f === group));
+    render();
+  };
+  document.getElementById('q').oninput = e => { query = e.target.value.trim().toLowerCase(); render(); };
+
+  function topicHtml(t) {
+    const rules = t.rules.map(r => `<div class="rule">
+        <h3>${esc(r.name)}</h3>
+        <div class="form">${esc(r.form)}</div>
+        <p class="muted" style="margin:0 0 8px">${esc(r.when)}</p>
+        ${r.examples.map(x => `<p class="ex"><b>${esc(x.en)}</b><br><span class="uk">${esc(x.uk)}</span></p>`).join('')}
+      </div>`).join('');
+    const mistakes = t.mistakes.map(m => `<div class="mistake">
+        <span class="no">✗ ${esc(m.wrong)}</span>
+        <span class="yes">✓ ${esc(m.right)}</span>
+        <span class="muted">${esc(m.note)}</span></div>`).join('');
+    const best = scores[t.id];
+    return `<details class="acc" data-id="${esc(t.id)}">
+      <summary><span class="tag t-violet">${esc(t.level)}</span> ${esc(t.title)}
+        <span class="muted" style="font-weight:400">— ${esc(t.uk)}</span>
+        ${best ? `<span class="tag t-ok" style="margin-left:8px">${best.score}/${best.total}</span>` : ''}</summary>
+      <div class="acc-body">
+        <p class="muted" style="margin-top:0">${esc(t.summary)}</p>
+        ${rules}
+        <h3 style="margin-top:22px">Типові помилки</h3>
+        ${mistakes}
+        <h3 style="margin-top:22px">Перевір себе</h3>
+        <div class="quiz" data-id="${esc(t.id)}"></div>
+      </div></details>`;
+  }
+  function render() {
+    const rows = topics.filter(t =>
+      (group === 'all' || t.group === group) &&
+      (!query || (t.title + t.uk + t.summary).toLowerCase().includes(query)));
+    lEl.innerHTML = rows.map(topicHtml).join('') || '<p class="empty">Такої теми ще немає.</p>';
+    rows.forEach(t => quiz(t));
+  }
+  function quiz(t) {
+    const box = lEl.querySelector(`.quiz[data-id="${t.id}"]`);
+    if (!box) return;
+    let i = 0, score = 0;
+    const draw = () => {
+      if (i >= t.quiz.length) {
+        const prev = scores[t.id];
+        if (!prev || score > prev.score) { scores[t.id] = { score, total: t.quiz.length }; EW.set('grammar:scores', scores); }
+        EW.push('quiz', { area: 'grammar', topic: t.id, score, total: t.quiz.length });
+        box.innerHTML = `<p style="font-weight:700;font-size:18px">Результат: ${score} / ${t.quiz.length}
+          ${score === t.quiz.length ? ' 🔥' : ''}</p>
+          <button class="btn btn-ghost btn-sm" data-again="1">Пройти ще раз</button>`;
+        box.querySelector('[data-again]').onclick = () => { i = 0; score = 0; draw(); };
+        return;
+      }
+      const q = t.quiz[i];
+      box.innerHTML = `<p class="muted mono" style="margin:0 0 6px">${i + 1} / ${t.quiz.length}</p>
+        <p class="quiz-q">${esc(q.q)}</p>
+        <div class="opts">${q.options.map((o, n) => `<button class="opt" data-n="${n}">${esc(o)}</button>`).join('')}</div>`;
+      box.querySelector('.opts').onclick = e => {
+        const b = e.target.closest('.opt'); if (!b) return;
+        const n = +b.dataset.n;
+        if (n === q.answer) score++;
+        box.querySelectorAll('.opt').forEach((x, k) => {
+          x.disabled = true;
+          if (k === q.answer) x.classList.add('correct');
+          else if (k === n) x.classList.add('wrong');
+        });
+        setTimeout(() => { i++; draw(); }, 800);
+      };
+    };
+    draw();
+  }
+  render();
+})();
+</script>
+</body>
+</html>

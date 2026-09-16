@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hw-02",
+    "lesson": "lesson-02",
+    "title": "Homework after Lesson 2",
+    "assigned": "2026-09-15",
+    "due": "2026-09-18",
+    "note": "Роби по частинах, не все за раз. Якщо щось незрозуміло — пиши, розберемо на уроці.",
+    "items": [
+      { "id": "hw-02-1", "text": "Вивчи 10 нових слів зі словника (Lesson 2) — прогони їх у тренажері двічі.", "type": "vocab" },
+      { "id": "hw-02-2", "text": "Напиши 6 речень про своє хобі: 2 в Present Simple, 2 в Present Continuous, 2 в Past Simple.", "type": "writing" },
+      { "id": "hw-02-3", "text": "Пройди квіз у розділі Grammar: Past Simple і Past Continuous.", "type": "grammar" },
+      { "id": "hw-02-4", "text": "Подивись одне відео 6 Minute English і випиши 5 нових слів.", "type": "listening" },
+      { "id": "hw-02-5", "text": "Підготуй усну розповідь на 1 хвилину: How I started my hobby.", "type": "speaking" }
+    ]
+  },
+  {
+    "id": "hw-01",
+    "lesson": "lesson-01",
+    "title": "Homework after Lesson 1",
+    "assigned": "2026-09-08",
+    "due": "2026-09-14",
+    "note": "Перший блок слів із тексту.",
+    "items": [
+      { "id": "hw-01-1", "text": "Вивчи 9 слів із Lesson 1 у словнику.", "type": "vocab" },
+      { "id": "hw-01-2", "text": "Склади 5 речень із новими словами.", "type": "writing" }
+    ]
+  }
+]

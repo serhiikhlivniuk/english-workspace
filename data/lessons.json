@@ -1,0 +1,28 @@
+[
+  {
+    "id": "lesson-01",
+    "number": 1,
+    "title": "Getting to Know You",
+    "titleUk": "Вступний урок",
+    "date": "2026-09-08",
+    "level": "A2+",
+    "duration": "60 min",
+    "file": "",
+    "summary": "Знайомство, визначення рівня, перший блок лексики з тексту.",
+    "topics": ["Speaking: introductions", "Level check", "Reading vocabulary"],
+    "vocabCount": 9
+  },
+  {
+    "id": "lesson-02",
+    "number": 2,
+    "title": "My Free Time & Hobbies",
+    "titleUk": "Вільний час і хобі",
+    "date": "2026-09-15",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-02.html",
+    "summary": "Лексика хобі, play/go/do, прислівники частотності, чотири часи: Present Simple, Present Continuous, Past Simple, Past Continuous. Відео + speaking.",
+    "topics": ["Hobby vocabulary", "play / go / do", "Adverbs of frequency", "Present Simple vs Continuous", "Past Simple vs Continuous"],
+    "vocabCount": 18
+  }
+]

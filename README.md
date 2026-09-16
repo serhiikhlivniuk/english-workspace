@@ -1,0 +1,102 @@
+# English Workspace
+
+Статичний сайт-воркспейс для занять англійською: уроки, словник, граматика,
+корисні посилання, домашка і постійне посилання на Google Meet.
+
+Жодного білда й фреймворків — чистий HTML/CSS/JS. Увесь контент лежить у `data/*.json`,
+сторінки його просто рендерять. Щоб щось додати — редагуєш JSON і робиш коміт.
+
+## Структура
+
+```
+index.html          головна: найближче заняття, статистика, домашка
+lessons.html        список уроків
+vocabulary.html     словник + картки + квіз
+grammar.html        правила по темах + міні-квізи
+links.html          корисні посилання
+homework.html       домашка з чекбоксами
+teacher.html        сторінка вчителя: прогрес учня (немає в меню — відкривається за прямим лінком)
+lessons/            окремі сторінки уроків (самодостатній HTML)
+data/               увесь контент: config, lessons, vocabulary, grammar, links, homework
+assets/             app.css, app.js, store.js
+supabase.sql        схема БД для збереження прогресу
+```
+
+## Деплой на GitHub Pages
+
+1. Створити репозиторій (напр. `english-workspace`) і залити ці файли:
+
+```bash
+git init
+git add .
+git commit -m "English workspace"
+git branch -M main
+git remote add origin https://github.com/USERNAME/english-workspace.git
+git push -u origin main
+```
+
+2. Settings → Pages → Source: **Deploy from a branch**, branch `main`, folder `/ (root)`.
+3. Через хвилину сайт буде на `https://USERNAME.github.io/english-workspace/`.
+
+Файл `.nojekyll` вимикає Jekyll (щоб нічого не ламалось), `robots.txt` і `<meta name="robots" content="noindex">`
+закривають сайт від пошуковиків — знайти його можна тільки за посиланням.
+
+## Що заповнити перед стартом
+
+У `data/config.json`:
+
+- `meet.url` — постійне посилання на Google Meet;
+- `meet.schedule` — дні й час (уже стоїть пн 17:30 і пт 17:00);
+- `student` — імʼя учня;
+- `supabase` — див. нижче.
+
+## Збереження прогресу
+
+Без налаштувань усе працює на `localStorage`: галочки в домашці, позначені слова
+й результати квізів живуть у браузері учня. Сайт при цьому не можна зламати.
+
+Щоб бачити прогрес учня в `teacher.html`:
+
+1. Створити безкоштовний проєкт на [supabase.com](https://supabase.com).
+2. SQL Editor → вставити вміст `supabase.sql` → Run.
+3. Settings → API → скопіювати **Project URL** і **anon public** ключ.
+4. Вписати їх у `data/config.json`:
+
+```json
+"supabase": { "url": "https://xxxx.supabase.co", "anonKey": "eyJhbGci...", "studentId": "student-1" }
+```
+
+Анонімний ключ публічний за задумом — він лежить у коді сайту. Захист тримається на
+RLS-політиках зі `supabase.sql`: можна писати прогрес і читати його, але не більше.
+Персональних даних у базі немає — тільки галочки й бали.
+
+> Безкоштовний проєкт Supabase засинає після тижня без запитів. Два заняття на тиждень
+> його будять, але якщо буде довга пауза — просто зайти в дашборд і натиснути Restore.
+
+## Сторінка вчителя
+
+`teacher.html` навмисне не стоїть у навігації — відкривається за прямим посиланням
+`.../teacher.html`. Показує: скільки пунктів домашки виконано, які слова ще не позначені
+вивченими, результати квізів і що учень вписав у завданнях аркуша уроку.
+
+Аркуші уроків (`lessons/*.html`) самі зберігають відповіді учня локально, а скрипт
+`assets/lesson-sync.js` дублює їх у спільне сховище — звідти вони й потрапляють у Supabase.
+Щоб новий урок теж синхронізувався, додай перед `</body>` його сторінки:
+
+```html
+<script src="../assets/store.js"></script>
+<script src="../assets/lesson-sync.js" data-lesson="lesson-03"></script>
+```
+
+і на `<html>` атрибут `data-base="../"`.
+
+## Як додавати контент
+
+- **Новий урок**: покласти HTML у `lessons/`, додати обʼєкт у `data/lessons.json`.
+- **Слова**: дописати в `data/vocabulary.json` (`word`, `pos`, `uk`, `example`, `lesson`).
+- **Граматика**: новий обʼєкт у `data/grammar.json` — `rules`, `mistakes`, `quiz`.
+- **Посилання**: `data/links.json`, тип `video` / `article` / `practice` / `tool`.
+- **Домашка**: `data/homework.json`, новий блок зверху масиву.
+
+Дрібні правки можна робити просто у веб-інтерфейсі GitHub — натиснути олівець,
+змінити текст, Commit. Через хвилину сайт оновиться.

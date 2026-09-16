@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="uk" data-base="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%236C4CF1'/><text x='50' y='68' font-size='52' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>EN</text></svg>">
+<title>Vocabulary · English Workspace</title>
+</head>
+<body>
+<main class="wrap">
+  <div class="page-head">
+    <p class="eyebrow">Vocabulary · словник</p>
+    <h1>Мої слова</h1>
+    <p class="lede">Усі слова з наших уроків. Познач ✓ ті, які вже точно знаєш — і тренуй решту картками або квізом.</p>
+  </div>
+
+  <div class="stats" style="margin-bottom:24px">
+    <div class="stat"><div class="n" id="s-total">0</div><div class="l">слів усього</div></div>
+    <div class="stat"><div class="n" id="s-known">0</div><div class="l">позначено як вивчені</div>
+      <div class="bar lime" style="margin-top:10px"><i id="s-bar" style="width:0%"></i></div></div>
+    <div class="stat"><div class="n" id="s-left">0</div><div class="l">лишилось підтягнути</div></div>
+  </div>
+
+  <div class="card" style="margin-bottom:28px">
+    <div class="section-head"><h2>Тренажер</h2><span class="muted" id="tr-count"></span></div>
+    <div class="toolbar">
+      <button class="btn btn-accent btn-sm" id="m-flash">🃏 Картки</button>
+      <button class="btn btn-ghost btn-sm" id="m-quiz">🎯 Квіз</button>
+      <button class="btn btn-ghost btn-sm" id="m-off">✕ Закрити</button>
+    </div>
+    <div id="trainer"></div>
+  </div>
+
+  <div class="toolbar">
+    <input class="search" id="q" type="search" placeholder="Пошук слова або перекладу…">
+    <div class="chips" id="filters"></div>
+  </div>
+  <div class="grid g2" id="list"></div>
+</main>
+<script src="assets/store.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(async () => {
+  const [vocab, lessons] = await Promise.all([EW.data('vocabulary'), EW.data('lessons')]);
+  const title = id => { const l = lessons.find(x => x.id === id); return l ? `Lesson ${l.number}` : id; };
+  let known = EW.get('vocab:known', []);
+  let filter = 'all', query = '';
+
+  const $ = s => document.querySelector(s);
+  const fEl = $('#filters'), lEl = $('#list');
+  const groups = [...new Set(vocab.map(v => v.lesson))];
+  fEl.innerHTML = [['all', 'усі'], ...groups.map(g => [g, title(g)]), ['todo', 'не вивчені']]
+    .map(([v, t]) => `<button class="chip" data-f="${v}" aria-pressed="${v === 'all'}">${esc(t)}</button>`).join('');
+  fEl.onclick = e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    filter = b.dataset.f;
+    fEl.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c.dataset.f === filter));
+    render();
+  };
+  $('#q').oninput = e => { query = e.target.value.trim().toLowerCase(); render(); };
+
+  function stats() {
+    const k = known.length, t = vocab.length;
+    $('#s-total').textContent = t; $('#s-known').textContent = k; $('#s-left').textContent = t - k;
+    $('#s-bar').style.width = (t ? Math.round(k / t * 100) : 0) + '%';
+    $('#tr-count').textContent = `${t - k} слів у черзі на тренування`;
+  }
+  function visible() {
+    return vocab.filter(v =>
+      (filter === 'all' || (filter === 'todo' ? !known.includes(v.word) : v.lesson === filter)) &&
+      (!query || v.word.toLowerCase().includes(query) || v.uk.toLowerCase().includes(query)));
+  }
+  function render() {
+    stats();
+    const rows = visible();
+    lEl.innerHTML = rows.map(v => {
+      const on = known.includes(v.word);
+      return `<div class="word-card">
+        <div style="display:flex;gap:12px;align-items:flex-start">
+          <div class="grow" style="flex:1">
+            <div class="w">${esc(v.word)}</div>
+            <div class="tr">${esc(v.uk)}</div>
+            <div class="muted mono" style="font-size:12px;margin-top:4px">${esc(v.pos)} · ${esc(title(v.lesson))}</div>
+            <div class="ex">${esc(v.example)}</div>
+          </div>
+          <button class="btn btn-sm ${on ? 'btn-accent' : 'btn-ghost'}" data-w="${esc(v.word)}">${on ? '✓ знаю' : 'знаю?'}</button>
+        </div></div>`;
+    }).join('') || '<p class="empty">Нічого не знайшлось.</p>';
+  }
+  lEl.onclick = e => {
+    const b = e.target.closest('[data-w]'); if (!b) return;
+    const w = b.dataset.w;
+    known = known.includes(w) ? known.filter(x => x !== w) : [...known, w];
+    EW.set('vocab:known', known);
+    render();
+  };
+
+  /* ---------- trainer ---------- */
+  const tEl = $('#trainer');
+  const pool = () => { const p = vocab.filter(v => !known.includes(v.word)); return p.length ? p : vocab; };
+  const shuffle = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(x => x[1]);
+
+  $('#m-off').onclick = () => { tEl.innerHTML = ''; };
+  $('#m-flash').onclick = () => {
+    const deck = shuffle(pool()); let i = 0;
+    const draw = () => {
+      const v = deck[i % deck.length];
+      tEl.innerHTML = `<div class="flash" id="fc"><div class="flash-inner">
+          <div class="flash-face flash-front"><div><div class="big">${esc(v.word)}</div>
+            <div class="sm">${esc(v.pos)} · натисни, щоб перевернути</div></div></div>
+          <div class="flash-face flash-back"><div><div class="big">${esc(v.uk)}</div>
+            <div class="sm">${esc(v.example)}</div></div></div></div></div>
+        <div class="toolbar" style="justify-content:center;margin-top:16px">
+          <button class="btn btn-ghost btn-sm" id="f-known">✓ знаю це слово</button>
+          <button class="btn btn-accent btn-sm" id="f-next">далі →</button>
+          <span class="muted">${(i % deck.length) + 1} / ${deck.length}</span>
+        </div>`;
+      const fc = document.getElementById('fc');
+      fc.onclick = () => fc.classList.toggle('flipped');
+      document.getElementById('f-next').onclick = () => { i++; draw(); };
+      document.getElementById('f-known').onclick = () => {
+        if (!known.includes(v.word)) { known = [...known, v.word]; EW.set('vocab:known', known); render(); }
+        i++; draw();
+      };
+    };
+    draw();
+  };
+  $('#m-quiz').onclick = () => {
+    const deck = shuffle(pool()).slice(0, 10); let i = 0, score = 0;
+    const draw = () => {
+      if (i >= deck.length) {
+        EW.push('quiz', { area: 'vocabulary', score, total: deck.length });
+        tEl.innerHTML = `<div style="text-align:center;padding:20px">
+          <div class="stat" style="display:inline-block;min-width:200px">
+            <div class="n">${score}/${deck.length}</div><div class="l">правильних відповідей</div></div>
+          <p class="muted" style="margin-top:14px">${score === deck.length ? 'Ідеально! 🔥' : score >= deck.length * 0.7 ? 'Добре, ще трохи 💪' : 'Треба повторити — прожени картки.'}</p>
+          <button class="btn btn-accent btn-sm" id="q-again">Ще раз</button></div>`;
+        document.getElementById('q-again').onclick = () => $('#m-quiz').click();
+        return;
+      }
+      const v = deck[i];
+      const wrongs = shuffle(vocab.filter(x => x.word !== v.word)).slice(0, 3).map(x => x.uk);
+      const opts = shuffle([v.uk, ...wrongs]);
+      tEl.innerHTML = `<p class="muted mono" style="margin:0 0 6px">Питання ${i + 1} з ${deck.length} · рахунок ${score}</p>
+        <p class="quiz-q" style="font-size:22px;font-family:var(--display)">${esc(v.word)}</p>
+        <div class="opts">${opts.map(o => `<button class="opt" data-o="${esc(o)}">${esc(o)}</button>`).join('')}</div>`;
+      tEl.querySelector('.opts').onclick = e => {
+        const b = e.target.closest('.opt'); if (!b) return;
+        const ok = b.dataset.o === v.uk;
+        if (ok) score++;
+        tEl.querySelectorAll('.opt').forEach(x => {
+          x.disabled = true;
+          if (x.dataset.o === v.uk) x.classList.add('correct');
+          else if (x === b) x.classList.add('wrong');
+        });
+        setTimeout(() => { i++; draw(); }, 850);
+      };
+    };
+    draw();
+  };
+
+  render();
+})();
+</script>
+</body>
+</html>
