@@ -21,7 +21,11 @@ const EW = (() => {
     if (!cfg) {
       cfg = await data('config');
       const s = cfg.supabase || {};
-      if (s.url && s.anonKey) sb = { url: s.url.replace(/\/+$/, ''), key: s.anonKey, student: s.studentId || 'student-1' };
+      if (s.url && s.anonKey) sb = {
+        url: s.url.trim().replace(/\/+$/, '').replace(/\/rest\/v1$/, ''),
+        key: s.anonKey.trim(),
+        student: s.studentId || 'student-1'
+      };
     }
     return cfg;
   }
