@@ -236,3 +236,8 @@ details.acc > summary:hover{background:var(--surface-2)}
 .tr-btn:hover{color:var(--ink); border-color:var(--accent)}
 .tr-btn[aria-pressed="true"]{background:var(--accent); color:var(--on-accent); border-color:transparent}
 .uk-tr{color:var(--ink-soft)}
+
+/* a topic opened from a lesson link gets a brief highlight */
+details.acc.flash{border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-soft), var(--shadow); animation:ew-flash 2.2s ease}
+@keyframes ew-flash{0%{background:var(--accent-soft)} 100%{background:var(--surface)}}
+@media (prefers-reduced-motion: reduce){details.acc.flash{animation:none}}

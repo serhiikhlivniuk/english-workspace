@@ -176,6 +176,17 @@
   @media print{header.top{position:static} .progress-bar{display:none} .btn{display:none} section.view[hidden]{display:block !important} details{display:block} details summary{display:none}}
 </style>
 
+<style>
+  .gref{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
+  .gref a{display:inline-flex;align-items:center;gap:6px;text-decoration:none;
+    font-family:var(--body,system-ui,sans-serif);font-size:13px;font-weight:600;line-height:1.2;
+    padding:7px 13px;border-radius:999px;border:1px solid var(--line,#D9DDD5);
+    background:var(--surface-2,#EBEEE7);color:var(--accent,#AD6A16)}
+  .gref a:hover{border-color:var(--accent,#AD6A16);filter:brightness(1.03)}
+  .gref a::before{content:"\1F4D8"}
+  .gref a::after{content:"\2197";opacity:.6;font-weight:400}
+  @media print{.gref{display:none}}
+</style>
 </head>
 <body>
 <style>
@@ -254,6 +265,7 @@
 <div class="ex-head"><span class="label">Exercise 1 · Vocabulary</span></div>
 <h2>play, go or do?</h2>
 <p class="task">Choose the right verb for each activity.</p>
+<p class="gref"><a href="../grammar.html#play-go-do" target="_blank" rel="noopener">Grammar: play / go / do</a></p>
 <div class="sort-grid">
 <label class="sort-row"><span>football</span><select data-answer="play" id="s1"><option value="">—</option><option>play</option><option>go</option><option>do</option></select></label>
 <label class="sort-row"><span>swimming</span><select data-answer="go" id="s2"><option value="">—</option><option>play</option><option>go</option><option>do</option></select></label>
@@ -347,6 +359,7 @@
 <div><b>never</b><small>0%</small></div>
 </div>
 <p class="task">Choose the correct sentence.</p>
+<p class="gref"><a href="../grammar.html#adverbs-of-frequency" target="_blank" rel="noopener">Grammar: Adverbs of frequency</a></p>
 <p style="font-weight:700; margin-bottom:6px">1.</p>
 <div class="rgroup" data-answer="b" data-radio="c1">
 <label class="choice"><input name="c1" type="radio" value="a"/>I play usually football on Friday.</label>
@@ -382,6 +395,7 @@
 <div class="ex-head"><span class="label">Exercise 6 · Grammar</span></div>
 <h2>Rewrite for he / she</h2>
 <p class="task">Write only the missing verb in the correct form.</p>
+<p class="gref"><a href="../grammar.html#present-simple" target="_blank" rel="noopener">Grammar: Present Simple</a></p>
 <ul class="gap-list">
 <li><span class="sentence">I hardly ever watch TV. → She hardly ever <input autocomplete="off" data-answer="watches" id="h1" type="text"/> TV.</span></li>
 <li><span class="sentence">We often go running. → He often <input autocomplete="off" data-answer="goes" id="h2" type="text"/> running.</span></li>
@@ -401,6 +415,7 @@
 <div class="ex-head"><span class="label">Exercise 7 · Grammar</span><span class="pill">Present Simple vs Continuous</span></div>
 <h2>Routine or right now?</h2>
 <p class="task">Put the verb in brackets into the Present Simple or the Present Continuous. Short forms (<i>I'm, isn't, don't</i>) are fine.</p>
+<p class="gref"><a href="../grammar.html#present-simple-vs-continuous" target="_blank" rel="noopener">Grammar: Present Simple vs Present Continuous</a></p>
 <ul class="gap-list">
 <li><span class="sentence">I usually <input autocomplete="off" data-answer="go" id="p1" type="text"/> to the skate park after school. <span class="cue">(go)</span></span></li>
 <li><span class="sentence">But today I <input autocomplete="off" class="wide" data-answer="am staying|'m staying|i'm staying" id="p2" type="text"/> at home, because it's raining. <span class="cue">(stay)</span></span></li>
@@ -485,6 +500,7 @@
 <div class="ex-head"><span class="label">Exercise 10 · Grammar</span><span class="pill">Extra · Past Simple</span></div>
 <h2>Irregular verbs in the past</h2>
 <p class="task">Put the verb in brackets into the Past Simple.</p>
+<p class="gref"><a href="../grammar.html#past-simple" target="_blank" rel="noopener">Grammar: Past Simple</a></p>
 <ul class="gap-list">
 <li><span class="sentence">Last summer I <input autocomplete="off" data-answer="broke" id="q1" type="text"/> my wrist. <span class="cue">(break)</span></span></li>
 <li><span class="sentence">He <input autocomplete="off" data-answer="bought" id="q2" type="text"/> his first skateboard when he was eleven. <span class="cue">(buy)</span></span></li>
@@ -507,6 +523,7 @@
 <div class="ex-head"><span class="label">Exercise 11 · Grammar</span><span class="pill">Extra · Past Simple vs Continuous</span></div>
 <h2>while and when</h2>
 <p class="task">One action was long, the other was short. Choose the right tense.</p>
+<p class="gref"><a href="../grammar.html#past-continuous" target="_blank" rel="noopener">Grammar: Past Continuous</a></p>
 <ul class="gap-list">
 <li><span class="sentence">While I <input autocomplete="off" class="wide" data-answer="was riding" id="r1" type="text"/> down the ramp, my wheel hit a stone. <span class="cue">(ride)</span></span></li>
 <li><span class="sentence">It <input autocomplete="off" class="wide" data-answer="started" id="r2" type="text"/> to rain when we arrived at the park. <span class="cue">(start)</span></span></li>
@@ -526,6 +543,7 @@
 <div class="ex-head"><span class="label">Exercise 12 · Review</span><span class="pill">Extra</span></div>
 <h2>Find the mistake</h2>
 <p class="task">The <b>bold</b> part of each sentence is wrong. Write the correct version.</p>
+<p class="gref"><a href="../grammar.html#past-simple" target="_blank" rel="noopener">Grammar: Past Simple</a><a href="../grammar.html#past-continuous" target="_blank" rel="noopener">Grammar: Past Continuous</a></p>
 <ul class="gap-list">
 <li><span class="sentence">My brother <b>don't</b> play chess. → <input autocomplete="off" data-answer="doesn't|does not" id="m1" type="text"/></span></li>
 <li><span class="sentence">Look! It <b>rains</b> again. → <input autocomplete="off" class="wide" data-answer="is raining|'s raining" id="m2" type="text"/></span></li>
@@ -561,6 +579,7 @@
 <div class="ex-head"><span class="label">Exercise 14 · Speaking</span><span class="pill">Extra · past tenses</span></div>
 <h2>Tell the story</h2>
 <p class="task">Choose one card and talk for one minute. You must use at least one sentence with <b>while</b> or <b>when</b>.</p>
+<p class="gref"><a href="../grammar.html#past-simple" target="_blank" rel="noopener">Grammar: Past Simple</a></p>
 <ul>
 <li><b>The day I started…</b> — how did you begin your hobby? Who was with you? What went wrong?</li>
 <li><b>The worst accident I've had</b> — where were you, what were you doing, what happened next?</li>
@@ -586,6 +605,7 @@
 <div class="ex-head"><span class="label">Exercise 16 · Writing</span><span class="pill">Extra · past tenses</span></div>
 <h2>How I started</h2>
 <p class="task">Write 80–100 words about the day you started your hobby — or the day you gave one up.</p>
+<p class="gref"><a href="../grammar.html#past-simple" target="_blank" rel="noopener">Grammar: Past Simple</a></p>
 <p><b>Checklist:</b> at least four Past Simple verbs · one Past Continuous sentence with <i>while</i> or <i>when</i> · one expression from Exercise 3 · how you felt at the end.</p>
 <textarea id="writing2" placeholder="I still remember the day I…"></textarea>
 <div class="ex-foot"><span class="verdict" id="wcount2">0 words</span></div>
@@ -891,7 +911,7 @@
 })();
 </script>
 
-<script src="../assets/store.js?v=2"></script>
-<script src="../assets/lesson-sync.js?v=2" data-lesson="lesson-02"></script>
+<script src="../assets/store.js?v=3"></script>
+<script src="../assets/lesson-sync.js?v=3" data-lesson="lesson-02"></script>
 </body>
 </html>

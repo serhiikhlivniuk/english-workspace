@@ -188,6 +188,144 @@
     ]
   },
   {
+    "id": "present-simple-vs-continuous",
+    "group": "Tenses",
+    "title": "Present Simple vs Present Continuous",
+    "uk": "два теперішні часи поруч",
+    "level": "A2+",
+    "summary": "The core question is simple: is this generally true, or is it happening around now?",
+    "lessons": [
+      "lesson-02",
+      "lesson-03"
+    ],
+    "rules": [
+      {
+        "name": "The one question to ask",
+        "form": "generally true → Present Simple  ·  happening around now → Present Continuous",
+        "when": "Ask yourself: would this still be true next month? If yes, it is a routine and takes the Simple.",
+        "examples": [
+          {
+            "en": "I walk to school. (every day, in general)",
+            "uk": "Я ходжу до школи пішки."
+          },
+          {
+            "en": "I'm walking to school. (right now, on my way)",
+            "uk": "Я зараз іду до школи."
+          }
+        ]
+      },
+      {
+        "name": "Time markers give it away",
+        "form": "Simple: always · usually · every day · on Mondays · never\nContinuous: now · right now · at the moment · today · this week",
+        "when": "Find the time expression first — it usually decides the tense for you.",
+        "examples": [
+          {
+            "en": "She usually wears jeans, but today she's wearing a dress.",
+            "uk": "Вона зазвичай носить джинси, але сьогодні вона в сукні."
+          }
+        ]
+      },
+      {
+        "name": "Both tenses in one sentence",
+        "form": "…usually + Present Simple, but + today / at the moment + Present Continuous",
+        "when": "This is the pattern that shows you really understand the contrast — use it in writing and speaking.",
+        "examples": [
+          {
+            "en": "I normally have breakfast at home, but this week I'm eating at school.",
+            "uk": "Зазвичай я снідаю вдома, але цього тижня я їм у школі."
+          },
+          {
+            "en": "My brother plays football, but he isn't playing today — he's ill.",
+            "uk": "Мій брат грає у футбол, але сьогодні не грає — він хворий."
+          }
+        ]
+      },
+      {
+        "name": "Careful: state verbs",
+        "form": "know · like · want · need · understand · believe — Simple only",
+        "when": "Even when you mean right now, state verbs stay in the Simple. See the State verbs topic.",
+        "examples": [
+          {
+            "en": "I want to go home now. (NOT I'm wanting)",
+            "uk": "Я хочу додому зараз."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "Look! He plays the guitar.",
+        "right": "Look! He's playing the guitar.",
+        "note": "Look! / Listen! point at this moment"
+      },
+      {
+        "wrong": "I'm going to school every day.",
+        "right": "I go to school every day.",
+        "note": "every day is a routine"
+      },
+      {
+        "wrong": "She is knowing the answer.",
+        "right": "She knows the answer.",
+        "note": "state verb — Simple only"
+      },
+      {
+        "wrong": "What do you do right now?",
+        "right": "What are you doing right now?",
+        "note": "right now needs the Continuous"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Listen! Somebody ___ the piano upstairs.",
+        "options": [
+          "plays",
+          "is playing"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Andrii ___ to school every morning.",
+        "options": [
+          "walks",
+          "is walking"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I usually drink tea, but today I ___ coffee.",
+        "options": [
+          "drink",
+          "'m drinking"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She ___ what you mean.",
+        "options": [
+          "understands",
+          "is understanding"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What ___ at the weekend? — Nothing special, I stay at home.",
+        "options": [
+          "do you do",
+          "are you doing"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Sorry, I can't talk — I ___ dinner at the moment.",
+        "options": [
+          "cook",
+          "'m cooking"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
     "id": "past-simple",
     "group": "Tenses",
     "title": "Past Simple",
