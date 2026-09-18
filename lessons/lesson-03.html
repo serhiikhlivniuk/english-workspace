@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="en" data-base="../">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="English lesson 3 - A Day in My Life: daily routine, times, and Present Simple vs Present Continuous (A2+ to B1).">
+<style>html{color-scheme:light dark}img{max-width:100%}[hidden]{display:none !important}</style>
+<title>A Day in My Life</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --paper:#F4F5F1; --surface:#FFFFFF; --surface-2:#EBEEE7;
+    --ink:#17233D; --ink-soft:#5B6479; --line:#D9DDD5;
+    --accent:#AD6A16; --accent-ink:#8A5310; --accent-soft:#F7E9D3;
+    --ok:#2C7A57; --ok-soft:#DEEDE4;
+    --bad:#AE372D; --bad-soft:#F7DFDB;
+    --shadow:0 1px 2px rgba(23,35,61,.06), 0 8px 24px -16px rgba(23,35,61,.28);
+    --display:"Fraunces", Georgia, "Times New Roman", serif;
+    --body:"Karla", "Helvetica Neue", Arial, sans-serif;
+    --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#141A26; --surface:#1B2231; --surface-2:#232B3C;
+      --ink:#E9EBE5; --ink-soft:#9BA4B6; --line:#313B4E;
+      --accent:#E3A052; --accent-ink:#F0BB79; --accent-soft:#3A2D1B;
+      --ok:#74C79C; --ok-soft:#1D3A2B;
+      --bad:#E68678; --bad-soft:#3C221E;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#141A26; --surface:#1B2231; --surface-2:#232B3C;
+    --ink:#E9EBE5; --ink-soft:#9BA4B6; --line:#313B4E;
+    --accent:#E3A052; --accent-ink:#F0BB79; --accent-soft:#3A2D1B;
+    --ok:#74C79C; --ok-soft:#1D3A2B;
+    --bad:#E68678; --bad-soft:#3C221E;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--body); font-size:16px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:900px; margin:0 auto; padding-inline:20px; padding-block:0 64px}
+
+  header.top{border-bottom:1px solid var(--line); background:var(--paper); position:sticky; top:0; z-index:20}
+  .top-inner{max-width:900px; margin:0 auto; padding-inline:20px; padding-block:20px 0}
+  .eyebrow{font-family:var(--mono); font-size:11.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--accent); margin:0 0 6px}
+  h1{font-family:var(--display); font-weight:600; font-size:clamp(28px,5.4vw,40px); line-height:1.08; margin:0 0 8px; text-wrap:balance; letter-spacing:-.015em}
+  .meta{display:flex; flex-wrap:wrap; gap:6px 14px; margin:0 0 16px; font-family:var(--mono); font-size:12px; color:var(--ink-soft)}
+  .meta span::before{content:"· "; color:var(--line)}
+  .meta span:first-child::before{content:""}
+  .tabs{display:flex; gap:2px; flex-wrap:wrap}
+  .tab{appearance:none; border:1px solid var(--line); border-bottom:none; background:transparent; font-family:var(--body); font-weight:700; font-size:14px; color:var(--ink-soft); padding:9px 16px; border-radius:8px 8px 0 0; cursor:pointer; margin-bottom:-1px}
+  .tab[aria-selected="true"]{background:var(--surface); color:var(--ink); border-color:var(--line)}
+  .tab:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible, summary:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  h2{font-family:var(--display); font-weight:600; font-size:22px; line-height:1.2; margin:0 0 4px; letter-spacing:-.01em; text-wrap:balance}
+  h3{font-family:var(--body); font-weight:700; font-size:15px; margin:20px 0 6px}
+  p{margin:0 0 12px}
+  .lead{color:var(--ink-soft)}
+  .label{font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft)}
+  section.view[hidden]{display:none}
+  .intro{padding-block:28px 8px; border-bottom:1px solid var(--line); margin-bottom:8px}
+
+  .blockhead{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin:34px 0 0; padding:14px 18px; background:var(--ink); color:var(--paper); border-radius:10px}
+  .blockhead h2{color:var(--paper); margin:0}
+  .blockhead .label{color:var(--paper); opacity:.7}
+
+  .stage{display:grid; grid-template-columns:96px 1fr; gap:0 24px; padding-block:24px; border-bottom:1px solid var(--line)}
+  .clock{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); padding-top:4px}
+  .clock b{display:block; font-size:15px; font-weight:600; color:var(--accent); letter-spacing:-.02em}
+  .stage-num{font-family:var(--mono); font-size:11px; letter-spacing:.12em; color:var(--ink-soft); display:block; margin-bottom:2px}
+  ul,ol{margin:0 0 12px; padding-left:20px}
+  li{margin-bottom:5px}
+  li::marker{color:var(--ink-soft)}
+  .q{color:var(--accent-ink); font-style:italic}
+  .note{background:var(--surface-2); border-left:3px solid var(--accent); padding:12px 14px; margin:14px 0; font-size:14.5px; border-radius:0 6px 6px 0}
+  .note .label{display:block; margin-bottom:4px}
+  table{width:100%; border-collapse:collapse; font-size:14.5px; margin:8px 0 14px}
+  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); font-weight:500}
+  .tbl-scroll{overflow-x:auto}
+  .aims{background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:18px 20px; margin:20px 0}
+  .aims ul{margin-bottom:0}
+
+  .progress-bar{position:sticky; top:0; z-index:10; background:var(--paper); padding-block:14px 10px; border-bottom:1px solid var(--line); margin-bottom:4px; display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+  .track{flex:1 1 160px; height:6px; background:var(--surface-2); border-radius:99px; overflow:hidden}
+  .fill{height:100%; width:0%; background:var(--accent); transition:width .35s ease}
+  .score{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); white-space:nowrap}
+  .ex{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin:18px 0; box-shadow:var(--shadow)}
+  .ex.extra{border-style:dashed; border-color:var(--accent); box-shadow:none}
+  .ex-head{display:flex; align-items:baseline; gap:10px; margin-bottom:10px; flex-wrap:wrap}
+  .pill{font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; background:var(--accent-soft); color:var(--accent-ink); border-radius:99px; padding:3px 9px; font-weight:600}
+  .task{font-size:14.5px; color:var(--ink-soft); margin-bottom:14px}
+  .sort-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:8px}
+  .sort-row{display:flex; align-items:center; gap:8px; background:var(--surface-2); border-radius:8px; padding:6px 8px 6px 12px}
+  .sort-row span{flex:1; font-size:14.5px}
+  .def-list{display:grid; gap:8px}
+  .def-row{display:flex; align-items:center; gap:10px; background:var(--surface-2); border-radius:8px; padding:8px 10px 8px 13px; flex-wrap:wrap}
+  .def-row span{flex:1 1 220px; font-size:14.5px}
+  select, input[type="text"], textarea{font-family:var(--body); font-size:15px; color:var(--ink); background:var(--paper); border:1px solid var(--line); border-radius:6px; padding:6px 8px}
+  select{font-family:var(--mono); font-size:13px; padding:5px 6px; max-width:100%}
+  input[type="text"]{width:9.5em; background:transparent; border:none; border-bottom:2px solid var(--line); border-radius:0; padding:2px 4px}
+  input[type="text"].wide{width:13em}
+  textarea{width:100%; min-height:120px; line-height:1.6; resize:vertical}
+  .gap-list{list-style:none; padding:0; counter-reset:g}
+  .gap-list li{counter-increment:g; display:flex; gap:10px; align-items:baseline; padding:7px 0; border-bottom:1px dashed var(--line); flex-wrap:wrap}
+  .gap-list li:last-child{border-bottom:none}
+  .gap-list li::before{content:counter(g); font-family:var(--mono); font-size:12px; color:var(--ink-soft); min-width:1.2em}
+  .sentence{flex:1 1 240px}
+  .cue{font-family:var(--mono); font-size:12.5px; color:var(--accent-ink)}
+  .ok{border-color:var(--ok) !important; background:var(--ok-soft) !important}
+  .bad{border-color:var(--bad) !important; background:var(--bad-soft) !important}
+  input.ok, input.bad{background:transparent !important}
+  input.ok{border-bottom-color:var(--ok) !important; color:var(--ok)}
+  input.bad{border-bottom-color:var(--bad) !important; color:var(--bad)}
+  .choice{display:block; padding:8px 12px; border:1px solid var(--line); border-radius:8px; margin-bottom:6px; cursor:pointer; font-size:15px; background:var(--paper)}
+  .choice input{margin-right:8px; accent-color:var(--accent)}
+  .tf{display:flex; gap:8px; flex:0 0 auto}
+  .tf button{font-family:var(--mono); font-size:12px; letter-spacing:.06em; padding:5px 12px; border:1px solid var(--line); background:var(--paper); color:var(--ink-soft); border-radius:6px; cursor:pointer}
+  .tf button[aria-pressed="true"]{background:var(--accent-soft); border-color:var(--accent); color:var(--accent-ink); font-weight:600}
+  .btn{font-family:var(--body); font-weight:700; font-size:14px; cursor:pointer; background:var(--ink); color:var(--paper); border:1px solid var(--ink); border-radius:8px; padding:9px 18px}
+  .btn.ghost{background:transparent; color:var(--ink-soft); border-color:var(--line); font-weight:500}
+  .ex-foot{display:flex; gap:10px; align-items:center; margin-top:16px; flex-wrap:wrap}
+  .verdict{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft)}
+  .verdict.good{color:var(--ok)}
+  .verdict.poor{color:var(--bad)}
+
+  .reading{background:var(--surface-2); border-radius:10px; padding:18px 20px; margin-bottom:16px; font-size:16px; line-height:1.78}
+  .reading p{margin:0 0 10px}
+  .reading p:last-child{margin:0}
+  .reading .gloss{border-bottom:1px dotted var(--accent); cursor:help}
+
+  .videocard{display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap; background:var(--accent-soft); border:1px solid var(--accent); border-radius:12px; padding:18px 20px; margin:16px 0}
+  .videocard div{flex:1 1 240px}
+  .videocard h3{margin-top:0}
+  a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px}
+  .playbtn{display:inline-block; font-family:var(--body); font-weight:700; font-size:14px; background:var(--ink); color:var(--paper); text-decoration:none; border-radius:8px; padding:10px 18px; white-space:nowrap}
+  .freq-scale{display:grid; grid-template-columns:repeat(auto-fit,minmax(88px,1fr)); gap:6px; margin:10px 0 14px}
+  .freq-scale div{background:var(--surface-2); border-radius:8px; padding:8px 10px; text-align:center}
+  .freq-scale b{display:block; font-size:14.5px}
+  .freq-scale small{font-family:var(--mono); font-size:11px; color:var(--ink-soft)}
+  .rule{border:1px dashed var(--accent); border-radius:10px; padding:14px 16px; margin:12px 0; background:var(--paper)}
+  .rule code, code{font-family:var(--mono); font-size:13.5px; background:var(--surface-2); padding:1px 5px; border-radius:4px}
+  details{border-top:1px solid var(--line); padding-top:12px; margin-top:14px}
+  summary{cursor:pointer; font-family:var(--mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft)}
+  details[open] summary{margin-bottom:10px; color:var(--accent)}
+  footer{margin-top:40px; padding-top:20px; border-top:1px solid var(--line); font-size:13.5px; color:var(--ink-soft)}
+
+  .tense{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin:18px 0; box-shadow:var(--shadow)}
+  .tense .form{font-family:var(--mono); font-size:14px; background:var(--surface-2); border-radius:8px; padding:12px 14px; margin:10px 0; line-height:1.9; overflow-x:auto}
+  .tense .form b{color:var(--accent-ink)}
+  .signals{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 4px}
+  .signals span{font-family:var(--mono); font-size:12px; background:var(--accent-soft); color:var(--accent-ink); border-radius:99px; padding:4px 10px}
+  .vs{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:12px 0}
+  .vs div{background:var(--surface-2); border-radius:8px; padding:12px 14px; font-size:14.5px}
+  .wrong{color:var(--bad)}
+  .right{color:var(--ok)}
+  .irr{font-family:var(--mono); font-size:13px}
+
+  .wordbank{display:flex; flex-wrap:wrap; gap:6px; margin:0 0 14px; padding:12px 14px; background:var(--surface-2); border-radius:8px}
+  .wordbank span{font-family:var(--mono); font-size:12.5px; background:var(--paper); border:1px solid var(--line); border-radius:99px; padding:3px 10px}
+  .stem{font-weight:700; margin:16px 0 6px}
+  .daytag{font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--paper); background:var(--accent); border-radius:99px; padding:3px 10px; font-weight:600}
+  .clockface{font-family:var(--mono); font-size:15px; font-weight:600; color:var(--accent-ink); background:var(--accent-soft); border-radius:6px; padding:3px 9px; margin-right:6px}
+  @media (max-width:620px){
+    .stage{grid-template-columns:1fr; gap:8px}
+    .clock{display:flex; gap:10px; align-items:baseline; padding-top:0}
+    .clock b{display:inline}
+    .ex,.tense{padding:16px 15px}
+    .vs{grid-template-columns:1fr}
+  }
+  @media (prefers-reduced-motion: reduce){*{transition:none !important; animation:none !important}}
+  @media print{header.top{position:static} .progress-bar{display:none} .btn{display:none} section.view[hidden]{display:block !important} details{display:block} details summary{display:none}}
+</style>
+
+</head>
+<body>
+<style>
+.ew-back{position:sticky;top:0;z-index:99;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+  padding:10px 20px;background:linear-gradient(135deg,#6C4CF1,#FF4D8D);color:#fff;
+  font-family:"Inter",system-ui,sans-serif;font-size:14px;font-weight:600}
+.ew-back a{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);padding:6px 13px;border-radius:999px}
+.ew-back a:hover{background:rgba(255,255,255,.34)}
+@media print{.ew-back{display:none}}
+</style>
+<div class="ew-back">
+  <a href="../index.html">&larr; English Workspace</a>
+  <span>Lesson 3 &middot; A Day in My Life</span>
+  <a href="../vocabulary.html" style="margin-left:auto">Vocabulary</a>
+  <a href="../grammar.html">Grammar</a>
+  <a href="../homework.html">Homework</a>
+</div>
+
+<header class="top">
+  <div class="top-inner">
+    <p class="eyebrow">Lesson 3 · Student worksheet</p>
+    <h1>A Day in My Life</h1>
+    <p class="meta"><span>A2+ → B1</span><span>60 min</span><span>15 tasks</span><span>Present Simple vs Continuous</span></p>
+    <div class="tabs" role="tablist">
+      <button class="tab" id="tab-s" role="tab" aria-selected="true" aria-controls="view-s">Worksheet</button>
+      <button class="tab" id="tab-g" role="tab" aria-selected="false" aria-controls="view-g">Grammar</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+<section aria-labelledby="tab-s" class="view" id="view-s" role="tabpanel">
+<div class="progress-bar">
+<span class="label">Progress</span>
+<span class="track"><span class="fill" id="fill"></span></span>
+<span class="score" id="score">0 / 94</span>
+</div>
+<div class="intro">
+<h2>Lesson 3 — A Day in My Life</h2>
+<p class="lead">Type your answers, then press <b>Check</b>: green = correct, red = try again. Exercises with a dashed border are <b>extra</b> — do them if you have time or at home. Your answers are saved automatically.</p>
+</div>
+<div class="ex" data-ex="0">
+<div class="ex-head"><span class="label">Warm-up · Revision</span></div>
+<h2>Do you remember Lesson 2?</h2>
+<p class="task">Quick check before we start.</p>
+<ul class="gap-list">
+<li><span class="sentence">I <input autocomplete="off" data-answer="go" id="r1" type="text"/> skateboarding twice a week. <span class="cue">(play / go / do)</span></span></li>
+<li><span class="sentence">My sister <input autocomplete="off" data-answer="does" id="r2" type="text"/> karate on Tuesdays. <span class="cue">(play / go / do)</span></span></li>
+<li><span class="sentence">We <input autocomplete="off" data-answer="play" id="r3" type="text"/> video games after school. <span class="cue">(play / go / do)</span></span></li>
+<li><span class="sentence">He <input autocomplete="off" data-answer="plays" id="r4" type="text"/> the drums at weekends. <span class="cue">(play / go / do)</span></span></li>
+<li><span class="sentence">How <input autocomplete="off" data-answer="often" id="r5" type="text"/> do you go to the gym?</span></li>
+<li><span class="sentence">I <input autocomplete="off" data-answer="hardly" id="r6" type="text"/> ever play chess — maybe twice a year. <span class="cue">(10%)</span></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="0">Check</button>
+<button class="btn ghost" data-reveal="0">Show answers</button>
+<span class="verdict" data-verdict="0"></span>
+</div>
+</div>
+<div class="ex" data-ex="1">
+<div class="ex-head"><span class="label">Exercise 1 · Vocabulary</span></div>
+<h2>Your day, verb by verb</h2>
+<p class="task">Choose the phrase that matches each meaning.</p>
+<div class="def-list">
+<label class="def-row"><span>to stop sleeping and open your eyes</span><select data-answer="wake up" id="v1"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+<label class="def-row"><span>to get out of bed</span><select data-answer="get up" id="v2"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+<label class="def-row"><span>to sleep longer than you wanted to</span><select data-answer="oversleep" id="v3"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+<label class="def-row"><span>to wash yourself standing up</span><select data-answer="have a shower" id="v4"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+<label class="def-row"><span>to put your clothes on</span><select data-answer="get dressed" id="v5"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+<label class="def-row"><span>to go out of your home</span><select data-answer="leave the house" id="v6"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+<label class="def-row"><span>to get on a bus before it goes</span><select data-answer="catch the bus" id="v7"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+<label class="def-row"><span>to stop working for a short time</span><select data-answer="have a break" id="v8"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+<label class="def-row"><span>to go to bed much later than usual</span><select data-answer="stay up late" id="v9"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+<label class="def-row"><span>to start sleeping</span><select data-answer="fall asleep" id="v10"><option value="">—</option><option>wake up</option><option>get up</option><option>oversleep</option><option>have a shower</option><option>get dressed</option><option>leave the house</option><option>catch the bus</option><option>have a break</option><option>stay up late</option><option>fall asleep</option></select></label>
+</div>
+<div class="ex-foot">
+<button class="btn" data-check="1">Check</button>
+<button class="btn ghost" data-reveal="1">Show answers</button>
+<span class="verdict" data-verdict="1"></span>
+</div>
+</div>
+<div class="ex" data-ex="2">
+<div class="ex-head"><span class="label">Exercise 2 · Vocabulary</span></div>
+<h2>A normal morning</h2>
+<p class="task">One word in each gap.</p>
+<div class="wordbank"><span>off</span><span>get</span><span>shower</span><span>brush</span><span>leave</span><span>catch</span><span>hang</span><span>bed</span></div>
+<ul class="gap-list">
+<li><span class="sentence">My alarm goes <input autocomplete="off" data-answer="off" id="a1" type="text"/> at half past six and I hate it.</span></li>
+<li><span class="sentence">I never <input autocomplete="off" data-answer="get" id="a2" type="text"/> up straight away — I stay in bed for ten minutes.</span></li>
+<li><span class="sentence">Then I have a quick <input autocomplete="off" data-answer="shower" id="a3" type="text"/> and get dressed.</span></li>
+<li><span class="sentence">I <input autocomplete="off" data-answer="brush" id="a4" type="text"/> my teeth and grab my bag.</span></li>
+<li><span class="sentence">I usually <input autocomplete="off" data-answer="leave" id="a5" type="text"/> the house at ten to eight.</span></li>
+<li><span class="sentence">If I'm late I <input autocomplete="off" data-answer="catch" id="a6" type="text"/> the bus; if not, I walk.</span></li>
+<li><span class="sentence">After school I <input autocomplete="off" data-answer="hang" id="a7" type="text"/> out with my friends for an hour.</span></li>
+<li><span class="sentence">I try to go to <input autocomplete="off" data-answer="bed" id="a8" type="text"/> before eleven, but I usually don't.</span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="2">Check</button>
+<button class="btn ghost" data-reveal="2">Show answers</button>
+<span class="verdict" data-verdict="2"></span>
+</div>
+</div>
+<div class="ex" data-ex="3">
+<div class="ex-head"><span class="label">Exercise 3 · Grammar</span></div>
+<h2>at, on or in?</h2>
+<p class="task">Prepositions of time.</p>
+<div class="sort-grid">
+<label class="sort-row"><span>___ 7 o'clock</span><select data-answer="at" id="t1"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+<label class="sort-row"><span>___ the morning</span><select data-answer="in" id="t2"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+<label class="sort-row"><span>___ Monday</span><select data-answer="on" id="t3"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+<label class="sort-row"><span>___ night</span><select data-answer="at" id="t4"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+<label class="sort-row"><span>___ the weekend</span><select data-answer="at" id="t5"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+<label class="sort-row"><span>___ weekdays</span><select data-answer="on" id="t6"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+<label class="sort-row"><span>___ half past six</span><select data-answer="at" id="t7"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+<label class="sort-row"><span>___ the afternoon</span><select data-answer="in" id="t8"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+<label class="sort-row"><span>___ my birthday</span><select data-answer="on" id="t9"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+<label class="sort-row"><span>___ winter</span><select data-answer="in" id="t10"><option value="">—</option><option>at</option><option>on</option><option>in</option></select></label>
+</div>
+<div class="ex-foot">
+<button class="btn" data-check="3">Check</button>
+<button class="btn ghost" data-reveal="3">Show answers</button>
+<span class="verdict" data-verdict="3"></span>
+</div>
+</div>
+<div class="ex" data-ex="4">
+<div class="ex-head"><span class="label">Exercise 4 · Grammar</span></div>
+<h2>What's the time?</h2>
+<p class="task">Write the time in words, British style. Example: 3:30 → half past three</p>
+<ul class="gap-list">
+<li><span class="sentence"><span class="clockface">7:30</span><input autocomplete="off" class="wide" data-answer="half past seven" id="u1" type="text"/></span></li>
+<li><span class="sentence"><span class="clockface">8:45</span><input autocomplete="off" class="wide" data-answer="quarter to nine|a quarter to nine" id="u2" type="text"/></span></li>
+<li><span class="sentence"><span class="clockface">6:15</span><input autocomplete="off" class="wide" data-answer="quarter past six|a quarter past six" id="u3" type="text"/></span></li>
+<li><span class="sentence"><span class="clockface">9:00</span><input autocomplete="off" class="wide" data-answer="nine o'clock" id="u4" type="text"/></span></li>
+<li><span class="sentence"><span class="clockface">10:20</span><input autocomplete="off" class="wide" data-answer="twenty past ten" id="u5" type="text"/></span></li>
+<li><span class="sentence"><span class="clockface">5:50</span><input autocomplete="off" class="wide" data-answer="ten to six" id="u6" type="text"/></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="4">Check</button>
+<button class="btn ghost" data-reveal="4">Show answers</button>
+<span class="verdict" data-verdict="4"></span>
+</div>
+</div>
+<div class="ex" data-ex="5">
+<div class="ex-head"><span class="label">Exercise 5 · Grammar</span><span class="pill">Today's grammar</span></div>
+<h2>Every day or right now?</h2>
+<p class="task">Present Simple or Present Continuous? Short forms are fine.</p>
+<ul class="gap-list">
+<li><span class="sentence">I usually <input autocomplete="off" class="wide" data-answer="get up" id="s1" type="text"/> at seven, but today is Saturday. <span class="cue">(get up)</span></span></li>
+<li><span class="sentence">Be quiet! The baby <input autocomplete="off" class="wide" data-answer="is sleeping|'s sleeping" id="s2" type="text"/>. <span class="cue">(sleep)</span></span></li>
+<li><span class="sentence">My dad <input autocomplete="off" data-answer="makes" id="s3" type="text"/> breakfast every single morning. <span class="cue">(make)</span></span></li>
+<li><span class="sentence">Look — it <input autocomplete="off" class="wide" data-answer="is raining|'s raining" id="s4" type="text"/> again. <span class="cue">(rain)</span></span></li>
+<li><span class="sentence">We <input autocomplete="off" class="wide" data-answer="don't have|do not have" id="s5" type="text"/> lessons on Sunday. <span class="cue">(not have)</span></span></li>
+<li><span class="sentence">Why <input autocomplete="off" class="wide" data-answer="are you wearing" id="s6" type="text"/> a coat? It's boiling in here! <span class="cue">(you / wear)</span></span></li>
+<li><span class="sentence">She <input autocomplete="off" class="wide" data-answer="is studying|'s studying" id="s7" type="text"/> French this year. <span class="cue">(study)</span></span></li>
+<li><span class="sentence">What time <input autocomplete="off" class="wide" data-answer="does the film start" id="s8" type="text"/>? <span class="cue">(the film / start)</span></span></li>
+<li><span class="sentence">I <input autocomplete="off" class="wide" data-answer="am not watching|'m not watching|i'm not watching" id="s9" type="text"/> TV at the moment — I'm doing homework. <span class="cue">(not watch)</span></span></li>
+<li><span class="sentence">He <input autocomplete="off" data-answer="catches" id="s10" type="text"/> the same bus every day. <span class="cue">(catch)</span></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="5">Check</button>
+<button class="btn ghost" data-reveal="5">Show answers</button>
+<span class="verdict" data-verdict="5"></span>
+</div>
+<details><summary>The one question that decides it</summary>
+<p style="margin:0">Ask yourself: <b>can I film it right now?</b> If yes → Present Continuous. If it's true in general but not happening at this second → Present Simple.</p>
+</details>
+</div>
+<div class="ex" data-ex="6">
+<div class="ex-head"><span class="label">Exercise 6 · Grammar</span></div>
+<h2>State verbs</h2>
+<p class="task">Some verbs describe a state, not an action — you can't film them, so they don't take the Continuous. Choose the correct sentence.</p>
+<p class="stem">1.</p>
+<div class="rgroup" data-answer="b" data-radio="n1">
+<label class="choice"><input name="n1" type="radio" value="a"/>I'm knowing the answer.</label>
+<label class="choice"><input name="n1" type="radio" value="b"/>I know the answer.</label>
+</div>
+<p class="stem">2.</p>
+<div class="rgroup" data-answer="a" data-radio="n2">
+<label class="choice"><input name="n2" type="radio" value="a"/>She wants a new phone.</label>
+<label class="choice"><input name="n2" type="radio" value="b"/>She is wanting a new phone.</label>
+</div>
+<p class="stem">3.</p>
+<div class="rgroup" data-answer="a" data-radio="n3">
+<label class="choice"><input name="n3" type="radio" value="a"/>This soup tastes amazing.</label>
+<label class="choice"><input name="n3" type="radio" value="b"/>This soup is tasting amazing.</label>
+</div>
+<p class="stem">4.</p>
+<div class="rgroup" data-answer="a" data-radio="n4">
+<label class="choice"><input name="n4" type="radio" value="a"/>I'm having breakfast right now.</label>
+<label class="choice"><input name="n4" type="radio" value="b"/>I have breakfast right now.</label>
+</div>
+<p class="stem">5.</p>
+<div class="rgroup" data-answer="a" data-radio="n5">
+<label class="choice"><input name="n5" type="radio" value="a"/>Do you need any help?</label>
+<label class="choice"><input name="n5" type="radio" value="b"/>Are you needing any help?</label>
+</div>
+<p class="stem">6.</p>
+<div class="rgroup" data-answer="a" data-radio="n6">
+<label class="choice"><input name="n6" type="radio" value="a"/>He's thinking about moving to Lviv.</label>
+<label class="choice"><input name="n6" type="radio" value="b"/>He thinks about moving to Lviv right now.</label>
+</div>
+<p class="stem">7.</p>
+<div class="rgroup" data-answer="b" data-radio="n7">
+<label class="choice"><input name="n7" type="radio" value="a"/>I'm not believing you.</label>
+<label class="choice"><input name="n7" type="radio" value="b"/>I don't believe you.</label>
+</div>
+<p class="stem">8.</p>
+<div class="rgroup" data-answer="a" data-radio="n8">
+<label class="choice"><input name="n8" type="radio" value="a"/>She has two brothers.</label>
+<label class="choice"><input name="n8" type="radio" value="b"/>She is having two brothers.</label>
+</div>
+<div class="ex-foot">
+<button class="btn" data-check="6">Check</button>
+<button class="btn ghost" data-reveal="6">Show answers</button>
+<span class="verdict" data-verdict="6"></span>
+</div>
+<details><summary>The state verbs to remember</summary>
+<p style="margin:0">like · love · hate · want · need · know · understand · believe · remember · prefer · mean · cost · belong<br/><br/>
+      Careful: <b>have</b> and <b>think</b> can be both. <i>I have a bike</i> (state) but <i>I'm having breakfast</i> (action). <i>I think you're right</i> (opinion) but <i>I'm thinking about it</i> (mental activity).</p>
+</details>
+</div>
+<div class="ex" data-ex="7">
+<div class="ex-head"><span class="label">Exercise 7 · Grammar</span></div>
+<h2>Asking questions</h2>
+<p class="task">One or two words in each gap.</p>
+<ul class="gap-list">
+<li><span class="sentence">What time <input autocomplete="off" data-answer="do" id="q1" type="text"/> you usually have breakfast?</span></li>
+<li><span class="sentence"><input autocomplete="off" data-answer="does" id="q2" type="text"/> he live far from school?</span></li>
+<li><span class="sentence">What <input autocomplete="off" data-answer="are" id="q3" type="text"/> you doing at the moment?</span></li>
+<li><span class="sentence"><input autocomplete="off" data-answer="is" id="q4" type="text"/> your sister working today?</span></li>
+<li><span class="sentence">How long <input autocomplete="off" data-answer="does" id="q5" type="text"/> it take you to get to school?</span></li>
+<li><span class="sentence">Where <input autocomplete="off" data-answer="do" id="q6" type="text"/> you go straight after your lessons?</span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="7">Check</button>
+<button class="btn ghost" data-reveal="7">Show answers</button>
+<span class="verdict" data-verdict="7"></span>
+</div>
+<details><summary>Two patterns, side by side</summary>
+<p style="margin:0"><b>Present Simple:</b> (question word) + <b>do / does</b> + subject + verb<br/>
+<b>Present Continuous:</b> (question word) + <b>am / is / are</b> + subject + verb-ing</p>
+</details>
+</div>
+<div class="ex" data-ex="8">
+<div class="ex-head"><span class="label">Exercise 8 · Reading</span></div>
+<h2>Sofiia's two days</h2>
+<div class="reading">
+<p>My name's Sofiia and I'm fourteen. On a normal school day my alarm goes off at half past six, and I hate it. I get up at twenty to seven, have a shower, and eat exactly the same breakfast every single morning: toast and tea. I leave the house at ten past eight and catch the number 12 bus with my friend Marta. Lessons finish at half past two. After that I usually go to the pool — I swim four times a week — and I do my homework between eight and ten in the evening. I never get to bed before midnight, which is exactly why I hate my alarm.</p>
+<p>But today is different. It's Tuesday, and I'm sitting at home in my pyjamas at eleven o'clock in the morning. The heating at school isn't working, so they've sent everybody home. Marta is coming round at one, we're making pancakes, and nobody is doing any homework. Outside it's raining hard. It's the best Tuesday of the year.</p>
+</div>
+<p class="task">True or false?</p>
+<ul class="gap-list">
+<li><span class="sentence">Sofiia gets out of bed as soon as her alarm goes off.</span><span class="tf" data-answer="false" data-tf="f1"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">She has something different for breakfast every day.</span><span class="tf" data-answer="false" data-tf="f2"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">She goes swimming more than three times a week.</span><span class="tf" data-answer="true" data-tf="f3"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">Today she is at school as usual.</span><span class="tf" data-answer="false" data-tf="f4"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">Marta is going to visit her this afternoon.</span><span class="tf" data-answer="true" data-tf="f5"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">The weather today is sunny.</span><span class="tf" data-answer="false" data-tf="f6"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="8">Check</button>
+<button class="btn ghost" data-reveal="8">Show answers</button>
+<span class="verdict" data-verdict="8"></span>
+</div>
+<details><summary>Tense hunt</summary>
+<p style="margin:0">Find four verbs in the Present Continuous in the second paragraph. Why does Sofiia switch tense there? Which paragraph would you use to describe your own Tuesday?</p>
+</details>
+</div>
+<div class="ex" data-ex="9">
+<div class="ex-head"><span class="label">Exercise 9 · Video</span></div>
+<h2>A day in the life of a 10-year-old in Roman Britain</h2>
+<div class="videocard">
+<div>
+<h3 style="margin-bottom:4px">British Council · LearnEnglish Teens</h3>
+<p style="margin:0; font-size:14.5px">Eric lives in a Roman villa in Britain. Underfloor heating, a private tutor, and a dinner menu you will not believe. Watch with subtitles — you don't need every word.</p>
+</div>
+<a class="playbtn" href="https://learnenglishteens.britishcouncil.org/study-break/video-zone/day-life-10-year-old-roman-britain" rel="noopener" target="_blank">Watch the video →</a>
+</div>
+<p class="task">True or false?</p>
+<ul class="gap-list">
+<li><span class="sentence">Eric's father collects taxes.</span><span class="tf" data-answer="true" data-tf="g1"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">Eric gives some of his breakfast to his pet duck.</span><span class="tf" data-answer="true" data-tf="g2"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">The family is expecting an important guest for dinner.</span><span class="tf" data-answer="true" data-tf="g3"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">There is no hot water in the villa.</span><span class="tf" data-answer="false" data-tf="g4"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">Eric goes to a big school with lots of other children.</span><span class="tf" data-answer="false" data-tf="g5"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">One of the dinner dishes is roast hare with birds' wings on it.</span><span class="tf" data-answer="true" data-tf="g6"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="9">Check</button>
+<button class="btn ghost" data-reveal="9">Show answers</button>
+<span class="verdict" data-verdict="9"></span>
+</div>
+<details><summary>Language focus</summary>
+<p style="margin:0">The whole video is in the Present Simple, because it describes a routine. Take three sentences and turn them into the Present Continuous, as if you were watching Eric right now: <i>“Today he is wearing a toga because…”</i></p>
+</details>
+</div>
+<div class="ex" data-ex="10">
+<div class="ex-head"><span class="label">Exercise 10 · Speaking</span></div>
+<h2>Two days</h2>
+<p class="task">One minute about a normal Tuesday. Then one minute about today. Your teacher counts how many times you switch tense correctly — and tells you the number at the end.</p>
+<p><b>A normal Tuesday:</b> What time does your alarm go off? How do you get to school? What do you do straight after lessons? How long does it take you to do your homework? What time do you usually fall asleep?</p>
+<p><b>Today:</b> Where are you sitting? What are you wearing? What is the weather doing? What are your family doing right now? What are you doing straight after this lesson?</p>
+</div>
+<div class="ex" data-ex="11">
+<div class="ex-head"><span class="label">Exercise 11 · Writing</span></div>
+<h2>A normal day — and today</h2>
+<p class="task">Write 80–100 words in two paragraphs, like Sofiia's text.</p>
+<p><b>Paragraph 1:</b> your normal day, in the Present Simple — at least four routine verbs from Exercise 1 and two times of day.<br/>
+<b>Paragraph 2:</b> today, in the Present Continuous — at least three verbs, and one thing that is different from usual.</p>
+<textarea id="writing" placeholder="On a normal school day my alarm goes off at…"></textarea>
+<div class="ex-foot"><span class="verdict" id="wcount">0 words</span></div>
+<details><summary>Model answer — open only after you write your own</summary>
+<p style="margin:0">On a normal school day I wake up at seven, but I never get up straight away. I have a shower, get dressed and have the same breakfast every morning. I leave the house at twenty past eight and catch the bus with my brother. After lessons I hang out with my friends for an hour, and then I do my homework until nine.<br/><br/>
+      Today is completely different. I'm writing this at four in the afternoon and I'm still in my pyjamas. My brother is playing football outside, my mum is making soup, and nobody is doing any homework. It's raining, and I don't care at all.</p>
+</details>
+</div>
+<div class="ex extra" data-ex="12">
+<div class="ex-head"><span class="label">Exercise 12 · Grammar</span><span class="pill">Extra</span></div>
+<h2>Plans in your diary</h2>
+<p class="task">We use the Present Continuous for arrangements — things already agreed with someone. Timetables stay in the Present Simple.</p>
+<ul class="gap-list">
+<li><span class="sentence">I <input autocomplete="off" class="wide" data-answer="am meeting|'m meeting|i'm meeting" id="p1" type="text"/> Marta at six tomorrow — we agreed yesterday. <span class="cue">(meet)</span></span></li>
+<li><span class="sentence">What <input autocomplete="off" class="wide" data-answer="are you doing" id="p2" type="text"/> this weekend? <span class="cue">(you / do)</span></span></li>
+<li><span class="sentence">We <input autocomplete="off" class="wide" data-answer="aren't going|are not going|'re not going" id="p3" type="text"/> to the cinema on Friday after all. <span class="cue">(not go)</span></span></li>
+<li><span class="sentence">My cousin <input autocomplete="off" class="wide" data-answer="is coming|'s coming" id="p4" type="text"/> to stay next week. <span class="cue">(come)</span></span></li>
+<li><span class="sentence">The train <input autocomplete="off" data-answer="leaves" id="p5" type="text"/> at 7:45 — it's a timetable. <span class="cue">(leave)</span></span></li>
+<li><span class="sentence">She <input autocomplete="off" class="wide" data-answer="is having|'s having" id="p6" type="text"/> a party on Saturday. <span class="cue">(have)</span></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="12">Check</button>
+<button class="btn ghost" data-reveal="12">Show answers</button>
+<span class="verdict" data-verdict="12"></span>
+</div>
+</div>
+<div class="ex extra" data-ex="13">
+<div class="ex-head"><span class="label">Exercise 13 · Grammar</span><span class="pill">Extra</span></div>
+<h2>How long does it take?</h2>
+<p class="task">One word in each gap.</p>
+<ul class="gap-list">
+<li><span class="sentence">How long <input autocomplete="off" data-answer="does" id="k1" type="text"/> it take you to get ready in the morning?</span></li>
+<li><span class="sentence">It <input autocomplete="off" data-answer="takes" id="k2" type="text"/> me twenty minutes to walk to school.</span></li>
+<li><span class="sentence">How long <input autocomplete="off" data-answer="does" id="k3" type="text"/> it take your sister to do her homework?</span></li>
+<li><span class="sentence">It <input autocomplete="off" data-answer="takes" id="k4" type="text"/> her about an hour and a half.</span></li>
+<li><span class="sentence">It <input autocomplete="off" class="wide" data-answer="doesn't|does not" id="k5" type="text"/> take me long to fall asleep — about two minutes. <span class="cue">(negative)</span></span></li>
+<li><span class="sentence">This homework is horrible. How long <input autocomplete="off" data-answer="is" id="k6" type="text"/> it taking you? <span class="cue">(right now)</span></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="13">Check</button>
+<button class="btn ghost" data-reveal="13">Show answers</button>
+<span class="verdict" data-verdict="13"></span>
+</div>
+</div>
+<div class="ex extra" data-ex="14">
+<div class="ex-head"><span class="label">Exercise 14 · Review</span><span class="pill">Extra</span></div>
+<h2>Find the mistake</h2>
+<p class="task">The <b>bold</b> part is wrong. Write the correct version.</p>
+<ul class="gap-list">
+<li><span class="sentence">She <b>don't</b> get up early at weekends. → <input autocomplete="off" data-answer="doesn't|does not" id="m1" type="text"/></span></li>
+<li><span class="sentence">I <b>am go</b> to school by bus every day. → <input autocomplete="off" data-answer="go" id="m2" type="text"/></span></li>
+<li><span class="sentence">Look! He <b>run</b> for the bus. → <input autocomplete="off" class="wide" data-answer="is running|'s running" id="m3" type="text"/></span></li>
+<li><span class="sentence">What time <b>you get</b> up on Sundays? → <input autocomplete="off" class="wide" data-answer="do you get" id="m4" type="text"/></span></li>
+<li><span class="sentence">I <b>am knowing</b> the answer to this one. → <input autocomplete="off" data-answer="know" id="m5" type="text"/></span></li>
+<li><span class="sentence">We <b>are having</b> lunch at one o'clock every day. → <input autocomplete="off" data-answer="have" id="m6" type="text"/></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="14">Check</button>
+<button class="btn ghost" data-reveal="14">Show answers</button>
+<span class="verdict" data-verdict="14"></span>
+</div>
+<details><summary>Say it out loud</summary>
+<p style="margin:0">For each sentence, tell your teacher which tense we need and why.</p>
+</details>
+</div>
+<div class="ex" style="background:var(--surface-2); box-shadow:none">
+<div class="ex-head"><span class="label">Homework</span></div>
+<ol style="margin-bottom:0">
+<li>Exercise 11 — your two paragraphs (80–100 words).</li>
+<li>Learn the routine verbs from Exercises 1 and 2.</li>
+<li>Finish Exercises 12–14 if you didn't do them in class.</li>
+<li>Record a one-minute voice message: <i>My normal Wednesday</i>.</li>
+<li><i>Optional:</i> do the exercises on the British Council page for the video in Exercise 9.</li>
+</ol>
+</div>
+</section>
+<section aria-labelledby="tab-g" class="view" hidden="" id="view-g" role="tabpanel">
+<div class="intro">
+<h2>Граматика уроку</h2>
+<p class="lead">Головне тут — не два часи окремо, а <b>вибір між ними</b>. Решта блоків (час, прийменники, стани, домовленості) обслуговують ту саму тему: як розповісти про свій день.</p>
+</div>
+<div class="tense">
+<span class="label">01 · теперішній</span>
+<h2>Present Simple</h2>
+<p><b>Коли:</b> рутина, звичка, розклад, факт, який правдивий взагалі.</p>
+<div class="form">
+      +   I / you / we / they <b>get up</b> · he / she / it <b>gets up</b><br/>
+      −   I <b>don't get up</b> · he <b>doesn't get up</b><br/>
+      ?   <b>Do</b> you get up early? · <b>What time does</b> he get up?
+    </div>
+<div class="signals"><span>usually</span><span>always</span><span>never</span><span>every day</span><span>twice a week</span><span>on Mondays</span><span>at weekends</span></div>
+<div class="note"><span class="label">Правопис 3-ї особи</span><code>catch → catches</code> · <code>go → goes</code> · <code>study → studies</code> · <code>have → has</code><br/>
+    Звуки: <b>/s/</b> gets, wakes · <b>/z/</b> goes, leaves · <b>/ɪz/</b> catches, finishes</div>
+</div>
+<div class="tense">
+<span class="label">02 · теперішній</span>
+<h2>Present Continuous</h2>
+<p><b>Коли:</b> дія просто зараз; тимчасова ситуація «в цей період»; домовленість на майбутнє.</p>
+<div class="form">
+      +   I <b>am</b> sitting · he <b>is</b> sitting · we <b>are</b> sitting<br/>
+      −   I <b>'m not</b> sitting · he <b>isn't</b> sitting<br/>
+      ?   <b>Are</b> you sitting? · <b>What are</b> you doing?
+    </div>
+<div class="signals"><span>now</span><span>right now</span><span>at the moment</span><span>today</span><span>this week</span><span>Look!</span><span>Listen!</span></div>
+<p style="margin-top:14px"><b>Правопис -ing:</b></p>
+<ul>
+<li><code>make → making</code> — німа <i>-e</i> зникає</li>
+<li><code>sit → sitting</code>, <code>run → running</code>, <code>get → getting</code> — коротке слово, приголосна подвоюється</li>
+<li><code>lie → lying</code> — <i>-ie</i> стає <i>-y</i></li>
+<li><code>study → studying</code> — <i>-y</i> ніколи не змінюється перед <i>-ing</i></li>
+</ul>
+</div>
+<div class="tense">
+<span class="label">03 · головне</span>
+<h2>Як обрати між ними</h2>
+<p>Одне питання вирішує майже все: <b>чи можу я зняти це на відео просто зараз?</b></p>
+<div class="vs">
+<div><b>Present Simple</b><br/>I <b>get up</b> at seven.<br/><span class="label">так буває завжди — зняти не можна, бо це не подія</span></div>
+<div><b>Present Continuous</b><br/>I <b>'m sitting</b> at my desk.<br/><span class="label">це відбувається зараз — камера це побачить</span></div>
+</div>
+<div class="tbl-scroll"><table>
+<tr><th>питання</th><th>Present Simple</th><th>Present Continuous</th></tr>
+<tr><td>Коли це відбувається?</td><td>взагалі, регулярно</td><td>зараз або в цей період</td></tr>
+<tr><td>Слова-підказки</td><td>usually, every day, on Fridays</td><td>now, today, at the moment</td></tr>
+<tr><td>Приклад</td><td>She <b>works</b> in a café.</td><td>She <b>is working</b> today.</td></tr>
+<tr><td>Що це означає</td><td>це її робота</td><td>саме сьогодні в неї зміна</td></tr>
+</table></div>
+<div class="note"><span class="label">Найчастіша помилка A2</span><span class="wrong">✗ I am go to school by bus.</span> — змішалися два часи.<br/>
+    Або <b>am</b> + <b>-ing</b>: <i>I am going</i>. Або просто дієслово: <i>I go</i>. Разом — ніколи.</div>
+</div>
+<div class="tense">
+<span class="label">04 · виняток</span>
+<h2>Дієслова стану</h2>
+<p>Єдиний виняток із правила «зараз → Continuous». Ці дієслова описують не дію, а стан, тож зняти їх на відео неможливо — і в Continuous вони не вживаються.</p>
+<div class="form">
+      like · love · hate · want · need · prefer<br/>
+      know · understand · believe · remember · mean<br/>
+      cost · belong · seem
+    </div>
+<p style="margin-top:14px"><span class="wrong">✗ I am knowing the answer.</span> → <span class="right">✓ I know the answer.</span><br/>
+<span class="wrong">✗ Are you needing help?</span> → <span class="right">✓ Do you need help?</span></p>
+<div class="note"><span class="label">Два дієслова, які бувають і такими, і такими</span><b>have:</b> <i>I have a bike</i> (стан — володіння) vs <i>I'm having breakfast</i> (дія).<br/>
+<b>think:</b> <i>I think you're right</i> (думка) vs <i>I'm thinking about it</i> (процес у голові).</div>
+</div>
+<div class="tense">
+<span class="label">05 · час</span>
+<h2>at · on · in</h2>
+<div class="tbl-scroll"><table>
+<tr><th>прийменник</th><th>для чого</th><th>приклади</th></tr>
+<tr><td class="irr">at</td><td>точка на годиннику</td><td>at 7 o'clock · at half past six · at midnight</td></tr>
+<tr><td class="irr">at</td><td>сталі вирази</td><td>at night · at the weekend · at lunchtime</td></tr>
+<tr><td class="irr">on</td><td>конкретний день або дата</td><td>on Monday · on weekdays · on 14 May · on my birthday</td></tr>
+<tr><td class="irr">in</td><td>довший відрізок часу</td><td>in the morning · in July · in winter · in 2026</td></tr>
+</table></div>
+<div class="note"><span class="label">Запам'ятати окремо</span><b>in</b> the morning / afternoon / evening, але <b>at</b> night.<br/>
+    І жодного прийменника перед <i>every day, today, tomorrow, next week, this Monday</i>: <span class="wrong">✗ in every day</span>.</div>
+</div>
+<div class="tense">
+<span class="label">06 · час</span>
+<h2>Як називати час</h2>
+<div class="tbl-scroll"><table>
+<tr><th>годинник</th><th>британський варіант</th><th>простий варіант</th></tr>
+<tr><td class="irr">9:00</td><td>nine o'clock</td><td>nine</td></tr>
+<tr><td class="irr">9:15</td><td>(a) quarter past nine</td><td>nine fifteen</td></tr>
+<tr><td class="irr">9:30</td><td>half past nine</td><td>nine thirty</td></tr>
+<tr><td class="irr">9:45</td><td>(a) quarter to ten</td><td>nine forty-five</td></tr>
+<tr><td class="irr">9:20</td><td>twenty past nine</td><td>nine twenty</td></tr>
+<tr><td class="irr">9:50</td><td>ten to ten</td><td>nine fifty</td></tr>
+</table></div>
+<div class="note"><span class="label">Пастка для українця</span><i>half past seven</i> — це <b>7:30</b>, «пів після сьомої», а не «пів на восьму». Українське «пів на восьму» англійською буде <i>half past seven</i>, а не <span class="wrong">half eight</span> (це 8:30).</div>
+</div>
+<div class="tense">
+<span class="label">07 · майбутнє</span>
+<h2>Present Continuous про плани</h2>
+<p>Якщо ви про щось домовилися і це вже «записано в календар», англійська вживає теперішній тривалий — навіть якщо подія завтра.</p>
+<div class="vs">
+<div>I<b>'m meeting</b> Marta at six tomorrow.<br/><span class="label">домовились, це вже план</span></div>
+<div>The train <b>leaves</b> at 7:45.<br/><span class="label">розклад — Present Simple</span></div>
+</div>
+<p><b>Перевірка двома питаннями:</b> <i>Чи є це в моєму календарі? Чи домовився я про це з кимось?</i> Якщо так — Continuous. Якщо це розклад автобуса, уроку чи кіносеансу — Simple.</p>
+</div>
+<div class="tense">
+<span class="label">08 · корисне</span>
+<h2>How long does it take?</h2>
+<p>Конструкція, яка в українській влаштована інакше, тому її треба вивчити як формулу.</p>
+<div class="form">
+      How long <b>does it take</b> (you) <b>to</b> + inf.?<br/>
+      It <b>takes</b> (me) + час + <b>to</b> + inf.
+    </div>
+<ul style="margin-top:14px">
+<li><i>How long does it take you to get ready?</i> — <i>It takes me twenty minutes.</i></li>
+<li>Заперечення: <i>It <b>doesn't take</b> me long to fall asleep.</i></li>
+<li>Про зараз: <i>How long <b>is it taking</b> you?</i></li>
+</ul>
+<div class="note"><span class="label">Помилка</span><span class="wrong">✗ How long do you go to school?</span> → <span class="right">✓ How long does it take you to get to school?</span></div>
+</div>
+<div class="tense">
+<span class="label">разом</span>
+<h2>Один день — обидва часи</h2>
+<div class="tbl-scroll"><table>
+<tr><th>рутина</th><th>сьогодні</th></tr>
+<tr><td>I <b>get up</b> at seven.</td><td>Today I <b>'m getting up</b> at ten.</td></tr>
+<tr><td>I <b>catch</b> the bus.</td><td>Today I <b>'m walking</b>.</td></tr>
+<tr><td>We <b>have</b> lessons until half past two.</td><td>Today we <b>aren't having</b> any lessons.</td></tr>
+<tr><td>It <b>rains</b> a lot in autumn.</td><td>Look — it <b>'s raining</b> again.</td></tr>
+</table></div>
+<p class="lead" style="margin-bottom:0">Якщо учень упевнено будує обидві колонки про власний день — мета уроку досягнута.</p>
+</div>
+</section>
+<footer>Lesson 3 · A Day in My Life. Video: British Council LearnEnglish Teens.</footer>
+</main>
+
+<script>
+(function(){
+  "use strict";
+  var LS = "fthl2b:";
+  function save(k,v){ try{ localStorage.setItem(LS+k, v); }catch(e){} }
+  function load(k){ try{ return localStorage.getItem(LS+k); }catch(e){ return null; } }
+
+  /* ---- tabs (built from whatever tabs this page has) ---- */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".tab"));
+  var views = tabs.map(function(t){ return document.getElementById(t.getAttribute("aria-controls")); });
+  var PAGEKEY = "tab:" + (document.body ? document.title : "x") + ":" + tabs.length;
+  tabs.forEach(function(t,i){
+    t.addEventListener("click", function(){
+      tabs.forEach(function(x,j){
+        x.setAttribute("aria-selected", j===i ? "true":"false");
+        if(views[j]) views[j].hidden = j!==i;
+      });
+      save(PAGEKEY, String(i));
+      window.scrollTo(0,0);
+    });
+  });
+  var savedTab = Number(load(PAGEKEY));
+  var startTab = (savedTab > 0 && tabs[savedTab]) ? tabs[savedTab] : tabs[0];
+  if(startTab) startTab.click();
+  window.scrollTo(0,0);
+
+  /* ---- normalisation ---- */
+  function norm(s){
+    return String(s||"").toLowerCase().trim()
+      .replace(/[‘’ʼ`]/g,"'")
+      .replace(/[.,!?;:]+$/,"")
+      .replace(/\s+/g," ");
+  }
+  function matches(val, answer){
+    return answer.split("|").map(norm).indexOf(norm(val)) !== -1;
+  }
+
+  var sheet = document.getElementById("view-s");
+  if(!sheet) return;
+
+  var state = {};
+  var scoreEl = document.getElementById("score");
+  var fillEl = document.getElementById("fill");
+  var TOTAL = sheet.querySelectorAll("[data-answer]").length;
+  if(scoreEl) scoreEl.textContent = "0 / " + TOTAL;
+
+  function updateScore(){
+    var n = 0;
+    for(var k in state){ if(state[k]) n++; }
+    if(scoreEl) scoreEl.textContent = n + " / " + TOTAL;
+    if(fillEl) fillEl.style.width = (TOTAL ? (n/TOTAL*100) : 0) + "%";
+  }
+
+  sheet.querySelectorAll("input[type=text], select, textarea").forEach(function(el){
+    if(!el.id) return;
+    var v = load(el.id);
+    if(v !== null) el.value = v;
+    el.addEventListener("input", function(){ save(el.id, el.value); el.classList.remove("ok","bad"); });
+    el.addEventListener("change", function(){ save(el.id, el.value); el.classList.remove("ok","bad"); });
+  });
+
+  sheet.querySelectorAll(".tf").forEach(function(group){
+    var key = group.getAttribute("data-tf");
+    var stored = load(key);
+    group.querySelectorAll("button").forEach(function(b){
+      if(stored === b.value) b.setAttribute("aria-pressed","true");
+      b.addEventListener("click", function(){
+        group.querySelectorAll("button").forEach(function(x){ x.setAttribute("aria-pressed","false"); x.classList.remove("ok","bad"); });
+        b.setAttribute("aria-pressed","true");
+        save(key, b.value);
+      });
+    });
+  });
+
+  sheet.querySelectorAll(".rgroup").forEach(function(g){
+    var key = g.getAttribute("data-radio");
+    var stored = load("r:"+key);
+    g.querySelectorAll("input[type=radio]").forEach(function(r){
+      if(stored === r.value) r.checked = true;
+      r.addEventListener("change", function(){
+        save("r:"+key, r.value);
+        g.querySelectorAll(".choice").forEach(function(c){ c.classList.remove("ok","bad"); });
+      });
+    });
+  });
+
+  function checkBox(box, reveal){
+    var n = 0, right = 0;
+
+    box.querySelectorAll("input[type=text][data-answer], select[data-answer]").forEach(function(el){
+      var ans = el.getAttribute("data-answer");
+      n++;
+      if(reveal){ el.value = ans.split("|")[0]; save(el.id, el.value); }
+      var good = matches(el.value, ans);
+      el.classList.toggle("ok", good);
+      el.classList.toggle("bad", !good);
+      state[el.id] = good;
+      if(good) right++;
+    });
+
+    box.querySelectorAll(".tf[data-answer]").forEach(function(g){
+      var ans = g.getAttribute("data-answer");
+      var key = g.getAttribute("data-tf");
+      n++;
+      g.querySelectorAll("button").forEach(function(b){
+        if(reveal){
+          b.setAttribute("aria-pressed", b.value===ans ? "true":"false");
+          if(b.value===ans) save(key, b.value);
+        }
+        b.classList.remove("ok","bad");
+        if(b.getAttribute("aria-pressed")==="true") b.classList.add(b.value===ans ? "ok" : "bad");
+      });
+      var chosen = g.querySelector('button[aria-pressed="true"]');
+      var good = !!chosen && chosen.value===ans;
+      state[key] = good;
+      if(good) right++;
+    });
+
+    box.querySelectorAll(".rgroup[data-answer]").forEach(function(g){
+      var ans = g.getAttribute("data-answer");
+      var key = g.getAttribute("data-radio");
+      n++;
+      g.querySelectorAll("input[type=radio]").forEach(function(r){
+        if(reveal && r.value===ans){ r.checked = true; save("r:"+key, r.value); }
+        r.parentElement.classList.remove("ok","bad");
+        if(r.checked) r.parentElement.classList.add(r.value===ans ? "ok":"bad");
+      });
+      var sel = g.querySelector("input[type=radio]:checked");
+      var good = !!sel && sel.value===ans;
+      state["r:"+key] = good;
+      if(good) right++;
+    });
+
+    return {n:n, right:right};
+  }
+
+  sheet.querySelectorAll("[data-check]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var id = btn.getAttribute("data-check");
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      var r = checkBox(box, false);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = r.right + " / " + r.n + (r.right===r.n ? " — perfect!" : " correct");
+      v.className = "verdict " + (r.right===r.n ? "good" : (r.right >= r.n/2 ? "" : "poor"));
+      updateScore();
+    });
+  });
+
+  sheet.querySelectorAll("[data-reveal]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var id = btn.getAttribute("data-reveal");
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      checkBox(box, true);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = "answers shown";
+      v.className = "verdict";
+      updateScore();
+    });
+  });
+
+  function counter(taId, outId, lo, hi){
+    var ta = document.getElementById(taId), out = document.getElementById(outId);
+    if(!ta || !out) return;
+    function count(){
+      var w = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0;
+      out.textContent = w + (w===1 ? " word" : " words") + (w>=lo && w<=hi ? " — good length" : "");
+      out.className = "verdict" + (w>=lo && w<=hi ? " good" : "");
+    }
+    ta.addEventListener("input", count);
+    count();
+  }
+  counter("writing","wcount",70,95);
+  counter("writing2","wcount2",80,105);
+
+  updateScore();
+})();
+</script>
+
+<script src="../assets/store.js?v=2"></script>
+<script src="../assets/lesson-sync.js?v=2" data-lesson="lesson-03"></script>
+</body>
+</html>

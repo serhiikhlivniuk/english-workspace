@@ -1,30 +1,530 @@
 [
-  { "word": "faint", "pos": "verb", "def": "to suddenly lose consciousness for a short time", "uk": "знепритомніти", "example": "She began to faint from the heat.", "lesson": "lesson-01", "tags": ["reading"] },
-  { "word": "pale", "pos": "adj", "def": "having a very light skin colour, often because you are ill or scared", "uk": "блідий", "example": "He looked pale and tired.", "lesson": "lesson-01", "tags": ["reading", "appearance"] },
-  { "word": "prepare", "pos": "verb", "def": "to get something or yourself ready for something", "uk": "готувати(ся)", "example": "I need to prepare for the test.", "lesson": "lesson-01", "tags": ["reading"] },
-  { "word": "through", "pos": "prep", "def": "from one end or side of something to the other", "uk": "крізь, через", "example": "The water goes through the pipe.", "lesson": "lesson-01", "tags": ["reading"] },
-  { "word": "describe", "pos": "verb", "def": "to say what someone or something is like", "uk": "описувати", "example": "Can you describe your best friend?", "lesson": "lesson-01", "tags": ["speaking"] },
-  { "word": "embroidered", "pos": "adj", "def": "decorated with a pattern sewn on with thread", "uk": "вишитий", "example": "She wore an embroidered shirt.", "lesson": "lesson-01", "tags": ["reading"] },
-  { "word": "pipe", "pos": "noun", "def": "a long tube that carries water or gas", "uk": "труба", "example": "The pipe was broken.", "lesson": "lesson-01", "tags": ["reading"] },
-  { "word": "irrigation system", "pos": "noun", "def": "a system that brings water to fields so plants can grow", "uk": "система зрошення", "example": "The farm uses a modern irrigation system.", "lesson": "lesson-01", "tags": ["reading"] },
-  { "word": "crop", "pos": "noun", "def": "a plant that farmers grow in large amounts for food", "uk": "урожай, культура", "example": "Wheat is an important crop here.", "lesson": "lesson-01", "tags": ["reading"] },
-
-  { "word": "hobby", "pos": "noun", "def": "an activity you enjoy doing in your free time", "uk": "хобі", "example": "My main hobby is skateboarding.", "lesson": "lesson-02", "tags": ["free time"] },
-  { "word": "take up", "pos": "phrasal verb", "def": "to start doing a new activity or hobby", "uk": "почати займатися (чимось)", "example": "I took up guitar last year.", "lesson": "lesson-02", "tags": ["free time", "phrasal"] },
-  { "word": "give up", "pos": "phrasal verb", "def": "to stop doing something you used to do", "uk": "кинути, покинути", "example": "He gave up chess after a month.", "lesson": "lesson-02", "tags": ["free time", "phrasal"] },
-  { "word": "be into (something)", "pos": "phrase", "def": "to be very interested in something", "uk": "захоплюватися чимось", "example": "I'm really into street photography.", "lesson": "lesson-02", "tags": ["speaking"] },
-  { "word": "be good at", "pos": "phrase", "def": "to do something well", "uk": "добре щось уміти", "example": "She's good at drawing.", "lesson": "lesson-02", "tags": ["speaking"] },
-  { "word": "spend time", "pos": "phrase", "def": "to use your time doing something", "uk": "проводити час", "example": "I spend a lot of time outdoors.", "lesson": "lesson-02", "tags": ["free time"] },
-  { "word": "hardly ever", "pos": "adverb", "def": "almost never", "uk": "майже ніколи", "example": "I hardly ever watch TV.", "lesson": "lesson-02", "tags": ["frequency"] },
-  { "word": "once a week", "pos": "phrase", "def": "one time every week", "uk": "раз на тиждень", "example": "We play football once a week.", "lesson": "lesson-02", "tags": ["frequency"] },
-  { "word": "collect", "pos": "verb", "def": "to gather things of the same kind as a hobby", "uk": "колекціонувати, збирати", "example": "He collects old coins.", "lesson": "lesson-02", "tags": ["free time"] },
-  { "word": "practise", "pos": "verb", "def": "to do something again and again to get better at it", "uk": "тренуватися, практикувати", "example": "I practise the piano every evening.", "lesson": "lesson-02", "tags": ["free time"] },
-  { "word": "join a club", "pos": "phrase", "def": "to become a member of a group that meets for an activity", "uk": "вступити в клуб/гурток", "example": "I joined a drama club at school.", "lesson": "lesson-02", "tags": ["free time"] },
-  { "word": "fall off", "pos": "phrasal verb", "def": "to drop down from something you were on", "uk": "впасти (з чогось)", "example": "I fell off my bike twice.", "lesson": "lesson-02", "tags": ["past", "phrasal"] },
-  { "word": "break (broke, broken)", "pos": "verb", "def": "to damage something so that it is in pieces or stops working", "uk": "ламати", "example": "I broke my arm last summer.", "lesson": "lesson-02", "tags": ["irregular"] },
-  { "word": "win (won, won)", "pos": "verb", "def": "to come first in a game or competition", "uk": "вигравати", "example": "We won the match 3–1.", "lesson": "lesson-02", "tags": ["irregular"] },
-  { "word": "ride (rode, ridden)", "pos": "verb", "def": "to travel on a bike or a horse and control it", "uk": "їздити верхи / на велосипеді", "example": "He rode his bike to school.", "lesson": "lesson-02", "tags": ["irregular"] },
-  { "word": "catch (caught, caught)", "pos": "verb", "def": "to take hold of something moving through the air", "uk": "ловити", "example": "She caught the ball easily.", "lesson": "lesson-02", "tags": ["irregular"] },
-  { "word": "become (became, become)", "pos": "verb", "def": "to start to be something", "uk": "ставати", "example": "It became my favourite hobby.", "lesson": "lesson-02", "tags": ["irregular"] },
-  { "word": "outdoors", "pos": "adverb", "def": "outside, not inside a building", "uk": "на вулиці, надворі", "example": "I love being outdoors.", "lesson": "lesson-02", "tags": ["free time"] }
+  {
+    "word": "faint",
+    "pos": "verb",
+    "def": "to suddenly lose consciousness for a short time",
+    "uk": "знепритомніти",
+    "example": "She began to faint from the heat.",
+    "lesson": "lesson-01",
+    "tags": [
+      "reading"
+    ]
+  },
+  {
+    "word": "pale",
+    "pos": "adj",
+    "def": "having a very light skin colour, often because you are ill or scared",
+    "uk": "блідий",
+    "example": "He looked pale and tired.",
+    "lesson": "lesson-01",
+    "tags": [
+      "reading",
+      "appearance"
+    ]
+  },
+  {
+    "word": "prepare",
+    "pos": "verb",
+    "def": "to get something or yourself ready for something",
+    "uk": "готувати(ся)",
+    "example": "I need to prepare for the test.",
+    "lesson": "lesson-01",
+    "tags": [
+      "reading"
+    ]
+  },
+  {
+    "word": "through",
+    "pos": "prep",
+    "def": "from one end or side of something to the other",
+    "uk": "крізь, через",
+    "example": "The water goes through the pipe.",
+    "lesson": "lesson-01",
+    "tags": [
+      "reading"
+    ]
+  },
+  {
+    "word": "describe",
+    "pos": "verb",
+    "def": "to say what someone or something is like",
+    "uk": "описувати",
+    "example": "Can you describe your best friend?",
+    "lesson": "lesson-01",
+    "tags": [
+      "speaking"
+    ]
+  },
+  {
+    "word": "embroidered",
+    "pos": "adj",
+    "def": "decorated with a pattern sewn on with thread",
+    "uk": "вишитий",
+    "example": "She wore an embroidered shirt.",
+    "lesson": "lesson-01",
+    "tags": [
+      "reading"
+    ]
+  },
+  {
+    "word": "pipe",
+    "pos": "noun",
+    "def": "a long tube that carries water or gas",
+    "uk": "труба",
+    "example": "The pipe was broken.",
+    "lesson": "lesson-01",
+    "tags": [
+      "reading"
+    ]
+  },
+  {
+    "word": "irrigation system",
+    "pos": "noun",
+    "def": "a system that brings water to fields so plants can grow",
+    "uk": "система зрошення",
+    "example": "The farm uses a modern irrigation system.",
+    "lesson": "lesson-01",
+    "tags": [
+      "reading"
+    ]
+  },
+  {
+    "word": "crop",
+    "pos": "noun",
+    "def": "a plant that farmers grow in large amounts for food",
+    "uk": "урожай, культура",
+    "example": "Wheat is an important crop here.",
+    "lesson": "lesson-01",
+    "tags": [
+      "reading"
+    ]
+  },
+  {
+    "word": "hobby",
+    "pos": "noun",
+    "def": "an activity you enjoy doing in your free time",
+    "uk": "хобі",
+    "example": "My main hobby is skateboarding.",
+    "lesson": "lesson-02",
+    "tags": [
+      "free time"
+    ]
+  },
+  {
+    "word": "take up",
+    "pos": "phrasal verb",
+    "def": "to start doing a new activity or hobby",
+    "uk": "почати займатися (чимось)",
+    "example": "I took up guitar last year.",
+    "lesson": "lesson-02",
+    "tags": [
+      "free time",
+      "phrasal"
+    ]
+  },
+  {
+    "word": "give up",
+    "pos": "phrasal verb",
+    "def": "to stop doing something you used to do",
+    "uk": "кинути, покинути",
+    "example": "He gave up chess after a month.",
+    "lesson": "lesson-02",
+    "tags": [
+      "free time",
+      "phrasal"
+    ]
+  },
+  {
+    "word": "be into (something)",
+    "pos": "phrase",
+    "def": "to be very interested in something",
+    "uk": "захоплюватися чимось",
+    "example": "I'm really into street photography.",
+    "lesson": "lesson-02",
+    "tags": [
+      "speaking"
+    ]
+  },
+  {
+    "word": "be good at",
+    "pos": "phrase",
+    "def": "to do something well",
+    "uk": "добре щось уміти",
+    "example": "She's good at drawing.",
+    "lesson": "lesson-02",
+    "tags": [
+      "speaking"
+    ]
+  },
+  {
+    "word": "spend time",
+    "pos": "phrase",
+    "def": "to use your time doing something",
+    "uk": "проводити час",
+    "example": "I spend a lot of time outdoors.",
+    "lesson": "lesson-02",
+    "tags": [
+      "free time"
+    ]
+  },
+  {
+    "word": "hardly ever",
+    "pos": "adverb",
+    "def": "almost never",
+    "uk": "майже ніколи",
+    "example": "I hardly ever watch TV.",
+    "lesson": "lesson-02",
+    "tags": [
+      "frequency"
+    ]
+  },
+  {
+    "word": "once a week",
+    "pos": "phrase",
+    "def": "one time every week",
+    "uk": "раз на тиждень",
+    "example": "We play football once a week.",
+    "lesson": "lesson-02",
+    "tags": [
+      "frequency"
+    ]
+  },
+  {
+    "word": "collect",
+    "pos": "verb",
+    "def": "to gather things of the same kind as a hobby",
+    "uk": "колекціонувати, збирати",
+    "example": "He collects old coins.",
+    "lesson": "lesson-02",
+    "tags": [
+      "free time"
+    ]
+  },
+  {
+    "word": "practise",
+    "pos": "verb",
+    "def": "to do something again and again to get better at it",
+    "uk": "тренуватися, практикувати",
+    "example": "I practise the piano every evening.",
+    "lesson": "lesson-02",
+    "tags": [
+      "free time"
+    ]
+  },
+  {
+    "word": "join a club",
+    "pos": "phrase",
+    "def": "to become a member of a group that meets for an activity",
+    "uk": "вступити в клуб/гурток",
+    "example": "I joined a drama club at school.",
+    "lesson": "lesson-02",
+    "tags": [
+      "free time"
+    ]
+  },
+  {
+    "word": "fall off",
+    "pos": "phrasal verb",
+    "def": "to drop down from something you were on",
+    "uk": "впасти (з чогось)",
+    "example": "I fell off my bike twice.",
+    "lesson": "lesson-02",
+    "tags": [
+      "past",
+      "phrasal"
+    ]
+  },
+  {
+    "word": "break (broke, broken)",
+    "pos": "verb",
+    "def": "to damage something so that it is in pieces or stops working",
+    "uk": "ламати",
+    "example": "I broke my arm last summer.",
+    "lesson": "lesson-02",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "word": "win (won, won)",
+    "pos": "verb",
+    "def": "to come first in a game or competition",
+    "uk": "вигравати",
+    "example": "We won the match 3–1.",
+    "lesson": "lesson-02",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "word": "ride (rode, ridden)",
+    "pos": "verb",
+    "def": "to travel on a bike or a horse and control it",
+    "uk": "їздити верхи / на велосипеді",
+    "example": "He rode his bike to school.",
+    "lesson": "lesson-02",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "word": "catch (caught, caught)",
+    "pos": "verb",
+    "def": "to take hold of something moving through the air",
+    "uk": "ловити",
+    "example": "She caught the ball easily.",
+    "lesson": "lesson-02",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "word": "become (became, become)",
+    "pos": "verb",
+    "def": "to start to be something",
+    "uk": "ставати",
+    "example": "It became my favourite hobby.",
+    "lesson": "lesson-02",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "word": "outdoors",
+    "pos": "adverb",
+    "def": "outside, not inside a building",
+    "uk": "на вулиці, надворі",
+    "example": "I love being outdoors.",
+    "lesson": "lesson-02",
+    "tags": [
+      "free time"
+    ]
+  },
+  {
+    "word": "wake up",
+    "pos": "phrasal verb",
+    "def": "to stop sleeping and open your eyes",
+    "uk": "прокидатися",
+    "example": "I wake up at seven, but I don't get up straight away.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "get up",
+    "pos": "phrasal verb",
+    "def": "to get out of bed",
+    "uk": "вставати з ліжка",
+    "example": "She gets up twenty minutes after her alarm goes off.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "oversleep",
+    "pos": "verb",
+    "def": "to sleep longer than you wanted to",
+    "uk": "проспати",
+    "example": "I overslept and missed the first lesson.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "set an alarm",
+    "pos": "phrase",
+    "def": "to make a clock or phone wake you at a certain time",
+    "uk": "поставити будильник",
+    "example": "I set an alarm for half past six.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "have a shower",
+    "pos": "phrase",
+    "def": "to wash yourself standing under running water",
+    "uk": "прийняти душ",
+    "example": "He has a quick shower before breakfast.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "get dressed",
+    "pos": "phrase",
+    "def": "to put your clothes on",
+    "uk": "одягатися",
+    "example": "I get dressed while the kettle is boiling.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "brush your teeth",
+    "pos": "phrase",
+    "def": "to clean your teeth with a toothbrush",
+    "uk": "чистити зуби",
+    "example": "Brush your teeth before you leave the house.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "have breakfast",
+    "pos": "phrase",
+    "def": "to eat your first meal of the day",
+    "uk": "снідати",
+    "example": "We have breakfast together at the weekend.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine",
+      "food"
+    ]
+  },
+  {
+    "word": "leave the house",
+    "pos": "phrase",
+    "def": "to go out of your home",
+    "uk": "виходити з дому",
+    "example": "I leave the house at ten past eight.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "catch the bus",
+    "pos": "phrase",
+    "def": "to get on a bus before it goes",
+    "uk": "встигнути на автобус",
+    "example": "If I'm late I catch the bus; if not, I walk.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine",
+      "transport"
+    ]
+  },
+  {
+    "word": "miss the bus",
+    "pos": "phrase",
+    "def": "to arrive too late and not get on the bus",
+    "uk": "запізнитися на автобус",
+    "example": "He missed the bus and had to walk.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine",
+      "transport"
+    ]
+  },
+  {
+    "word": "get to school",
+    "pos": "phrase",
+    "def": "to arrive at school",
+    "uk": "добиратися до школи",
+    "example": "It takes me twenty minutes to get to school.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "have a break",
+    "pos": "phrase",
+    "def": "to stop working or studying for a short time",
+    "uk": "зробити перерву",
+    "example": "We have a break after the third lesson.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine",
+      "school"
+    ]
+  },
+  {
+    "word": "hang out",
+    "pos": "phrasal verb",
+    "def": "to spend time somewhere with friends, doing nothing special",
+    "uk": "тусуватися, гуляти",
+    "example": "After school I hang out with my friends for an hour.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine",
+      "free time"
+    ]
+  },
+  {
+    "word": "do homework",
+    "pos": "phrase",
+    "def": "to do the school work you are given for home",
+    "uk": "робити домашнє завдання",
+    "example": "I do my homework between eight and ten.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine",
+      "school"
+    ]
+  },
+  {
+    "word": "have a nap",
+    "pos": "phrase",
+    "def": "to sleep for a short time during the day",
+    "uk": "подрімати",
+    "example": "My grandfather has a nap every afternoon.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "chill out",
+    "pos": "phrasal verb",
+    "def": "to relax and do nothing stressful",
+    "uk": "розслаблятися",
+    "example": "On Sunday I just chill out.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine",
+      "free time"
+    ]
+  },
+  {
+    "word": "stay up late",
+    "pos": "phrase",
+    "def": "to go to bed much later than usual",
+    "uk": "засиджуватися допізна",
+    "example": "I stay up late and then I can't wake up.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "go to bed",
+    "pos": "phrase",
+    "def": "to get into bed in order to sleep",
+    "uk": "лягати спати",
+    "example": "I never go to bed before midnight.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  },
+  {
+    "word": "fall asleep",
+    "pos": "phrase",
+    "def": "to start sleeping",
+    "uk": "засинати",
+    "example": "It doesn't take me long to fall asleep.",
+    "lesson": "lesson-03",
+    "tags": [
+      "routine"
+    ]
+  }
 ]

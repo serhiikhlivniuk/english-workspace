@@ -116,6 +116,9 @@ html-файлах. Тоді браузер вважає це новим файл
 ## Як додавати контент
 
 - **Новий урок**: покласти HTML у `lessons/`, додати обʼєкт у `data/lessons.json`.
+  Сторінка уроку має містити: `<html lang="en" data-base="../">`, смугу `.ew-back`,
+  `<script src="../assets/store.js?v=2">` і `<script src="../assets/lesson-sync.js?v=2" data-lesson="lesson-0N">`.
+  Перевір, що активна вкладка НЕ має атрибута `hidden` — інакше сторінка відкриється порожньою.
 - **Слова**: дописати в `data/vocabulary.json` (`word`, `pos`, `def`, `uk`, `example`, `lesson`).
   `def` — англійське визначення, `uk` — переклад-підказка.
 - **Граматика**: новий обʼєкт у `data/grammar.json` — `rules`, `mistakes`, `quiz`.

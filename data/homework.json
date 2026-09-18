@@ -1,5 +1,45 @@
 [
   {
+    "id": "hw-03",
+    "lesson": "lesson-03",
+    "title": "Homework after Lesson 3",
+    "assigned": "2026-09-22",
+    "due": "2026-09-25",
+    "note": "Two short paragraphs are the main thing here — one in each tense. Everything else is quick.",
+    "items": [
+      {
+        "id": "hw-03-1",
+        "text": "Learn the 20 routine words from the Lesson 3 vocabulary — run them through the trainer twice.",
+        "type": "vocab"
+      },
+      {
+        "id": "hw-03-2",
+        "text": "Exercise 11: write 80–100 words in two paragraphs — your normal day in the Present Simple, and today in the Present Continuous.",
+        "type": "writing"
+      },
+      {
+        "id": "hw-03-3",
+        "text": "Finish Exercises 12–14 on the lesson page (plans, how long does it take, find the mistake).",
+        "type": "grammar"
+      },
+      {
+        "id": "hw-03-4",
+        "text": "Take the quiz in the Grammar section: Present Simple vs Present Continuous.",
+        "type": "grammar"
+      },
+      {
+        "id": "hw-03-5",
+        "text": "Record a one-minute voice message: My normal Wednesday.",
+        "type": "speaking"
+      },
+      {
+        "id": "hw-03-6",
+        "text": "Optional: do the exercises on the British Council page for the Roman Britain video.",
+        "type": "listening"
+      }
+    ]
+  },
+  {
     "id": "hw-02",
     "lesson": "lesson-02",
     "title": "Homework after Lesson 2",
@@ -7,11 +47,31 @@
     "due": "2026-09-18",
     "note": "Do it in parts, not all at once. If something is unclear, tell me and we'll go through it in the lesson.",
     "items": [
-      { "id": "hw-02-1", "text": "Learn 10 new words from the Lesson 2 vocabulary — run them through the trainer twice.", "type": "vocab" },
-      { "id": "hw-02-2", "text": "Write 6 sentences about your hobby: 2 in the Present Simple, 2 in the Present Continuous, 2 in the Past Simple.", "type": "writing" },
-      { "id": "hw-02-3", "text": "Take the quizzes in the Grammar section: Past Simple and Past Continuous.", "type": "grammar" },
-      { "id": "hw-02-4", "text": "Watch one 6 Minute English episode and write down 5 new words.", "type": "listening" },
-      { "id": "hw-02-5", "text": "Prepare a one-minute talk: How I started my hobby.", "type": "speaking" }
+      {
+        "id": "hw-02-1",
+        "text": "Learn 10 new words from the Lesson 2 vocabulary — run them through the trainer twice.",
+        "type": "vocab"
+      },
+      {
+        "id": "hw-02-2",
+        "text": "Write 6 sentences about your hobby: 2 in the Present Simple, 2 in the Present Continuous, 2 in the Past Simple.",
+        "type": "writing"
+      },
+      {
+        "id": "hw-02-3",
+        "text": "Take the quizzes in the Grammar section: Past Simple and Past Continuous.",
+        "type": "grammar"
+      },
+      {
+        "id": "hw-02-4",
+        "text": "Watch one 6 Minute English episode and write down 5 new words.",
+        "type": "listening"
+      },
+      {
+        "id": "hw-02-5",
+        "text": "Prepare a one-minute talk: How I started my hobby.",
+        "type": "speaking"
+      }
     ]
   },
   {
@@ -22,8 +82,16 @@
     "due": "2026-09-14",
     "note": "The first set of words from the reading text.",
     "items": [
-      { "id": "hw-01-1", "text": "Learn the 9 words from Lesson 1 in the vocabulary section.", "type": "vocab" },
-      { "id": "hw-01-2", "text": "Write 5 sentences using the new words.", "type": "writing" }
+      {
+        "id": "hw-01-1",
+        "text": "Learn the 9 words from Lesson 1 in the vocabulary section.",
+        "type": "vocab"
+      },
+      {
+        "id": "hw-01-2",
+        "text": "Write 5 sentences using the new words.",
+        "type": "writing"
+      }
     ]
   }
 ]

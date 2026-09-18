@@ -34,5 +34,24 @@
       "Past Simple vs Continuous"
     ],
     "vocabCount": 18
+  },
+  {
+    "id": "lesson-03",
+    "number": 3,
+    "title": "A Day in My Life",
+    "titleUk": "Daily routine and the two present tenses",
+    "date": "2026-09-22",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-03.html",
+    "summary": "Daily routine vocabulary, telling the time, at/on/in, and the main contrast of the lesson: Present Simple vs Present Continuous. Plus state verbs, a reading text and a video.",
+    "topics": [
+      "Daily routine",
+      "Telling the time",
+      "at / on / in",
+      "Present Simple vs Present Continuous",
+      "State verbs"
+    ],
+    "vocabCount": 20
   }
 ]

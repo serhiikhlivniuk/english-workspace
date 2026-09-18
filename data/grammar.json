@@ -7,7 +7,8 @@
     "level": "A2",
     "summary": "Habits, timetables, facts and things that are generally true.",
     "lessons": [
-      "lesson-02"
+      "lesson-02",
+      "lesson-03"
     ],
     "rules": [
       {
@@ -102,7 +103,8 @@
     "level": "A2",
     "summary": "What is happening right now, or around this period of your life.",
     "lessons": [
-      "lesson-02"
+      "lesson-02",
+      "lesson-03"
     ],
     "rules": [
       {
@@ -535,6 +537,485 @@
           "do"
         ],
         "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "state-verbs",
+    "group": "Tenses",
+    "title": "State verbs",
+    "uk": "дієслова стану",
+    "level": "A2+",
+    "summary": "Verbs that describe a state, not an action. They are not used in the Continuous.",
+    "lessons": [
+      "lesson-03"
+    ],
+    "rules": [
+      {
+        "name": "What they are",
+        "form": "like · love · hate · want · need · prefer · know · understand · believe · remember · mean · cost · belong · seem",
+        "when": "These verbs describe a state you cannot film, so they stay in the Simple even when we talk about right now.",
+        "examples": [
+          {
+            "en": "I know the answer.",
+            "uk": "Я знаю відповідь."
+          },
+          {
+            "en": "Do you need any help?",
+            "uk": "Тобі потрібна допомога?"
+          }
+        ]
+      },
+      {
+        "name": "Verbs that work both ways",
+        "form": "have · think · see · taste",
+        "when": "When the verb describes an action rather than a state, the Continuous is fine.",
+        "examples": [
+          {
+            "en": "I have a bike. / I'm having breakfast.",
+            "uk": "У мене є велосипед. / Я снідаю."
+          },
+          {
+            "en": "I think you're right. / I'm thinking about it.",
+            "uk": "Я думаю, ти маєш рацію. / Я обмірковую це."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "I am knowing the answer.",
+        "right": "I know the answer.",
+        "note": "know is a state — never in the Continuous"
+      },
+      {
+        "wrong": "Are you needing help?",
+        "right": "Do you need help?",
+        "note": "need is a state, so the question takes do/does"
+      },
+      {
+        "wrong": "She is wanting a new phone.",
+        "right": "She wants a new phone.",
+        "note": "want is a state"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "I ___ this song.",
+        "options": [
+          "am loving",
+          "love"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "___ you understand the rule?",
+        "options": [
+          "Do",
+          "Are"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Be quiet — I ___ about it.",
+        "options": [
+          "think",
+          "'m thinking"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "This soup ___ amazing.",
+        "options": [
+          "tastes",
+          "is tasting"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "We ___ lunch right now.",
+        "options": [
+          "have",
+          "'re having"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "prepositions-of-time",
+    "group": "Prepositions",
+    "title": "at / on / in",
+    "uk": "прийменники часу",
+    "level": "A2",
+    "summary": "Which preposition goes with clock times, days and longer periods.",
+    "lessons": [
+      "lesson-03"
+    ],
+    "rules": [
+      {
+        "name": "at",
+        "form": "at + clock time or fixed expression",
+        "when": "A point on the clock, plus a small set of set phrases.",
+        "examples": [
+          {
+            "en": "at 7 o'clock, at half past six",
+            "uk": "о сьомій, о пів на сьому"
+          },
+          {
+            "en": "at night, at the weekend, at lunchtime",
+            "uk": "вночі, на вихідних, в обід"
+          }
+        ]
+      },
+      {
+        "name": "on",
+        "form": "on + day or date",
+        "when": "A particular day or date.",
+        "examples": [
+          {
+            "en": "on Monday, on weekdays",
+            "uk": "у понеділок, у будні"
+          },
+          {
+            "en": "on 14 May, on my birthday",
+            "uk": "14 травня, у мій день народження"
+          }
+        ]
+      },
+      {
+        "name": "in",
+        "form": "in + longer period",
+        "when": "Parts of the day, months, seasons, years.",
+        "examples": [
+          {
+            "en": "in the morning, in July, in winter, in 2026",
+            "uk": "вранці, у липні, взимку, у 2026"
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "in night",
+        "right": "at night",
+        "note": "in the morning / afternoon / evening, but at night"
+      },
+      {
+        "wrong": "in every day",
+        "right": "every day",
+        "note": "no preposition before every day, today, tomorrow, next week"
+      },
+      {
+        "wrong": "at Monday",
+        "right": "on Monday",
+        "note": "days always take on"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "I get up ___ half past six.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "We have English ___ Tuesdays.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "It's cold ___ winter.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "She reads ___ night.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "My birthday is ___ the summer.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "telling-the-time",
+    "group": "Everyday English",
+    "title": "Telling the time",
+    "uk": "як називати час",
+    "level": "A2",
+    "summary": "past and to, quarters and halves, and the trap for Ukrainian speakers.",
+    "lessons": [
+      "lesson-03"
+    ],
+    "rules": [
+      {
+        "name": "past and to",
+        "form": "minutes past the hour (1–30) · minutes to the next hour (31–59)",
+        "when": "Up to half past we count from the hour; after that we count to the next hour.",
+        "examples": [
+          {
+            "en": "9:20 — twenty past nine",
+            "uk": "двадцять на десяту"
+          },
+          {
+            "en": "9:50 — ten to ten",
+            "uk": "за десять десята"
+          }
+        ]
+      },
+      {
+        "name": "quarters and halves",
+        "form": "(a) quarter past · half past · (a) quarter to",
+        "when": "The usual British way of saying :15, :30 and :45.",
+        "examples": [
+          {
+            "en": "7:30 — half past seven",
+            "uk": "пів на восьму"
+          },
+          {
+            "en": "8:45 — a quarter to nine",
+            "uk": "за чверть дев'ята"
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "half eight (meaning 7:30)",
+        "right": "half past seven",
+        "note": "in English half past seven = 7:30; half eight in speech means 8:30"
+      },
+      {
+        "wrong": "It is ten o'clock twenty.",
+        "right": "It's twenty past ten.",
+        "note": "o'clock is only used for a full hour"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "7:30 is …",
+        "options": [
+          "half past seven",
+          "half past eight"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "8:45 is …",
+        "options": [
+          "a quarter past nine",
+          "a quarter to nine"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "6:15 is …",
+        "options": [
+          "a quarter past six",
+          "a quarter to six"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "5:50 is …",
+        "options": [
+          "fifty past five",
+          "ten to six"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "9:00 is …",
+        "options": [
+          "nine o'clock",
+          "nine past"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "present-continuous-future",
+    "group": "Tenses",
+    "title": "Present Continuous for plans",
+    "uk": "домовленості на майбутнє",
+    "level": "A2+",
+    "summary": "Arrangements you have already agreed with someone use the Present Continuous.",
+    "lessons": [
+      "lesson-03"
+    ],
+    "rules": [
+      {
+        "name": "Arrangements",
+        "form": "am / is / are + -ing + future time expression",
+        "when": "The plan is already agreed and, in effect, in your diary.",
+        "examples": [
+          {
+            "en": "I'm meeting Marta at six tomorrow.",
+            "uk": "Я зустрічаюся з Мартою завтра о шостій."
+          },
+          {
+            "en": "My cousin is coming to stay next week.",
+            "uk": "Наступного тижня приїжджає мій двоюрідний брат."
+          }
+        ]
+      },
+      {
+        "name": "Timetables stay Simple",
+        "form": "Present Simple",
+        "when": "Buses, trains, lessons and films run on a timetable, not on your agreement.",
+        "examples": [
+          {
+            "en": "The train leaves at 7:45.",
+            "uk": "Потяг вирушає о 7:45."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "I meet Marta tomorrow at six.",
+        "right": "I'm meeting Marta tomorrow at six.",
+        "note": "an arrangement with another person takes the Continuous"
+      },
+      {
+        "wrong": "The train is leaving at 7:45 every day.",
+        "right": "The train leaves at 7:45.",
+        "note": "a timetable takes the Present Simple"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What ___ this weekend?",
+        "options": [
+          "do you do",
+          "are you doing"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "The film ___ at eight — it's on the website.",
+        "options": [
+          "starts",
+          "is starting"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "She ___ a party on Saturday.",
+        "options": [
+          "has",
+          "'s having"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We ___ to the cinema on Friday after all.",
+        "options": [
+          "don't go",
+          "aren't going"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "how-long-does-it-take",
+    "group": "Everyday English",
+    "title": "How long does it take?",
+    "uk": "скільки часу це займає",
+    "level": "A2+",
+    "summary": "A fixed pattern for talking about how much time something needs.",
+    "lessons": [
+      "lesson-03"
+    ],
+    "rules": [
+      {
+        "name": "The pattern",
+        "form": "How long does it take (you) to + infinitive?  /  It takes (me) + time + to + infinitive.",
+        "when": "Asking and saying how much time an activity needs.",
+        "examples": [
+          {
+            "en": "How long does it take you to get ready?",
+            "uk": "Скільки часу тобі треба, щоб зібратися?"
+          },
+          {
+            "en": "It takes me twenty minutes to walk to school.",
+            "uk": "Мені треба двадцять хвилин, щоб дійти до школи."
+          }
+        ]
+      },
+      {
+        "name": "Negative and right now",
+        "form": "It doesn't take me long … / How long is it taking you?",
+        "when": "The same pattern in the negative, and in the Continuous for something happening now.",
+        "examples": [
+          {
+            "en": "It doesn't take me long to fall asleep.",
+            "uk": "Я засинаю швидко."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "How long do you go to school?",
+        "right": "How long does it take you to get to school?",
+        "note": "the subject of the pattern is it, not you"
+      },
+      {
+        "wrong": "It takes me twenty minutes for walk.",
+        "right": "It takes me twenty minutes to walk.",
+        "note": "to + infinitive, not for"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "How long ___ it take you to get ready?",
+        "options": [
+          "do",
+          "does"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "It ___ me an hour to do my homework.",
+        "options": [
+          "takes",
+          "is taking"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "It ___ take me long to fall asleep.",
+        "options": [
+          "doesn't",
+          "isn't"
+        ],
+        "answer": 0
       }
     ]
   }
