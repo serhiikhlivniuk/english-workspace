@@ -1,12 +1,59 @@
 [
   {
+    "id": "sp-04",
+    "lesson": "lesson-04",
+    "title": "The day it all went wrong",
+    "minutes": 10,
+    "level": "A2+ → B1",
+    "goal": "Tell a story in the past: keep the background in the Past Continuous and the events in the Past Simple.",
+    "grammar": [
+      "past-simple-forms",
+      "while-when",
+      "strong-adjectives"
+    ],
+    "warmup": [
+      "What is the worst weather you have ever walked home in?",
+      "When did you last oversleep? What happened next?",
+      "Tell me about a small thing that ruined a whole day."
+    ],
+    "main": {
+      "task": "Tell the story of a day that went wrong — yours, or invented.",
+      "howto": "Two minutes. Set the scene first (what was going on), then the events one after another. Use at least three linkers and two strong adjectives.",
+      "prompts": [
+        "How did the day start? What were you doing when it went wrong?",
+        "What happened first — and then?",
+        "How did you feel at that moment? Use a strong adjective, not 'very'.",
+        "Was there a moment when it got even worse?",
+        "How did it end? Were you relieved, or was it still awful?"
+      ]
+    },
+    "phrases": [
+      "It all started when…",
+      "While I was… , suddenly…",
+      "By the time I got there…",
+      "I was absolutely freezing / starving / exhausted.",
+      "Luckily, … / Eventually, …",
+      "And then, to make things worse…"
+    ],
+    "followup": [
+      "Is it funny now, or still annoying?",
+      "Whose fault was it, honestly?",
+      "What would you do differently if the same morning happened tomorrow?"
+    ],
+    "teacher": "Let him finish the whole story without corrections, then replay two or three sentences back with the tense fixed — he hears the difference better than he reads it."
+  },
+  {
     "id": "sp-03",
     "lesson": "lesson-03",
     "title": "A day in your life",
     "minutes": 10,
     "level": "A2+ → B1",
     "goal": "Talk about your routine in the Present Simple and switch to the Present Continuous when you describe today.",
-    "grammar": ["present-simple-vs-continuous", "telling-the-time", "prepositions-of-time"],
+    "grammar": [
+      "present-simple-vs-continuous",
+      "telling-the-time",
+      "prepositions-of-time"
+    ],
     "warmup": [
       "What time did you wake up today? Was that early or late for you?",
       "What is the first thing you do after you get up?",
@@ -44,7 +91,11 @@
     "minutes": 10,
     "level": "A2+",
     "goal": "Talk about hobbies with play / go / do and tell a short story about the past.",
-    "grammar": ["play-go-do", "adverbs-of-frequency", "past-simple"],
+    "grammar": [
+      "play-go-do",
+      "adverbs-of-frequency",
+      "past-simple"
+    ],
     "warmup": [
       "What did you do last weekend?",
       "How often do you do your hobby — every day, twice a week, or less?",
@@ -82,7 +133,9 @@
     "minutes": 10,
     "level": "A2",
     "goal": "Give longer answers about yourself instead of one word.",
-    "grammar": ["present-simple"],
+    "grammar": [
+      "present-simple"
+    ],
     "warmup": [
       "Tell me three things about yourself — one of them false. I'll guess which.",
       "Describe your best friend in five sentences.",
