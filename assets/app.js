@@ -6,6 +6,7 @@
     ['lessons.html', 'Lessons', '📘'],
     ['vocabulary.html', 'Vocabulary', '🔤'],
     ['grammar.html', 'Grammar', '🧩'],
+    ['speaking.html', 'Speaking', '🗣'],
     ['links.html', 'Links', '🔗'],
     ['homework.html', 'Homework', '✅']
   ];

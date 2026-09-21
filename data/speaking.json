@@ -1,0 +1,114 @@
+[
+  {
+    "id": "sp-03",
+    "lesson": "lesson-03",
+    "title": "A day in your life",
+    "minutes": 10,
+    "level": "A2+ → B1",
+    "goal": "Talk about your routine in the Present Simple and switch to the Present Continuous when you describe today.",
+    "grammar": ["present-simple-vs-continuous", "telling-the-time", "prepositions-of-time"],
+    "warmup": [
+      "What time did you wake up today? Was that early or late for you?",
+      "What is the first thing you do after you get up?",
+      "Are you a morning person or a night person? Why?"
+    ],
+    "main": {
+      "task": "Describe your normal Wednesday, then say how today is different.",
+      "howto": "Speak for about two minutes without stopping. Use at least four time expressions and switch to the Present Continuous when you talk about today.",
+      "prompts": [
+        "Morning: what time, in what order, how long it takes you",
+        "School: when it starts, when you have a break, when you get home",
+        "Afternoon: homework, hobbies, friends",
+        "Evening: dinner, screens, what time you go to bed",
+        "And today? What is different from a normal Wednesday?"
+      ]
+    },
+    "phrases": [
+      "I usually… but today I'm…",
+      "It takes me about twenty minutes to…",
+      "After that I…",
+      "On weekdays I… , at the weekend I…",
+      "I hardly ever… / I never…"
+    ],
+    "followup": [
+      "If you could change one thing about your morning, what would it be?",
+      "Whose routine in your family is the strangest?",
+      "Would you like to start school at 10 a.m.? What would you lose?"
+    ],
+    "teacher": "Count out loud how many times the tense switch is correct and say the number at the end — it turns accuracy into a small game."
+  },
+  {
+    "id": "sp-02",
+    "lesson": "lesson-02",
+    "title": "Free time and hobbies",
+    "minutes": 10,
+    "level": "A2+",
+    "goal": "Talk about hobbies with play / go / do and tell a short story about the past.",
+    "grammar": ["play-go-do", "adverbs-of-frequency", "past-simple"],
+    "warmup": [
+      "What did you do last weekend?",
+      "How often do you do your hobby — every day, twice a week, or less?",
+      "Which hobby would you never try? Why not?"
+    ],
+    "main": {
+      "task": "Tell the story of how you started your hobby.",
+      "howto": "Two minutes, in the past. Begin with when it started and finish with how it is going now.",
+      "prompts": [
+        "When and how did you start? Who showed you?",
+        "What was difficult at the beginning?",
+        "Tell one funny or bad moment — what happened?",
+        "How often do you do it now?",
+        "Would you like to be really good at it, or is it just for fun?"
+      ]
+    },
+    "phrases": [
+      "I took it up when I was…",
+      "At first it was hard because…",
+      "One day I was… when suddenly…",
+      "I'm quite good at… / I'm not very good at…",
+      "I'm really into…"
+    ],
+    "followup": [
+      "Is it better to have one hobby or many?",
+      "Do your parents think your hobby is useful?",
+      "What hobby do you think you will have at 30?"
+    ],
+    "teacher": "If the story dries up after three sentences, ask 'and then what happened?' twice — it usually doubles the length."
+  },
+  {
+    "id": "sp-01",
+    "lesson": "lesson-01",
+    "title": "Getting to know you",
+    "minutes": 10,
+    "level": "A2",
+    "goal": "Give longer answers about yourself instead of one word.",
+    "grammar": ["present-simple"],
+    "warmup": [
+      "Tell me three things about yourself — one of them false. I'll guess which.",
+      "Describe your best friend in five sentences.",
+      "What are you good at that people don't expect?"
+    ],
+    "main": {
+      "task": "Describe a person in your family without saying who it is.",
+      "howto": "Speak for a minute and a half. I have to guess the person from your description.",
+      "prompts": [
+        "What do they look like?",
+        "What do they do every day?",
+        "What makes them different from everyone else?",
+        "What do you argue about?",
+        "What have you learnt from them?"
+      ]
+    },
+    "phrases": [
+      "He / She looks…",
+      "The thing about him / her is…",
+      "We always argue about…",
+      "What I like about them is…"
+    ],
+    "followup": [
+      "Who in your family are you most like?",
+      "Is it easier to describe someone you love or someone you don't?"
+    ],
+    "teacher": "Ban one-word answers out loud at the start — 'every answer is at least two sentences' — and hold to it."
+  }
+]

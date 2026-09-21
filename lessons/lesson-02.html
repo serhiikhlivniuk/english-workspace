@@ -177,15 +177,29 @@
 </style>
 
 <style>
-  .gref{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
-  .gref a{display:inline-flex;align-items:center;gap:6px;text-decoration:none;
-    font-family:var(--body,system-ui,sans-serif);font-size:13px;font-weight:600;line-height:1.2;
-    padding:7px 13px;border-radius:999px;border:1px solid var(--line,#D9DDD5);
-    background:var(--surface-2,#EBEEE7);color:var(--accent,#AD6A16)}
-  .gref a:hover{border-color:var(--accent,#AD6A16);filter:brightness(1.03)}
-  .gref a::before{content:"\1F4D8"}
-  .gref a::after{content:"\2197";opacity:.6;font-weight:400}
-  @media print{.gref{display:none}}
+  .gref{display:grid;gap:10px;margin:12px 0 16px}
+  .gbox{border:1px solid var(--line,#D9DDD5);border-radius:14px;background:var(--surface-2,#EBEEE7);overflow:hidden}
+  .gbox>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+    padding:9px 14px;font-family:var(--body,system-ui,sans-serif);font-size:13.5px;font-weight:700;
+    color:var(--accent,#AD6A16)}
+  .gbox>summary::-webkit-details-marker{display:none}
+  .gbox>summary::before{content:"\1F4D8"}
+  .gbox>summary::after{content:"show the rule";margin-left:auto;font-weight:500;opacity:.7;font-size:12.5px}
+  .gbox[open]>summary::after{content:"hide"}
+  .gbox>summary:hover{background:rgba(0,0,0,.03)}
+  .gbox-body{padding:2px 16px 16px;font-size:14.5px}
+  .gbox-body .g-rule{border-left:3px solid var(--accent,#AD6A16);padding:2px 0 2px 14px;margin:0 0 14px}
+  .gbox-body h4{margin:0 0 4px;font-size:14px}
+  .gbox-body .g-form{display:inline-block;font-family:var(--mono,monospace);font-size:13px;font-weight:600;
+    background:var(--accent-soft,#F7E9D3);color:var(--accent-ink,#8A5310);padding:4px 10px;border-radius:8px;
+    margin:2px 0 6px;white-space:pre-wrap}
+  .gbox-body .g-when{margin:0 0 6px;opacity:.78}
+  .gbox-body .g-ex{margin:3px 0}
+  .gbox-body .g-bad{color:#AE372D;text-decoration:line-through}
+  .gbox-body .g-good{color:#2C7A57;font-weight:600}
+  .gbox-body .g-mis{display:grid;gap:2px;margin:0 0 8px;font-size:13.5px}
+  .gbox-body .g-more{display:inline-block;margin-top:6px;font-size:13px;font-weight:600}
+  @media print{.gbox{break-inside:avoid} .gbox>summary::after{display:none}}
 </style>
 </head>
 <body>
@@ -265,7 +279,7 @@
 <div class="ex-head"><span class="label">Exercise 1 · Vocabulary</span></div>
 <h2>play, go or do?</h2>
 <p class="task">Choose the right verb for each activity.</p>
-<p class="gref"><a href="../grammar.html#play-go-do" target="_blank" rel="noopener">Grammar: play / go / do</a></p>
+<div class="gref"><details class="gbox"><summary>play / go / do</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">Three verbs that go with different kinds of activity.</p><div class="g-rule"><h4>play</h4><div class="g-form">play + a ball game or a game with rules and an opponent</div><p class="g-when">football, basketball, tennis, chess, video games, the guitar</p><p class="g-ex"><b>They play basketball after school.</b></p></div><div class="g-rule"><h4>go</h4><div class="g-form">go + an activity ending in -ing</div><p class="g-when">swimming, running, cycling, skateboarding, shopping, fishing</p><p class="g-ex"><b>I go swimming twice a week.</b></p></div><div class="g-rule"><h4>do</h4><div class="g-form">do + an individual activity without a ball</div><p class="g-when">yoga, karate, gymnastics, athletics, exercise, homework</p><p class="g-ex"><b>She does karate on Saturdays.</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">I play swimming.</span><span class="g-good">I go swimming.</span></div><div class="g-mis"><span class="g-bad">He goes karate.</span><span class="g-good">He does karate.</span></div><a class="g-more" href="../grammar.html#play-go-do" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details></div>
 <div class="sort-grid">
 <label class="sort-row"><span>football</span><select data-answer="play" id="s1"><option value="">—</option><option>play</option><option>go</option><option>do</option></select></label>
 <label class="sort-row"><span>swimming</span><select data-answer="go" id="s2"><option value="">—</option><option>play</option><option>go</option><option>do</option></select></label>
@@ -359,7 +373,7 @@
 <div><b>never</b><small>0%</small></div>
 </div>
 <p class="task">Choose the correct sentence.</p>
-<p class="gref"><a href="../grammar.html#adverbs-of-frequency" target="_blank" rel="noopener">Grammar: Adverbs of frequency</a></p>
+<div class="gref"><details class="gbox"><summary>Adverbs of frequency</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">Where to put always, usually, often and never — and why that position is not random.</p><div class="g-rule"><h4>The main rule</h4><div class="g-form">before the main verb, but AFTER the verb to be</div><p class="g-when">always · usually · often · sometimes · hardly ever · never</p><p class="g-ex"><b>I always do my homework.</b></p><p class="g-ex"><b>He is never late.</b></p></div><div class="g-rule"><h4>With an auxiliary verb</h4><div class="g-form">auxiliary + adverb + main verb</div><p class="g-when">When there is can, will, have, or am/is/are + -ing.</p><p class="g-ex"><b>She can usually help me.</b></p></div><div class="g-rule"><h4>Frequency expressions</h4><div class="g-form">once a week · twice a month · every day — at the start or end of the sentence</div><p class="g-when">These expressions never go in the middle of the sentence.</p><p class="g-ex"><b>We train twice a week.</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">I go always to school by bus.</span><span class="g-good">I always go to school by bus.</span></div><div class="g-mis"><span class="g-bad">He never is tired.</span><span class="g-good">He is never tired.</span></div><a class="g-more" href="../grammar.html#adverbs-of-frequency" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details></div>
 <p style="font-weight:700; margin-bottom:6px">1.</p>
 <div class="rgroup" data-answer="b" data-radio="c1">
 <label class="choice"><input name="c1" type="radio" value="a"/>I play usually football on Friday.</label>
@@ -395,7 +409,7 @@
 <div class="ex-head"><span class="label">Exercise 6 · Grammar</span></div>
 <h2>Rewrite for he / she</h2>
 <p class="task">Write only the missing verb in the correct form.</p>
-<p class="gref"><a href="../grammar.html#present-simple" target="_blank" rel="noopener">Grammar: Present Simple</a></p>
+<div class="gref"><details class="gbox"><summary>Present Simple</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">Habits, timetables, facts and things that are generally true.</p><div class="g-rule"><h4>Form</h4><div class="g-form">I / you / we / they + V  ·  he / she / it + V-s</div><p class="g-when">Positive sentences.</p><p class="g-ex"><b>I play football every weekend.</b></p><p class="g-ex"><b>She plays the guitar.</b></p></div><div class="g-rule"><h4>Negatives and questions</h4><div class="g-form">do / does + not + V  ·  Do / Does + subject + V?</div><p class="g-when">After do/does the main verb never takes -s.</p><p class="g-ex"><b>He doesn&#x27;t play chess.</b></p><p class="g-ex"><b>Does she like drawing?</b></p></div><div class="g-rule"><h4>Time expressions</h4><div class="g-form">always · usually · often · sometimes · hardly ever · never · every day · on Mondays</div><p class="g-when">These words almost always go with the Present Simple.</p><p class="g-ex"><b>I hardly ever watch TV.</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">He don&#x27;t like it.</span><span class="g-good">He doesn&#x27;t like it.</span></div><div class="g-mis"><span class="g-bad">Does she plays tennis?</span><span class="g-good">Does she play tennis?</span></div><a class="g-more" href="../grammar.html#present-simple" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details></div>
 <ul class="gap-list">
 <li><span class="sentence">I hardly ever watch TV. → She hardly ever <input autocomplete="off" data-answer="watches" id="h1" type="text"/> TV.</span></li>
 <li><span class="sentence">We often go running. → He often <input autocomplete="off" data-answer="goes" id="h2" type="text"/> running.</span></li>
@@ -415,7 +429,8 @@
 <div class="ex-head"><span class="label">Exercise 7 · Grammar</span><span class="pill">Present Simple vs Continuous</span></div>
 <h2>Routine or right now?</h2>
 <p class="task">Put the verb in brackets into the Present Simple or the Present Continuous. Short forms (<i>I'm, isn't, don't</i>) are fine.</p>
-<p class="gref"><a href="../grammar.html#present-simple-vs-continuous" target="_blank" rel="noopener">Grammar: Present Simple vs Present Continuous</a></p>
+<div class="gref"><details class="gbox"><summary>Present Simple vs Present Continuous</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">The core question is simple: is this generally true, or is it happening around now?</p><div class="g-rule"><h4>The one question to ask</h4><div class="g-form">generally true → Present Simple  ·  happening around now → Present Continuous</div><p class="g-when">Ask yourself: would this still be true next month? If yes, it is a routine and takes the Simple.</p><p class="g-ex"><b>I walk to school. (every day, in general)</b></p><p class="g-ex"><b>I&#x27;m walking to school. (right now, on my way)</b></p></div><div class="g-rule"><h4>Time markers give it away</h4><div class="g-form">Simple: always · usually · every day · on Mondays · never
+Continuous: now · right now · at the moment · today · this week</div><p class="g-when">Find the time expression first — it usually decides the tense for you.</p><p class="g-ex"><b>She usually wears jeans, but today she&#x27;s wearing a dress.</b></p></div><div class="g-rule"><h4>Both tenses in one sentence</h4><div class="g-form">…usually + Present Simple, but + today / at the moment + Present Continuous</div><p class="g-when">This is the pattern that shows you really understand the contrast — use it in writing and speaking.</p><p class="g-ex"><b>I normally have breakfast at home, but this week I&#x27;m eating at school.</b></p><p class="g-ex"><b>My brother plays football, but he isn&#x27;t playing today — he&#x27;s ill.</b></p></div><div class="g-rule"><h4>Careful: state verbs</h4><div class="g-form">know · like · want · need · understand · believe — Simple only</div><p class="g-when">Even when you mean right now, state verbs stay in the Simple. See the State verbs topic.</p><p class="g-ex"><b>I want to go home now. (NOT I&#x27;m wanting)</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">Look! He plays the guitar.</span><span class="g-good">Look! He&#x27;s playing the guitar.</span></div><div class="g-mis"><span class="g-bad">I&#x27;m going to school every day.</span><span class="g-good">I go to school every day.</span></div><div class="g-mis"><span class="g-bad">She is knowing the answer.</span><span class="g-good">She knows the answer.</span></div><div class="g-mis"><span class="g-bad">What do you do right now?</span><span class="g-good">What are you doing right now?</span></div><a class="g-more" href="../grammar.html#present-simple-vs-continuous" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details></div>
 <ul class="gap-list">
 <li><span class="sentence">I usually <input autocomplete="off" data-answer="go" id="p1" type="text"/> to the skate park after school. <span class="cue">(go)</span></span></li>
 <li><span class="sentence">But today I <input autocomplete="off" class="wide" data-answer="am staying|'m staying|i'm staying" id="p2" type="text"/> at home, because it's raining. <span class="cue">(stay)</span></span></li>
@@ -500,7 +515,7 @@
 <div class="ex-head"><span class="label">Exercise 10 · Grammar</span><span class="pill">Extra · Past Simple</span></div>
 <h2>Irregular verbs in the past</h2>
 <p class="task">Put the verb in brackets into the Past Simple.</p>
-<p class="gref"><a href="../grammar.html#past-simple" target="_blank" rel="noopener">Grammar: Past Simple</a></p>
+<div class="gref"><details class="gbox"><summary>Past Simple</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">A finished action in the past — the main tense for telling stories.</p><div class="g-rule"><h4>Form</h4><div class="g-form">V-ed  ·  irregular verbs: go → went, break → broke</div><p class="g-when">The action happened and finished in the past.</p><p class="g-ex"><b>I started skateboarding two years ago.</b></p><p class="g-ex"><b>He fell off and broke his arm.</b></p></div><div class="g-rule"><h4>Negatives and questions</h4><div class="g-form">didn&#x27;t + V  ·  Did + subject + V?</div><p class="g-when">After did, always use the base form.</p><p class="g-ex"><b>We didn&#x27;t go out yesterday.</b></p><p class="g-ex"><b>Did you win the match?</b></p></div><div class="g-rule"><h4>Time expressions</h4><div class="g-form">yesterday · last week · in 2020 · two days ago · when I was 10</div><p class="g-when">A specific moment in the past.</p><p class="g-ex"><b>I took up chess when I was ten.</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">I goed home.</span><span class="g-good">I went home.</span></div><div class="g-mis"><span class="g-bad">Did you went there?</span><span class="g-good">Did you go there?</span></div><a class="g-more" href="../grammar.html#past-simple" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details></div>
 <ul class="gap-list">
 <li><span class="sentence">Last summer I <input autocomplete="off" data-answer="broke" id="q1" type="text"/> my wrist. <span class="cue">(break)</span></span></li>
 <li><span class="sentence">He <input autocomplete="off" data-answer="bought" id="q2" type="text"/> his first skateboard when he was eleven. <span class="cue">(buy)</span></span></li>
@@ -523,7 +538,7 @@
 <div class="ex-head"><span class="label">Exercise 11 · Grammar</span><span class="pill">Extra · Past Simple vs Continuous</span></div>
 <h2>while and when</h2>
 <p class="task">One action was long, the other was short. Choose the right tense.</p>
-<p class="gref"><a href="../grammar.html#past-continuous" target="_blank" rel="noopener">Grammar: Past Continuous</a></p>
+<div class="gref"><details class="gbox"><summary>Past Continuous</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">An action that was in progress at a moment in the past — the background of a story.</p><div class="g-rule"><h4>Form</h4><div class="g-form">was / were + V-ing</div><p class="g-when">The action was in progress at a specific moment in the past.</p><p class="g-ex"><b>At 7 p.m. I was practising the guitar.</b></p></div><div class="g-rule"><h4>while and when</h4><div class="g-form">while + Past Continuous · when + Past Simple</div><p class="g-when">A long action is interrupted by a short one.</p><p class="g-ex"><b>While I was riding my bike, it started to rain.</b></p><p class="g-ex"><b>I was playing football when I hurt my knee.</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">While I rode my bike, I fell.</span><span class="g-good">While I was riding my bike, I fell.</span></div><div class="g-mis"><span class="g-bad">They was playing.</span><span class="g-good">They were playing.</span></div><a class="g-more" href="../grammar.html#past-continuous" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details></div>
 <ul class="gap-list">
 <li><span class="sentence">While I <input autocomplete="off" class="wide" data-answer="was riding" id="r1" type="text"/> down the ramp, my wheel hit a stone. <span class="cue">(ride)</span></span></li>
 <li><span class="sentence">It <input autocomplete="off" class="wide" data-answer="started" id="r2" type="text"/> to rain when we arrived at the park. <span class="cue">(start)</span></span></li>
@@ -543,7 +558,7 @@
 <div class="ex-head"><span class="label">Exercise 12 · Review</span><span class="pill">Extra</span></div>
 <h2>Find the mistake</h2>
 <p class="task">The <b>bold</b> part of each sentence is wrong. Write the correct version.</p>
-<p class="gref"><a href="../grammar.html#past-simple" target="_blank" rel="noopener">Grammar: Past Simple</a><a href="../grammar.html#past-continuous" target="_blank" rel="noopener">Grammar: Past Continuous</a></p>
+<div class="gref"><details class="gbox"><summary>Past Simple</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">A finished action in the past — the main tense for telling stories.</p><div class="g-rule"><h4>Form</h4><div class="g-form">V-ed  ·  irregular verbs: go → went, break → broke</div><p class="g-when">The action happened and finished in the past.</p><p class="g-ex"><b>I started skateboarding two years ago.</b></p><p class="g-ex"><b>He fell off and broke his arm.</b></p></div><div class="g-rule"><h4>Negatives and questions</h4><div class="g-form">didn&#x27;t + V  ·  Did + subject + V?</div><p class="g-when">After did, always use the base form.</p><p class="g-ex"><b>We didn&#x27;t go out yesterday.</b></p><p class="g-ex"><b>Did you win the match?</b></p></div><div class="g-rule"><h4>Time expressions</h4><div class="g-form">yesterday · last week · in 2020 · two days ago · when I was 10</div><p class="g-when">A specific moment in the past.</p><p class="g-ex"><b>I took up chess when I was ten.</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">I goed home.</span><span class="g-good">I went home.</span></div><div class="g-mis"><span class="g-bad">Did you went there?</span><span class="g-good">Did you go there?</span></div><a class="g-more" href="../grammar.html#past-simple" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details><details class="gbox"><summary>Past Continuous</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">An action that was in progress at a moment in the past — the background of a story.</p><div class="g-rule"><h4>Form</h4><div class="g-form">was / were + V-ing</div><p class="g-when">The action was in progress at a specific moment in the past.</p><p class="g-ex"><b>At 7 p.m. I was practising the guitar.</b></p></div><div class="g-rule"><h4>while and when</h4><div class="g-form">while + Past Continuous · when + Past Simple</div><p class="g-when">A long action is interrupted by a short one.</p><p class="g-ex"><b>While I was riding my bike, it started to rain.</b></p><p class="g-ex"><b>I was playing football when I hurt my knee.</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">While I rode my bike, I fell.</span><span class="g-good">While I was riding my bike, I fell.</span></div><div class="g-mis"><span class="g-bad">They was playing.</span><span class="g-good">They were playing.</span></div><a class="g-more" href="../grammar.html#past-continuous" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details></div>
 <ul class="gap-list">
 <li><span class="sentence">My brother <b>don't</b> play chess. → <input autocomplete="off" data-answer="doesn't|does not" id="m1" type="text"/></span></li>
 <li><span class="sentence">Look! It <b>rains</b> again. → <input autocomplete="off" class="wide" data-answer="is raining|'s raining" id="m2" type="text"/></span></li>
@@ -579,7 +594,7 @@
 <div class="ex-head"><span class="label">Exercise 14 · Speaking</span><span class="pill">Extra · past tenses</span></div>
 <h2>Tell the story</h2>
 <p class="task">Choose one card and talk for one minute. You must use at least one sentence with <b>while</b> or <b>when</b>.</p>
-<p class="gref"><a href="../grammar.html#past-simple" target="_blank" rel="noopener">Grammar: Past Simple</a></p>
+<div class="gref"><details class="gbox"><summary>Past Simple</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">A finished action in the past — the main tense for telling stories.</p><div class="g-rule"><h4>Form</h4><div class="g-form">V-ed  ·  irregular verbs: go → went, break → broke</div><p class="g-when">The action happened and finished in the past.</p><p class="g-ex"><b>I started skateboarding two years ago.</b></p><p class="g-ex"><b>He fell off and broke his arm.</b></p></div><div class="g-rule"><h4>Negatives and questions</h4><div class="g-form">didn&#x27;t + V  ·  Did + subject + V?</div><p class="g-when">After did, always use the base form.</p><p class="g-ex"><b>We didn&#x27;t go out yesterday.</b></p><p class="g-ex"><b>Did you win the match?</b></p></div><div class="g-rule"><h4>Time expressions</h4><div class="g-form">yesterday · last week · in 2020 · two days ago · when I was 10</div><p class="g-when">A specific moment in the past.</p><p class="g-ex"><b>I took up chess when I was ten.</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">I goed home.</span><span class="g-good">I went home.</span></div><div class="g-mis"><span class="g-bad">Did you went there?</span><span class="g-good">Did you go there?</span></div><a class="g-more" href="../grammar.html#past-simple" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details></div>
 <ul>
 <li><b>The day I started…</b> — how did you begin your hobby? Who was with you? What went wrong?</li>
 <li><b>The worst accident I've had</b> — where were you, what were you doing, what happened next?</li>
@@ -605,7 +620,7 @@
 <div class="ex-head"><span class="label">Exercise 16 · Writing</span><span class="pill">Extra · past tenses</span></div>
 <h2>How I started</h2>
 <p class="task">Write 80–100 words about the day you started your hobby — or the day you gave one up.</p>
-<p class="gref"><a href="../grammar.html#past-simple" target="_blank" rel="noopener">Grammar: Past Simple</a></p>
+<div class="gref"><details class="gbox"><summary>Past Simple</summary><div class="gbox-body"><p class="g-when" style="margin-top:0">A finished action in the past — the main tense for telling stories.</p><div class="g-rule"><h4>Form</h4><div class="g-form">V-ed  ·  irregular verbs: go → went, break → broke</div><p class="g-when">The action happened and finished in the past.</p><p class="g-ex"><b>I started skateboarding two years ago.</b></p><p class="g-ex"><b>He fell off and broke his arm.</b></p></div><div class="g-rule"><h4>Negatives and questions</h4><div class="g-form">didn&#x27;t + V  ·  Did + subject + V?</div><p class="g-when">After did, always use the base form.</p><p class="g-ex"><b>We didn&#x27;t go out yesterday.</b></p><p class="g-ex"><b>Did you win the match?</b></p></div><div class="g-rule"><h4>Time expressions</h4><div class="g-form">yesterday · last week · in 2020 · two days ago · when I was 10</div><p class="g-when">A specific moment in the past.</p><p class="g-ex"><b>I took up chess when I was ten.</b></p></div><h4 style="margin:14px 0 6px">Watch out</h4><div class="g-mis"><span class="g-bad">I goed home.</span><span class="g-good">I went home.</span></div><div class="g-mis"><span class="g-bad">Did you went there?</span><span class="g-good">Did you go there?</span></div><a class="g-more" href="../grammar.html#past-simple" target="_blank" rel="noopener">Open the full topic and practise →</a></div></details></div>
 <p><b>Checklist:</b> at least four Past Simple verbs · one Past Continuous sentence with <i>while</i> or <i>when</i> · one expression from Exercise 3 · how you felt at the end.</p>
 <textarea id="writing2" placeholder="I still remember the day I…"></textarea>
 <div class="ex-foot"><span class="verdict" id="wcount2">0 words</span></div>
@@ -911,7 +926,8 @@
 })();
 </script>
 
-<script src="../assets/store.js?v=3"></script>
-<script src="../assets/lesson-sync.js?v=3" data-lesson="lesson-02"></script>
+<script src="../assets/store.js?v=4"></script>
+<script src="../assets/wordgrab.js?v=4"></script>
+<script src="../assets/lesson-sync.js?v=4" data-lesson="lesson-02"></script>
 </body>
 </html>

@@ -93,6 +93,108 @@
         ],
         "answer": 1
       }
+    ],
+    "practice": [
+      {
+        "q": "My brother ___ the guitar every evening.",
+        "options": [
+          "play",
+          "plays",
+          "is playing"
+        ],
+        "answer": 1,
+        "why": "he / she / it takes -s in the Present Simple."
+      },
+      {
+        "q": "We ___ football on Saturdays.",
+        "options": [
+          "plays",
+          "play",
+          "are playing"
+        ],
+        "answer": 1,
+        "why": "we takes the base form."
+      },
+      {
+        "q": "She ___ coffee — she prefers tea.",
+        "options": [
+          "doesn't drink",
+          "don't drink",
+          "isn't drinking"
+        ],
+        "answer": 0,
+        "why": "she → doesn't + base form."
+      },
+      {
+        "q": "___ your parents work at the weekend?",
+        "options": [
+          "Does",
+          "Do",
+          "Are"
+        ],
+        "answer": 1,
+        "why": "your parents = they → Do."
+      },
+      {
+        "q": "The shop ___ at nine every morning.",
+        "options": [
+          "open",
+          "opens",
+          "is opening"
+        ],
+        "answer": 1,
+        "why": "A regular timetable takes the Present Simple, and the shop = it."
+      },
+      {
+        "q": "I ___ how to swim.",
+        "options": [
+          "not know",
+          "don't know",
+          "doesn't know"
+        ],
+        "answer": 1,
+        "why": "I → don't."
+      },
+      {
+        "q": "Choose the correct question.",
+        "options": [
+          "Does she goes to school by bus?",
+          "Does she go to school by bus?",
+          "Do she go to school by bus?"
+        ],
+        "answer": 1,
+        "why": "After does the verb has no -s."
+      },
+      {
+        "q": "Water ___ at 100 degrees.",
+        "options": [
+          "boil",
+          "boils",
+          "is boiling"
+        ],
+        "answer": 1,
+        "why": "A general fact takes the Present Simple."
+      },
+      {
+        "q": "My friends ___ live near me.",
+        "options": [
+          "doesn't",
+          "don't",
+          "aren't"
+        ],
+        "answer": 1,
+        "why": "my friends = they → don't."
+      },
+      {
+        "q": "He ___ his room on Sundays.",
+        "options": [
+          "tidy",
+          "tidys",
+          "tidies"
+        ],
+        "answer": 2,
+        "why": "A verb ending in consonant + y changes to -ies."
+      }
     ]
   },
   {
@@ -184,6 +286,108 @@
           "I am want a new phone."
         ],
         "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "Look! The dog ___ your sandwich.",
+        "options": [
+          "eats",
+          "is eating",
+          "eat"
+        ],
+        "answer": 1,
+        "why": "Look! points at this moment."
+      },
+      {
+        "q": "I ___ my homework right now.",
+        "options": [
+          "do",
+          "am doing",
+          "does"
+        ],
+        "answer": 1,
+        "why": "right now → am / is / are + -ing."
+      },
+      {
+        "q": "They ___ in the garden at the moment.",
+        "options": [
+          "is playing",
+          "are playing",
+          "play"
+        ],
+        "answer": 1,
+        "why": "they → are."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "She is knowing my brother.",
+          "She knows my brother.",
+          "She know my brother."
+        ],
+        "answer": 1,
+        "why": "know is a state verb — no Continuous."
+      },
+      {
+        "q": "We ___ a new topic this week.",
+        "options": [
+          "study",
+          "are studying",
+          "studies"
+        ],
+        "answer": 1,
+        "why": "this week = a temporary period."
+      },
+      {
+        "q": "___ you listening to me?",
+        "options": [
+          "Do",
+          "Are",
+          "Is"
+        ],
+        "answer": 1,
+        "why": "The Continuous question starts with am / is / are."
+      },
+      {
+        "q": "He ___ TV — he's doing his homework.",
+        "options": [
+          "doesn't watch",
+          "isn't watching",
+          "not watching"
+        ],
+        "answer": 1,
+        "why": "A negative right now takes isn't + -ing."
+      },
+      {
+        "q": "Sorry, I ___ dinner. Can I call you back?",
+        "options": [
+          "cook",
+          "am cooking",
+          "cooks"
+        ],
+        "answer": 1,
+        "why": "An action in progress at the moment of speaking."
+      },
+      {
+        "q": "The kids ___ upstairs. Please be quiet.",
+        "options": [
+          "sleep",
+          "are sleeping",
+          "sleeps"
+        ],
+        "answer": 1,
+        "why": "Happening now, so the Continuous."
+      },
+      {
+        "q": "Which one is wrong?",
+        "options": [
+          "I'm wanting a new bike.",
+          "I want a new bike.",
+          "I'm riding my bike."
+        ],
+        "answer": 0,
+        "why": "want is a state verb."
       }
     ]
   },
@@ -323,6 +527,108 @@
         ],
         "answer": 1
       }
+    ],
+    "practice": [
+      {
+        "q": "I usually ___ at seven, but today I ___ at nine.",
+        "options": [
+          "get up / get up",
+          "get up / 'm getting up",
+          "'m getting up / get up"
+        ],
+        "answer": 1,
+        "why": "usually → Simple, today → Continuous."
+      },
+      {
+        "q": "Listen! Someone ___ at the door.",
+        "options": [
+          "knocks",
+          "is knocking",
+          "knock"
+        ],
+        "answer": 1,
+        "why": "Listen! points at this moment."
+      },
+      {
+        "q": "My sister ___ in Lviv, but this month she ___ in Kyiv.",
+        "options": [
+          "lives / is staying",
+          "is living / stays",
+          "live / stay"
+        ],
+        "answer": 0,
+        "why": "A permanent fact takes the Simple, a temporary one the Continuous."
+      },
+      {
+        "q": "What ___ on Fridays?",
+        "options": [
+          "are you doing",
+          "do you do",
+          "you do"
+        ],
+        "answer": 1,
+        "why": "on Fridays is a routine."
+      },
+      {
+        "q": "What ___ tomorrow evening? — Nothing, I'm free.",
+        "options": [
+          "do you do",
+          "are you doing",
+          "you do"
+        ],
+        "answer": 1,
+        "why": "An arrangement in the future takes the Continuous."
+      },
+      {
+        "q": "He ___ meat, so make him a salad.",
+        "options": [
+          "isn't eating",
+          "doesn't eat",
+          "not eats"
+        ],
+        "answer": 1,
+        "why": "A general habit takes the Simple."
+      },
+      {
+        "q": "Be careful — the floor ___ wet.",
+        "options": [
+          "is being",
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "why": "be is a state verb: just is."
+      },
+      {
+        "q": "She ___ French at school, and right now she ___ for a test.",
+        "options": [
+          "studies / is revising",
+          "is studying / revises",
+          "study / revise"
+        ],
+        "answer": 0,
+        "why": "Routine first, action in progress second."
+      },
+      {
+        "q": "Which sentence describes a habit?",
+        "options": [
+          "I'm walking to school.",
+          "I walk to school.",
+          "I'm late for school."
+        ],
+        "answer": 1,
+        "why": "No -ing, no time marker of the moment — a routine."
+      },
+      {
+        "q": "The bus ___ at 7:40 every day, but today it ___ late.",
+        "options": [
+          "leaves / is running",
+          "is leaving / runs",
+          "leave / run"
+        ],
+        "answer": 0,
+        "why": "A timetable takes the Simple; today's exception takes the Continuous."
+      }
     ]
   },
   {
@@ -418,6 +724,108 @@
         ],
         "answer": 0
       }
+    ],
+    "practice": [
+      {
+        "q": "We ___ to the cinema last night.",
+        "options": [
+          "go",
+          "went",
+          "goed"
+        ],
+        "answer": 1,
+        "why": "go is irregular: go → went."
+      },
+      {
+        "q": "She ___ her keys yesterday.",
+        "options": [
+          "losed",
+          "lost",
+          "loses"
+        ],
+        "answer": 1,
+        "why": "lose → lost."
+      },
+      {
+        "q": "They ___ come to the party.",
+        "options": [
+          "didn't",
+          "don't",
+          "weren't"
+        ],
+        "answer": 0,
+        "why": "A past negative takes didn't + base form."
+      },
+      {
+        "q": "___ you finish the book?",
+        "options": [
+          "Did",
+          "Do",
+          "Were"
+        ],
+        "answer": 0,
+        "why": "A past question starts with Did."
+      },
+      {
+        "q": "I ___ my grandparents two weeks ago.",
+        "options": [
+          "visit",
+          "visited",
+          "was visiting"
+        ],
+        "answer": 1,
+        "why": "ago points to a finished moment."
+      },
+      {
+        "q": "He ___ a photo and ___ it to me.",
+        "options": [
+          "took / sent",
+          "taked / sended",
+          "take / send"
+        ],
+        "answer": 0,
+        "why": "take → took, send → sent."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "Did she went home?",
+          "Did she go home?",
+          "Did she goes home?"
+        ],
+        "answer": 1,
+        "why": "After did, use the base form."
+      },
+      {
+        "q": "The film ___ at eight and ___ at ten.",
+        "options": [
+          "start / finish",
+          "started / finished",
+          "starts / finishes"
+        ],
+        "answer": 1,
+        "why": "Both actions are finished in the past."
+      },
+      {
+        "q": "I ___ tired, so I went to bed early.",
+        "options": [
+          "am",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "why": "I → was."
+      },
+      {
+        "q": "We ___ any milk, so I went to the shop.",
+        "options": [
+          "didn't have",
+          "hadn't",
+          "don't have"
+        ],
+        "answer": 0,
+        "why": "didn't + base form is the usual past negative."
+      }
     ]
   },
   {
@@ -497,6 +905,108 @@
           "are"
         ],
         "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "At six o'clock yesterday I ___ dinner.",
+        "options": [
+          "cooked",
+          "was cooking",
+          "cook"
+        ],
+        "answer": 1,
+        "why": "An action in progress at a point in the past."
+      },
+      {
+        "q": "They ___ football when it started to rain.",
+        "options": [
+          "played",
+          "were playing",
+          "are playing"
+        ],
+        "answer": 1,
+        "why": "The longer action takes the Past Continuous."
+      },
+      {
+        "q": "While she ___, the phone rang.",
+        "options": [
+          "slept",
+          "was sleeping",
+          "sleeps"
+        ],
+        "answer": 1,
+        "why": "while → the longer action."
+      },
+      {
+        "q": "We ___ for you at the station.",
+        "options": [
+          "was waiting",
+          "were waiting",
+          "waited"
+        ],
+        "answer": 1,
+        "why": "we → were."
+      },
+      {
+        "q": "I broke my arm while I ___ my bike.",
+        "options": [
+          "rode",
+          "was riding",
+          "ride"
+        ],
+        "answer": 1,
+        "why": "while + the action in progress."
+      },
+      {
+        "q": "What ___ when I called you?",
+        "options": [
+          "did you do",
+          "were you doing",
+          "you did"
+        ],
+        "answer": 1,
+        "why": "An action in progress at that moment."
+      },
+      {
+        "q": "He ___ TV when his mum came home.",
+        "options": [
+          "watched",
+          "was watching",
+          "watches"
+        ],
+        "answer": 1,
+        "why": "The background action takes the Continuous."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "While I was walking, I met Anna.",
+          "While I walked, I was meeting Anna.",
+          "While I walk, I met Anna."
+        ],
+        "answer": 0,
+        "why": "while + Continuous, then the short action in the Past Simple."
+      },
+      {
+        "q": "The sun ___ and the birds ___.",
+        "options": [
+          "shone / were singing",
+          "was shining / were singing",
+          "shines / sing"
+        ],
+        "answer": 1,
+        "why": "Two background actions set the scene."
+      },
+      {
+        "q": "They ___ talking when the teacher came in.",
+        "options": [
+          "was",
+          "were",
+          "are"
+        ],
+        "answer": 1,
+        "why": "they → were."
       }
     ]
   },
@@ -589,6 +1099,108 @@
         ],
         "answer": 1
       }
+    ],
+    "practice": [
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "I always am hungry after school.",
+          "I am always hungry after school.",
+          "Always I am hungry after school."
+        ],
+        "answer": 1,
+        "why": "After the verb to be."
+      },
+      {
+        "q": "She ___ forgets her homework.",
+        "options": [
+          "never",
+          "never is",
+          "is never"
+        ],
+        "answer": 0,
+        "why": "Before a main verb."
+      },
+      {
+        "q": "We ___ go to the cinema.",
+        "options": [
+          "go sometimes",
+          "sometimes",
+          "sometimes go"
+        ],
+        "answer": 2,
+        "why": "The adverb goes before the main verb."
+      },
+      {
+        "q": "He is ___ late for the lesson.",
+        "options": [
+          "hardly ever",
+          "ever hardly",
+          "hardly"
+        ],
+        "answer": 0,
+        "why": "hardly ever = almost never."
+      },
+      {
+        "q": "Where does 'every morning' go?",
+        "options": [
+          "in the middle of the sentence",
+          "at the start or the end",
+          "right after the subject"
+        ],
+        "answer": 1,
+        "why": "Time expressions are not placed mid-sentence."
+      },
+      {
+        "q": "I ___ can help you on Sundays.",
+        "options": [
+          "usually",
+          "can usually",
+          "usually can"
+        ],
+        "answer": 1,
+        "why": "auxiliary + adverb + main verb."
+      },
+      {
+        "q": "They ___ watch TV in the morning.",
+        "options": [
+          "don't often",
+          "often don't",
+          "not often"
+        ],
+        "answer": 0,
+        "why": "The adverb comes after the auxiliary in a negative."
+      },
+      {
+        "q": "How often do you train? — ___",
+        "options": [
+          "Twice a week.",
+          "Two times in a week.",
+          "In twice a week."
+        ],
+        "answer": 0,
+        "why": "twice a week is the fixed form."
+      },
+      {
+        "q": "Which is wrong?",
+        "options": [
+          "She often is tired.",
+          "She is often tired.",
+          "She often gets tired."
+        ],
+        "answer": 0,
+        "why": "With to be the adverb goes after the verb."
+      },
+      {
+        "q": "My dad ___ drinks coffee in the evening.",
+        "options": [
+          "never",
+          "never not",
+          "not never"
+        ],
+        "answer": 0,
+        "why": "never is already negative — no second negative."
+      }
     ]
   },
   {
@@ -675,6 +1287,108 @@
           "do"
         ],
         "answer": 2
+      }
+    ],
+    "practice": [
+      {
+        "q": "___ tennis",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 0,
+        "why": "A game with rules and an opponent takes play."
+      },
+      {
+        "q": "___ swimming",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 1,
+        "why": "An -ing activity takes go."
+      },
+      {
+        "q": "___ karate",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 2,
+        "why": "Martial arts take do."
+      },
+      {
+        "q": "___ the piano",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 0,
+        "why": "Musical instruments take play."
+      },
+      {
+        "q": "___ shopping",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 1,
+        "why": "An -ing activity takes go."
+      },
+      {
+        "q": "___ yoga",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 2,
+        "why": "An individual activity without a ball takes do."
+      },
+      {
+        "q": "___ video games",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 0,
+        "why": "Games take play."
+      },
+      {
+        "q": "___ fishing",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 1,
+        "why": "An -ing activity takes go."
+      },
+      {
+        "q": "___ gymnastics",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 2,
+        "why": "Individual sports without a ball take do."
+      },
+      {
+        "q": "___ cycling",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answer": 1,
+        "why": "An -ing activity takes go."
       }
     ]
   },
@@ -777,6 +1491,99 @@
           "'re having"
         ],
         "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "I ___ what you mean.",
+        "options": [
+          "understand",
+          "am understanding"
+        ],
+        "answer": 0,
+        "why": "understand is a state verb."
+      },
+      {
+        "q": "This cake ___ delicious.",
+        "options": [
+          "tastes",
+          "is tasting"
+        ],
+        "answer": 0,
+        "why": "Here taste describes a quality, not an action."
+      },
+      {
+        "q": "She ___ a new laptop.",
+        "options": [
+          "wants",
+          "is wanting"
+        ],
+        "answer": 0,
+        "why": "want is a state verb."
+      },
+      {
+        "q": "Be quiet — I ___ about the answer.",
+        "options": [
+          "think",
+          "'m thinking"
+        ],
+        "answer": 1,
+        "why": "Here think means the mental action, so the Continuous works."
+      },
+      {
+        "q": "They ___ a big house in the village.",
+        "options": [
+          "have",
+          "are having"
+        ],
+        "answer": 0,
+        "why": "have = own is a state."
+      },
+      {
+        "q": "We ___ lunch — call back in ten minutes.",
+        "options": [
+          "have",
+          "'re having"
+        ],
+        "answer": 1,
+        "why": "have lunch is an action, so the Continuous is fine."
+      },
+      {
+        "q": "___ you know the answer?",
+        "options": [
+          "Do",
+          "Are"
+        ],
+        "answer": 0,
+        "why": "A state verb takes do/does in questions."
+      },
+      {
+        "q": "He ___ that film — it's his favourite.",
+        "options": [
+          "loves",
+          "is loving"
+        ],
+        "answer": 0,
+        "why": "love is a state verb."
+      },
+      {
+        "q": "I ___ the sea from my window.",
+        "options": [
+          "see",
+          "am seeing"
+        ],
+        "answer": 0,
+        "why": "see = perceive is a state."
+      },
+      {
+        "q": "Which sentence is wrong?",
+        "options": [
+          "I'm needing help.",
+          "I need help.",
+          "I'm asking for help."
+        ],
+        "answer": 0,
+        "why": "need is a state verb."
       }
     ]
   },
@@ -896,6 +1703,108 @@
         ],
         "answer": 2
       }
+    ],
+    "practice": [
+      {
+        "q": "The lesson starts ___ five o'clock.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 0,
+        "why": "Clock times take at."
+      },
+      {
+        "q": "My birthday is ___ March.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 2,
+        "why": "Months take in."
+      },
+      {
+        "q": "We meet ___ Fridays.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 1,
+        "why": "Days take on."
+      },
+      {
+        "q": "I read ___ the evening.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 2,
+        "why": "Parts of the day take in — except night."
+      },
+      {
+        "q": "She sleeps badly ___ night.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 0,
+        "why": "at night is a fixed expression."
+      },
+      {
+        "q": "They got married ___ 2019.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 2,
+        "why": "Years take in."
+      },
+      {
+        "q": "The party is ___ 14 May.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 1,
+        "why": "Dates take on."
+      },
+      {
+        "q": "I'm busy ___ the weekend.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 0,
+        "why": "British English uses at the weekend."
+      },
+      {
+        "q": "We have a break ___ lunchtime.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 0,
+        "why": "at lunchtime is a fixed expression."
+      },
+      {
+        "q": "Choose the correct one.",
+        "options": [
+          "in every day",
+          "every day",
+          "on every day"
+        ],
+        "answer": 1,
+        "why": "every day takes no preposition."
+      }
     ]
   },
   {
@@ -993,6 +1902,98 @@
         ],
         "answer": 0
       }
+    ],
+    "practice": [
+      {
+        "q": "4:15 is …",
+        "options": [
+          "a quarter past four",
+          "a quarter to four"
+        ],
+        "answer": 0,
+        "why": "Minutes 1–30 are counted past the hour."
+      },
+      {
+        "q": "10:45 is …",
+        "options": [
+          "a quarter past eleven",
+          "a quarter to eleven"
+        ],
+        "answer": 1,
+        "why": "After half past we count to the next hour."
+      },
+      {
+        "q": "2:30 is …",
+        "options": [
+          "half past two",
+          "half past three"
+        ],
+        "answer": 0,
+        "why": "half past + the hour that has passed."
+      },
+      {
+        "q": "6:20 is …",
+        "options": [
+          "twenty past six",
+          "twenty to six"
+        ],
+        "answer": 0,
+        "why": "20 minutes after six."
+      },
+      {
+        "q": "9:55 is …",
+        "options": [
+          "five to ten",
+          "five past ten"
+        ],
+        "answer": 0,
+        "why": "Five minutes before ten."
+      },
+      {
+        "q": "8:00 is …",
+        "options": [
+          "eight o'clock",
+          "eight past"
+        ],
+        "answer": 0,
+        "why": "o'clock is used only for a full hour."
+      },
+      {
+        "q": "7:10 is …",
+        "options": [
+          "ten past seven",
+          "ten to seven"
+        ],
+        "answer": 0,
+        "why": "10 minutes after seven."
+      },
+      {
+        "q": "3:40 is …",
+        "options": [
+          "forty past three",
+          "twenty to four"
+        ],
+        "answer": 1,
+        "why": "After 30 we count to the next hour."
+      },
+      {
+        "q": "12:15 is …",
+        "options": [
+          "a quarter past twelve",
+          "a quarter to twelve"
+        ],
+        "answer": 0,
+        "why": "15 minutes after twelve."
+      },
+      {
+        "q": "Which is correct for 5:30?",
+        "options": [
+          "half six",
+          "half past five"
+        ],
+        "answer": 1,
+        "why": "In English half past five = 5:30."
+      }
     ]
   },
   {
@@ -1078,6 +2079,98 @@
         ],
         "answer": 1
       }
+    ],
+    "practice": [
+      {
+        "q": "I ___ my cousin at the weekend — we agreed yesterday.",
+        "options": [
+          "meet",
+          "'m meeting"
+        ],
+        "answer": 1,
+        "why": "An arrangement with someone takes the Continuous."
+      },
+      {
+        "q": "The train ___ at 6:15 — it's on the timetable.",
+        "options": [
+          "leaves",
+          "is leaving"
+        ],
+        "answer": 0,
+        "why": "Timetables take the Present Simple."
+      },
+      {
+        "q": "What ___ on Saturday?",
+        "options": [
+          "do you do",
+          "are you doing"
+        ],
+        "answer": 1,
+        "why": "Asking about plans already made."
+      },
+      {
+        "q": "We ___ to the seaside next week. The tickets are booked.",
+        "options": [
+          "go",
+          "'re going"
+        ],
+        "answer": 1,
+        "why": "A confirmed arrangement."
+      },
+      {
+        "q": "The film ___ at nine, so let's meet at half past eight.",
+        "options": [
+          "starts",
+          "is starting"
+        ],
+        "answer": 0,
+        "why": "A schedule takes the Simple."
+      },
+      {
+        "q": "She ___ the dentist tomorrow at four.",
+        "options": [
+          "sees",
+          "'s seeing"
+        ],
+        "answer": 1,
+        "why": "An appointment is an arrangement."
+      },
+      {
+        "q": "They ___ tonight — they changed their minds.",
+        "options": [
+          "don't come",
+          "aren't coming"
+        ],
+        "answer": 1,
+        "why": "A cancelled arrangement takes the Continuous."
+      },
+      {
+        "q": "My lessons ___ at 8:30 every day.",
+        "options": [
+          "begin",
+          "are beginning"
+        ],
+        "answer": 0,
+        "why": "A timetable takes the Simple."
+      },
+      {
+        "q": "___ you doing anything on Sunday?",
+        "options": [
+          "Are",
+          "Do"
+        ],
+        "answer": 0,
+        "why": "The Continuous question takes are."
+      },
+      {
+        "q": "Which one is an arrangement, not a timetable?",
+        "options": [
+          "The bus arrives at ten.",
+          "I'm having lunch with Max at one."
+        ],
+        "answer": 1,
+        "why": "Lunch with a person is agreed, not scheduled by anyone else."
+      }
     ]
   },
   {
@@ -1154,6 +2247,98 @@
           "isn't"
         ],
         "answer": 0
+      }
+    ],
+    "practice": [
+      {
+        "q": "How long ___ it take you to get to school?",
+        "options": [
+          "do",
+          "does"
+        ],
+        "answer": 1,
+        "why": "The subject is it → does."
+      },
+      {
+        "q": "It ___ me an hour to do my homework.",
+        "options": [
+          "takes",
+          "is taking"
+        ],
+        "answer": 0,
+        "why": "A regular fact takes the Simple."
+      },
+      {
+        "q": "It ___ take me long to get ready.",
+        "options": [
+          "doesn't",
+          "isn't"
+        ],
+        "answer": 0,
+        "why": "The Simple negative takes doesn't."
+      },
+      {
+        "q": "It takes me twenty minutes ___ to school.",
+        "options": [
+          "to walk",
+          "for walk"
+        ],
+        "answer": 0,
+        "why": "to + infinitive."
+      },
+      {
+        "q": "Choose the correct question.",
+        "options": [
+          "How long do you go to school?",
+          "How long does it take you to get to school?"
+        ],
+        "answer": 1,
+        "why": "The pattern needs it as the subject."
+      },
+      {
+        "q": "How long ___ it take to cook rice?",
+        "options": [
+          "does",
+          "is"
+        ],
+        "answer": 0,
+        "why": "it → does."
+      },
+      {
+        "q": "It ___ him two hours to finish the test.",
+        "options": [
+          "took",
+          "taked"
+        ],
+        "answer": 0,
+        "why": "take → took in the past."
+      },
+      {
+        "q": "___ long does it take to get there by bus?",
+        "options": [
+          "How",
+          "What"
+        ],
+        "answer": 0,
+        "why": "How long asks about duration."
+      },
+      {
+        "q": "It takes ___ ten minutes to warm up.",
+        "options": [
+          "me",
+          "to me"
+        ],
+        "answer": 0,
+        "why": "The object pronoun goes straight after takes."
+      },
+      {
+        "q": "How long is it ___ you to finish? You started an hour ago.",
+        "options": [
+          "taking",
+          "take"
+        ],
+        "answer": 0,
+        "why": "The Continuous works for something still going on."
       }
     ]
   }
