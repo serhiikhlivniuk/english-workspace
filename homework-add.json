@@ -1,0 +1,40 @@
+{
+  "id": "hw-04",
+  "lesson": "lesson-04",
+  "title": "Homework after Lesson 4",
+  "assigned": "2026-09-21",
+  "due": "2026-09-25",
+  "note": "The writing task is the main one. Do the irregular verbs in small groups of three, not all at once.",
+  "items": [
+    {
+      "id": "hw-04-1",
+      "text": "Exercise 14: write 90–120 words about a day that went wrong. Real or invented.",
+      "type": "writing"
+    },
+    {
+      "id": "hw-04-2",
+      "text": "Learn the 24 words from Lesson 4 — strong adjectives, narrative verbs and linkers.",
+      "type": "vocab"
+    },
+    {
+      "id": "hw-04-3",
+      "text": "Learn the irregular verbs from the Grammar tab. Three a day is enough.",
+      "type": "grammar"
+    },
+    {
+      "id": "hw-04-4",
+      "text": "Finish Exercises 15 and 16 on the lesson page (all four tenses, find the mistake).",
+      "type": "grammar"
+    },
+    {
+      "id": "hw-04-5",
+      "text": "Take the quizzes in the Grammar section: Past Simple, Past Continuous, while / when.",
+      "type": "grammar"
+    },
+    {
+      "id": "hw-04-6",
+      "text": "Optional: do the two exercises on the British Council page for the Sherlock Holmes video.",
+      "type": "listening"
+    }
+  ]
+}

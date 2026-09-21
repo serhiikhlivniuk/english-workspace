@@ -1,0 +1,421 @@
+[
+  {
+    "id": "past-simple-forms",
+    "group": "Tenses",
+    "title": "Past Simple: forms and spelling",
+    "uk": "утворення минулого часу",
+    "level": "A2+",
+    "summary": "Regular -ed, irregular verbs, and the one rule that fixes most mistakes: no second form after did.",
+    "lessons": [
+      "lesson-02",
+      "lesson-04"
+    ],
+    "rules": [
+      {
+        "name": "Regular verbs",
+        "form": "verb + -ed",
+        "when": "Spelling: wait → waited · decide → decided · grab → grabbed · study → studied (but play → played).",
+        "examples": [
+          {
+            "en": "I waited for the bus for twenty minutes.",
+            "uk": "Я чекав автобус двадцять хвилин."
+          },
+          {
+            "en": "She grabbed her bag and ran.",
+            "uk": "Вона схопила сумку і побігла."
+          }
+        ]
+      },
+      {
+        "name": "Negatives and questions",
+        "form": "didn't + infinitive · Did + subject + infinitive?",
+        "when": "The past is already inside did, so the main verb goes back to its first form.",
+        "examples": [
+          {
+            "en": "My alarm didn't go off.",
+            "uk": "Мій будильник не задзвонив."
+          },
+          {
+            "en": "What time did she get home?",
+            "uk": "О котрій вона повернулася додому?"
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "I didn't went to school.",
+        "right": "I didn't go to school.",
+        "note": "one past marker is enough — it is in did"
+      },
+      {
+        "wrong": "Did you went there?",
+        "right": "Did you go there?",
+        "note": "same rule in questions"
+      },
+      {
+        "wrong": "He goed to the shop.",
+        "right": "He went to the shop.",
+        "note": "go is irregular"
+      },
+      {
+        "wrong": "I stoped and looked back.",
+        "right": "I stopped and looked back.",
+        "note": "short vowel + one consonant: double it"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "I ___ for the bus for twenty minutes.",
+        "options": [
+          "waited",
+          "waitted",
+          "waded"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "She ___ on the wet floor.",
+        "options": [
+          "sliped",
+          "slipped",
+          "sliping"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We ___ to school yesterday.",
+        "options": [
+          "didn't went",
+          "didn't go"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What time ___ home?",
+        "options": [
+          "did she get",
+          "did she got"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "He ___ nothing and just looked at me.",
+        "options": [
+          "sayed",
+          "said"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "ed-pronunciation",
+    "group": "Pronunciation",
+    "title": "The three -ed sounds",
+    "uk": "вимова закінчення -ed",
+    "level": "A2+",
+    "summary": "-ed is pronounced /t/, /d/ or /ɪd/ — and only the last one adds a syllable.",
+    "lessons": [
+      "lesson-04"
+    ],
+    "rules": [
+      {
+        "name": "/t/ after a voiceless sound",
+        "form": "walked · missed · stopped · watched · laughed",
+        "when": "After sounds like /k/, /s/, /p/, /tʃ/, /f/. No extra syllable.",
+        "examples": [
+          {
+            "en": "I walked home in the rain.",
+            "uk": "Я йшов додому під дощем."
+          }
+        ]
+      },
+      {
+        "name": "/d/ after a voiced sound",
+        "form": "opened · called · arrived · realised · grabbed",
+        "when": "After vowels and voiced consonants. No extra syllable.",
+        "examples": [
+          {
+            "en": "She opened the door.",
+            "uk": "Вона відчинила двері."
+          }
+        ]
+      },
+      {
+        "name": "/ɪd/ only after /t/ or /d/",
+        "form": "wanted · started · decided · needed · landed",
+        "when": "This is the only group that adds a whole syllable.",
+        "examples": [
+          {
+            "en": "We decided to walk instead.",
+            "uk": "Ми вирішили піти пішки."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "walk-ed (two syllables)",
+        "right": "walked (one syllable)",
+        "note": "only /t/ and /d/ endings add a syllable"
+      },
+      {
+        "wrong": "want-d",
+        "right": "wanted /ˈwɒntɪd/",
+        "note": "after t the ending is a full syllable"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "worked",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "wanted",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "opened",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "watched",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "decided",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "arrived",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "while-when",
+    "group": "Tenses",
+    "title": "while and when",
+    "uk": "Past Simple разом з Past Continuous",
+    "level": "A2+",
+    "summary": "The long action is the background; the short one cuts across it.",
+    "lessons": [
+      "lesson-02",
+      "lesson-04"
+    ],
+    "rules": [
+      {
+        "name": "Background and event",
+        "form": "was / were + -ing  +  Past Simple",
+        "when": "Something was already going on when a short event happened.",
+        "examples": [
+          {
+            "en": "While I was waiting at the bus stop, a van soaked me.",
+            "uk": "Поки я чекав на зупинці, мене облив фургон."
+          },
+          {
+            "en": "He broke his arm while he was playing basketball.",
+            "uk": "Він зламав руку, коли грав у баскетбол."
+          }
+        ]
+      },
+      {
+        "name": "Which word goes where",
+        "form": "while + long action · when + short event",
+        "when": "Both orders are possible; the tense tells you which action is which.",
+        "examples": [
+          {
+            "en": "I was reading when the lights went out.",
+            "uk": "Я читав, коли згасло світло."
+          }
+        ]
+      },
+      {
+        "name": "Two long actions together",
+        "form": "was/were + -ing  +  was/were + -ing",
+        "when": "Both actions lasted and happened at the same time.",
+        "examples": [
+          {
+            "en": "While I was cooking, my brother was playing video games.",
+            "uk": "Поки я готував, брат грав у відеоігри."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "While I walked home, I saw an accident.",
+        "right": "While I was walking home, I saw an accident.",
+        "note": "while marks the long action"
+      },
+      {
+        "wrong": "They was waiting for me.",
+        "right": "They were waiting for me.",
+        "note": "they / we / you take were"
+      },
+      {
+        "wrong": "I was knowing the answer.",
+        "right": "I knew the answer.",
+        "note": "state verbs never take the Continuous"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "While I ___ at the bus stop, a van soaked me.",
+        "options": [
+          "waited",
+          "was waiting"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "It ___ to rain while we were walking home.",
+        "options": [
+          "started",
+          "was starting"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What ___ when I phoned you?",
+        "options": [
+          "did you do",
+          "were you doing"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When the bell ___, everybody stood up.",
+        "options": [
+          "rang",
+          "was ringing"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "While I was cooking, my brother ___ video games.",
+        "options": [
+          "played",
+          "was playing"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "strong-adjectives",
+    "group": "Vocabulary",
+    "title": "Strong adjectives",
+    "uk": "сильні прикметники",
+    "level": "A2+",
+    "summary": "freezing, starving, exhausted — words that already mean 'very'.",
+    "lessons": [
+      "lesson-04"
+    ],
+    "rules": [
+      {
+        "name": "They already contain 'very'",
+        "form": "cold → freezing · hungry → starving · tired → exhausted · angry → furious · wet → soaked · surprised → stunned",
+        "when": "Use them instead of very + ordinary adjective.",
+        "examples": [
+          {
+            "en": "I was absolutely freezing.",
+            "uk": "Я страшенно змерз."
+          },
+          {
+            "en": "By lunchtime I was starving.",
+            "uk": "На обід я був страшенно голодний."
+          }
+        ]
+      },
+      {
+        "name": "Which intensifier",
+        "form": "very + ordinary · absolutely + strong",
+        "when": "very cold, but absolutely freezing.",
+        "examples": [
+          {
+            "en": "It was very cold. / It was absolutely freezing.",
+            "uk": "Було дуже холодно. / Було просто крижано."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "very freezing",
+        "right": "absolutely freezing",
+        "note": "strong adjectives do not take very"
+      },
+      {
+        "wrong": "absolutely cold",
+        "right": "very cold",
+        "note": "ordinary adjectives do not take absolutely"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "After the match we were ___.",
+        "options": [
+          "very exhausted",
+          "absolutely exhausted"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "The water was ___.",
+        "options": [
+          "very cold",
+          "absolutely cold"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "extremely hungry =",
+        "options": [
+          "starving",
+          "soaked"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "completely wet =",
+        "options": [
+          "stunned",
+          "soaked"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

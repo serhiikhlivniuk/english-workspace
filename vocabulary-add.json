@@ -1,0 +1,275 @@
+[
+  {
+    "word": "starving",
+    "pos": "adj",
+    "def": "extremely hungry",
+    "uk": "дуже голодний",
+    "example": "By the time I got to school I was starving.",
+    "lesson": "lesson-04",
+    "tags": [
+      "adjective",
+      "feelings"
+    ]
+  },
+  {
+    "word": "soaked",
+    "pos": "adj",
+    "def": "completely wet, right through your clothes",
+    "uk": "промоклий наскрізь",
+    "example": "A van drove through a puddle and soaked me.",
+    "lesson": "lesson-04",
+    "tags": [
+      "adjective",
+      "weather"
+    ]
+  },
+  {
+    "word": "freezing",
+    "pos": "adj",
+    "def": "extremely cold",
+    "uk": "дуже холодний, крижаний",
+    "example": "It was freezing outside and raining hard.",
+    "lesson": "lesson-04",
+    "tags": [
+      "adjective",
+      "weather"
+    ]
+  },
+  {
+    "word": "exhausted",
+    "pos": "adj",
+    "def": "so tired that you can hardly move",
+    "uk": "виснажений",
+    "example": "By four o'clock I was exhausted.",
+    "lesson": "lesson-04",
+    "tags": [
+      "adjective",
+      "feelings"
+    ]
+  },
+  {
+    "word": "furious",
+    "pos": "adj",
+    "def": "extremely angry",
+    "uk": "розлючений",
+    "example": "I was still furious with my alarm clock.",
+    "lesson": "lesson-04",
+    "tags": [
+      "adjective",
+      "feelings"
+    ]
+  },
+  {
+    "word": "relieved",
+    "pos": "adj",
+    "def": "happy because something bad is finally over",
+    "uk": "з полегшенням",
+    "example": "I was relieved that the day was over.",
+    "lesson": "lesson-04",
+    "tags": [
+      "adjective",
+      "feelings"
+    ]
+  },
+  {
+    "word": "stunned",
+    "pos": "adj",
+    "def": "so shocked that you cannot react",
+    "uk": "приголомшений",
+    "example": "I stood there, absolutely stunned.",
+    "lesson": "lesson-04",
+    "tags": [
+      "adjective",
+      "feelings"
+    ]
+  },
+  {
+    "word": "awkward",
+    "pos": "adj",
+    "def": "uncomfortable and embarrassing",
+    "uk": "незручний, ніяковий",
+    "example": "There was an awkward silence in the class.",
+    "lesson": "lesson-04",
+    "tags": [
+      "adjective",
+      "feelings"
+    ]
+  },
+  {
+    "word": "glance",
+    "pos": "verb",
+    "def": "to look at something very quickly",
+    "uk": "кинути погляд",
+    "example": "He glanced at me over his glasses and said nothing.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "rush",
+    "pos": "verb",
+    "def": "to move somewhere in a big hurry",
+    "uk": "мчати, поспішати",
+    "example": "I grabbed my clothes and rushed out.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "slip",
+    "pos": "verb",
+    "def": "to slide by accident and almost fall",
+    "uk": "послизнутися",
+    "example": "I slipped on the corridor floor.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "grab",
+    "pos": "verb",
+    "def": "to take something suddenly with your hand",
+    "uk": "схопити",
+    "example": "She grabbed her bag and ran.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "panic",
+    "pos": "verb",
+    "def": "to suddenly feel so frightened that you cannot think",
+    "uk": "панікувати",
+    "example": "I woke up at eight and panicked.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative",
+      "feelings"
+    ]
+  },
+  {
+    "word": "realise",
+    "pos": "verb",
+    "def": "to suddenly understand something",
+    "uk": "усвідомити",
+    "example": "I didn't realise that it was raining.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "notice",
+    "pos": "verb",
+    "def": "to see or hear something without looking for it",
+    "uk": "помітити",
+    "example": "Nobody noticed that I was late.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "manage to",
+    "pos": "phrase",
+    "def": "to succeed in doing something difficult",
+    "uk": "спромогтися, зуміти",
+    "example": "I managed to catch the last bus.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "end up",
+    "pos": "phrasal verb",
+    "def": "to be somewhere or in a situation you did not plan",
+    "uk": "опинитися, закінчити тим, що…",
+    "example": "I ended up walking forty minutes in the rain.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "run into",
+    "pos": "phrasal verb",
+    "def": "to meet somebody by chance",
+    "uk": "натрапити, випадково зустріти",
+    "example": "At lunchtime I ran into Daria.",
+    "lesson": "lesson-04",
+    "tags": [
+      "narrative"
+    ]
+  },
+  {
+    "word": "suddenly",
+    "pos": "adverb",
+    "def": "quickly and unexpectedly",
+    "uk": "раптом",
+    "example": "I was reading when suddenly the lights went out.",
+    "lesson": "lesson-04",
+    "tags": [
+      "linker"
+    ]
+  },
+  {
+    "word": "meanwhile",
+    "pos": "adverb",
+    "def": "at the same time, in another place or situation",
+    "uk": "тим часом",
+    "example": "The bus, meanwhile, went past without stopping.",
+    "lesson": "lesson-04",
+    "tags": [
+      "linker"
+    ]
+  },
+  {
+    "word": "eventually",
+    "pos": "adverb",
+    "def": "in the end, after a long time",
+    "uk": "зрештою, врешті-решт",
+    "example": "We waited forty minutes and eventually a taxi arrived.",
+    "lesson": "lesson-04",
+    "tags": [
+      "linker"
+    ]
+  },
+  {
+    "word": "immediately",
+    "pos": "adverb",
+    "def": "at once, without any delay",
+    "uk": "негайно",
+    "example": "She saw the smoke and immediately called her father.",
+    "lesson": "lesson-04",
+    "tags": [
+      "linker"
+    ]
+  },
+  {
+    "word": "luckily",
+    "pos": "adverb",
+    "def": "it is fortunate that…",
+    "uk": "на щастя",
+    "example": "Luckily, nobody was hurt.",
+    "lesson": "lesson-04",
+    "tags": [
+      "linker"
+    ]
+  },
+  {
+    "word": "by the time",
+    "pos": "phrase",
+    "def": "used to say that something had already happened when another thing happened",
+    "uk": "на той час, коли",
+    "example": "By the time I got to school, the lesson had started.",
+    "lesson": "lesson-04",
+    "tags": [
+      "linker"
+    ]
+  }
+]
