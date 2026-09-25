@@ -105,11 +105,17 @@ const EW = (() => {
         const localVal = get(r.key, null);
         const localTs = get(r.key + ':ts', 0);
         const remoteTs = Date.parse(r.updated_at) || 0;
-        if (Array.isArray(r.value) && Array.isArray(localVal)) {
-          const merged = [...new Set([...localVal, ...r.value])];
+        if (Array.isArray(r.value) && (Array.isArray(localVal) || localVal === null)) {
+          // dedupe by content: objects (e.g. picked-up words) are never === each other,
+          // so a plain Set doubled the list on every page load
+          const seen = new Set(), merged = [];
+          for (const x of [...(localVal || []), ...r.value]) {
+            const id = x && typeof x === 'object' ? (x.word != null ? `${x.word}|${x.at || ''}` : JSON.stringify(x)) : x;
+            if (!seen.has(id)) { seen.add(id); merged.push(x); }
+          }
           setLocal(r.key, merged);
           setLocal(r.key + ':ts', Math.max(localTs, remoteTs));
-          if (merged.length > r.value.length) push('progress', { key: r.key, value: merged });
+          if (merged.length !== r.value.length) push('progress', { key: r.key, value: merged });
         } else if (localVal === null || remoteTs > localTs) {
           setLocal(r.key, r.value);
           setLocal(r.key + ':ts', remoteTs);

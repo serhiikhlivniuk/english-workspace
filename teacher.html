@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
-<link rel="stylesheet" href="assets/app.css?v=4">
+<link rel="stylesheet" href="assets/app.css?v=5">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%236C4CF1'/><text x='50' y='68' font-size='52' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>EN</text></svg>">
 <title>Teacher · English Workspace</title>
 </head>
@@ -27,11 +27,12 @@
   <div class="section"><div class="card"><h2>Recent quiz results</h2><div id="events"></div></div></div>
   <div class="section"><div class="card"><h2>Words the student picked up <span class="tag t-lime">inbox</span></h2><div id="inbox"></div></div></div>
   <div class="section"><div class="card"><h2>Recent activity</h2><div id="activity"></div></div></div>
+  <div class="section"><div class="card"><h2>Watch the worksheet live <span class="tag t-lime">live</span></h2><div id="live"></div></div></div>
   <div class="section"><div class="card"><h2>Answers in lesson worksheets</h2><div id="sheets"></div></div></div>
 </main>
-<script src="assets/store.js?v=4"></script>
-<script src="assets/app.js?v=4"></script>
-<script src="assets/wordgrab.js?v=4"></script>
+<script src="assets/store.js?v=5"></script>
+<script src="assets/app.js?v=5"></script>
+<script src="assets/wordgrab.js?v=5"></script>
 <script>
 (async () => {
   const [cfg, hw, vocab, grammar, lessons] = await Promise.all([
@@ -148,12 +149,16 @@
            </span></li>`).join('')}</ul>`
     : '<p class="muted">Nothing yet. The student selects a word anywhere on the site and presses “Add to my words” — it lands here.</p>';
 
+  const liveList = lessons.filter(l => l.file).map(l =>
+    `<a href="${esc(l.file)}?watch" target="_blank" rel="noopener" class="tag t-lime" style="text-decoration:none">● ${esc('Lesson ' + l.number)}</a>`).join(' ');
+  $('#live').innerHTML = `<p class="muted" style="margin:0 0 8px">Opens the worksheet exactly as the student sees it, read-only, updating every 3 seconds. Keep it open during the lesson.</p>${liveList}`;
   const skeys = Object.keys(sheets);
   $('#sheets').innerHTML = skeys.length
     ? skeys.map(k => {
         const v = sheets[k] || {};
         const a = v.answers || {};
-        return `<h3 style="margin-top:16px">${esc(k.split(':')[1])} <span class="muted" style="font-weight:400">— ${v.filled || 0} fields, ${v.updated ? new Date(v.updated).toLocaleString('en-GB') : ''}</span></h3>
+        return `<h3 style="margin-top:16px">${esc(k.split(':')[1])} <span class="muted" style="font-weight:400">— ${v.filled || 0} fields, ${v.updated ? new Date(v.updated).toLocaleString('en-GB') : ''}</span>
+            <a href="lessons/${encodeURIComponent(k.split(':')[1])}.html?watch" target="_blank" rel="noopener" style="font-size:13px;margin-left:8px">Watch live →</a></h3>
           <ul class="list">${Object.keys(a).slice(0, 60).map(f =>
             `<li class="row" style="padding:8px 12px"><span class="mono muted" style="min-width:90px">${esc(f)}</span>
              <span class="grow">${esc(String(a[f]))}</span></li>`).join('')}</ul>`;

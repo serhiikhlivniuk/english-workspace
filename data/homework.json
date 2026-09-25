@@ -1,5 +1,45 @@
 [
   {
+    "id": "hw-05",
+    "lesson": "lesson-05",
+    "title": "Homework after Lesson 5",
+    "assigned": "2026-09-25",
+    "due": "2026-09-28",
+    "note": "Two things are the main ones: the bucket-list text and the unfinished work from Lesson 4. Type everything on the lesson pages — that is how I see it.",
+    "items": [
+      {
+        "id": "hw-05-1",
+        "text": "Exercise 10: write your bucket list, 70–95 words — three things you've done (with one Past Simple detail each) and two you haven't done yet.",
+        "type": "writing"
+      },
+      {
+        "id": "hw-05-2",
+        "text": "Carry-over from Lesson 4: type your Exercise 14 story into the box on the Lesson 4 page and finish Exercises 15 and 16 there.",
+        "type": "writing"
+      },
+      {
+        "id": "hw-05-3",
+        "text": "Learn the 16 words from Lesson 5 and the third forms from the Grammar tab — five verbs a day.",
+        "type": "vocab"
+      },
+      {
+        "id": "hw-05-4",
+        "text": "Finish the extra Exercises 11 and 12 on the Lesson 5 page (find the mistake, just / already / yet).",
+        "type": "grammar"
+      },
+      {
+        "id": "hw-05-5",
+        "text": "Take the quizzes in the Grammar section: Present Perfect: experiences, and Present Perfect vs Past Simple.",
+        "type": "grammar"
+      },
+      {
+        "id": "hw-05-6",
+        "text": "Optional: do the exercises on the British Council page for the Skateboarding heroes video.",
+        "type": "listening"
+      }
+    ]
+  },
+  {
     "id": "hw-04",
     "lesson": "lesson-04",
     "title": "Homework after Lesson 4",

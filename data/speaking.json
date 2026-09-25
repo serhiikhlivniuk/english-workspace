@@ -1,5 +1,50 @@
 [
   {
+    "id": "sp-05",
+    "lesson": "lesson-05",
+    "title": "Have you ever…?",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Ask about experiences in the Present Perfect and keep the conversation going with Past Simple follow-up questions.",
+    "grammar": [
+      "present-perfect-experience",
+      "present-perfect-vs-past-simple"
+    ],
+    "warmup": [
+      "Name three things you've done this week that you didn't do last week.",
+      "What's the most unusual food you've ever tried?",
+      "Name one place you've never been to but really want to see."
+    ],
+    "main": {
+      "task": "Interview: find three experiences we both have and three that only one of us has.",
+      "howto": "Ask a 'Have you ever…?' question. If the answer is Yes, ask at least two follow-up questions in the Past Simple. Then answer my questions the same way — never just 'Yes, I have.'",
+      "prompts": [
+        "Have you ever got lost somewhere?",
+        "Have you ever broken a bone?",
+        "Have you ever met someone famous?",
+        "Have you ever stayed up all night?",
+        "Have you ever won something?",
+        "Have you ever been really embarrassed in public?",
+        "Have you ever slept in a tent?",
+        "Have you ever tried a sport that went badly?"
+      ]
+    },
+    "phrases": [
+      "Yes, I have — it was…",
+      "No, I haven't, but I'd love to…",
+      "No, never. Have you?",
+      "Once, when I was…",
+      "I've done it a couple of times.",
+      "When did that happen?",
+      "How did you feel? — I was absolutely…"
+    ],
+    "followup": [
+      "Which experience from your list would you like to repeat?",
+      "What's the next thing you want to try? Why?"
+    ],
+    "teacher": "Hold him to two follow-ups after every 'Yes'. Switch tense out loud if he stays in the Present Perfect for the details: 'When? → Past Simple.' Push the strong adjectives from Lesson 4 in the 'How did you feel?' answers."
+  },
+  {
     "id": "sp-04",
     "lesson": "lesson-04",
     "title": "The day it all went wrong",

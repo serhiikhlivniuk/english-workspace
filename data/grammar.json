@@ -3152,5 +3152,618 @@
         "why": "awkward = uncomfortable and embarrassing."
       }
     ]
+  },
+  {
+    "id": "present-perfect-experience",
+    "group": "Tenses",
+    "title": "Present Perfect: experiences",
+    "uk": "Досвід у житті: have you ever…?",
+    "level": "A2+ → B1",
+    "summary": "Something has happened at some time in your life — when exactly doesn't matter.",
+    "lessons": [
+      "lesson-05"
+    ],
+    "rules": [
+      {
+        "name": "Form",
+        "form": "have / has + past participle (V3)\nI've seen · she's been · we haven't tried · Have you ever…?",
+        "when": "he / she / it → has; I / you / we / they → have. Regular verbs: V3 = -ed (visited). Irregular: learn the third form (been, seen, eaten).",
+        "examples": [
+          {
+            "en": "I've visited London twice.",
+            "uk": "Я двічі був у Лондоні."
+          },
+          {
+            "en": "She has never eaten sushi.",
+            "uk": "Вона ніколи не їла суші."
+          }
+        ]
+      },
+      {
+        "name": "ever and never",
+        "form": "Have you ever + V3 …? · I've never + V3 …",
+        "when": "ever = at any time in your life (questions). never = not at any time (it is already negative).",
+        "examples": [
+          {
+            "en": "Have you ever ridden a horse?",
+            "uk": "Ти колись їздив верхи?"
+          },
+          {
+            "en": "I've never been abroad.",
+            "uk": "Я ніколи не був за кордоном."
+          }
+        ]
+      },
+      {
+        "name": "Short answers",
+        "form": "Yes, I have. · No, I haven't. · Yes, she has. · No, she hasn't.",
+        "when": "Answer with have / has — never with the V3 and never 'Yes, I've.'",
+        "examples": [
+          {
+            "en": "Has your dad ever climbed a mountain? — Yes, he has.",
+            "uk": "Твій тато колись підіймався на гору? — Так."
+          }
+        ]
+      },
+      {
+        "name": "been or gone",
+        "form": "been to = went and came back · gone to = is there now",
+        "when": "For experiences we almost always use been.",
+        "examples": [
+          {
+            "en": "I've been to Kyiv three times.",
+            "uk": "Я тричі був у Києві (і повернувся)."
+          },
+          {
+            "en": "Max isn't here — he's gone to the shop.",
+            "uk": "Макса немає — він пішов у магазин (він ще там)."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "Have you ever went to Italy?",
+        "right": "Have you ever been to Italy?",
+        "note": "after have / has comes the V3, not the Past Simple"
+      },
+      {
+        "wrong": "She has never eat sushi.",
+        "right": "She has never eaten sushi.",
+        "note": "V3 of eat is eaten"
+      },
+      {
+        "wrong": "My parents has visited Prague.",
+        "right": "My parents have visited Prague.",
+        "note": "they → have"
+      },
+      {
+        "wrong": "Yes, I've.",
+        "right": "Yes, I have.",
+        "note": "no short form at the end of a short answer"
+      },
+      {
+        "wrong": "I haven't never been there.",
+        "right": "I've never been there.",
+        "note": "never is already negative"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "I ___ to Poland twice.",
+        "options": [
+          "have been",
+          "have gone"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Have you ever ___ a horse?",
+        "options": [
+          "rode",
+          "ridden"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "My sister ___ never tried surfing.",
+        "options": [
+          "have",
+          "has"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Has he ever won a prize? — Yes, he ___.",
+        "options": [
+          "has",
+          "won"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Where's Olia? — She's ___ to school.",
+        "options": [
+          "been",
+          "gone"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "I ___ to Poland twice.",
+        "options": [
+          "have been",
+          "have gone"
+        ],
+        "answer": 0,
+        "why": "Experience — you went and came back, so been."
+      },
+      {
+        "q": "Have you ever ___ a horse?",
+        "options": [
+          "rode",
+          "ridden"
+        ],
+        "answer": 1,
+        "why": "After have you need the V3: ride – rode – ridden."
+      },
+      {
+        "q": "My sister ___ never tried surfing.",
+        "options": [
+          "have",
+          "has"
+        ],
+        "answer": 1,
+        "why": "she → has."
+      },
+      {
+        "q": "Has he ever won a prize? — Yes, he ___.",
+        "options": [
+          "has",
+          "won"
+        ],
+        "answer": 0,
+        "why": "Short answers use has / have, not the main verb."
+      },
+      {
+        "q": "Where's Olia? — She's ___ to school.",
+        "options": [
+          "been",
+          "gone"
+        ],
+        "answer": 1,
+        "why": "She is at school now → gone."
+      },
+      {
+        "q": "We ___ a real shark.",
+        "options": [
+          "have never seen",
+          "haven't never seen"
+        ],
+        "answer": 0,
+        "why": "never is already negative — no haven't."
+      },
+      {
+        "q": "___ your parents ever been to the sea in winter?",
+        "options": [
+          "Have",
+          "Has"
+        ],
+        "answer": 0,
+        "why": "parents = they → have."
+      },
+      {
+        "q": "She has ___ three books this year.",
+        "options": [
+          "wrote",
+          "written"
+        ],
+        "answer": 1,
+        "why": "write – wrote – written."
+      },
+      {
+        "q": "Which answer is correct? Have you ever broken a bone?",
+        "options": [
+          "Yes, I've.",
+          "Yes, I have."
+        ],
+        "answer": 1,
+        "why": "No contraction at the end of a short answer."
+      },
+      {
+        "q": "I've ___ Japanese food, but I didn't like it.",
+        "options": [
+          "try",
+          "tried"
+        ],
+        "answer": 1,
+        "why": "Regular verb: the V3 is the same as the Past Simple — tried."
+      }
+    ]
+  },
+  {
+    "id": "present-perfect-vs-past-simple",
+    "group": "Tenses",
+    "title": "Present Perfect vs Past Simple",
+    "uk": "Коли досвід, а коли конкретний момент у минулому",
+    "summary": "No time → Present Perfect. A finished time (yesterday, last summer, in 2020, when I was ten) → Past Simple.",
+    "lessons": [
+      "lesson-05"
+    ],
+    "rules": [
+      {
+        "name": "The one question to ask",
+        "form": "no time said → Present Perfect  ·  finished time → Past Simple",
+        "when": "If you can answer 'When?' with a finished time, it's the Past Simple.",
+        "examples": [
+          {
+            "en": "I've been to Lviv.",
+            "uk": "Я був у Львові (колись, неважливо коли)."
+          },
+          {
+            "en": "I went to Lviv last summer.",
+            "uk": "Я їздив до Львова минулого літа."
+          }
+        ]
+      },
+      {
+        "name": "The conversation pattern",
+        "form": "Have you ever…? → Yes, I have. → When / Where / Who / How did you…?",
+        "when": "Open with the Present Perfect, then switch to the Past Simple for the details.",
+        "examples": [
+          {
+            "en": "Have you ever broken a bone? — Yes, I have. I broke my arm when I was nine.",
+            "uk": "Ти колись ламав кістку? — Так. Я зламав руку, коли мені було дев'ять."
+          }
+        ]
+      },
+      {
+        "name": "Time words",
+        "form": "PP: ever · never · before · so far · this year · twice\nPS: yesterday · last week · in 2019 · ago · when I was…",
+        "when": "'this year' / 'today' are not finished yet → Present Perfect. Questions with When? always take the Past Simple.",
+        "examples": [
+          {
+            "en": "She's won three medals so far.",
+            "uk": "Поки що вона виграла три медалі."
+          },
+          {
+            "en": "When did you start skateboarding?",
+            "uk": "Коли ти почав кататися на скейті?"
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "I have seen that film last week.",
+        "right": "I saw that film last week.",
+        "note": "last week is finished time → Past Simple"
+      },
+      {
+        "wrong": "When have you started school?",
+        "right": "When did you start school?",
+        "note": "When? asks about a moment → Past Simple"
+      },
+      {
+        "wrong": "Did you ever try snails?",
+        "right": "Have you ever tried snails?",
+        "note": "experience in your whole life → Present Perfect"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "I ___ that film last week.",
+        "options": [
+          "have seen",
+          "saw"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "___ you ever been to a concert?",
+        "options": [
+          "Have",
+          "Did"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "When ___ skateboarding?",
+        "options": [
+          "have you started",
+          "did you start"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "She ___ three medals so far.",
+        "options": [
+          "has won",
+          "won"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "My grandad ___ his leg in 2019.",
+        "options": [
+          "has broken",
+          "broke"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "I ___ that film last week.",
+        "options": [
+          "have seen",
+          "saw"
+        ],
+        "answer": 1,
+        "why": "last week — finished time → Past Simple."
+      },
+      {
+        "q": "___ you ever been to a concert?",
+        "options": [
+          "Have",
+          "Did"
+        ],
+        "answer": 0,
+        "why": "ever + experience → Present Perfect."
+      },
+      {
+        "q": "When ___ skateboarding?",
+        "options": [
+          "have you started",
+          "did you start"
+        ],
+        "answer": 1,
+        "why": "When? asks for a moment → Past Simple."
+      },
+      {
+        "q": "She ___ three medals so far.",
+        "options": [
+          "has won",
+          "won"
+        ],
+        "answer": 0,
+        "why": "so far = up to now → Present Perfect."
+      },
+      {
+        "q": "My grandad ___ his leg in 2019.",
+        "options": [
+          "has broken",
+          "broke"
+        ],
+        "answer": 1,
+        "why": "in 2019 — finished time."
+      },
+      {
+        "q": "Have you ever been to Lviv? — Yes, I ___ there last summer.",
+        "options": [
+          "have gone",
+          "went"
+        ],
+        "answer": 1,
+        "why": "The detail with a time → Past Simple."
+      },
+      {
+        "q": "I ___ this book twice — it's my favourite.",
+        "options": [
+          "have read",
+          "read (past)"
+        ],
+        "answer": 0,
+        "why": "Experience, no time said → Present Perfect."
+      },
+      {
+        "q": "We ___ to the sea two years ago.",
+        "options": [
+          "have been",
+          "went"
+        ],
+        "answer": 1,
+        "why": "ago → Past Simple."
+      },
+      {
+        "q": "How ___ when you won?",
+        "options": [
+          "have you felt",
+          "did you feel"
+        ],
+        "answer": 1,
+        "why": "Question about a moment in the past → Past Simple."
+      },
+      {
+        "q": "I ___ my phone three times this year!",
+        "options": [
+          "have lost",
+          "lost"
+        ],
+        "answer": 0,
+        "why": "this year isn't finished → Present Perfect."
+      }
+    ]
+  },
+  {
+    "id": "just-already-yet",
+    "group": "Tenses",
+    "title": "just · already · yet",
+    "uk": "Щойно, вже, ще (не)",
+    "summary": "Three small words that go with the Present Perfect when something is connected to now.",
+    "lessons": [
+      "lesson-05"
+    ],
+    "rules": [
+      {
+        "name": "just",
+        "form": "have / has + just + V3",
+        "when": "A very short time ago.",
+        "examples": [
+          {
+            "en": "The bus has just left!",
+            "uk": "Автобус щойно поїхав!"
+          }
+        ]
+      },
+      {
+        "name": "already",
+        "form": "have / has + already + V3",
+        "when": "Sooner than expected, or 'no need — it's done'.",
+        "examples": [
+          {
+            "en": "I've already seen this film.",
+            "uk": "Я вже бачив цей фільм."
+          }
+        ]
+      },
+      {
+        "name": "yet",
+        "form": "…haven't + V3 … yet · Have you + V3 … yet?",
+        "when": "Only in negatives and questions, at the end of the sentence.",
+        "examples": [
+          {
+            "en": "I haven't finished my project yet.",
+            "uk": "Я ще не закінчив проєкт."
+          },
+          {
+            "en": "Have you done your homework yet?",
+            "uk": "Ти вже зробив домашку?"
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "I have yet finished.",
+        "right": "I've already finished.",
+        "note": "yet only in negatives and questions, at the end"
+      },
+      {
+        "wrong": "I've finished already my homework.",
+        "right": "I've already finished my homework.",
+        "note": "already goes between have and the V3"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "The bus has ___ left — you missed it by a second.",
+        "options": [
+          "just",
+          "yet"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I haven't done my project ___.",
+        "options": [
+          "already",
+          "yet"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "No thanks, I've ___ eaten.",
+        "options": [
+          "already",
+          "yet"
+        ],
+        "answer": 0
+      }
+    ],
+    "practice": [
+      {
+        "q": "The bus has ___ left — you missed it by a second.",
+        "options": [
+          "just",
+          "yet"
+        ],
+        "answer": 0,
+        "why": "A second ago → just."
+      },
+      {
+        "q": "I haven't done my project ___.",
+        "options": [
+          "already",
+          "yet"
+        ],
+        "answer": 1,
+        "why": "Negative sentence → yet at the end."
+      },
+      {
+        "q": "No thanks, I've ___ eaten.",
+        "options": [
+          "already",
+          "yet"
+        ],
+        "answer": 0,
+        "why": "It's done, earlier than you think → already."
+      },
+      {
+        "q": "Have you finished your pizza ___?",
+        "options": [
+          "yet",
+          "just"
+        ],
+        "answer": 0,
+        "why": "Question → yet at the end."
+      },
+      {
+        "q": "Mum has ___ come in — her coat is still wet.",
+        "options": [
+          "just",
+          "yet"
+        ],
+        "answer": 0,
+        "why": "A very short time ago → just."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "I've finished already my homework.",
+          "I've already finished my homework."
+        ],
+        "answer": 1,
+        "why": "already goes between have and the V3."
+      },
+      {
+        "q": "We've ___ bought the tickets, so we don't need to queue.",
+        "options": [
+          "already",
+          "yet"
+        ],
+        "answer": 0,
+        "why": "It's done → already."
+      },
+      {
+        "q": "She hasn't called me ___.",
+        "options": [
+          "yet",
+          "already"
+        ],
+        "answer": 0,
+        "why": "Negative → yet."
+      },
+      {
+        "q": "I've ___ woken up — give me five minutes.",
+        "options": [
+          "just",
+          "yet"
+        ],
+        "answer": 0,
+        "why": "A moment ago → just."
+      },
+      {
+        "q": "___ you seen the new video yet?",
+        "options": [
+          "Have",
+          "Did"
+        ],
+        "answer": 0,
+        "why": "yet goes with the Present Perfect."
+      }
+    ]
   }
 ]

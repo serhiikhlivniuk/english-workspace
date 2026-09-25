@@ -799,5 +799,181 @@
     "tags": [
       "linker"
     ]
+  },
+  {
+    "word": "go abroad",
+    "pos": "phrase",
+    "def": "to travel to another country",
+    "uk": "поїхати за кордон",
+    "example": "I've never been abroad, but I'd love to go to Japan.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "get lost",
+    "pos": "phrase",
+    "def": "to not know where you are or how to get back",
+    "uk": "заблукати",
+    "example": "We got lost in the old town and asked a police officer for help.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "break a bone",
+    "pos": "phrase",
+    "def": "to hurt your body so badly that a bone cracks",
+    "uk": "зламати кістку",
+    "example": "Have you ever broken a bone?",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "win a prize",
+    "pos": "phrase",
+    "def": "to get something (money, a cup, a medal) because you were the best",
+    "uk": "виграти приз",
+    "example": "My brother has won two prizes for his drawings.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "meet a famous person",
+    "pos": "phrase",
+    "def": "to see and talk to someone that lots of people know",
+    "uk": "зустріти відому людину",
+    "example": "I once met a famous footballer at the airport.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "climb a mountain",
+    "pos": "phrase",
+    "def": "to go up a mountain, usually on foot",
+    "uk": "піднятися на гору",
+    "example": "Last August we climbed Hoverla.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "sleep in a tent",
+    "pos": "phrase",
+    "def": "to spend the night in a small shelter made of material, usually outdoors",
+    "uk": "ночувати в наметі",
+    "example": "We slept in a tent by the lake.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "ride a rollercoaster",
+    "pos": "phrase",
+    "def": "to go on a fast, scary train at a fun park",
+    "uk": "покататися на американських гірках",
+    "example": "I've ridden the biggest rollercoaster in Europe!",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "try (something) for the first time",
+    "pos": "phrase",
+    "def": "to do or eat something you have never done or eaten before",
+    "uk": "спробувати вперше",
+    "example": "I tried sushi for the first time last year.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "be on TV",
+    "pos": "phrase",
+    "def": "to appear in a television programme",
+    "uk": "потрапити на телебачення",
+    "example": "Our school choir has been on TV twice.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "ever",
+    "pos": "adverb",
+    "def": "at any time in your life (in questions)",
+    "uk": "колись",
+    "example": "Have you ever seen a shark?",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "never",
+    "pos": "adverb",
+    "def": "not at any time in your life",
+    "uk": "ніколи",
+    "example": "She's never flown in a plane.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "once / twice",
+    "pos": "adverb",
+    "def": "one time / two times",
+    "uk": "один раз / двічі",
+    "example": "I've been to Odesa twice.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "so far",
+    "pos": "phrase",
+    "def": "up to now",
+    "uk": "поки що, досі",
+    "example": "So far I've ticked off three things on my list.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "unforgettable",
+    "pos": "adj",
+    "def": "so special that you will always remember it",
+    "uk": "незабутній",
+    "example": "The view from the top was unforgettable.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
+  },
+  {
+    "word": "bucket list",
+    "pos": "noun",
+    "def": "a list of things you want to do or see in your life",
+    "uk": "список мрій (що зробити в житті)",
+    "example": "Surfing is number one on my bucket list.",
+    "lesson": "lesson-05",
+    "tags": [
+      "experiences"
+    ]
   }
 ]

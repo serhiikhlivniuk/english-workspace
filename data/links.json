@@ -1,8 +1,51 @@
 [
-  { "title": "BBC Learning English — 6 Minute English", "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english", "type": "video", "level": "B1", "note": "Short audio with a full transcript. Listen to one episode a week." },
-  { "title": "British Council — LearnEnglish Teens", "url": "https://learnenglishteens.britishcouncil.org/", "type": "practice", "level": "A2–B1", "note": "Exercises, videos and texts written for your age group." },
-  { "title": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/", "type": "tool", "level": "any", "note": "Meanings, pronunciation and examples. Turn on the British audio." },
-  { "title": "Quizlet", "url": "https://quizlet.com/", "type": "tool", "level": "any", "note": "If you want extra flashcards, build a set from our vocabulary list." },
-  { "title": "Irregular verbs list", "url": "https://www.englishpage.com/irregularverbs/irregularverbs.html", "type": "article", "level": "A2–B1", "note": "The full table of irregular verbs. Learn five at a time." },
-  { "title": "YouGlish", "url": "https://youglish.com/", "type": "tool", "level": "any", "note": "Type a word and hear how real people pronounce it in videos." }
+  {
+    "title": "BBC Learning English — 6 Minute English",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+    "type": "video",
+    "level": "B1",
+    "note": "Short audio with a full transcript. Listen to one episode a week."
+  },
+  {
+    "title": "British Council — LearnEnglish Teens",
+    "url": "https://learnenglishteens.britishcouncil.org/",
+    "type": "practice",
+    "level": "A2–B1",
+    "note": "Exercises, videos and texts written for your age group."
+  },
+  {
+    "title": "Cambridge Dictionary",
+    "url": "https://dictionary.cambridge.org/",
+    "type": "tool",
+    "level": "any",
+    "note": "Meanings, pronunciation and examples. Turn on the British audio."
+  },
+  {
+    "title": "Quizlet",
+    "url": "https://quizlet.com/",
+    "type": "tool",
+    "level": "any",
+    "note": "If you want extra flashcards, build a set from our vocabulary list."
+  },
+  {
+    "title": "Irregular verbs list",
+    "url": "https://www.englishpage.com/irregularverbs/irregularverbs.html",
+    "type": "article",
+    "level": "A2–B1",
+    "note": "The full table of irregular verbs. Learn five at a time."
+  },
+  {
+    "title": "YouGlish",
+    "url": "https://youglish.com/",
+    "type": "tool",
+    "level": "any",
+    "note": "Type a word and hear how real people pronounce it in videos."
+  },
+  {
+    "title": "LearnEnglish Teens — Skateboarding heroes",
+    "url": "https://learnenglishteens.britishcouncil.org/study-break/video-zone/skateboarding-heroes",
+    "type": "video",
+    "level": "B1–B2",
+    "note": "Lesson 5 video: how skateboarding went from empty swimming pools to the Olympics."
+  }
 ]

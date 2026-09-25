@@ -73,5 +73,25 @@
       "All four tenses"
     ],
     "vocabCount": 24
+  },
+  {
+    "id": "lesson-05",
+    "number": 5,
+    "title": "Have You Ever…?",
+    "titleUk": "Present Perfect: experiences",
+    "date": "2026-09-25",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-05.html",
+    "summary": "Two warm-ups on Lessons 1–4, then life experiences: the third form of verbs, Present Perfect with ever / never, been vs gone, and the key contrast with the Past Simple. With a reading, a video and a 'Have you ever…?' interview.",
+    "topics": [
+      "Revision: Lessons 1–4",
+      "Experiences vocabulary",
+      "Past participles (V3)",
+      "Present Perfect: ever / never",
+      "been / gone",
+      "Present Perfect vs Past Simple"
+    ],
+    "vocabCount": 16
   }
 ]
