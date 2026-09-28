@@ -3765,5 +3765,703 @@
         "why": "yet goes with the Present Perfect."
       }
     ]
+  },
+  {
+    "id": "five-tenses",
+    "group": "Tenses",
+    "title": "All five tenses",
+    "uk": "П'ять часів разом: як обрати правильний",
+    "level": "A2+ → B1",
+    "summary": "Two questions choose the tense: WHEN is it (now, in general, in the past, in your life)? And is it a finished event or something in progress?",
+    "lessons": [
+      "lesson-06"
+    ],
+    "rules": [
+      {
+        "name": "Present Simple",
+        "form": "I play · she plays · Does she play?",
+        "when": "Habits, routines, facts. every day · usually · never · on Mondays",
+        "examples": [
+          {
+            "en": "She plays tennis every Saturday.",
+            "uk": "Вона грає в теніс щосуботи."
+          }
+        ]
+      },
+      {
+        "name": "Present Continuous",
+        "form": "I'm playing · she's playing · Is she playing?",
+        "when": "Happening now or around now; fixed plans. now · at the moment · today · this week",
+        "examples": [
+          {
+            "en": "She's playing tennis right now.",
+            "uk": "Вона зараз грає в теніс."
+          }
+        ]
+      },
+      {
+        "name": "Past Simple",
+        "form": "I played / went · she didn't play · Did she play?",
+        "when": "A finished event at a finished time. yesterday · last week · ago · in 2020",
+        "examples": [
+          {
+            "en": "She played tennis yesterday.",
+            "uk": "Вона грала в теніс учора."
+          }
+        ]
+      },
+      {
+        "name": "Past Continuous",
+        "form": "I was playing · they were playing · Were they playing?",
+        "when": "In progress at a moment in the past; the background of a story. while · at 8 pm yesterday",
+        "examples": [
+          {
+            "en": "She was playing tennis when it started to rain.",
+            "uk": "Вона грала в теніс, коли почався дощ."
+          }
+        ]
+      },
+      {
+        "name": "Present Perfect",
+        "form": "I've played · she has played · Has she ever played?",
+        "when": "Experience in your life, time not said. ever · never · so far · twice",
+        "examples": [
+          {
+            "en": "She has played tennis at Wimbledon.",
+            "uk": "Вона грала в теніс на Вімблдоні (такий у неї досвід)."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "I am go to school every day.",
+        "right": "I go to school every day.",
+        "note": "routine → Present Simple, no am"
+      },
+      {
+        "wrong": "Look! It snows.",
+        "right": "Look! It's snowing.",
+        "note": "happening now → Continuous"
+      },
+      {
+        "wrong": "I have seen him yesterday.",
+        "right": "I saw him yesterday.",
+        "note": "finished time → Past Simple"
+      },
+      {
+        "wrong": "While I walked home, it started to rain.",
+        "right": "While I was walking home, it started to rain.",
+        "note": "background → Past Continuous"
+      },
+      {
+        "wrong": "Did you ever eat snails?",
+        "right": "Have you ever eaten snails?",
+        "note": "life experience → Present Perfect"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "My dad ___ to work by bus every day.",
+        "options": [
+          "goes",
+          "is going",
+          "went"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Shh! The baby ___.",
+        "options": [
+          "sleeps",
+          "is sleeping",
+          "slept"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "I ___ my keys yesterday.",
+        "options": [
+          "have lost",
+          "lost",
+          "was losing"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We ___ TV when the lights went out.",
+        "options": [
+          "watched",
+          "were watching",
+          "have watched"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "___ you ever ___ a horse?",
+        "options": [
+          "Did … ride",
+          "Have … ridden",
+          "Were … riding"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "My dad ___ to work by bus every day.",
+        "options": [
+          "goes",
+          "is going",
+          "went"
+        ],
+        "answer": 0,
+        "why": "every day = routine → Present Simple."
+      },
+      {
+        "q": "Shh! The baby ___.",
+        "options": [
+          "sleeps",
+          "is sleeping",
+          "slept"
+        ],
+        "answer": 1,
+        "why": "Happening right now → Present Continuous."
+      },
+      {
+        "q": "I ___ my keys yesterday.",
+        "options": [
+          "have lost",
+          "lost",
+          "was losing"
+        ],
+        "answer": 1,
+        "why": "yesterday = finished time → Past Simple."
+      },
+      {
+        "q": "We ___ TV when the lights went out.",
+        "options": [
+          "watched",
+          "were watching",
+          "have watched"
+        ],
+        "answer": 1,
+        "why": "The long background action → Past Continuous."
+      },
+      {
+        "q": "___ you ever ___ a horse?",
+        "options": [
+          "Did … ride",
+          "Have … ridden",
+          "Were … riding"
+        ],
+        "answer": 1,
+        "why": "ever + life experience → Present Perfect."
+      },
+      {
+        "q": "She ___ three medals so far.",
+        "options": [
+          "won",
+          "has won",
+          "wins"
+        ],
+        "answer": 1,
+        "why": "so far = up to now → Present Perfect."
+      },
+      {
+        "q": "What ___ at 8 o'clock last night?",
+        "options": [
+          "did you do",
+          "were you doing",
+          "have you done"
+        ],
+        "answer": 1,
+        "why": "In progress at a moment in the past → Past Continuous."
+      },
+      {
+        "q": "I ___ this film. It's great!",
+        "options": [
+          "have seen",
+          "saw",
+          "am seeing"
+        ],
+        "answer": 0,
+        "why": "No time said, experience → Present Perfect."
+      },
+      {
+        "q": "She ___ the answer.",
+        "options": [
+          "knows",
+          "is knowing",
+          "has knowing"
+        ],
+        "answer": 0,
+        "why": "know is a state verb → Present Simple."
+      },
+      {
+        "q": "When ___ to Lviv?",
+        "options": [
+          "have you gone",
+          "did you go",
+          "are you going"
+        ],
+        "answer": 1,
+        "why": "When? about the past → Past Simple."
+      }
+    ]
+  },
+  {
+    "id": "comparatives-superlatives",
+    "group": "Adjectives",
+    "title": "Comparatives and superlatives",
+    "uk": "Ступені порівняння прикметників",
+    "level": "A2+ → B1",
+    "summary": "Compare two things with -er / more … than. Pick the top one of a group with the -est / the most.",
+    "lessons": [
+      "lesson-06"
+    ],
+    "rules": [
+      {
+        "name": "Short adjectives (one syllable)",
+        "form": "cheap → cheaper → the cheapest\nnice → nicer → the nicest\nbig → bigger → the biggest",
+        "when": "Add -er / -est. Ends in -e: just -r / -st. One vowel + one consonant: double it (big, hot, thin, sad).",
+        "examples": [
+          {
+            "en": "My room is bigger than yours.",
+            "uk": "Моя кімната більша за твою."
+          },
+          {
+            "en": "It's the cheapest café in town.",
+            "uk": "Це найдешевше кафе в місті."
+          }
+        ]
+      },
+      {
+        "name": "Adjectives ending in -y",
+        "form": "easy → easier → the easiest\nfunny → funnier → the funniest",
+        "when": "y changes to i, then -er / -est.",
+        "examples": [
+          {
+            "en": "Maths is easier than physics for me.",
+            "uk": "Для мене математика легша за фізику."
+          }
+        ]
+      },
+      {
+        "name": "Long adjectives (two or more syllables)",
+        "form": "expensive → more expensive → the most expensive",
+        "when": "Use more / the most — and never add -er as well.",
+        "examples": [
+          {
+            "en": "This phone is more expensive than that one.",
+            "uk": "Цей телефон дорожчий за той."
+          },
+          {
+            "en": "It was the most boring film of the year.",
+            "uk": "Це був найнудніший фільм року."
+          }
+        ]
+      },
+      {
+        "name": "Irregular",
+        "form": "good → better → the best\nbad → worse → the worst\nfar → further → the furthest",
+        "when": "Learn these three by heart — they come up all the time.",
+        "examples": [
+          {
+            "en": "It's the best pizza I've ever had.",
+            "uk": "Це найкраща піца, яку я коли-небудь їв."
+          }
+        ]
+      },
+      {
+        "name": "than, the … in / of, the … ever",
+        "form": "A is bigger than B · the tallest in the class · the best of all · the best I've ever …",
+        "when": "than after a comparative; in + a place or group; superlative + Present Perfect with ever.",
+        "examples": [
+          {
+            "en": "He's the tallest boy in our class.",
+            "uk": "Він найвищий хлопець у нашому класі."
+          }
+        ]
+      },
+      {
+        "name": "much / a bit + comparative",
+        "form": "much cheaper · a bit taller · far more interesting",
+        "when": "much / far = a big difference; a bit = a small difference. Not very cheaper!",
+        "examples": [
+          {
+            "en": "The train is much faster than the bus.",
+            "uk": "Поїзд набагато швидший за автобус."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "more bigger",
+        "right": "bigger",
+        "note": "short adjective: -er OR more, never both"
+      },
+      {
+        "wrong": "the most tallest",
+        "right": "the tallest",
+        "note": "same for superlatives"
+      },
+      {
+        "wrong": "bigger then me",
+        "right": "bigger than me",
+        "note": "than, not then"
+      },
+      {
+        "wrong": "gooder / the goodest",
+        "right": "better / the best",
+        "note": "irregular"
+      },
+      {
+        "wrong": "the most expensive of the city",
+        "right": "the most expensive in the city",
+        "note": "in + place"
+      },
+      {
+        "wrong": "very cheaper",
+        "right": "much cheaper",
+        "note": "much / a bit, not very, before a comparative"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "My room is ___ than yours.",
+        "options": [
+          "biger",
+          "bigger",
+          "more big"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "This is the ___ film I've ever seen.",
+        "options": [
+          "worst",
+          "baddest",
+          "most bad"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Maths is ___ than physics.",
+        "options": [
+          "easyer",
+          "easier",
+          "more easy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "It's the most expensive shop ___ the city.",
+        "options": [
+          "of",
+          "in",
+          "than"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "The train is ___ faster than the bus.",
+        "options": [
+          "very",
+          "much",
+          "most"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "My room is ___ than yours.",
+        "options": [
+          "biger",
+          "bigger",
+          "more big"
+        ],
+        "answer": 1,
+        "why": "big: one vowel + one consonant → double the g."
+      },
+      {
+        "q": "This is the ___ film I've ever seen.",
+        "options": [
+          "worst",
+          "baddest",
+          "most bad"
+        ],
+        "answer": 0,
+        "why": "bad → worse → the worst."
+      },
+      {
+        "q": "Maths is ___ than physics.",
+        "options": [
+          "easyer",
+          "easier",
+          "more easy"
+        ],
+        "answer": 1,
+        "why": "-y → -ier."
+      },
+      {
+        "q": "It's the most expensive shop ___ the city.",
+        "options": [
+          "of",
+          "in",
+          "than"
+        ],
+        "answer": 1,
+        "why": "the … in + a place."
+      },
+      {
+        "q": "The train is ___ faster than the bus.",
+        "options": [
+          "very",
+          "much",
+          "most"
+        ],
+        "answer": 1,
+        "why": "much before a comparative, not very."
+      },
+      {
+        "q": "This book is ___ than the film.",
+        "options": [
+          "interestinger",
+          "more interesting",
+          "most interesting"
+        ],
+        "answer": 1,
+        "why": "Long adjective → more; two things → comparative."
+      },
+      {
+        "q": "Who is the ___ person in your family?",
+        "options": [
+          "funniest",
+          "funnyest",
+          "most funny"
+        ],
+        "answer": 0,
+        "why": "funny → funnier → the funniest."
+      },
+      {
+        "q": "Your English is ___ than mine.",
+        "options": [
+          "gooder",
+          "better",
+          "more good"
+        ],
+        "answer": 1,
+        "why": "good → better."
+      },
+      {
+        "q": "Today is ___ than yesterday.",
+        "options": [
+          "hoter",
+          "hotter",
+          "more hot"
+        ],
+        "answer": 1,
+        "why": "hot → double the t."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "She's taller then her brother.",
+          "She's taller than her brother."
+        ],
+        "answer": 1,
+        "why": "than, not then."
+      }
+    ]
+  },
+  {
+    "id": "as-as",
+    "group": "Adjectives",
+    "title": "as … as · not as … as",
+    "uk": "Такий самий / не такий … як",
+    "level": "A2+ → B1",
+    "summary": "as + adjective + as = the same. not as … as = less.",
+    "lessons": [
+      "lesson-06"
+    ],
+    "rules": [
+      {
+        "name": "The same",
+        "form": "as + adjective + as",
+        "when": "Two things are equal.",
+        "examples": [
+          {
+            "en": "My brother is as tall as my dad now.",
+            "uk": "Мій брат уже такий самий високий, як тато."
+          }
+        ]
+      },
+      {
+        "name": "Less",
+        "form": "not as + adjective + as",
+        "when": "The first thing is less. Often a polite way to compare.",
+        "examples": [
+          {
+            "en": "The bus isn't as fast as the train.",
+            "uk": "Автобус не такий швидкий, як поїзд."
+          }
+        ]
+      },
+      {
+        "name": "Same meaning, two ways",
+        "form": "The bus is slower than the train. = The bus isn't as fast as the train.",
+        "when": "Good for exam transformations.",
+        "examples": [
+          {
+            "en": "Pietro's isn't as tasty as La Bella Napoli.",
+            "uk": "У Pietro's не так смачно, як у La Bella Napoli."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "as tall than",
+        "right": "as tall as",
+        "note": "as … as, never as … than"
+      },
+      {
+        "wrong": "not as taller as",
+        "right": "not as tall as",
+        "note": "the normal adjective goes in the middle"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "The bus isn't as ___ as the train.",
+        "options": [
+          "fast",
+          "faster",
+          "fastest"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "My sister is as tall ___ me.",
+        "options": [
+          "than",
+          "as",
+          "like"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "The bus is slower than the train. = The bus isn't as ___ as the train.",
+        "options": [
+          "slow",
+          "fast",
+          "faster"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "The bus isn't as ___ as the train.",
+        "options": [
+          "fast",
+          "faster",
+          "fastest"
+        ],
+        "answer": 0,
+        "why": "as + the normal adjective + as."
+      },
+      {
+        "q": "My sister is as tall ___ me.",
+        "options": [
+          "than",
+          "as",
+          "like"
+        ],
+        "answer": 1,
+        "why": "as … as."
+      },
+      {
+        "q": "The bus is slower than the train. = The bus isn't as ___ as the train.",
+        "options": [
+          "slow",
+          "fast",
+          "faster"
+        ],
+        "answer": 1,
+        "why": "slower than = not as fast as."
+      },
+      {
+        "q": "This test was ___ easy as the last one — same level.",
+        "options": [
+          "as",
+          "so",
+          "more"
+        ],
+        "answer": 0,
+        "why": "Equal → as … as."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "He isn't as funny than his brother.",
+          "He isn't as funny as his brother."
+        ],
+        "answer": 1,
+        "why": "as … as, never than."
+      },
+      {
+        "q": "My phone is cheaper than yours. = My phone isn't as ___ as yours.",
+        "options": [
+          "cheap",
+          "expensive",
+          "cheaper"
+        ],
+        "answer": 1,
+        "why": "cheaper than = not as expensive as."
+      },
+      {
+        "q": "Kyiv is bigger than Lviv. = Lviv isn't as ___ as Kyiv.",
+        "options": [
+          "big",
+          "bigger",
+          "small"
+        ],
+        "answer": 0,
+        "why": "Swap the order: Lviv isn't as big."
+      },
+      {
+        "q": "Which sentence means 'the same'?",
+        "options": [
+          "She's as fast as me.",
+          "She isn't as fast as me."
+        ],
+        "answer": 0,
+        "why": "No not → equal."
+      },
+      {
+        "q": "Winter here isn't as ___ as in Norway.",
+        "options": [
+          "cold",
+          "colder",
+          "coldest"
+        ],
+        "answer": 0,
+        "why": "Middle word stays in the normal form."
+      },
+      {
+        "q": "The film wasn't ___ good as the book.",
+        "options": [
+          "as",
+          "than",
+          "more"
+        ],
+        "answer": 0,
+        "why": "not as … as."
+      }
+    ]
   }
 ]

@@ -1,5 +1,48 @@
 [
   {
+    "id": "sp-06",
+    "lesson": "lesson-06",
+    "title": "Which is better?",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Compare two things with reasons, and use superlatives with the Present Perfect: the best … I've ever …",
+    "grammar": [
+      "comparatives-superlatives",
+      "as-as",
+      "present-perfect-experience"
+    ],
+    "warmup": [
+      "Which is better: summer or winter? Give two reasons.",
+      "Who is the funniest person you know?",
+      "What's the best film you've ever seen?"
+    ],
+    "main": {
+      "task": "Choose one pair and argue for your side for one minute. Then I take the other side.",
+      "howto": "Say which one you prefer and why. Use at least three comparatives and one 'not as … as'. Finish with a superlative: 'It's the best … I've ever …'",
+      "prompts": [
+        "city or village?",
+        "phone or laptop?",
+        "skateboard or bike?",
+        "school trip or holiday with family?",
+        "pizza or burger?",
+        "online lessons or lessons at school?"
+      ]
+    },
+    "phrases": [
+      "I think … is much better than …",
+      "… isn't as … as …",
+      "The biggest difference is…",
+      "On the other hand, …",
+      "It's the best … I've ever …",
+      "I'd rather … because …"
+    ],
+    "followup": [
+      "What's the most dangerous thing you've ever done?",
+      "What's the most expensive thing you've ever bought?"
+    ],
+    "teacher": "Force the 'because' after every comparison. Catch 'more better' and 'than/then' on the spot. The follow-ups mix today's topic with Lesson 5 — insist on Past Simple for the details."
+  },
+  {
     "id": "sp-05",
     "lesson": "lesson-05",
     "title": "Have you ever…?",

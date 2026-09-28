@@ -151,7 +151,7 @@
       if (el.tagName === 'SELECT' || el.type === 'radio' || el.type === 'checkbox') el.disabled = true;
       else el.readOnly = true;
     });
-    document.querySelectorAll('[data-reveal]').forEach(b => { b.disabled = true; b.title = 'Disabled in live view'; });
+    document.querySelectorAll('[data-reveal], [data-hide]').forEach(b => { b.disabled = true; b.title = 'Disabled in live view'; });
 
     const cfg = await EW.config();
     if (!EW.connected()) { txt.textContent = 'LIVE view needs Supabase in data/config.json'; return; }
@@ -208,9 +208,11 @@
     document.addEventListener('input', e => { forget(e); sync(); });
     document.addEventListener('change', e => { forget(e); sync(); });
     document.addEventListener('click', e => {
-      if (e.target.closest && e.target.closest('.tf button, [data-reveal]')) sync();
+      if (e.target.closest && e.target.closest('.tf button, [data-reveal], [data-hide]')) sync();
     });
     window.addEventListener('pagehide', () => { if (ready && Object.keys(collect()).length) push(); });
+    // "Hide answers" resets true/false and radio groups: drop them from the database copy too
+    document.addEventListener('ew:forget', e => { (e.detail || []).forEach(k => { delete remote[k]; }); sync(); });
 
     (async () => {
       try {
@@ -233,6 +235,26 @@
       if (Object.keys(local).some(k => remote[k] !== local[k])) sync();
     })();
   }
+
+  /* ---------- deep links from the Homework page: lesson-0N.html#ex-6 ---------- */
+  function jumpToHash() {
+    const m = /^#ex-(\d+)$/.exec(location.hash);
+    if (!m) return;
+    const box = document.querySelector(`.ex[data-ex="${m[1]}"]`);
+    if (!box) return;
+    const tab = document.getElementById('tab-s');
+    const view = document.getElementById('view-s');
+    if (tab && view && view.hidden) tab.click();
+    setTimeout(() => {
+      const y = box.getBoundingClientRect().top + window.scrollY - 150;
+      window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+      box.style.transition = 'box-shadow .6s';
+      box.style.boxShadow = '0 0 0 3px var(--accent, #AD6A16)';
+      setTimeout(() => { box.style.boxShadow = ''; }, 2600);
+    }, 250);
+  }
+  window.addEventListener('hashchange', jumpToHash);
+  if (document.readyState === 'complete') jumpToHash(); else window.addEventListener('load', jumpToHash);
 
   WATCH ? watch() : student();
 })();

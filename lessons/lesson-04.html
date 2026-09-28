@@ -220,6 +220,9 @@
   .gbox-body .g-mis{display:grid;gap:2px;margin:0 0 8px;font-size:13.5px}
   .gbox-body .g-more{display:inline-block;margin-top:6px;font-size:13px;font-weight:600}
   @media print{.gbox{break-inside:avoid} .gbox>summary::after{display:none}}
+  .ex-foot .btn{font-size:12.5px; font-weight:600; padding:5px 12px; border-radius:7px}
+  .ex-foot .btn.ghost{font-weight:500; color:var(--ink-soft); opacity:.85}
+  .ex-foot .btn.ghost:hover{opacity:1; border-color:var(--ink-soft)}
 </style>
 </head>
 <body>
@@ -282,6 +285,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="0">Check</button>
 <button class="btn ghost" data-reveal="0">Show answers</button>
+<button class="btn ghost" data-hide="0" hidden>Hide answers</button>
 <span class="verdict" data-verdict="0"></span>
 </div>
 </div>
@@ -303,6 +307,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="1">Check</button>
 <button class="btn ghost" data-reveal="1">Show answers</button>
+<button class="btn ghost" data-hide="1" hidden>Hide answers</button>
 <span class="verdict" data-verdict="1"></span>
 </div>
 <details><summary>Why they matter</summary>
@@ -328,6 +333,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="2">Check</button>
 <button class="btn ghost" data-reveal="2">Show answers</button>
+<button class="btn ghost" data-hide="2" hidden>Hide answers</button>
 <span class="verdict" data-verdict="2"></span>
 </div>
 <details><summary>Watch the grammar around them</summary>
@@ -350,6 +356,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="3">Check</button>
 <button class="btn ghost" data-reveal="3">Show answers</button>
+<button class="btn ghost" data-hide="3" hidden>Hide answers</button>
 <span class="verdict" data-verdict="3"></span>
 </div>
 </div>
@@ -371,6 +378,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="4">Check</button>
 <button class="btn ghost" data-reveal="4">Show answers</button>
+<button class="btn ghost" data-hide="4" hidden>Hide answers</button>
 <span class="verdict" data-verdict="4"></span>
 </div>
 <details><summary>Spelling rules</summary>
@@ -400,6 +408,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="5">Check</button>
 <button class="btn ghost" data-reveal="5">Show answers</button>
+<button class="btn ghost" data-hide="5" hidden>Hide answers</button>
 <span class="verdict" data-verdict="5"></span>
 </div>
 </div>
@@ -421,6 +430,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="6">Check</button>
 <button class="btn ghost" data-reveal="6">Show answers</button>
+<button class="btn ghost" data-hide="6" hidden>Hide answers</button>
 <span class="verdict" data-verdict="6"></span>
 </div>
 </div>
@@ -449,6 +459,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="7">Check</button>
 <button class="btn ghost" data-reveal="7">Show answers</button>
+<button class="btn ghost" data-hide="7" hidden>Hide answers</button>
 <span class="verdict" data-verdict="7"></span>
 </div>
 </div>
@@ -470,6 +481,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="8">Check</button>
 <button class="btn ghost" data-reveal="8">Show answers</button>
+<button class="btn ghost" data-hide="8" hidden>Hide answers</button>
 <span class="verdict" data-verdict="8"></span>
 </div>
 </div>
@@ -497,6 +509,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="9">Check</button>
 <button class="btn ghost" data-reveal="9">Show answers</button>
+<button class="btn ghost" data-hide="9" hidden>Hide answers</button>
 <span class="verdict" data-verdict="9"></span>
 </div>
 <details><summary>The rule in one line</summary>
@@ -535,6 +548,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="10">Check</button>
 <button class="btn ghost" data-reveal="10">Show answers</button>
+<button class="btn ghost" data-hide="10" hidden>Hide answers</button>
 <span class="verdict" data-verdict="10"></span>
 </div>
 </div>
@@ -568,6 +582,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="11">Check</button>
 <button class="btn ghost" data-reveal="11">Show answers</button>
+<button class="btn ghost" data-hide="11" hidden>Hide answers</button>
 <span class="verdict" data-verdict="11"></span>
 </div>
 <details><summary>Tense hunt</summary>
@@ -596,6 +611,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="12">Check</button>
 <button class="btn ghost" data-reveal="12">Show answers</button>
+<button class="btn ghost" data-hide="12" hidden>Hide answers</button>
 <span class="verdict" data-verdict="12"></span>
 </div>
 <details><summary>Language focus</summary>
@@ -650,6 +666,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="15">Check</button>
 <button class="btn ghost" data-reveal="15">Show answers</button>
+<button class="btn ghost" data-hide="15" hidden>Hide answers</button>
 <span class="verdict" data-verdict="15"></span>
 </div>
 </div>
@@ -671,6 +688,7 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 <div class="ex-foot">
 <button class="btn" data-check="16">Check</button>
 <button class="btn ghost" data-reveal="16">Show answers</button>
+<button class="btn ghost" data-hide="16" hidden>Hide answers</button>
 <span class="verdict" data-verdict="16"></span>
 </div>
 </div>
@@ -959,14 +977,67 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
     });
   });
 
+  /* ---- Show answers / Hide answers ----
+     Before revealing, the student's own answers are saved as a snapshot
+     (also in localStorage, so Hide still works after a reload).
+     Hide puts that snapshot back — empty fields become empty again. */
+  function takeSnap(box){
+    var s = {i:{}, tf:{}, r:{}};
+    box.querySelectorAll("input[type=text][data-answer], select[data-answer]").forEach(function(el){ s.i[el.id] = el.value; });
+    box.querySelectorAll(".tf[data-answer]").forEach(function(g){ var b = g.querySelector('button[aria-pressed="true"]'); s.tf[g.getAttribute("data-tf")] = b ? b.value : null; });
+    box.querySelectorAll(".rgroup[data-answer]").forEach(function(g){ var r = g.querySelector("input[type=radio]:checked"); s.r[g.getAttribute("data-radio")] = r ? r.value : null; });
+    return s;
+  }
+  function unsave(k){ try{ localStorage.removeItem(LS+k); }catch(e){} }
+  function putSnap(box, s){
+    var forget = [];
+    Object.keys(s.i).forEach(function(id){
+      var el = document.getElementById(id); if(!el) return;
+      el.value = s.i[id]; el.classList.remove("ok","bad"); save(id, el.value); delete state[id];
+      el.dispatchEvent(new Event("input", {bubbles:true}));
+    });
+    Object.keys(s.tf).forEach(function(k){
+      var g = box.querySelector('.tf[data-tf="'+k+'"]'); if(!g) return;
+      g.querySelectorAll("button").forEach(function(b){ b.setAttribute("aria-pressed", b.value===s.tf[k] ? "true":"false"); b.classList.remove("ok","bad"); });
+      if(s.tf[k] === null){ unsave(k); forget.push("tf:"+k); } else save(k, s.tf[k]);
+      delete state[k];
+    });
+    Object.keys(s.r).forEach(function(k){
+      var g = box.querySelector('.rgroup[data-radio="'+k+'"]'); if(!g) return;
+      g.querySelectorAll("input[type=radio]").forEach(function(r){ r.checked = r.value===s.r[k]; r.parentElement.classList.remove("ok","bad"); });
+      if(s.r[k] === null){ unsave("r:"+k); forget.push("radio:"+k); } else save("r:"+k, s.r[k]);
+      delete state["r:"+k];
+    });
+    document.dispatchEvent(new CustomEvent("ew:forget", {detail: forget}));
+  }
+  function hideBtn(id){ return sheet.querySelector('[data-hide="'+id+'"]'); }
+
   sheet.querySelectorAll("[data-reveal]").forEach(function(btn){
+    var id = btn.getAttribute("data-reveal");
+    if(load("snap:"+id) && hideBtn(id)) hideBtn(id).hidden = false;
     btn.addEventListener("click", function(){
-      var id = btn.getAttribute("data-reveal");
       var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      if(!load("snap:"+id)) save("snap:"+id, JSON.stringify(takeSnap(box)));
       checkBox(box, true);
       var v = box.querySelector('[data-verdict="'+id+'"]');
       v.textContent = "answers shown";
       v.className = "verdict";
+      if(hideBtn(id)) hideBtn(id).hidden = false;
+      updateScore();
+    });
+  });
+
+  sheet.querySelectorAll("[data-hide]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var id = btn.getAttribute("data-hide");
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      var s = null; try{ s = JSON.parse(load("snap:"+id) || "null"); }catch(e){}
+      if(!s){ s = takeSnap(box); Object.keys(s.i).forEach(function(k){ s.i[k]=""; }); Object.keys(s.tf).forEach(function(k){ s.tf[k]=null; }); Object.keys(s.r).forEach(function(k){ s.r[k]=null; }); }
+      putSnap(box, s);
+      unsave("snap:"+id);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = ""; v.className = "verdict";
+      btn.hidden = true;
       updateScore();
     });
   });
@@ -989,8 +1060,8 @@ Continuous: now · right now · at the moment · today · this week</div><p clas
 })();
 </script>
 
-<script src="../assets/store.js?v=5"></script>
-<script src="../assets/wordgrab.js?v=5"></script>
-<script src="../assets/lesson-sync.js?v=5" data-lesson="lesson-04"></script>
+<script src="../assets/store.js?v=7"></script>
+<script src="../assets/wordgrab.js?v=7"></script>
+<script src="../assets/lesson-sync.js?v=7" data-lesson="lesson-04"></script>
 </body>
 </html>

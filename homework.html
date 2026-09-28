@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
-<link rel="stylesheet" href="assets/app.css?v=5">
+<link rel="stylesheet" href="assets/app.css?v=7">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%236C4CF1'/><text x='50' y='68' font-size='52' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>EN</text></svg>">
 <title>Homework · English Workspace</title>
 </head>
@@ -20,9 +20,9 @@
   </div>
   <div id="list"></div>
 </main>
-<script src="assets/store.js?v=5"></script>
-<script src="assets/app.js?v=5"></script>
-<script src="assets/wordgrab.js?v=5"></script>
+<script src="assets/store.js?v=7"></script>
+<script src="assets/app.js?v=7"></script>
+<script src="assets/wordgrab.js?v=7"></script>
 <script>
 (async () => {
   const [hw, lessons] = await Promise.all([EW.data('homework'), EW.data('lessons')]);
@@ -33,7 +33,7 @@
   let done = EW.get('hw:done', {});
   const lEl = document.getElementById('list');
 
-  function render() {
+  let render = function () {
     lEl.innerHTML = hw.map((h, idx) => {
       const n = h.items.filter(i => done[i.id]).length;
       const pct = Math.round(n / h.items.length * 100);
@@ -46,10 +46,10 @@
           <div class="bar" style="margin:0 0 18px"><i style="width:${pct}%"></i></div>
           <ul class="list">${h.items.map(i => {
             const [ic, tone] = TYPE[i.type] || ['•', 't-violet'];
-            return `<li class="row"><label class="check" style="width:100%">
+            return `<li class="row" style="flex-direction:column;align-items:stretch"><label class="check" style="width:100%">
               <input type="checkbox" data-id="${esc(i.id)}" ${done[i.id] ? 'checked' : ''}>
               <span class="grow"><span class="tag ${tone}" style="margin-right:8px">${ic} ${esc(i.type)}</span>${esc(i.text)}</span>
-            </label></li>`;
+            </label>${i.auto ? `<div class="auto-left" data-lesson="${esc(i.auto)}" data-only="${esc((i.only || []).join(','))}" style="margin:8px 0 2px 34px"><span class="muted" style="font-size:13px">checking what's left…</span></div>` : ''}</li>`;
           }).join('')}</ul>
           ${h.note ? `<p class="muted" style="margin-top:16px">💬 ${esc(h.note)}</p>` : ''}
         </div></details>`;
@@ -64,6 +64,49 @@
     render();
     [...lEl.querySelectorAll('details')].forEach((d, i) => d.open = open[i]);
   };
+  /* ---------- "what's left" lists: read the lesson page, compare with saved answers ---------- */
+  const leftCache = {};
+  async function leftFor(lessonId) {
+    if (leftCache[lessonId]) return leftCache[lessonId];
+    const l = lessons.find(x => x.id === lessonId);
+    if (!l || !l.file) return (leftCache[lessonId] = { file: '', list: [] });
+    const html = await fetch(l.file, { cache: 'no-cache' }).then(r => r.ok ? r.text() : '');
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const saved = (EW.get(`lesson:${lessonId}:answers`, null) || {}).answers || {};
+    const has = k => { const v = saved[k]; return v !== undefined && v !== false && String(v).trim() !== ''; };
+    const list = [];
+    doc.querySelectorAll('#view-s .ex[data-ex]').forEach(box => {
+      const keys = [];
+      box.querySelectorAll('input[type=text], select, textarea').forEach(el => { if (el.id) keys.push(el.id); });
+      box.querySelectorAll('.tf[data-tf]').forEach(g => keys.push('tf:' + g.dataset.tf));
+      box.querySelectorAll('[data-radio]').forEach(g => keys.push('radio:' + g.dataset.radio));
+      if (!keys.length) return;                       // speaking-only: nothing to check
+      const filled = keys.filter(has).length;
+      if (filled >= keys.length) return;
+      const label = (box.querySelector('.ex-head .label') || {}).textContent || '';
+      const title = (box.querySelector('h2') || {}).textContent || '';
+      list.push({ n: box.dataset.ex, label: label.split('·')[0].trim(), title, filled, total: keys.length,
+                  extra: box.classList.contains('extra') });
+    });
+    return (leftCache[lessonId] = { file: l.file, list });
+  }
+  async function fillLeft() {
+    for (const el of lEl.querySelectorAll('.auto-left')) {
+      try {
+        const { file, list: all } = await leftFor(el.dataset.lesson);
+        const only = el.dataset.only ? el.dataset.only.split(',') : null;
+        const list = only ? all.filter(x => only.includes(String(x.n))) : all;
+        el.innerHTML = list.length
+          ? `<p class="muted" style="margin:0 0 6px;font-size:13px">Still to do — ${list.length} exercise${list.length === 1 ? '' : 's'}:</p>
+             <ul style="margin:0;padding-left:18px;font-size:14px">${list.map(x =>
+               `<li style="margin:3px 0"><a href="${esc(file)}#ex-${esc(x.n)}">${esc(x.label)} — ${esc(x.title)}</a>
+                <span class="muted mono" style="font-size:12px">${x.filled}/${x.total}${x.extra ? ' · extra' : ''}</span></li>`).join('')}</ul>`
+          : `<p style="margin:0;font-size:13px;color:var(--ok)">✓ Everything on this page is filled in.</p>`;
+      } catch { el.innerHTML = ''; }
+    }
+  }
+  const _render = render;
+  render = function () { _render(); fillLeft(); };
   render();
 })();
 </script>

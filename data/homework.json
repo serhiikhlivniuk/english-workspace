@@ -1,5 +1,48 @@
 [
   {
+    "id": "hw-06",
+    "lesson": "lesson-06",
+    "title": "Homework after Lesson 6",
+    "assigned": "2026-09-28",
+    "due": "2026-10-02",
+    "note": "Homework = everything we didn't finish in class. The lists under each task update themselves: when an exercise is done on the lesson page, it disappears from the list.",
+    "items": [
+      {
+        "id": "hw-06-1",
+        "text": "Lesson 6: finish every exercise we didn't get to in class.",
+        "type": "grammar",
+        "auto": "lesson-06"
+      },
+      {
+        "id": "hw-06-2",
+        "text": "Lesson 5: finish the exercises that are still open — the main one is Exercise 6 (Present Perfect or Past Simple).",
+        "type": "grammar",
+        "auto": "lesson-05"
+      },
+      {
+        "id": "hw-06-3",
+        "text": "Lesson 4: type your story (Exercise 14) and do Exercises 15–16.",
+        "type": "writing",
+        "auto": "lesson-04",
+        "only": [
+          "14",
+          "15",
+          "16"
+        ]
+      },
+      {
+        "id": "hw-06-4",
+        "text": "Take the quizzes in the Grammar section: All five tenses, Comparatives and superlatives, Present Perfect vs Past Simple. Your score is saved — I can see it.",
+        "type": "grammar"
+      },
+      {
+        "id": "hw-06-5",
+        "text": "Learn the 16 comparing words from Lesson 6 and the 7 words you saved yourself (they're now in the dictionary).",
+        "type": "vocab"
+      }
+    ]
+  },
+  {
     "id": "hw-05",
     "lesson": "lesson-05",
     "title": "Homework after Lesson 5",

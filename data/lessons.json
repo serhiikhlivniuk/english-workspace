@@ -93,5 +93,24 @@
       "Present Perfect vs Past Simple"
     ],
     "vocabCount": 16
+  },
+  {
+    "id": "lesson-06",
+    "number": 6,
+    "title": "Better, Faster, the Best",
+    "titleUk": "Повторення часів + ступені порівняння",
+    "date": "2026-09-28",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-06.html",
+    "summary": "A full review of the five tenses we know — Present Simple and Continuous, Past Simple and Continuous, Present Perfect — and a new topic: comparatives and superlatives. With a drag-and-drop vocabulary warm-up, a video, a reading and speaking.",
+    "topics": [
+      "Review: five tenses",
+      "Comparatives",
+      "Superlatives",
+      "the best … I've ever …",
+      "as … as"
+    ],
+    "vocabCount": 16
   }
 ]

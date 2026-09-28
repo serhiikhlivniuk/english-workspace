@@ -975,5 +975,258 @@
     "tags": [
       "experiences"
     ]
+  },
+  {
+    "word": "wet",
+    "pos": "adj",
+    "def": "covered in water or another liquid",
+    "uk": "мокрий",
+    "example": "My shoes were wet after the rain.",
+    "lesson": "lesson-04",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "embarrassing",
+    "pos": "adj",
+    "def": "making you feel shy, silly or ashamed in front of other people",
+    "uk": "соромний, незручний",
+    "example": "Falling over in front of the whole class was so embarrassing.",
+    "lesson": "lesson-04",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "frightened",
+    "pos": "adj",
+    "def": "afraid of something",
+    "uk": "наляканий",
+    "example": "The little boy was frightened of the dark.",
+    "lesson": "lesson-04",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "by chance",
+    "pos": "phrase",
+    "def": "without planning it",
+    "uk": "випадково",
+    "example": "I met my old teacher by chance at the station.",
+    "lesson": "lesson-04",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "puddle",
+    "pos": "noun",
+    "def": "a small pool of water on the ground, usually after rain",
+    "uk": "калюжа",
+    "example": "A van drove through an enormous puddle and soaked me.",
+    "lesson": "lesson-04",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "enormous",
+    "pos": "adj",
+    "def": "very, very big",
+    "uk": "величезний",
+    "example": "There was an enormous puddle under my sleeping bag.",
+    "lesson": "lesson-04",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "local",
+    "pos": "adj",
+    "def": "in or near the area where you live",
+    "uk": "місцевий",
+    "example": "He was practising at our local skate park.",
+    "lesson": "lesson-05",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "cheap",
+    "pos": "adj",
+    "def": "costing little money",
+    "uk": "дешевий",
+    "example": "The café near school is cheaper than the one in the centre.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "expensive",
+    "pos": "adj",
+    "def": "costing a lot of money",
+    "uk": "дорогий",
+    "example": "It's the most expensive phone in the shop.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "crowded",
+    "pos": "adj",
+    "def": "full of people",
+    "uk": "переповнений, людний",
+    "example": "The bus is always crowded in the morning.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "peaceful",
+    "pos": "adj",
+    "def": "quiet and calm",
+    "uk": "спокійний, тихий",
+    "example": "The village is much more peaceful than the city.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "noisy",
+    "pos": "adj",
+    "def": "making a lot of noise",
+    "uk": "галасливий",
+    "example": "Our classroom is the noisiest in the school.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "comfortable",
+    "pos": "adj",
+    "def": "making you feel relaxed; nice to sit in or wear",
+    "uk": "зручний, комфортний",
+    "example": "This sofa is more comfortable than my bed.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "dangerous",
+    "pos": "adj",
+    "def": "able to hurt you",
+    "uk": "небезпечний",
+    "example": "Skating on the road is more dangerous than in the park.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "safe",
+    "pos": "adj",
+    "def": "not in danger; not able to hurt you",
+    "uk": "безпечний",
+    "example": "The new skate park is safer than the old one.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "delicious",
+    "pos": "adj",
+    "def": "tasting very good",
+    "uk": "дуже смачний",
+    "example": "It was the most delicious pizza I've ever had.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "disgusting",
+    "pos": "adj",
+    "def": "extremely unpleasant to taste, smell or look at",
+    "uk": "огидний",
+    "example": "The pasta was disgusting.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "modern",
+    "pos": "adj",
+    "def": "new, using the latest ideas",
+    "uk": "сучасний",
+    "example": "Our school has a modern sports hall.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "old-fashioned",
+    "pos": "adj",
+    "def": "not modern any more",
+    "uk": "старомодний",
+    "example": "My grandad's phone is really old-fashioned.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "tiny",
+    "pos": "adj",
+    "def": "extremely small",
+    "uk": "крихітний",
+    "example": "Their flat is tiny — only one room.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "huge",
+    "pos": "adj",
+    "def": "extremely big",
+    "uk": "величезний, велетенський",
+    "example": "The new shopping centre is huge.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "convenient",
+    "pos": "adj",
+    "def": "easy to use, or near and easy to get to",
+    "uk": "зручний (за розташуванням, часом)",
+    "example": "The park is more convenient because it's next to my house.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
+  },
+  {
+    "word": "much / a bit + comparative",
+    "pos": "phrase",
+    "def": "a big / a small difference: much cheaper, a bit taller",
+    "uk": "набагато / трохи (+ вищий ступінь)",
+    "example": "The train is much faster than the bus.",
+    "lesson": "lesson-06",
+    "tags": [
+      "comparing"
+    ]
   }
 ]
