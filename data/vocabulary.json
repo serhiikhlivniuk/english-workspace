@@ -1228,5 +1228,203 @@
     "tags": [
       "comparing"
     ]
+  },
+  {
+    "word": "debate",
+    "pos": "noun",
+    "def": "a discussion where people give different opinions",
+    "uk": "дебати, суперечка",
+    "example": "The Messi vs Ronaldo debate never stops in our class.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "dominate",
+    "pos": "verb",
+    "def": "to be the strongest and control a game, a league or a period",
+    "uk": "домінувати",
+    "example": "Barcelona dominated Spanish football for years.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "defender",
+    "pos": "noun",
+    "def": "a player whose main job is to stop the other team from scoring",
+    "uk": "захисник",
+    "example": "The defender stopped the ball just before the line.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "dribbling",
+    "pos": "noun",
+    "def": "moving with the ball past other players using small, quick kicks",
+    "uk": "дриблінг, обведення",
+    "example": "His dribbling is so good that nobody can take the ball.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "athlete",
+    "pos": "noun",
+    "def": "a person who is very good at sport and trains a lot",
+    "uk": "спортсмен, атлет",
+    "example": "Ronaldo is one of the fittest athletes in the world.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "career",
+    "pos": "noun",
+    "def": "the jobs and work someone does during their life",
+    "uk": "кар'єра",
+    "example": "He started his career at a small local club.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "discipline",
+    "pos": "noun",
+    "def": "the ability to control yourself and work hard every day",
+    "uk": "дисципліна",
+    "example": "You need discipline to train every morning.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "trophy",
+    "pos": "noun",
+    "def": "a cup or prize you get for winning a competition",
+    "uk": "трофей, кубок",
+    "example": "The captain held the trophy above his head.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "lift (a trophy)",
+    "pos": "verb",
+    "def": "to win a cup and raise it up to celebrate",
+    "uk": "підняти (кубок), виграти трофей",
+    "example": "Messi finally lifted the World Cup in 2022.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "fair",
+    "pos": "adj",
+    "def": "right and equal for everyone",
+    "uk": "справедливий, чесний",
+    "example": "It isn't fair to compare players from different times.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "talented",
+    "pos": "adj",
+    "def": "with a natural ability to do something very well",
+    "uk": "талановитий",
+    "example": "She's the most talented player in our team.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "legend",
+    "pos": "noun",
+    "def": "a very famous person that people admire for a long time",
+    "uk": "легенда",
+    "example": "Shevchenko is a legend of Ukrainian football.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "generation",
+    "pos": "noun",
+    "def": "all the people born at about the same time",
+    "uk": "покоління",
+    "example": "Yamal is the star of the new generation.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "whereas",
+    "pos": "conj",
+    "def": "used to show that two facts are different",
+    "uk": "тоді як",
+    "example": "I love football, whereas my sister prefers tennis.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "despite",
+    "pos": "prep",
+    "def": "without being stopped by something (+ noun)",
+    "uk": "незважаючи на",
+    "example": "They won despite the rain.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "by contrast",
+    "pos": "phrase",
+    "def": "used to show a big difference from what you just said",
+    "uk": "натомість, на противагу",
+    "example": "My grandad loves Pelé. My dad, by contrast, prefers Maradona.",
+    "lesson": "lesson-07",
+    "tags": [
+      "football"
+    ]
+  },
+  {
+    "word": "obviously",
+    "pos": "adv",
+    "def": "in a way that is easy to see or understand; of course",
+    "uk": "очевидно, звісно",
+    "example": "It costs 30 hryvnias — cheaper than Central, but obviously not as cheap as Riverside.",
+    "lesson": "lesson-06",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "cracked",
+    "pos": "adj",
+    "def": "with thin lines where something is broken but not in pieces",
+    "uk": "потрісканий, з тріщинами",
+    "example": "The ramps are cracked, so be careful on your skateboard.",
+    "lesson": "lesson-06",
+    "tags": [
+      "my words"
+    ]
   }
 ]

@@ -1,5 +1,49 @@
 [
   {
+    "id": "sp-07",
+    "lesson": "lesson-07",
+    "title": "The GOAT debate",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Argue about the greatest player or team with facts, using as … as (just / nearly / not nearly / twice), whereas / although and superlatives with ever.",
+    "grammar": [
+      "as-as",
+      "linkers-contrast",
+      "comparatives-superlatives"
+    ],
+    "warmup": [
+      "Who is your favourite player? What position does he play?",
+      "Which team do you support, and why?",
+      "What's the best match you've ever watched?"
+    ],
+    "main": {
+      "task": "Pick a pair and argue for your side for one minute. Then I take the other side and you argue back.",
+      "howto": "Use at least two as … as (one with just / nearly / not nearly), one whereas or although, and one superlative with ever.",
+      "prompts": [
+        "Messi or Ronaldo?",
+        "Pelé or Maradona?",
+        "Real Madrid or Barcelona?",
+        "Dynamo or Shakhtar?",
+        "Premier League or La Liga?",
+        "playing football or watching it?"
+      ]
+    },
+    "phrases": [
+      "In my opinion…",
+      "Let's look at the facts.",
+      "He's just as … as …",
+      "He isn't nearly as … as …",
+      "Fair enough, but…",
+      "I see your point, whereas…",
+      "He's the most … player I've ever seen."
+    ],
+    "followup": [
+      "Who is the best player in your class? Compare yourself with him.",
+      "Is it fair to compare players from different generations?"
+    ],
+    "teacher": "Push for numbers and facts, not just 'he is better'. Catch 'as … than', 'two times bigger' and 'plays as good as' on the spot. When he's comfortable, take the opposite side even if you agree with him."
+  },
+  {
     "id": "sp-06",
     "lesson": "lesson-06",
     "title": "Which is better?",

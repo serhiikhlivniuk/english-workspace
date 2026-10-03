@@ -4283,9 +4283,10 @@
     "title": "as … as · not as … as",
     "uk": "Такий самий / не такий … як",
     "level": "A2+ → B1",
-    "summary": "as + adjective + as = the same. not as … as = less.",
+    "summary": "as + adjective + as = the same. not as … as = less. just / nearly / not nearly / twice show how big the difference is.",
     "lessons": [
-      "lesson-06"
+      "lesson-06",
+      "lesson-07"
     ],
     "rules": [
       {
@@ -4320,6 +4321,47 @@
             "uk": "У Pietro's не так смачно, як у La Bella Napoli."
           }
         ]
+      },
+      {
+        "name": "How big is the difference?",
+        "form": "just as · nearly as · not quite as · not nearly as · twice as … as",
+        "when": "just = exactly the same; nearly / not quite = a bit less; not nearly = much less; twice / three times = 2×, 3×.",
+        "examples": [
+          {
+            "en": "Messi is not nearly as tall as Ronaldo.",
+            "uk": "Мессі зовсім не такий високий, як Роналду."
+          },
+          {
+            "en": "Their stadium is twice as big as ours.",
+            "uk": "Їхній стадіон удвічі більший за наш."
+          }
+        ]
+      },
+      {
+        "name": "as many / as much / the same as",
+        "form": "as many + countable noun + as · as much + uncountable noun + as · the same + noun + as",
+        "when": "Compare amounts, or say two things are equal.",
+        "examples": [
+          {
+            "en": "Pelé won three times as many World Cups as Messi.",
+            "uk": "Пеле виграв утричі більше чемпіонатів світу, ніж Мессі."
+          },
+          {
+            "en": "I'm the same age as him.",
+            "uk": "Я такого ж віку, як він."
+          }
+        ]
+      },
+      {
+        "name": "Adjective or adverb?",
+        "form": "be + as good as · play + as well as",
+        "when": "After be / look / seem use an adjective. After an action verb use an adverb (well, quickly, badly, fast, hard).",
+        "examples": [
+          {
+            "en": "He doesn't play as well as his brother.",
+            "uk": "Він грає не так добре, як його брат."
+          }
+        ]
       }
     ],
     "mistakes": [
@@ -4332,6 +4374,26 @@
         "wrong": "not as taller as",
         "right": "not as tall as",
         "note": "the normal adjective goes in the middle"
+      },
+      {
+        "wrong": "two times bigger as",
+        "right": "twice as big as",
+        "note": "twice as … as"
+      },
+      {
+        "wrong": "as many money as",
+        "right": "as much money as",
+        "note": "much with things you can't count"
+      },
+      {
+        "wrong": "the same like me",
+        "right": "the same as me",
+        "note": "the same … as"
+      },
+      {
+        "wrong": "He plays as good as me.",
+        "right": "He plays as well as me.",
+        "note": "action verb → adverb"
       }
     ],
     "quiz": [
@@ -4359,6 +4421,42 @@
           "slow",
           "fast",
           "faster"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Both players ran 100 m in 11 seconds. Max is ___ as fast as Leo.",
+        "options": [
+          "just",
+          "nearly",
+          "twice"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Stadium A has 60,000 seats, B has 30,000. A is ___ as big as B.",
+        "options": [
+          "two times",
+          "twice",
+          "double"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "He doesn't play as ___ as his brother.",
+        "options": [
+          "good",
+          "well",
+          "better"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "I don't have as ___ free time as you.",
+        "options": [
+          "many",
+          "much",
+          "more"
         ],
         "answer": 1
       }
@@ -4461,6 +4559,204 @@
         ],
         "answer": 0,
         "why": "not as … as."
+      },
+      {
+        "q": "Both players ran 100 m in 11 seconds. Max is ___ as fast as Leo.",
+        "options": [
+          "just",
+          "nearly",
+          "twice"
+        ],
+        "answer": 0,
+        "why": "Exactly the same → just as … as."
+      },
+      {
+        "q": "Stadium A has 60,000 seats, B has 30,000. A is ___ as big as B.",
+        "options": [
+          "two times",
+          "twice",
+          "double"
+        ],
+        "answer": 1,
+        "why": "2× → twice as … as."
+      },
+      {
+        "q": "He doesn't play as ___ as his brother.",
+        "options": [
+          "good",
+          "well",
+          "better"
+        ],
+        "answer": 1,
+        "why": "play is an action verb → adverb: well."
+      },
+      {
+        "q": "I don't have as ___ free time as you.",
+        "options": [
+          "many",
+          "much",
+          "more"
+        ],
+        "answer": 1,
+        "why": "time is uncountable → as much."
+      },
+      {
+        "q": "Ronaldo is taller than Messi. = Messi isn't ___ Ronaldo.",
+        "options": [
+          "as tall as",
+          "as taller as",
+          "as tall than"
+        ],
+        "answer": 0,
+        "why": "Normal adjective between as … as."
+      },
+      {
+        "q": "You've got the same boots ___ me!",
+        "options": [
+          "like",
+          "as",
+          "than"
+        ],
+        "answer": 1,
+        "why": "the same … as."
+      },
+      {
+        "q": "A normal ticket (200 UAH) is ___ as expensive as a VIP one (3,000 UAH).",
+        "options": [
+          "nearly",
+          "not nearly",
+          "just"
+        ],
+        "answer": 1,
+        "why": "A huge difference → not nearly."
+      }
+    ]
+  },
+  {
+    "id": "linkers-contrast",
+    "group": "Linking words",
+    "title": "whereas · although · despite",
+    "uk": "тоді як · хоча · незважаючи на",
+    "level": "B1",
+    "summary": "Three ways to show a contrast. whereas and although + a sentence; despite + a noun.",
+    "lessons": [
+      "lesson-07"
+    ],
+    "rules": [
+      {
+        "name": "whereas",
+        "form": "fact A, whereas fact B",
+        "when": "Two facts are different.",
+        "examples": [
+          {
+            "en": "Messi is 1.70 m, whereas Ronaldo is 1.87 m.",
+            "uk": "Мессі має зріст 1,70 м, тоді як Роналду — 1,87 м."
+          }
+        ]
+      },
+      {
+        "name": "although",
+        "form": "although + sentence",
+        "when": "Something is surprising after the other fact.",
+        "examples": [
+          {
+            "en": "Although he has never won the World Cup, he won the Euro.",
+            "uk": "Хоча він ніколи не вигравав чемпіонат світу, він виграв Євро."
+          }
+        ]
+      },
+      {
+        "name": "despite",
+        "form": "despite + noun",
+        "when": "Same meaning as although, but with a noun, not a sentence.",
+        "examples": [
+          {
+            "en": "They won despite the rain.",
+            "uk": "Вони виграли, незважаючи на дощ."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "despite it was raining",
+        "right": "despite the rain / although it was raining",
+        "note": "despite + noun"
+      },
+      {
+        "wrong": "despite of the rain",
+        "right": "despite the rain",
+        "note": "no of after despite"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "They won ___ the rain.",
+        "options": [
+          "although",
+          "despite",
+          "whereas"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "___ he trained hard, he didn't make the team.",
+        "options": [
+          "Although",
+          "Despite",
+          "Whereas"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I like football, ___ my sister likes tennis.",
+        "options": [
+          "despite",
+          "whereas",
+          "although of"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "They won ___ the rain.",
+        "options": [
+          "although",
+          "despite",
+          "whereas"
+        ],
+        "answer": 1,
+        "why": "the rain is a noun → despite."
+      },
+      {
+        "q": "___ he trained hard, he didn't make the team.",
+        "options": [
+          "Although",
+          "Despite",
+          "Whereas"
+        ],
+        "answer": 0,
+        "why": "A full sentence follows → although."
+      },
+      {
+        "q": "I like football, ___ my sister likes tennis.",
+        "options": [
+          "despite",
+          "whereas",
+          "although of"
+        ],
+        "answer": 1,
+        "why": "Two different facts → whereas."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "despite of the injury",
+          "despite the injury"
+        ],
+        "answer": 1,
+        "why": "No of after despite."
       }
     ]
   }

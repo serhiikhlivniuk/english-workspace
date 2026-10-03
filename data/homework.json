@@ -1,5 +1,36 @@
 [
   {
+    "id": "hw-07",
+    "lesson": "lesson-07",
+    "title": "Homework after Lesson 7",
+    "assigned": "2026-10-03",
+    "due": "2026-10-05",
+    "note": "Homework = everything we didn't finish in class. The list under the first task updates itself: when an exercise is done on the lesson page, it disappears.",
+    "items": [
+      {
+        "id": "hw-07-1",
+        "text": "Lesson 7: finish every exercise we didn't get to in class — including the writing in Exercise 11.",
+        "type": "grammar",
+        "auto": "lesson-07"
+      },
+      {
+        "id": "hw-07-2",
+        "text": "Take the quizzes in the Grammar section: as … as · not as … as, and whereas · although · despite.",
+        "type": "grammar"
+      },
+      {
+        "id": "hw-07-3",
+        "text": "Learn the 16 football words from the GOAT text and the 2 words you saved yourself — obviously and cracked (they're in the dictionary).",
+        "type": "vocab"
+      },
+      {
+        "id": "hw-07-4",
+        "text": "Extra: Exercise 13 — write 'My GOAT', 80–100 words.",
+        "type": "writing"
+      }
+    ]
+  },
+  {
     "id": "hw-06",
     "lesson": "lesson-06",
     "title": "Homework after Lesson 6",
