@@ -119,6 +119,7 @@
     "lesson": "lesson-02",
     "tags": [
       "free time",
+      "phrasal",
       "phrasal"
     ]
   },
@@ -131,6 +132,7 @@
     "lesson": "lesson-02",
     "tags": [
       "free time",
+      "phrasal",
       "phrasal"
     ]
   },
@@ -1425,6 +1427,380 @@
     "lesson": "lesson-06",
     "tags": [
       "my words"
+    ]
+  },
+  {
+    "word": "argument",
+    "pos": "noun",
+    "def": "a disagreement when people talk angrily, or a reason you give for an opinion",
+    "uk": "суперечка, сварка; аргумент",
+    "example": "In my class the argument never stops.",
+    "lesson": "lesson-07",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "instead of",
+    "pos": "prep",
+    "def": "in place of someone or something",
+    "uk": "замість",
+    "example": "I decided to look at the facts instead of just shouting.",
+    "lesson": "lesson-07",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "compare",
+    "pos": "verb",
+    "def": "to look at two or more things to see how they are similar or different",
+    "uk": "порівнювати",
+    "example": "Is it fair to compare only modern players?",
+    "lesson": "lesson-07",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "independent",
+    "pos": "adj",
+    "def": "not controlled by another country or person",
+    "uk": "незалежний",
+    "example": "Shevchenko was the first player from independent Ukraine to win the Ballon d'Or.",
+    "lesson": "lesson-07",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "take after",
+    "pos": "phrasal verb",
+    "def": "to look or behave like an older relative",
+    "uk": "бути схожим на (старшого родича)",
+    "example": "He takes after his dad — same smile, same left foot.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "take to",
+    "pos": "phrasal verb",
+    "def": "to start liking someone or something quickly",
+    "uk": "швидко полюбити, «прийняти»",
+    "example": "The boys took to the new coach immediately.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "take off",
+    "pos": "phrasal verb",
+    "def": "(a plane) to leave the ground; to remove clothes",
+    "uk": "злетіти (про літак); зняти (одяг)",
+    "example": "Our plane took off late.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "take part in",
+    "pos": "phrasal verb",
+    "def": "to join an activity or competition",
+    "uk": "брати участь у",
+    "example": "Twenty schools take part in the tournament.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "take over",
+    "pos": "phrasal verb",
+    "def": "to start doing a job or role instead of someone else",
+    "uk": "взяти на себе (роль, контроль)",
+    "example": "Danylo took over as captain.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "take care of",
+    "pos": "phrasal verb",
+    "def": "to look after someone or something",
+    "uk": "подбати про, піклуватися",
+    "example": "Who takes care of the kit after the match?",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "look after",
+    "pos": "phrasal verb",
+    "def": "to take care of someone or something",
+    "uk": "доглядати, наглядати за",
+    "example": "Can you look after my bag?",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "look for",
+    "pos": "phrasal verb",
+    "def": "to try to find something",
+    "uk": "шукати",
+    "example": "I'm looking for my other boot!",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "look up",
+    "pos": "phrasal verb",
+    "def": "to find information in a dictionary or online",
+    "uk": "знайти (в словнику, інтернеті)",
+    "example": "Look the word up in the dictionary.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "look up to",
+    "pos": "phrasal verb",
+    "def": "to admire and respect someone",
+    "uk": "поважати, рівнятися на",
+    "example": "Young players look up to Shevchenko.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "look forward to",
+    "pos": "phrasal verb",
+    "def": "to feel happy and excited about something that will happen",
+    "uk": "з нетерпінням чекати (+ -ing)",
+    "example": "I'm looking forward to the derby.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "get on with",
+    "pos": "phrasal verb",
+    "def": "to have a friendly relationship with someone",
+    "uk": "ладнати з",
+    "example": "I get on well with my teammates.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "get over",
+    "pos": "phrasal verb",
+    "def": "to feel better after an illness, injury or bad experience",
+    "uk": "оговтатися, пережити",
+    "example": "It took him months to get over the injury.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "get into",
+    "pos": "phrasal verb",
+    "def": "to be chosen for a team or school; to start liking something",
+    "uk": "потрапити (в команду); захопитися",
+    "example": "She got into the national youth team.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "get back",
+    "pos": "phrasal verb",
+    "def": "to return to a place",
+    "uk": "повернутися",
+    "example": "When did you get back from training?",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "carry on",
+    "pos": "phrasal verb",
+    "def": "to continue doing something",
+    "uk": "продовжувати (+ -ing)",
+    "example": "He was hurt but he carried on playing.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "run out of",
+    "pos": "phrasal verb",
+    "def": "to have no more of something",
+    "uk": "закінчитися (про запас)",
+    "example": "We ran out of water in the second half.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "turn up",
+    "pos": "phrasal verb",
+    "def": "to arrive or appear somewhere",
+    "uk": "з'явитися, прийти",
+    "example": "Only five players turned up for training.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "find out",
+    "pos": "phrasal verb",
+    "def": "to learn a fact or piece of information",
+    "uk": "дізнатися",
+    "example": "I found out the score on my phone.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "come across",
+    "pos": "phrasal verb",
+    "def": "to find or meet something or someone by chance",
+    "uk": "випадково натрапити",
+    "example": "I came across an old photo of Pelé.",
+    "lesson": "lesson-08",
+    "tags": [
+      "phrasal"
+    ]
+  },
+  {
+    "word": "depend on",
+    "pos": "verb + prep",
+    "def": "to change because of something else",
+    "uk": "залежати від",
+    "example": "It depends on the weather.",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
+    ]
+  },
+  {
+    "word": "rely on",
+    "pos": "verb + prep",
+    "def": "to trust someone to help or do something",
+    "uk": "покладатися на",
+    "example": "You can always rely on our goalkeeper.",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
+    ]
+  },
+  {
+    "word": "belong to",
+    "pos": "verb + prep",
+    "def": "to be someone's property",
+    "uk": "належати (комусь)",
+    "example": "This ball belongs to Max.",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
+    ]
+  },
+  {
+    "word": "believe in",
+    "pos": "verb + prep",
+    "def": "to trust that someone or something is good or will succeed",
+    "uk": "вірити в",
+    "example": "The coach believes in us.",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
+    ]
+  },
+  {
+    "word": "agree with",
+    "pos": "verb + prep",
+    "def": "to have the same opinion as someone",
+    "uk": "погоджуватися з",
+    "example": "I don't agree with the referee.",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
+    ]
+  },
+  {
+    "word": "succeed in",
+    "pos": "verb + prep",
+    "def": "to manage to do something",
+    "uk": "досягти успіху в (+ -ing)",
+    "example": "They succeeded in winning the league.",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
+    ]
+  },
+  {
+    "word": "focus on",
+    "pos": "verb + prep",
+    "def": "to give all your attention to something",
+    "uk": "зосередитися на",
+    "example": "Focus on the ball!",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
+    ]
+  },
+  {
+    "word": "worry about",
+    "pos": "verb + prep",
+    "def": "to feel nervous about a problem",
+    "uk": "хвилюватися через",
+    "example": "Don't worry about the score.",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
+    ]
+  },
+  {
+    "word": "apologise for",
+    "pos": "verb + prep",
+    "def": "to say sorry for something",
+    "uk": "вибачатися за (+ -ing)",
+    "example": "He apologised for being late.",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
+    ]
+  },
+  {
+    "word": "complain about",
+    "pos": "verb + prep",
+    "def": "to say that you are not happy with something",
+    "uk": "скаржитися на",
+    "example": "Fans always complain about the referee.",
+    "lesson": "lesson-08",
+    "tags": [
+      "verb + preposition"
     ]
   }
 ]

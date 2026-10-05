@@ -4759,5 +4759,387 @@
         "why": "No of after despite."
       }
     ]
+  },
+  {
+    "id": "phrasal-verbs",
+    "group": "Verbs",
+    "title": "Phrasal verbs: take, look, get",
+    "uk": "Фразові дієслова",
+    "level": "A2+ → B1",
+    "summary": "verb + small word = a new meaning. Learn the pair together, like one word.",
+    "lessons": [
+      "lesson-08"
+    ],
+    "rules": [
+      {
+        "name": "take + …",
+        "form": "take up · take after · take to · take off · take over",
+        "when": "start a hobby · be like an older relative · start liking · leave the ground / remove · start a role",
+        "examples": [
+          {
+            "en": "He took up football at six.",
+            "uk": "Він почав грати у футбол у шість."
+          },
+          {
+            "en": "He takes after his dad.",
+            "uk": "Він схожий на тата."
+          }
+        ]
+      },
+      {
+        "name": "look + …",
+        "form": "look after · look for · look up · look up to · look forward to",
+        "when": "take care of · try to find · find information · admire · wait happily for",
+        "examples": [
+          {
+            "en": "Young players look up to Shevchenko.",
+            "uk": "Молоді гравці рівняються на Шевченка."
+          }
+        ]
+      },
+      {
+        "name": "get + …",
+        "form": "get on with · get over · get into · get back",
+        "when": "be friends with · feel better after · be chosen for · return",
+        "examples": [
+          {
+            "en": "It took him months to get over the injury.",
+            "uk": "Йому знадобилися місяці, щоб оговтатися від травми."
+          }
+        ]
+      },
+      {
+        "name": "Where does the pronoun go?",
+        "form": "look it up · take them off — but look after him",
+        "when": "With look up, take off, give up, find out a short pronoun goes in the middle. With look after, look for, take after, get over it goes after.",
+        "examples": [
+          {
+            "en": "Take your boots off. = Take off your boots. → Take them off.",
+            "uk": "Зніми бутси. → Зніми їх."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "I'm looking after my keys.",
+        "right": "I'm looking for my keys.",
+        "note": "look for = шукати"
+      },
+      {
+        "wrong": "Take off them.",
+        "right": "Take them off.",
+        "note": "pronoun in the middle"
+      },
+      {
+        "wrong": "She takes after her little brother.",
+        "right": "She takes after her mum.",
+        "note": "take after = like an older relative"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Everyone says I take ___ my dad.",
+        "options": [
+          "after",
+          "up",
+          "over"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I'm looking ___ my phone — have you seen it?",
+        "options": [
+          "after",
+          "for",
+          "up"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "It took him a month to get ___ the flu.",
+        "options": [
+          "on",
+          "over",
+          "back"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Kids look up ___ famous players.",
+        "options": [
+          "at",
+          "to",
+          "for"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "I took ___ tennis last summer.",
+        "options": [
+          "up",
+          "after",
+          "off"
+        ],
+        "answer": 0,
+        "why": "take up = start a hobby."
+      },
+      {
+        "q": "Can you look ___ my dog this weekend?",
+        "options": [
+          "for",
+          "after",
+          "up"
+        ],
+        "answer": 1,
+        "why": "look after = take care of."
+      },
+      {
+        "q": "Our plane took ___ at 6 am.",
+        "options": [
+          "over",
+          "off",
+          "up"
+        ],
+        "answer": 1,
+        "why": "take off = leave the ground."
+      },
+      {
+        "q": "Do you get on ___ your sister?",
+        "options": [
+          "with",
+          "to",
+          "for"
+        ],
+        "answer": 0,
+        "why": "get on with someone."
+      },
+      {
+        "q": "I don't know this word. — Look it ___!",
+        "options": [
+          "after",
+          "up",
+          "for"
+        ],
+        "answer": 1,
+        "why": "look up = find information."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "Take off them.",
+          "Take them off."
+        ],
+        "answer": 1,
+        "why": "Pronoun goes in the middle."
+      },
+      {
+        "q": "When the coach left, his assistant took ___.",
+        "options": [
+          "over",
+          "up",
+          "to"
+        ],
+        "answer": 0,
+        "why": "take over = start a role instead of someone."
+      },
+      {
+        "q": "I'm looking forward ___ the holidays.",
+        "options": [
+          "for",
+          "to",
+          "at"
+        ],
+        "answer": 1,
+        "why": "look forward to."
+      }
+    ]
+  },
+  {
+    "id": "verb-preposition",
+    "group": "Verbs",
+    "title": "Verb + preposition",
+    "uk": "Дієслово + прийменник",
+    "level": "A2+ → B1",
+    "summary": "The preposition is fixed and often different from Ukrainian. After a preposition, use -ing.",
+    "lessons": [
+      "lesson-08"
+    ],
+    "rules": [
+      {
+        "name": "Fixed preposition",
+        "form": "depend on · rely on · belong to · believe in · agree with · succeed in · focus on · worry about · apologise for · complain about",
+        "when": "Learn the verb and its preposition together.",
+        "examples": [
+          {
+            "en": "It depends on the weather.",
+            "uk": "Це залежить від погоди."
+          },
+          {
+            "en": "I agree with you.",
+            "uk": "Я з тобою згоден."
+          }
+        ]
+      },
+      {
+        "name": "Preposition + -ing",
+        "form": "preposition + verb-ing",
+        "when": "After any preposition the verb takes -ing — also after look forward to.",
+        "examples": [
+          {
+            "en": "I'm looking forward to seeing you.",
+            "uk": "Я з нетерпінням чекаю на зустріч з тобою."
+          },
+          {
+            "en": "He apologised for being late.",
+            "uk": "Він вибачився за запізнення."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "depend from",
+        "right": "depend on",
+        "note": "залежати від = depend on"
+      },
+      {
+        "wrong": "agree to you",
+        "right": "agree with you",
+        "note": "agree with someone"
+      },
+      {
+        "wrong": "looking forward to see you",
+        "right": "looking forward to seeing you",
+        "note": "to is a preposition here"
+      },
+      {
+        "wrong": "run out from water",
+        "right": "run out of water",
+        "note": "run out of"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "It depends ___ the weather.",
+        "options": [
+          "from",
+          "on",
+          "of"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "I'm looking forward to ___ you.",
+        "options": [
+          "see",
+          "seeing",
+          "saw"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who does this bag belong ___?",
+        "options": [
+          "to",
+          "for",
+          "at"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "I don't agree ___ you.",
+        "options": [
+          "to",
+          "with",
+          "on"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "It depends ___ the weather.",
+        "options": [
+          "from",
+          "on",
+          "of"
+        ],
+        "answer": 1,
+        "why": "depend on."
+      },
+      {
+        "q": "You can rely ___ me.",
+        "options": [
+          "on",
+          "at",
+          "to"
+        ],
+        "answer": 0,
+        "why": "rely on."
+      },
+      {
+        "q": "I'm looking forward to ___ you.",
+        "options": [
+          "see",
+          "seeing",
+          "saw"
+        ],
+        "answer": 1,
+        "why": "Preposition + -ing."
+      },
+      {
+        "q": "They succeeded ___ winning the cup.",
+        "options": [
+          "to",
+          "in",
+          "at"
+        ],
+        "answer": 1,
+        "why": "succeed in + -ing."
+      },
+      {
+        "q": "He apologised ___ being late.",
+        "options": [
+          "for",
+          "about",
+          "of"
+        ],
+        "answer": 0,
+        "why": "apologise for."
+      },
+      {
+        "q": "Fans complain ___ the prices.",
+        "options": [
+          "on",
+          "about",
+          "for"
+        ],
+        "answer": 1,
+        "why": "complain about."
+      },
+      {
+        "q": "We ran out ___ time.",
+        "options": [
+          "from",
+          "of",
+          "off"
+        ],
+        "answer": 1,
+        "why": "run out of."
+      },
+      {
+        "q": "Focus ___ the ball!",
+        "options": [
+          "on",
+          "at",
+          "to"
+        ],
+        "answer": 0,
+        "why": "focus on."
+      }
+    ]
   }
 ]

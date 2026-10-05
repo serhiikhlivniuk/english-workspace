@@ -134,5 +134,24 @@
     ],
     "vocabCount": 16,
     "time": "11:00"
+  },
+  {
+    "id": "lesson-08",
+    "number": 8,
+    "title": "Take Up, Take After, Take Over",
+    "titleUk": "Фразові дієслова і дієслова з прийменниками",
+    "date": "2026-10-05",
+    "time": "17:30",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-08.html",
+    "summary": "32 verbs that come with a partner word: take up / after / to / off / over, look after / for / up / up to / forward to, get on with / over / into / back, and verbs with fixed prepositions (depend on, rely on, agree with…). Preposition + -ing. A review of all the grammar so far, a reading about what makes a good young player, and three extra exercises.",
+    "topics": [
+      "Review: tenses, comparatives, as … as",
+      "Phrasal verbs: take, look, get",
+      "Verb + fixed preposition",
+      "Preposition + -ing"
+    ],
+    "vocabCount": 30
   }
 ]

@@ -1,5 +1,47 @@
 [
   {
+    "id": "sp-08",
+    "lesson": "lesson-08",
+    "title": "Questions with a partner",
+    "minutes": 10,
+    "level": "A2+ → B1",
+    "goal": "Answer and ask questions with phrasal verbs and verbs with prepositions, using the same verb in the answer plus one detail.",
+    "grammar": [
+      "phrasal-verbs",
+      "verb-preposition"
+    ],
+    "warmup": [
+      "Who do you take after?",
+      "When did you take up football?",
+      "Who do you look up to?"
+    ],
+    "main": {
+      "task": "I ask, you answer — then you ask me the same question.",
+      "howto": "Answer with the same verb and add one detail in the Past Simple.",
+      "prompts": [
+        "What are you looking forward to this month?",
+        "Who do you get on best with in your team?",
+        "Have you ever taken part in a competition?",
+        "What does a good match depend on?",
+        "What do people your age complain about most?",
+        "What would you like to take up next?"
+      ]
+    },
+    "phrases": [
+      "I take after…",
+      "I took up … when I was…",
+      "I really look up to … because…",
+      "I'm looking forward to + -ing",
+      "It depends on…",
+      "I don't agree with…"
+    ],
+    "followup": [
+      "Have you ever had to get over a bad defeat?",
+      "Who do you rely on most?"
+    ],
+    "teacher": "Insist on the same verb in the answer. Catch 'looking forward to see' and 'depend from' on the spot."
+  },
+  {
     "id": "sp-07",
     "lesson": "lesson-07",
     "title": "The GOAT debate",

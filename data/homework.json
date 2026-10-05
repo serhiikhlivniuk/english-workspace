@@ -1,5 +1,37 @@
 [
   {
+    "id": "hw-08",
+    "lesson": "lesson-08",
+    "title": "Homework after Lesson 8",
+    "assigned": "2026-10-05",
+    "due": "2026-10-09",
+    "note": "Homework = everything we didn't finish in class. The lists under the first two tasks update themselves as you finish exercises.",
+    "items": [
+      {
+        "id": "hw-08-1",
+        "text": "Lesson 8: finish every exercise we didn't get to in class — the reading (Exercise 6) is the main one.",
+        "type": "grammar",
+        "auto": "lesson-08"
+      },
+      {
+        "id": "hw-08-2",
+        "text": "Lesson 7: finish the exercises that are still open.",
+        "type": "grammar",
+        "auto": "lesson-07"
+      },
+      {
+        "id": "hw-08-3",
+        "text": "Learn the 32 verbs from the verb bank — they're in the dictionary. In the quiz, a word drops out after you get it right three times.",
+        "type": "vocab"
+      },
+      {
+        "id": "hw-08-4",
+        "text": "Take the quizzes in the Grammar section: Phrasal verbs, and Verb + preposition.",
+        "type": "grammar"
+      }
+    ]
+  },
+  {
     "id": "hw-07",
     "lesson": "lesson-07",
     "title": "Homework after Lesson 7",

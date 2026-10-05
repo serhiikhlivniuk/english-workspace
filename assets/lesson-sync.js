@@ -256,5 +256,65 @@
   window.addEventListener('hashchange', jumpToHash);
   if (document.readyState === 'complete') jumpToHash(); else window.addEventListener('load', jumpToHash);
 
+
+  /* ---------- "Clear answers": an always-visible button next to "Show answers" ----------
+     Wipes one exercise: text, selects, true/false, radio choices, the saved snapshot
+     and the marks. The database copy is cleared too (via the forget logic above).
+     Two clicks are needed, so one stray tap never deletes work.                    */
+  function addClearButtons() {
+    const m = /var\s+LS\s*=\s*"([^"]+)"/.exec(Array.from(document.scripts).map(s => s.textContent).join('\n'));
+    const LSP = m ? m[1] : null;
+    const unsave = k => { if (LSP) try { localStorage.removeItem(LSP + k); } catch { /* private mode */ } };
+    const css = document.createElement('style');
+    css.textContent = '.ex-foot .btn.ew-clear.arm{color:#AE372D;border-color:#AE372D;opacity:1}';
+    document.head.appendChild(css);
+    document.querySelectorAll('[data-reveal]').forEach(rev => {
+      const id = rev.getAttribute('data-reveal');
+      const box = document.querySelector(`.ex[data-ex="${id}"]`);
+      if (!box || box.querySelector('.ew-clear')) return;
+      const btn = document.createElement('button');
+      btn.type = 'button'; btn.className = 'btn ghost ew-clear'; btn.textContent = 'Clear answers';
+      const hide = box.querySelector(`[data-hide="${id}"]`);
+      (hide || rev).after(btn);
+      let armed = null;
+      btn.addEventListener('click', () => {
+        if (!armed) {
+          btn.classList.add('arm'); btn.textContent = 'Sure? Click again';
+          armed = setTimeout(() => { armed = null; btn.classList.remove('arm'); btn.textContent = 'Clear answers'; }, 3000);
+          return;
+        }
+        clearTimeout(armed); armed = null; btn.classList.remove('arm'); btn.textContent = 'Clear answers';
+        const forget = [];
+        box.querySelectorAll('input[type=text], input:not([type]), select, textarea').forEach(el => {
+          el.value = ''; el.classList.remove('ok', 'bad');
+          el.dispatchEvent(new Event('input', { bubbles: true }));
+          el.dispatchEvent(new Event('change', { bubbles: true }));
+        });
+        box.querySelectorAll('.tf[data-tf]').forEach(g => {
+          g.querySelectorAll('button').forEach(b => { b.setAttribute('aria-pressed', 'false'); b.classList.remove('ok', 'bad'); });
+          unsave(g.dataset.tf); forget.push(`tf:${g.dataset.tf}`);
+        });
+        box.querySelectorAll('[data-radio]').forEach(g => {
+          g.querySelectorAll('input[type=radio]').forEach(r => { r.checked = false; (r.closest('.choice') || r.parentElement).classList.remove('ok', 'bad'); });
+          unsave(`r:${g.dataset.radio}`); forget.push(`radio:${g.dataset.radio}`);
+        });
+        unsave(`snap:${id}`);
+        if (hide) hide.hidden = true;
+        // let the page recount its progress bar: run its own check on the empty fields, then remove the marks
+        const check = box.querySelector(`[data-check="${id}"]`);
+        if (check) check.click();
+        box.querySelectorAll('.ok, .bad').forEach(el => el.classList.remove('ok', 'bad'));
+        const v = box.querySelector(`[data-verdict="${id}"]`);
+        if (v) { v.textContent = ''; v.className = 'verdict'; }
+        document.dispatchEvent(new CustomEvent('ew:forget', { detail: forget }));
+      });
+    });
+  }
+
+  if (!WATCH) {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addClearButtons);
+    else addClearButtons();
+  }
+
   WATCH ? watch() : student();
 })();
