@@ -1802,5 +1802,170 @@
     "tags": [
       "verb + preposition"
     ]
+  },
+  {
+    "word": "press conference",
+    "pos": "noun",
+    "def": "a meeting where someone answers journalists' questions",
+    "uk": "прес-конференція",
+    "example": "After the final, Maksym gave his first press conference.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "journalist",
+    "pos": "noun",
+    "def": "a person who writes or reports the news",
+    "uk": "журналіст",
+    "example": "The journalist asked about the winning goal.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "come on",
+    "pos": "phrasal verb",
+    "def": "(in sport) to enter the game as a substitute",
+    "uk": "вийти на заміну",
+    "example": "He came on in the second half and scored.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "bench",
+    "pos": "noun",
+    "def": "the seats where substitutes sit during a match",
+    "uk": "лава запасних",
+    "example": "He started the match on the bench.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "tactics",
+    "pos": "noun",
+    "def": "the plan for how a team will play",
+    "uk": "тактика",
+    "example": "The coach explained his tactics before the match.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "equalise",
+    "pos": "verb",
+    "def": "to score a goal that makes the score level",
+    "uk": "зрівняти рахунок",
+    "example": "Denys equalised with a great header.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "injury time",
+    "pos": "noun",
+    "def": "extra minutes at the end of a half",
+    "uk": "компенсований час",
+    "example": "He scored the winner in injury time.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "opponent",
+    "pos": "noun",
+    "def": "the person or team you play against",
+    "uk": "суперник",
+    "example": "Lviv were a very tough opponent.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "on paper",
+    "pos": "phrase",
+    "def": "when you only look at facts and numbers, not at what really happens",
+    "uk": "формально, «на папері»",
+    "example": "On paper, they were the better team.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "give credit to",
+    "pos": "phrase",
+    "def": "to say that someone did something well",
+    "uk": "віддати належне",
+    "example": "I have to give credit to their goalkeeper.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "celebrate",
+    "pos": "verb",
+    "def": "to do something enjoyable because of a special event",
+    "uk": "святкувати",
+    "example": "We celebrated the win with pizza.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "a dream come true",
+    "pos": "phrase",
+    "def": "something you have wanted for a long time that has now happened",
+    "uk": "мрія, що здійснилася",
+    "example": "Playing in the final was a dream come true.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "be over the moon",
+    "pos": "phrase",
+    "def": "to be extremely happy",
+    "uk": "бути на сьомому небі від щастя",
+    "example": "I'm over the moon with this goal!",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "take it one game at a time",
+    "pos": "phrase",
+    "def": "to think only about the next match, not the future",
+    "uk": "думати лише про наступну гру",
+    "example": "We're not thinking about the title — we take it one game at a time.",
+    "lesson": "lesson-09",
+    "tags": [
+      "interview"
+    ]
+  },
+  {
+    "word": "the same way",
+    "pos": "phrase",
+    "def": "in the same manner; like someone else",
+    "uk": "так само, однаково",
+    "example": "We even run the same way.",
+    "lesson": "lesson-08",
+    "tags": [
+      "my words"
+    ]
   }
 ]

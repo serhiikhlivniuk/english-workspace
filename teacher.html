@@ -137,7 +137,8 @@
     mine = EW.get('vocab:mine', []);
   }
   const inbox = $('#inbox');
-  const alreadyIn = w => vocab.some(v => v.word.toLowerCase() === w.toLowerCase());
+  const bare = s => String(s || '').toLowerCase().trim().replace(/^(to|the|a|an) /, '');
+  const alreadyIn = w => vocab.some(v => bare(v.word) === bare(w));
   inbox.innerHTML = mine.length
     ? `<p class="muted">${mine.length} word(s) to turn into dictionary entries:</p>
        <ul class="list">${mine.slice().reverse().map(w => `

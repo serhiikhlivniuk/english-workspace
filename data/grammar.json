@@ -5141,5 +5141,205 @@
         "why": "focus on."
       }
     ]
+  },
+  {
+    "id": "questions",
+    "group": "Questions",
+    "title": "Questions in five tenses",
+    "uk": "Як ставити питання",
+    "level": "A2+ → B1",
+    "summary": "question word + helper + person + verb. No do/did when who/what is the subject. The preposition stays at the end.",
+    "lessons": [
+      "lesson-09"
+    ],
+    "rules": [
+      {
+        "name": "Word order",
+        "form": "(question word) + do/does/did/am/is/are/was/were/have/has + person + verb",
+        "when": "In every tense the helper goes before the person.",
+        "examples": [
+          {
+            "en": "When did you score?",
+            "uk": "Коли ти забив?"
+          },
+          {
+            "en": "What were you thinking?",
+            "uk": "Про що ти думав?"
+          },
+          {
+            "en": "How many goals have you scored?",
+            "uk": "Скільки голів ти забив?"
+          }
+        ]
+      },
+      {
+        "name": "Subject questions",
+        "form": "Who / What + verb (no do / did)",
+        "when": "When who or what is the person or thing that does the action.",
+        "examples": [
+          {
+            "en": "Who scored the goal?",
+            "uk": "Хто забив гол?"
+          },
+          {
+            "en": "What happened?",
+            "uk": "Що сталося?"
+          }
+        ]
+      },
+      {
+        "name": "Preposition at the end",
+        "form": "Who do you look up to? · What does it depend on?",
+        "when": "The preposition stays with its verb — at the end of the question.",
+        "examples": [
+          {
+            "en": "What are you looking forward to?",
+            "uk": "Чого ти чекаєш з нетерпінням?"
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "Where you were born?",
+        "right": "Where were you born?",
+        "note": "helper before the person"
+      },
+      {
+        "wrong": "When you started?",
+        "right": "When did you start?",
+        "note": "did + first form"
+      },
+      {
+        "wrong": "Who did score?",
+        "right": "Who scored?",
+        "note": "subject question — no did"
+      },
+      {
+        "wrong": "To who do you look up?",
+        "right": "Who do you look up to?",
+        "note": "preposition at the end"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Where ___ born?",
+        "options": [
+          "you were",
+          "were you",
+          "did you"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Who ___ the winning goal?",
+        "options": [
+          "did score",
+          "scored",
+          "did scored"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What are you looking forward ___?",
+        "options": [
+          "—",
+          "to",
+          "for"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How many goals ___ this season?",
+        "options": [
+          "have you scored",
+          "you have scored",
+          "did you scored"
+        ],
+        "answer": 0
+      }
+    ],
+    "practice": [
+      {
+        "q": "Where ___ born?",
+        "options": [
+          "you were",
+          "were you",
+          "did you"
+        ],
+        "answer": 1,
+        "why": "Helper (were) before the person."
+      },
+      {
+        "q": "Who ___ the winning goal?",
+        "options": [
+          "did score",
+          "scored",
+          "did scored"
+        ],
+        "answer": 1,
+        "why": "Subject question — no did."
+      },
+      {
+        "q": "What are you looking forward ___?",
+        "options": [
+          "—",
+          "to",
+          "for"
+        ],
+        "answer": 1,
+        "why": "look forward to — the preposition stays at the end."
+      },
+      {
+        "q": "How many goals ___ this season?",
+        "options": [
+          "have you scored",
+          "you have scored",
+          "did you scored"
+        ],
+        "answer": 0,
+        "why": "Present Perfect question: have + you + V3."
+      },
+      {
+        "q": "What ___ when the ball went in?",
+        "options": [
+          "you were doing",
+          "were you doing",
+          "did you doing"
+        ],
+        "answer": 1,
+        "why": "Past Continuous question: were + you + -ing."
+      },
+      {
+        "q": "When ___ playing football?",
+        "options": [
+          "you started",
+          "did you start",
+          "did you started"
+        ],
+        "answer": 1,
+        "why": "did + first form."
+      },
+      {
+        "q": "Who ___ the coach thank after the match?",
+        "options": [
+          "did",
+          "—",
+          "was"
+        ],
+        "answer": 0,
+        "why": "Here who is the object — we need did."
+      },
+      {
+        "q": "What does your success depend ___?",
+        "options": [
+          "from",
+          "on",
+          "of"
+        ],
+        "answer": 1,
+        "why": "depend on, at the end."
+      }
+    ]
   }
 ]

@@ -1,5 +1,41 @@
 [
   {
+    "id": "hw-09",
+    "lesson": "lesson-09",
+    "title": "Homework after Lesson 9",
+    "assigned": "2026-10-07",
+    "due": "2026-10-09",
+    "note": "The main task is Exercise 6 — eight sentences of your own. I'll read and correct every one.",
+    "items": [
+      {
+        "id": "hw-09-1",
+        "text": "Exercise 6: write eight true sentences of your own with depend on, rely on, belong to, believe in, agree with, succeed in (+ -ing), worry about and complain about.",
+        "type": "writing",
+        "auto": "lesson-09",
+        "only": [
+          "7"
+        ]
+      },
+      {
+        "id": "hw-09-2",
+        "text": "Lesson 9: finish the other exercises we didn't get to in class.",
+        "type": "grammar",
+        "auto": "lesson-09"
+      },
+      {
+        "id": "hw-09-3",
+        "text": "Lesson 8: finish the reading and the extra exercises that are still open.",
+        "type": "grammar",
+        "auto": "lesson-08"
+      },
+      {
+        "id": "hw-09-4",
+        "text": "Learn the interview words and phrases from Lesson 9 — they're in the dictionary — and take the Grammar quiz: Questions in five tenses.",
+        "type": "vocab"
+      }
+    ]
+  },
+  {
     "id": "hw-08",
     "lesson": "lesson-08",
     "title": "Homework after Lesson 8",

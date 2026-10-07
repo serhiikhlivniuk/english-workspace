@@ -153,5 +153,26 @@
       "Preposition + -ing"
     ],
     "vocabCount": 30
+  },
+  {
+    "id": "lesson-09",
+    "number": 9,
+    "title": "The Press Conference",
+    "titleUk": "Урок-інтерв'ю: питання і мова інтерв'ю",
+    "date": "2026-10-07",
+    "time": "17:00",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-09.html",
+    "summary": "A speaking lesson. Warm-ups on the verbs with prepositions from Lesson 8 and on question word order. A post-match press conference to read, interview phrases, writing the journalist's questions, then role-plays: player and journalist, interview the teacher, the hot seat. Homework: sentences of your own with verbs + prepositions.",
+    "topics": [
+      "Review: verbs + prepositions",
+      "Question word order in five tenses",
+      "Subject questions: Who scored?",
+      "Preposition at the end of a question",
+      "Interview language",
+      "Role-play: press conference"
+    ],
+    "vocabCount": 14
   }
 ]

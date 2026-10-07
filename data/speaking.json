@@ -1,5 +1,47 @@
 [
   {
+    "id": "sp-09",
+    "lesson": "lesson-09",
+    "title": "Press conference",
+    "minutes": 20,
+    "level": "A2+ → B1",
+    "goal": "Ask questions in different tenses as a journalist, and give full answers with interview phrases as a player.",
+    "grammar": [
+      "questions",
+      "verb-preposition",
+      "phrasal-verbs"
+    ],
+    "warmup": [
+      "How do you feel today?",
+      "What are you looking forward to this week?",
+      "Who do you look up to?"
+    ],
+    "main": {
+      "task": "Pick a scenario: the hero, the bad day, the big move, the comeback. One of us is the player, the other the journalist — then swap.",
+      "howto": "Journalist: six questions in six different forms. Player: full answers, three interview phrases, three verbs from Lesson 8.",
+      "prompts": [
+        "You scored the winner in the cup final.",
+        "You lost 4–0 and missed a penalty.",
+        "At 17 you've just signed for a big European club.",
+        "Your first match after a long injury."
+      ]
+    },
+    "phrases": [
+      "To be honest, …",
+      "It's a dream come true.",
+      "I'm over the moon.",
+      "Talk us through…",
+      "What was going through your mind?",
+      "I have to give credit to…",
+      "We take it one game at a time."
+    ],
+    "followup": [
+      "Interview me for the school newspaper — then tell me three facts about me.",
+      "Hot seat: 60 seconds of fast questions."
+    ],
+    "teacher": "Score a point for every question in a new tense and every question that ends with a preposition. Catch 'Where you were…' and 'Who did score' on the spot. Push for a detail in every answer."
+  },
+  {
     "id": "sp-08",
     "lesson": "lesson-08",
     "title": "Questions with a partner",
