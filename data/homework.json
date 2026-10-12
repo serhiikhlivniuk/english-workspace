@@ -1,5 +1,40 @@
 [
   {
+    "id": "hw-10",
+    "lesson": "lesson-10",
+    "title": "Homework after Lesson 10",
+    "assigned": "2026-10-12",
+    "due": "2026-10-16",
+    "note": "Homework = everything we didn't finish in class. The lists update themselves as you finish exercises.",
+    "items": [
+      {
+        "id": "hw-10-1",
+        "text": "Lesson 10: finish every exercise we didn't get to in class — the reading (Exercise 6) is the main one.",
+        "type": "grammar",
+        "auto": "lesson-10"
+      },
+      {
+        "id": "hw-10-2",
+        "text": "Lesson 9, Exercise 6: your eight sentences with verbs + prepositions.",
+        "type": "writing",
+        "auto": "lesson-09",
+        "only": [
+          "7"
+        ]
+      },
+      {
+        "id": "hw-10-3",
+        "text": "Learn the personality words from Lesson 10 — they're in the dictionary.",
+        "type": "vocab"
+      },
+      {
+        "id": "hw-10-4",
+        "text": "Take the quizzes in the Grammar section: Articles: a, an, the, and Describing personality.",
+        "type": "grammar"
+      }
+    ]
+  },
+  {
     "id": "hw-09",
     "lesson": "lesson-09",
     "title": "Homework after Lesson 9",

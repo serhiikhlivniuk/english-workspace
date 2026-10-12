@@ -174,5 +174,26 @@
       "Role-play: press conference"
     ],
     "vocabCount": 14
+  },
+  {
+    "id": "lesson-10",
+    "number": 10,
+    "title": "What's He Like?",
+    "titleUk": "Артиклі a / an / the і опис характеру",
+    "date": "2026-10-12",
+    "time": "17:30",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-10.html",
+    "summary": "Articles: a / an by sound, the, and no article — with two short BBC Learning English videos. A new topic: personality. Words we already know (talented, stubborn, determined, tough…) plus ten new ones, opposites with un- / dis- / im- / ir-, and What's he like? vs What does he look like? A reading about a coach choosing a new captain.",
+    "topics": [
+      "Review: Lessons 7–9",
+      "a / an / the / no article",
+      "BBC video: articles",
+      "Personality adjectives",
+      "What's he like? / look like / like",
+      "Opposites: un-, dis-, im-, ir-"
+    ],
+    "vocabCount": 24
   }
 ]

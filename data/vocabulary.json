@@ -1967,5 +1967,270 @@
     "tags": [
       "my words"
     ]
+  },
+  {
+    "word": "generous",
+    "pos": "adj",
+    "def": "happy to give money, time or help to others",
+    "uk": "щедрий",
+    "example": "He's very generous — he always shares his snacks.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "reliable",
+    "pos": "adj",
+    "def": "you can trust them to do what they promise",
+    "uk": "надійний",
+    "example": "Artem is the most reliable player in the team.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "patient",
+    "pos": "adj",
+    "def": "can wait calmly without getting angry",
+    "uk": "терплячий",
+    "example": "Our coach is really patient with the younger kids.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "ambitious",
+    "pos": "adj",
+    "def": "wants to be very successful",
+    "uk": "амбітний",
+    "example": "He's ambitious — he wants to play in the Premier League.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "arrogant",
+    "pos": "adj",
+    "def": "thinks he or she is better than everyone else",
+    "uk": "зарозумілий, пихатий",
+    "example": "He can be a bit arrogant after a good game.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "modest",
+    "pos": "adj",
+    "def": "doesn't talk much about his or her own successes",
+    "uk": "скромний",
+    "example": "Even after his hat-trick he was very modest.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "selfish",
+    "pos": "adj",
+    "def": "thinks only about himself or herself",
+    "uk": "егоїстичний",
+    "example": "A selfish striker never passes the ball.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "easy-going",
+    "pos": "adj",
+    "def": "relaxed — not easily worried or angry",
+    "uk": "легкий у спілкуванні, невимушений",
+    "example": "Bohdan is easy-going, so everyone likes him.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "cheerful",
+    "pos": "adj",
+    "def": "happy and positive most of the time",
+    "uk": "життєрадісний, веселий",
+    "example": "She's always cheerful, even on Monday mornings.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "bad-tempered",
+    "pos": "adj",
+    "def": "gets angry very easily",
+    "uk": "запальний, дратівливий",
+    "example": "The referee was bad-tempered all match.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "honest",
+    "pos": "adj",
+    "def": "tells the truth",
+    "uk": "чесний",
+    "example": "He's an honest player — he never dives.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "confident",
+    "pos": "adj",
+    "def": "sure of yourself and your abilities",
+    "uk": "впевнений у собі",
+    "example": "After the first goal we were much more confident.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "shy",
+    "pos": "adj",
+    "def": "nervous and quiet with people you don't know",
+    "uk": "сором'язливий",
+    "example": "Artem is quite shy in the dressing room.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "lazy",
+    "pos": "adj",
+    "def": "doesn't want to work or make an effort",
+    "uk": "лінивий",
+    "example": "Don't be lazy — run back and defend!",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "hard-working",
+    "pos": "adj",
+    "def": "works a lot and puts in effort",
+    "uk": "працьовитий",
+    "example": "He's the most hard-working person I know.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "stubborn",
+    "pos": "adj",
+    "def": "doesn't change his or her mind easily",
+    "uk": "упертий",
+    "example": "He can be stubborn when he has an idea.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "determined",
+    "pos": "adj",
+    "def": "decided to do something and won't stop",
+    "uk": "цілеспрямований, рішучий",
+    "example": "She's determined to get into the national team.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "jealous",
+    "pos": "adj",
+    "def": "unhappy because someone has something you want",
+    "uk": "заздрісний",
+    "example": "Emma is jealous of her friends' holidays.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "tough",
+    "pos": "adj",
+    "def": "strong and not easily hurt or beaten; difficult",
+    "uk": "міцний, витривалий; складний (про суперника)",
+    "example": "Lviv were a very tough opponent.",
+    "lesson": "lesson-10",
+    "tags": [
+      "my words",
+      "personality"
+    ]
+  },
+  {
+    "word": "dishonest",
+    "pos": "adj",
+    "def": "not honest",
+    "uk": "нечесний",
+    "example": "A dishonest player tries to fool the referee.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "impatient",
+    "pos": "adj",
+    "def": "not patient",
+    "uk": "нетерплячий",
+    "example": "Don't be impatient — wait for the right moment.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "unreliable",
+    "pos": "adj",
+    "def": "you can't trust them",
+    "uk": "ненадійний",
+    "example": "Our old bus is so unreliable.",
+    "lesson": "lesson-10",
+    "tags": [
+      "personality"
+    ]
+  },
+  {
+    "word": "cost an arm and a leg",
+    "pos": "idiom",
+    "def": "to be very expensive",
+    "uk": "коштувати шалених грошей",
+    "example": "The trip cost an arm and a leg.",
+    "lesson": "lesson-10",
+    "tags": [
+      "phrase"
+    ]
+  },
+  {
+    "word": "What's he like?",
+    "pos": "phrase",
+    "def": "a question about someone's personality",
+    "uk": "Який він (за характером)?",
+    "example": "What's your new coach like? — He's strict but fair.",
+    "lesson": "lesson-10",
+    "tags": [
+      "phrase"
+    ]
   }
 ]

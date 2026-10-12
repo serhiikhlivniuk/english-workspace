@@ -5341,5 +5341,379 @@
         "why": "depend on, at the end."
       }
     ]
+  },
+  {
+    "id": "articles",
+    "group": "Articles",
+    "title": "Articles: a, an, the",
+    "uk": "Артиклі",
+    "level": "A2+ → B1",
+    "summary": "a / an = one of many (by sound: an honest, a university). the = we both know which one. No article = in general, sports, most countries and cities.",
+    "lessons": [
+      "lesson-10"
+    ],
+    "rules": [
+      {
+        "name": "a / an",
+        "form": "a + consonant sound · an + vowel sound",
+        "when": "One of many, first mention, jobs, a + adjective + noun.",
+        "examples": [
+          {
+            "en": "He's a coach. She's an honest person.",
+            "uk": "Він тренер. Вона чесна людина."
+          },
+          {
+            "en": "It's an hour away. She's a university student.",
+            "uk": "Це за годину звідси. Вона студентка університету."
+          }
+        ]
+      },
+      {
+        "name": "the",
+        "form": "the + noun we both know",
+        "when": "Mentioned before, only one, superlatives, cups and leagues, the UK / the USA, rivers and seas, instruments.",
+        "examples": [
+          {
+            "en": "I saw a dog. The dog was chasing a ball.",
+            "uk": "Я побачив собаку. Собака ганявся за м'ячем."
+          },
+          {
+            "en": "He's the best player in the Premier League.",
+            "uk": "Він найкращий гравець Прем'єр-ліги."
+          }
+        ]
+      },
+      {
+        "name": "No article",
+        "form": "— + plural / uncountable / sport / most places",
+        "when": "Things in general, sports, most countries and cities, at home / at school.",
+        "examples": [
+          {
+            "en": "I play football. Footballers travel a lot.",
+            "uk": "Я граю у футбол. Футболісти багато подорожують."
+          },
+          {
+            "en": "I live in Ukraine.",
+            "uk": "Я живу в Україні."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "I'm student.",
+        "right": "I'm a student.",
+        "note": "jobs and roles need a / an"
+      },
+      {
+        "wrong": "I play the football.",
+        "right": "I play football.",
+        "note": "no article with sports"
+      },
+      {
+        "wrong": "a honest man",
+        "right": "an honest man",
+        "note": "h is silent → vowel sound"
+      },
+      {
+        "wrong": "He is best player.",
+        "right": "He's the best player.",
+        "note": "superlative needs the"
+      },
+      {
+        "wrong": "The life is hard.",
+        "right": "Life is hard.",
+        "note": "in general — no article"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "He's ___ honest player.",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "I play ___ football every day.",
+        "options": [
+          "the",
+          "a",
+          "— (nothing)"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Messi is ___ best player I've ever seen.",
+        "options": [
+          "a",
+          "the",
+          "— (nothing)"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "My dad is ___ coach.",
+        "options": [
+          "a",
+          "the",
+          "— (nothing)"
+        ],
+        "answer": 0
+      }
+    ],
+    "practice": [
+      {
+        "q": "He's ___ honest player.",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": 1,
+        "why": "h is silent — vowel sound."
+      },
+      {
+        "q": "She's ___ university student.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "why": "university starts with a 'you' sound."
+      },
+      {
+        "q": "I play ___ football every day.",
+        "options": [
+          "the",
+          "a",
+          "— (nothing)"
+        ],
+        "answer": 2,
+        "why": "No article with sports."
+      },
+      {
+        "q": "Messi is ___ best player I've ever seen.",
+        "options": [
+          "a",
+          "the",
+          "— (nothing)"
+        ],
+        "answer": 1,
+        "why": "Superlative → the."
+      },
+      {
+        "q": "My dad is ___ coach.",
+        "options": [
+          "a",
+          "the",
+          "— (nothing)"
+        ],
+        "answer": 0,
+        "why": "Jobs need a / an."
+      },
+      {
+        "q": "Who won ___ World Cup in 2022?",
+        "options": [
+          "a",
+          "the",
+          "— (nothing)"
+        ],
+        "answer": 1,
+        "why": "Cups and leagues take the."
+      },
+      {
+        "q": "We went to ___ UK last summer.",
+        "options": [
+          "the",
+          "— (nothing)"
+        ],
+        "answer": 0,
+        "why": "the United Kingdom."
+      },
+      {
+        "q": "Kyiv is the capital of ___ Ukraine.",
+        "options": [
+          "the",
+          "— (nothing)"
+        ],
+        "answer": 1,
+        "why": "Most countries have no article."
+      },
+      {
+        "q": "I saw a dog. ___ dog was chasing a ball.",
+        "options": [
+          "A",
+          "The"
+        ],
+        "answer": 1,
+        "why": "Second mention → the."
+      },
+      {
+        "q": "My cousin plays ___ guitar.",
+        "options": [
+          "the",
+          "a",
+          "— (nothing)"
+        ],
+        "answer": 0,
+        "why": "Instruments take the."
+      }
+    ]
+  },
+  {
+    "id": "personality",
+    "group": "Vocabulary",
+    "title": "Describing personality",
+    "uk": "Опис характеру",
+    "level": "A2+ → B1",
+    "summary": "What's he like? = personality. What does he look like? = appearance. Opposites with un-, dis-, im-, ir-.",
+    "lessons": [
+      "lesson-10"
+    ],
+    "rules": [
+      {
+        "name": "Three questions",
+        "form": "What's he like? · What does he look like? · What does he like?",
+        "when": "personality · appearance · things he enjoys",
+        "examples": [
+          {
+            "en": "What's he like? — He's kind and a bit shy.",
+            "uk": "Який він? — Добрий і трохи сором'язливий."
+          }
+        ]
+      },
+      {
+        "name": "Adjective + noun",
+        "form": "He's honest. = He's an honest person.",
+        "when": "With a noun, you need an article.",
+        "examples": [
+          {
+            "en": "She's a really patient coach.",
+            "uk": "Вона дуже терпляча тренерка."
+          }
+        ]
+      },
+      {
+        "name": "Opposites",
+        "form": "un- · dis- · im- (before p) · ir- (before r)",
+        "when": "unkind, unreliable, dishonest, impatient, impolite, irresponsible",
+        "examples": [
+          {
+            "en": "Don't be impatient!",
+            "uk": "Не будь нетерплячим!"
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "How is he? (about personality)",
+        "right": "What's he like?",
+        "note": "How is he? = how is he feeling"
+      },
+      {
+        "wrong": "unpatient",
+        "right": "impatient",
+        "note": "im- before p"
+      },
+      {
+        "wrong": "unhonest",
+        "right": "dishonest",
+        "note": "dis- with honest"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "“He's tall with dark hair.” — the question was…",
+        "options": [
+          "What's he like?",
+          "What does he look like?",
+          "What does he like?"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "The opposite of patient is…",
+        "options": [
+          "unpatient",
+          "impatient",
+          "dispatient"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Someone who thinks only about himself is…",
+        "options": [
+          "generous",
+          "selfish",
+          "modest"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "“He's kind and a bit shy.” — the question was…",
+        "options": [
+          "What's he like?",
+          "What does he look like?",
+          "What does he like?"
+        ],
+        "answer": 0,
+        "why": "like = personality."
+      },
+      {
+        "q": "The opposite of honest is…",
+        "options": [
+          "unhonest",
+          "dishonest",
+          "imhonest"
+        ],
+        "answer": 1,
+        "why": "dis- + honest."
+      },
+      {
+        "q": "Someone you can always trust is…",
+        "options": [
+          "reliable",
+          "arrogant",
+          "lazy"
+        ],
+        "answer": 0,
+        "why": "reliable = надійний."
+      },
+      {
+        "q": "He never talks about his goals. He's very…",
+        "options": [
+          "modest",
+          "arrogant",
+          "bad-tempered"
+        ],
+        "answer": 0,
+        "why": "modest = скромний."
+      },
+      {
+        "q": "She gets angry very easily. She's…",
+        "options": [
+          "easy-going",
+          "bad-tempered",
+          "cheerful"
+        ],
+        "answer": 1,
+        "why": "bad-tempered = запальний."
+      },
+      {
+        "q": "He's ___ honest person.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "why": "Vowel sound."
+      }
+    ]
   }
 ]

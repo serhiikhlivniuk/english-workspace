@@ -1,5 +1,45 @@
 [
   {
+    "id": "sp-10",
+    "lesson": "lesson-10",
+    "title": "What's he like?",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Describe people's personality with adjectives, examples and correct articles.",
+    "grammar": [
+      "personality",
+      "articles"
+    ],
+    "warmup": [
+      "Which three words describe you?",
+      "What's your best friend like?",
+      "Who do you take after?"
+    ],
+    "main": {
+      "task": "Describe four people: your best friend, your coach or a teacher, someone you take after, yourself. Then play Guess who with famous footballers.",
+      "howto": "Three personality words for each person, and an example for each word. Use a / an / the: He's a really patient man. He's the most reliable player in the team.",
+      "prompts": [
+        "your best friend",
+        "your coach or a teacher",
+        "someone in your family",
+        "yourself — one good and one not-so-good quality",
+        "a famous footballer (Guess who)"
+      ]
+    },
+    "phrases": [
+      "He's a really … person.",
+      "She can be a bit …",
+      "He's the most … person I know.",
+      "What's he like? — He's …",
+      "For example, …"
+    ],
+    "followup": [
+      "Who would you choose as captain — Danylo, Artem or Bohdan? Why?",
+      "Is it better to be talented or hard-working?"
+    ],
+    "teacher": "Insist on an example after every adjective. Catch 'I'm student', 'play the football', 'a honest' on the spot."
+  },
+  {
     "id": "sp-09",
     "lesson": "lesson-09",
     "title": "Press conference",
