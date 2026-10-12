@@ -257,6 +257,45 @@
   if (document.readyState === 'complete') jumpToHash(); else window.addEventListener('load', jumpToHash);
 
 
+
+  /* ---------- ew-shuffle: the order of choices never gives the answer away ----------
+     Dropdown options (except the empty "—" placeholder) and word-bank tiles are put in
+     a random order. The order is fixed per lesson and per field (seeded), so it stays
+     the same after a reload and on every device. Answers are matched by text, so
+     saved work and the teacher's live view are not affected.                        */
+  function seeded(str) {
+    let h = 2166136261;
+    for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
+    return () => { h += 0x6D2B79F5; let t = h; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+  }
+  function shuffleIn(parent, nodes, rnd) {
+    const a = nodes.slice();
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+    // make sure the order really changed when it can
+    if (a.length > 2 && a.every((n, i) => n === nodes[i])) a.push(a.shift());
+    a.forEach(n => parent.appendChild(n));
+  }
+  function shuffleChoices() {
+    document.querySelectorAll('select').forEach((sel, k) => {
+      const opts = Array.from(sel.options).filter(o => o.value !== '');
+      if (opts.length < 3) return;                       // a / an, True / False: nothing to hide
+      const keep = sel.value;
+      shuffleIn(sel, opts, seeded(id + ':' + (sel.id || k)));
+      sel.value = keep;
+    });
+    document.querySelectorAll('.tiles').forEach((box, k) => {
+      shuffleIn(box, Array.from(box.querySelectorAll('.tile')), seeded(id + ':tiles:' + k));
+    });
+  }
+  shuffleChoices();
+
+  /* ---------- "Hide answers" is always visible next to "Show answers" ---------- */
+  if (!WATCH) {
+    const st = document.createElement('style');
+    st.textContent = '.ex-foot button[data-hide][hidden]{display:inline-block !important}';
+    document.head.appendChild(st);
+  }
+
   /* ---------- "Clear answers": an always-visible button next to "Show answers" ----------
      Wipes one exercise: text, selects, true/false, radio choices, the saved snapshot
      and the marks. The database copy is cleared too (via the forget logic above).
@@ -299,7 +338,6 @@
           unsave(`r:${g.dataset.radio}`); forget.push(`radio:${g.dataset.radio}`);
         });
         unsave(`snap:${id}`);
-        if (hide) hide.hidden = true;
         // let the page recount its progress bar: run its own check on the empty fields, then remove the marks
         const check = box.querySelector(`[data-check="${id}"]`);
         if (check) check.click();

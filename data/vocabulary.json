@@ -2232,5 +2232,71 @@
     "tags": [
       "phrase"
     ]
+  },
+  {
+    "word": "sightseeing",
+    "pos": "noun",
+    "def": "visiting famous places as a tourist",
+    "uk": "огляд визначних місць",
+    "example": "We spent Saturday sightseeing in London.",
+    "lesson": "lesson-10",
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "word": "the Tube",
+    "pos": "noun",
+    "def": "the underground railway in London",
+    "uk": "лондонське метро",
+    "example": "We took the Tube from Heathrow to the hotel.",
+    "lesson": "lesson-10",
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "word": "stand",
+    "pos": "noun",
+    "def": "the part of a stadium where fans sit or stand",
+    "uk": "трибуна",
+    "example": "We sat in the east stand, next to an old fan.",
+    "lesson": "lesson-10",
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "word": "scarf",
+    "pos": "noun",
+    "def": "a long piece of cloth you wear around your neck",
+    "uk": "шарф",
+    "example": "He gave me his old Chelsea scarf.",
+    "lesson": "lesson-10",
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "word": "queue",
+    "pos": "noun",
+    "def": "a line of people waiting for something",
+    "uk": "черга",
+    "example": "There was a huge queue for the London Eye.",
+    "lesson": "lesson-10",
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "word": "receptionist",
+    "pos": "noun",
+    "def": "a person who welcomes guests at a hotel or office",
+    "uk": "адміністратор, працівник рецепції",
+    "example": "The receptionist gave us a map.",
+    "lesson": "lesson-10",
+    "tags": [
+      "travel"
+    ]
   }
 ]
