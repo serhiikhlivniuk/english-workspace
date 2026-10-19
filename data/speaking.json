@@ -1,5 +1,43 @@
 [
   {
+    "id": "sp-12",
+    "lesson": "lesson-12",
+    "title": "The name game",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Talk about names, nicknames and their history using the passive: be called, be known as, be named after, was founded by.",
+    "grammar": [
+      "passive"
+    ],
+    "warmup": [
+      "Have you got a nickname? Where does it come from?",
+      "Which English club do you like most? What's its nickname?",
+      "What is your town famous for?"
+    ],
+    "main": {
+      "task": "Guess the club from passive clues; talk about nicknames of Ukrainian clubs; invent your own club — name, kit, badge and fans' nickname.",
+      "howto": "Use the passive whenever you can: It's called… It was named after… It was founded by… They're known as…",
+      "prompts": [
+        "Guess the club from three clues",
+        "Nicknames of Ukrainian clubs — real or invented",
+        "Your own club: name, colours, badge, fans"
+      ]
+    },
+    "phrases": [
+      "It's named after…",
+      "It comes from…",
+      "The city is famous for…",
+      "On the badge you can see…",
+      "The fans are called…",
+      "It was founded by…"
+    ],
+    "followup": [
+      "Should clubs keep old names or change them?",
+      "Which nickname from the text do you like most? Why?"
+    ],
+    "teacher": "Catch missing 'be' (The club founded…) and V1 instead of V3 on the spot. Push for the passive in every answer about history."
+  },
+  {
     "id": "sp-10",
     "lesson": "lesson-10",
     "title": "What's he like?",

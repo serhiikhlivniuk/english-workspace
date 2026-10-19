@@ -1,5 +1,36 @@
 [
   {
+    "id": "hw-12",
+    "lesson": "lesson-12",
+    "title": "Homework after Lesson 12",
+    "assigned": "2026-10-19",
+    "due": "2026-10-23",
+    "note": "Homework = everything we didn't finish in class. The list updates itself as you finish exercises.",
+    "items": [
+      {
+        "id": "hw-12-1",
+        "text": "Lesson 12: finish every exercise we didn't get to in class.",
+        "type": "grammar",
+        "auto": "lesson-12"
+      },
+      {
+        "id": "hw-12-2",
+        "text": "Learn the British football words and the irregular V3 forms from Lesson 12 — they're in the dictionary and on the Grammar tab.",
+        "type": "vocab"
+      },
+      {
+        "id": "hw-12-3",
+        "text": "Take the quiz in the Grammar section: The passive.",
+        "type": "grammar"
+      },
+      {
+        "id": "hw-12-4",
+        "text": "Extra: Exercise 9 — The story of a name, 80–100 words.",
+        "type": "writing"
+      }
+    ]
+  },
+  {
     "id": "hw-10",
     "lesson": "lesson-10",
     "title": "Homework after Lesson 10",

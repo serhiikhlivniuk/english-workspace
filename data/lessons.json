@@ -195,5 +195,26 @@
       "What's he like? / look like / like"
     ],
     "vocabCount": 30
+  },
+  {
+    "id": "lesson-12",
+    "number": 12,
+    "title": "The Gunners, the Toffees and the Magpies",
+    "titleUk": "Пасивний стан і прізвиська англійських клубів",
+    "date": "2026-10-19",
+    "time": "16:30",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-12.html",
+    "summary": "Where English club nicknames come from — factories, birds, sweets, knights and churches — in a reading full of British words (pitch, kit, badge, ground, terraces, nil, gaffer, mate, gutted, chuffed). New grammar: the passive in the Present and Past Simple, be called / be known as / be named after. Plus a preview of who / which / where / whose.",
+    "topics": [
+      "Review: articles and personality",
+      "The passive: is / are / was / were + V3",
+      "be called · be known as · be named after",
+      "Club nicknames and their stories",
+      "British football English",
+      "Preview: who / which / where / whose"
+    ],
+    "vocabCount": 22
   }
 ]

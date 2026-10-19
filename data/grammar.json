@@ -5715,5 +5715,231 @@
         "why": "Vowel sound."
       }
     ]
+  },
+  {
+    "id": "passive",
+    "group": "Verbs",
+    "title": "The passive",
+    "uk": "Пасивний стан",
+    "level": "B1",
+    "summary": "be + V3. Use it when the action or the thing is important, not who did it. Add by only when the doer matters.",
+    "lessons": [
+      "lesson-12"
+    ],
+    "rules": [
+      {
+        "name": "Present Simple passive",
+        "form": "am / is / are + V3",
+        "when": "Facts and things that happen regularly.",
+        "examples": [
+          {
+            "en": "Southampton are called the Saints.",
+            "uk": "«Саутгемптон» називають «Святими»."
+          },
+          {
+            "en": "These shirts are made in Portugal.",
+            "uk": "Ці футболки виготовляють у Португалії."
+          }
+        ]
+      },
+      {
+        "name": "Past Simple passive",
+        "form": "was / were + V3",
+        "when": "Finished events in the past — very common in history.",
+        "examples": [
+          {
+            "en": "Arsenal was founded in 1886.",
+            "uk": "«Арсенал» було засновано у 1886 році."
+          },
+          {
+            "en": "Sweets were sold to fans.",
+            "uk": "Вболівальникам продавали цукерки."
+          }
+        ]
+      },
+      {
+        "name": "by + the doer",
+        "form": "… by + person / thing",
+        "when": "Only when it's important who did it.",
+        "examples": [
+          {
+            "en": "The club was started by young men from a church.",
+            "uk": "Клуб заснували молоді люди з церкви."
+          }
+        ]
+      },
+      {
+        "name": "Names",
+        "form": "be called · be known as · be named after",
+        "when": "Talking about names and nicknames.",
+        "examples": [
+          {
+            "en": "Tottenham were named after a knight.",
+            "uk": "«Тоттенгем» назвали на честь лицаря."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "The club founded in 1878.",
+        "right": "The club was founded in 1878.",
+        "note": "the passive needs be"
+      },
+      {
+        "wrong": "It was build in 1923.",
+        "right": "It was built in 1923.",
+        "note": "V3, not V1"
+      },
+      {
+        "wrong": "The goal was scored from Saka.",
+        "right": "The goal was scored by Saka.",
+        "note": "by + doer"
+      },
+      {
+        "wrong": "English speaks in many countries.",
+        "right": "English is spoken in many countries.",
+        "note": "English doesn't speak — people speak it"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Arsenal ___ founded in 1886.",
+        "options": [
+          "is",
+          "was",
+          "were"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Tea ___ drunk all over Britain.",
+        "options": [
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "The stadium was ___ in 2007.",
+        "options": [
+          "open",
+          "opened",
+          "opening"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "The book was written ___ J.K. Rowling.",
+        "options": [
+          "from",
+          "by",
+          "with"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "Arsenal ___ founded in 1886.",
+        "options": [
+          "is",
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "why": "Past + one club → was."
+      },
+      {
+        "q": "Tea ___ drunk all over Britain.",
+        "options": [
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": 0,
+        "why": "A fact now → is."
+      },
+      {
+        "q": "These shirts ___ made in Portugal.",
+        "options": [
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": 1,
+        "why": "Many shirts, now → are."
+      },
+      {
+        "q": "The tickets ___ sold out yesterday.",
+        "options": [
+          "are",
+          "were",
+          "was"
+        ],
+        "answer": 1,
+        "why": "Yesterday + many → were."
+      },
+      {
+        "q": "The stadium was ___ in 1923.",
+        "options": [
+          "build",
+          "built",
+          "builded"
+        ],
+        "answer": 1,
+        "why": "build → built → built."
+      },
+      {
+        "q": "English is ___ in many countries.",
+        "options": [
+          "speak",
+          "spoke",
+          "spoken"
+        ],
+        "answer": 2,
+        "why": "V3: spoken."
+      },
+      {
+        "q": "The book was written ___ J.K. Rowling.",
+        "options": [
+          "from",
+          "by",
+          "with"
+        ],
+        "answer": 1,
+        "why": "by + the doer."
+      },
+      {
+        "q": "Everton ___ as the Toffees.",
+        "options": [
+          "know",
+          "are known",
+          "are knowing"
+        ],
+        "answer": 1,
+        "why": "be known as."
+      },
+      {
+        "q": "Tottenham were named ___ a knight.",
+        "options": [
+          "after",
+          "for",
+          "by"
+        ],
+        "answer": 0,
+        "why": "be named after."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "The club founded in 1878.",
+          "The club was founded in 1878."
+        ],
+        "answer": 1,
+        "why": "The passive needs be."
+      }
+    ]
   }
 ]

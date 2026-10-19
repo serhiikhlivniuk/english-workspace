@@ -2298,5 +2298,247 @@
     "tags": [
       "travel"
     ]
+  },
+  {
+    "word": "nickname",
+    "pos": "noun",
+    "def": "an informal name for a person, team or place",
+    "uk": "прізвисько",
+    "example": "Everton's nickname is the Toffees.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "supporter",
+    "pos": "noun",
+    "def": "a fan of a club",
+    "uk": "вболівальник",
+    "example": "The supporters sang for ninety minutes.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "badge",
+    "pos": "noun",
+    "def": "the club's symbol on the shirt",
+    "uk": "емблема (клубу)",
+    "example": "There's a cannon on the Arsenal badge.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "kit",
+    "pos": "noun",
+    "def": "the shirt, shorts and socks a team plays in",
+    "uk": "форма (команди)",
+    "example": "Norwich play in a yellow and green kit.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "pitch",
+    "pos": "noun",
+    "def": "the grass field where football is played",
+    "uk": "футбольне поле",
+    "example": "The players walked out onto the pitch.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "ground",
+    "pos": "noun",
+    "def": "a stadium, especially an old, traditional one",
+    "uk": "стадіон",
+    "example": "Toffee shops stood near the ground.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "terraces",
+    "pos": "noun",
+    "def": "the parts of a stadium where fans used to stand",
+    "uk": "трибуни (стоячі)",
+    "example": "The song is sung on the terraces.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "fixture",
+    "pos": "noun",
+    "def": "a match on a planned date",
+    "uk": "матч (за розкладом)",
+    "example": "Our next fixture is on Saturday.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "nil",
+    "pos": "noun",
+    "def": "zero, in a football score",
+    "uk": "нуль (у рахунку)",
+    "example": "We lost two-nil.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "gaffer",
+    "pos": "noun",
+    "def": "informal: the manager, the boss",
+    "uk": "тренер, бос (розм.)",
+    "example": "The gaffer wasn't happy at half-time.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "derby",
+    "pos": "noun",
+    "def": "a match between two teams from the same city",
+    "uk": "дербі",
+    "example": "The Merseyside derby is Liverpool v Everton.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "mate",
+    "pos": "noun",
+    "def": "informal: friend",
+    "uk": "друже, приятель",
+    "example": "Alright, mate?",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "cheers",
+    "pos": "exclamation",
+    "def": "informal: thanks (or goodbye)",
+    "uk": "дякую; бувай",
+    "example": "Here's your tea. — Cheers!",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "gutted",
+    "pos": "adj",
+    "def": "informal: very disappointed",
+    "uk": "дуже засмучений",
+    "example": "We lost in the last minute. I'm gutted.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "chuffed",
+    "pos": "adj",
+    "def": "informal: very pleased",
+    "uk": "дуже задоволений",
+    "example": "I got tickets for the derby — I'm chuffed!",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "proper",
+    "pos": "adj",
+    "def": "informal: real, done the right way",
+    "uk": "справжній",
+    "example": "That's proper football.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "found",
+    "pos": "verb",
+    "def": "to start an organisation (founded, founded)",
+    "uk": "заснувати",
+    "example": "Arsenal was founded in 1886.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "be named after",
+    "pos": "phrase",
+    "def": "to get the name of a person or thing",
+    "uk": "бути названим на честь",
+    "example": "Tottenham Hotspur were named after a knight.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "be known as",
+    "pos": "phrase",
+    "def": "to have a particular name, often informal",
+    "uk": "бути відомим як",
+    "example": "West Ham are known as the Hammers.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "knight",
+    "pos": "noun",
+    "def": "a soldier of high rank in the Middle Ages",
+    "uk": "лицар",
+    "example": "Harry Hotspur was a medieval knight.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "weapon",
+    "pos": "noun",
+    "def": "something used to fight, like a gun or a sword",
+    "uk": "зброя",
+    "example": "The Royal Arsenal was a weapons factory.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
+  },
+  {
+    "word": "breed",
+    "pos": "verb",
+    "def": "to keep animals to produce young ones (bred, bred)",
+    "uk": "розводити",
+    "example": "Canaries were bred in Norwich.",
+    "lesson": "lesson-12",
+    "tags": [
+      "british english"
+    ]
   }
 ]
