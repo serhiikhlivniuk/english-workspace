@@ -5941,5 +5941,208 @@
         "why": "The passive needs be."
       }
     ]
+  },
+  {
+    "id": "relative-clauses",
+    "group": "Sentences",
+    "title": "who, which, where, whose",
+    "uk": "Підрядні означальні речення",
+    "level": "B1",
+    "summary": "Join two sentences: who — people, which — things, that — both, where — places, whose — «чий». Don't repeat he / it / here.",
+    "lessons": [
+      "lesson-12",
+      "lesson-13"
+    ],
+    "rules": [
+      {
+        "name": "who / which / that",
+        "form": "person + who · thing + which · both + that",
+        "when": "To say which person or thing we mean.",
+        "examples": [
+          {
+            "en": "He's a striker who scores with both feet.",
+            "uk": "Він нападник, який забиває обома ногами."
+          },
+          {
+            "en": "The contract which he signed is for five years.",
+            "uk": "Контракт, який він підписав, — на п'ять років."
+          }
+        ]
+      },
+      {
+        "name": "where",
+        "form": "place + where + full sentence",
+        "when": "For places.",
+        "examples": [
+          {
+            "en": "This is the town where Haaland was born.",
+            "uk": "Це місто, де народився Голанн."
+          }
+        ]
+      },
+      {
+        "name": "whose",
+        "form": "person / thing + whose + noun",
+        "when": "«чий, чия, чиї».",
+        "examples": [
+          {
+            "en": "I met a girl whose father is a referee.",
+            "uk": "Я познайомився з дівчиною, чий тато — арбітр."
+          }
+        ]
+      },
+      {
+        "name": "Leaving it out",
+        "form": "the boots (which) I bought",
+        "when": "When another person follows, who / which / that can be dropped.",
+        "examples": [
+          {
+            "en": "The player we signed is only 19.",
+            "uk": "Гравцеві, якого ми підписали, лише 19."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "the player which scored",
+        "right": "the player who scored",
+        "note": "which is not for people"
+      },
+      {
+        "wrong": "a boy who's dad is a coach",
+        "right": "a boy whose dad is a coach",
+        "note": "who's = who is"
+      },
+      {
+        "wrong": "a striker who he scores",
+        "right": "a striker who scores",
+        "note": "don't repeat he"
+      },
+      {
+        "wrong": "the house which I grew up",
+        "right": "the house where I grew up",
+        "note": "a place + full sentence → where"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "A scout is a person ___ finds new players.",
+        "options": [
+          "which",
+          "who",
+          "where"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "This is the stadium ___ I saw my first match.",
+        "options": [
+          "which",
+          "where",
+          "whose"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "I know a boy ___ dad is a coach.",
+        "options": [
+          "who's",
+          "whose",
+          "which"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "The boots ___ I bought are too small.",
+        "options": [
+          "which",
+          "who",
+          "where"
+        ],
+        "answer": 0
+      }
+    ],
+    "practice": [
+      {
+        "q": "A scout is a person ___ finds new players.",
+        "options": [
+          "which",
+          "who",
+          "where"
+        ],
+        "answer": 1,
+        "why": "A person → who."
+      },
+      {
+        "q": "This is the stadium ___ I saw my first match.",
+        "options": [
+          "which",
+          "where",
+          "whose"
+        ],
+        "answer": 1,
+        "why": "A place + full sentence → where."
+      },
+      {
+        "q": "I know a boy ___ dad is a coach.",
+        "options": [
+          "who's",
+          "whose",
+          "which"
+        ],
+        "answer": 1,
+        "why": "«чий» → whose."
+      },
+      {
+        "q": "The boots ___ I bought are too small.",
+        "options": [
+          "which",
+          "who",
+          "where"
+        ],
+        "answer": 0,
+        "why": "Things → which (or that)."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "He's a striker who he scores a lot.",
+          "He's a striker who scores a lot."
+        ],
+        "answer": 1,
+        "why": "Don't repeat he."
+      },
+      {
+        "q": "That's the club ___ fans never stop singing.",
+        "options": [
+          "who",
+          "whose",
+          "where"
+        ],
+        "answer": 1,
+        "why": "the club's fans → whose."
+      },
+      {
+        "q": "Kyiv is the city ___ I was born.",
+        "options": [
+          "which",
+          "where",
+          "who"
+        ],
+        "answer": 1,
+        "why": "Place → where."
+      },
+      {
+        "q": "The player ___ we signed is 19.",
+        "options": [
+          "who",
+          "whose",
+          "where"
+        ],
+        "answer": 0,
+        "why": "A person → who (or nothing)."
+      }
+    ]
   }
 ]

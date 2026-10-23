@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en" data-base="../">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="English lesson 13 - Transfer Window: relative clauses who, which, where, whose, scouting reports and a transfer role-play (A2+ to B1).">
+<style>html{color-scheme:light dark}img{max-width:100%}[hidden]{display:none !important}</style>
+<title>Transfer Window</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --paper:#F4F5F1; --surface:#FFFFFF; --surface-2:#EBEEE7;
+    --ink:#17233D; --ink-soft:#5B6479; --line:#D9DDD5;
+    --accent:#AD6A16; --accent-ink:#8A5310; --accent-soft:#F7E9D3;
+    --ok:#2C7A57; --ok-soft:#DEEDE4;
+    --bad:#AE372D; --bad-soft:#F7DFDB;
+    --shadow:0 1px 2px rgba(23,35,61,.06), 0 8px 24px -16px rgba(23,35,61,.28);
+    --display:"Fraunces", Georgia, "Times New Roman", serif;
+    --body:"Karla", "Helvetica Neue", Arial, sans-serif;
+    --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#141A26; --surface:#1B2231; --surface-2:#232B3C;
+      --ink:#E9EBE5; --ink-soft:#9BA4B6; --line:#313B4E;
+      --accent:#E3A052; --accent-ink:#F0BB79; --accent-soft:#3A2D1B;
+      --ok:#74C79C; --ok-soft:#1D3A2B;
+      --bad:#E68678; --bad-soft:#3C221E;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#141A26; --surface:#1B2231; --surface-2:#232B3C;
+    --ink:#E9EBE5; --ink-soft:#9BA4B6; --line:#313B4E;
+    --accent:#E3A052; --accent-ink:#F0BB79; --accent-soft:#3A2D1B;
+    --ok:#74C79C; --ok-soft:#1D3A2B;
+    --bad:#E68678; --bad-soft:#3C221E;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--body); font-size:16px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:900px; margin:0 auto; padding-inline:20px; padding-block:0 64px}
+
+  header.top{border-bottom:1px solid var(--line); background:var(--paper); position:sticky; top:0; z-index:20}
+  .top-inner{max-width:900px; margin:0 auto; padding-inline:20px; padding-block:20px 0}
+  .eyebrow{font-family:var(--mono); font-size:11.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--accent); margin:0 0 6px}
+  h1{font-family:var(--display); font-weight:600; font-size:clamp(28px,5.4vw,40px); line-height:1.08; margin:0 0 8px; text-wrap:balance; letter-spacing:-.015em}
+  .meta{display:flex; flex-wrap:wrap; gap:6px 14px; margin:0 0 16px; font-family:var(--mono); font-size:12px; color:var(--ink-soft)}
+  .meta span::before{content:"· "; color:var(--line)}
+  .meta span:first-child::before{content:""}
+  .tabs{display:flex; gap:2px; flex-wrap:wrap}
+  .tab{appearance:none; border:1px solid var(--line); border-bottom:none; background:transparent; font-family:var(--body); font-weight:700; font-size:14px; color:var(--ink-soft); padding:9px 16px; border-radius:8px 8px 0 0; cursor:pointer; margin-bottom:-1px}
+  .tab[aria-selected="true"]{background:var(--surface); color:var(--ink); border-color:var(--line)}
+  .tab:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible, summary:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  h2{font-family:var(--display); font-weight:600; font-size:22px; line-height:1.2; margin:0 0 4px; letter-spacing:-.01em; text-wrap:balance}
+  h3{font-family:var(--body); font-weight:700; font-size:15px; margin:20px 0 6px}
+  p{margin:0 0 12px}
+  .lead{color:var(--ink-soft)}
+  .label{font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft)}
+  section.view[hidden]{display:none}
+  .intro{padding-block:28px 8px; border-bottom:1px solid var(--line); margin-bottom:8px}
+
+  .blockhead{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin:34px 0 0; padding:14px 18px; background:var(--ink); color:var(--paper); border-radius:10px}
+  .blockhead h2{color:var(--paper); margin:0}
+  .blockhead .label{color:var(--paper); opacity:.7}
+
+  .stage{display:grid; grid-template-columns:96px 1fr; gap:0 24px; padding-block:24px; border-bottom:1px solid var(--line)}
+  .clock{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); padding-top:4px}
+  .clock b{display:block; font-size:15px; font-weight:600; color:var(--accent); letter-spacing:-.02em}
+  .stage-num{font-family:var(--mono); font-size:11px; letter-spacing:.12em; color:var(--ink-soft); display:block; margin-bottom:2px}
+  ul,ol{margin:0 0 12px; padding-left:20px}
+  li{margin-bottom:5px}
+  li::marker{color:var(--ink-soft)}
+  .q{color:var(--accent-ink); font-style:italic}
+  .note{background:var(--surface-2); border-left:3px solid var(--accent); padding:12px 14px; margin:14px 0; font-size:14.5px; border-radius:0 6px 6px 0}
+  .note .label{display:block; margin-bottom:4px}
+  table{width:100%; border-collapse:collapse; font-size:14.5px; margin:8px 0 14px}
+  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); font-weight:500}
+  .tbl-scroll{overflow-x:auto}
+  .aims{background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:18px 20px; margin:20px 0}
+  .aims ul{margin-bottom:0}
+
+  .progress-bar{position:sticky; top:0; z-index:10; background:var(--paper); padding-block:14px 10px; border-bottom:1px solid var(--line); margin-bottom:4px; display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+  .track{flex:1 1 160px; height:6px; background:var(--surface-2); border-radius:99px; overflow:hidden}
+  .fill{height:100%; width:0%; background:var(--accent); transition:width .35s ease}
+  .score{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); white-space:nowrap}
+  .ex{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin:18px 0; box-shadow:var(--shadow)}
+  .ex.extra{border-style:dashed; border-color:var(--accent); box-shadow:none}
+  .ex-head{display:flex; align-items:baseline; gap:10px; margin-bottom:10px; flex-wrap:wrap}
+  .pill{font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; background:var(--accent-soft); color:var(--accent-ink); border-radius:99px; padding:3px 9px; font-weight:600}
+  .task{font-size:14.5px; color:var(--ink-soft); margin-bottom:14px}
+  .sort-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:8px}
+  .sort-row{display:flex; align-items:center; gap:8px; background:var(--surface-2); border-radius:8px; padding:6px 8px 6px 12px}
+  .sort-row span{flex:1; font-size:14.5px}
+  .def-list{display:grid; gap:8px}
+  .def-row{display:flex; align-items:center; gap:10px; background:var(--surface-2); border-radius:8px; padding:8px 10px 8px 13px; flex-wrap:wrap}
+  .def-row span{flex:1 1 220px; font-size:14.5px}
+  select, input[type="text"], textarea{font-family:var(--body); font-size:15px; color:var(--ink); background:var(--paper); border:1px solid var(--line); border-radius:6px; padding:6px 8px}
+  select{font-family:var(--mono); font-size:13px; padding:5px 6px; max-width:100%}
+  input[type="text"]{width:9.5em; background:transparent; border:none; border-bottom:2px solid var(--line); border-radius:0; padding:2px 4px}
+  input[type="text"].wide{width:13em}
+  textarea{width:100%; min-height:120px; line-height:1.6; resize:vertical}
+  .gap-list{list-style:none; padding:0; counter-reset:g}
+  .gap-list li{counter-increment:g; display:flex; gap:10px; align-items:baseline; padding:7px 0; border-bottom:1px dashed var(--line); flex-wrap:wrap}
+  .gap-list li:last-child{border-bottom:none}
+  .gap-list li::before{content:counter(g); font-family:var(--mono); font-size:12px; color:var(--ink-soft); min-width:1.2em}
+  .sentence{flex:1 1 240px}
+  .cue{font-family:var(--mono); font-size:12.5px; color:var(--accent-ink)}
+  .ok{border-color:var(--ok) !important; background:var(--ok-soft) !important}
+  .bad{border-color:var(--bad) !important; background:var(--bad-soft) !important}
+  input.ok, input.bad{background:transparent !important}
+  input.ok{border-bottom-color:var(--ok) !important; color:var(--ok)}
+  input.bad{border-bottom-color:var(--bad) !important; color:var(--bad)}
+  .choice{display:block; padding:8px 12px; border:1px solid var(--line); border-radius:8px; margin-bottom:6px; cursor:pointer; font-size:15px; background:var(--paper)}
+  .choice input{margin-right:8px; accent-color:var(--accent)}
+  .tf{display:flex; gap:8px; flex:0 0 auto}
+  .tf button{font-family:var(--mono); font-size:12px; letter-spacing:.06em; padding:5px 12px; border:1px solid var(--line); background:var(--paper); color:var(--ink-soft); border-radius:6px; cursor:pointer}
+  .tf button[aria-pressed="true"]{background:var(--accent-soft); border-color:var(--accent); color:var(--accent-ink); font-weight:600}
+  .btn{font-family:var(--body); font-weight:700; font-size:14px; cursor:pointer; background:var(--ink); color:var(--paper); border:1px solid var(--ink); border-radius:8px; padding:9px 18px}
+  .btn.ghost{background:transparent; color:var(--ink-soft); border-color:var(--line); font-weight:500}
+  .ex-foot{display:flex; gap:10px; align-items:center; margin-top:16px; flex-wrap:wrap}
+  .verdict{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft)}
+  .verdict.good{color:var(--ok)}
+  .verdict.poor{color:var(--bad)}
+
+  .reading{background:var(--surface-2); border-radius:10px; padding:18px 20px; margin-bottom:16px; font-size:16px; line-height:1.78}
+  .reading p{margin:0 0 10px}
+  .reading p:last-child{margin:0}
+  .reading .gloss{border-bottom:1px dotted var(--accent); cursor:help}
+
+  .videocard{display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap; background:var(--accent-soft); border:1px solid var(--accent); border-radius:12px; padding:18px 20px; margin:16px 0}
+  .videocard div{flex:1 1 240px}
+  .videocard h3{margin-top:0}
+  a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px}
+  .playbtn{display:inline-block; font-family:var(--body); font-weight:700; font-size:14px; background:var(--ink); color:var(--paper); text-decoration:none; border-radius:8px; padding:10px 18px; white-space:nowrap}
+  .freq-scale{display:grid; grid-template-columns:repeat(auto-fit,minmax(88px,1fr)); gap:6px; margin:10px 0 14px}
+  .freq-scale div{background:var(--surface-2); border-radius:8px; padding:8px 10px; text-align:center}
+  .freq-scale b{display:block; font-size:14.5px}
+  .freq-scale small{font-family:var(--mono); font-size:11px; color:var(--ink-soft)}
+  .rule{border:1px dashed var(--accent); border-radius:10px; padding:14px 16px; margin:12px 0; background:var(--paper)}
+  .rule code, code{font-family:var(--mono); font-size:13.5px; background:var(--surface-2); padding:1px 5px; border-radius:4px}
+  details{border-top:1px solid var(--line); padding-top:12px; margin-top:14px}
+  summary{cursor:pointer; font-family:var(--mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft)}
+  details[open] summary{margin-bottom:10px; color:var(--accent)}
+  footer{margin-top:40px; padding-top:20px; border-top:1px solid var(--line); font-size:13.5px; color:var(--ink-soft)}
+
+  .tense{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin:18px 0; box-shadow:var(--shadow)}
+  .tense .form{font-family:var(--mono); font-size:14px; background:var(--surface-2); border-radius:8px; padding:12px 14px; margin:10px 0; line-height:1.9; overflow-x:auto}
+  .tense .form b{color:var(--accent-ink)}
+  .signals{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 4px}
+  .signals span{font-family:var(--mono); font-size:12px; background:var(--accent-soft); color:var(--accent-ink); border-radius:99px; padding:4px 10px}
+  .vs{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:12px 0}
+  .vs div{background:var(--surface-2); border-radius:8px; padding:12px 14px; font-size:14.5px}
+  .wrong{color:var(--bad)}
+  .right{color:var(--ok)}
+  .irr{font-family:var(--mono); font-size:13px}
+
+  .wordbank{display:flex; flex-wrap:wrap; gap:6px; margin:0 0 14px; padding:12px 14px; background:var(--surface-2); border-radius:8px}
+  .wordbank span{font-family:var(--mono); font-size:12.5px; background:var(--paper); border:1px solid var(--line); border-radius:99px; padding:3px 10px}
+  .stem{font-weight:700; margin:16px 0 6px}
+  .daytag{font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--paper); background:var(--accent); border-radius:99px; padding:3px 10px; font-weight:600}
+  .clockface{font-family:var(--mono); font-size:15px; font-weight:600; color:var(--accent-ink); background:var(--accent-soft); border-radius:6px; padding:3px 9px; margin-right:6px}
+  .fig{margin:16px 0}
+  .fig svg{display:block; margin:0 auto; max-width:100%; height:auto; color:var(--ink)}
+  figure{margin:16px 0}
+  figcaption{font-family:var(--mono); font-size:11px; letter-spacing:.07em; text-transform:uppercase; color:var(--ink-soft); text-align:center; margin-top:8px; line-height:1.5}
+  .scene-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(178px,1fr)); gap:14px; margin:14px 0}
+  .scene{background:var(--surface-2); border-radius:10px; padding:12px; display:flex; flex-direction:column; gap:10px}
+  .scene svg{width:100%; height:auto; color:var(--ink)}
+  .scene .scene-num{font-family:var(--mono); font-size:11px; letter-spacing:.1em; color:var(--ink-soft)}
+  .scene .choice{margin-bottom:4px; font-size:14px; padding:6px 10px}
+  .icon-row{display:flex; align-items:center; gap:10px; flex:1 1 220px}
+  .icon-row svg{width:32px; height:32px; flex:0 0 auto; color:var(--ink)}
+  .board{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:14px 0}
+  .board figure{margin:0; background:var(--surface-2); border-radius:10px; padding:10px}
+  .board figcaption{margin-top:6px; text-transform:none; letter-spacing:0; font-family:var(--body); font-size:13px}
+  .board svg{color:var(--ink)}
+  @media (max-width:620px){
+    .stage{grid-template-columns:1fr; gap:8px}
+    .clock{display:flex; gap:10px; align-items:baseline; padding-top:0}
+    .clock b{display:inline}
+    .ex,.tense{padding:16px 15px}
+    .vs{grid-template-columns:1fr}
+  }
+  @media (prefers-reduced-motion: reduce){*{transition:none !important; animation:none !important}}
+  @media print{header.top{position:static} .progress-bar{display:none} .btn{display:none} section.view[hidden]{display:block !important} details{display:block} details summary{display:none}}
+</style>
+
+<style>
+  .gref{display:grid;gap:10px;margin:12px 0 16px}
+  .gbox{border:1px solid var(--line,#D9DDD5);border-radius:14px;background:var(--surface-2,#EBEEE7);overflow:hidden}
+  .gbox>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+    padding:9px 14px;font-family:var(--body,system-ui,sans-serif);font-size:13.5px;font-weight:700;
+    color:var(--accent,#AD6A16)}
+  .gbox>summary::-webkit-details-marker{display:none}
+  .gbox>summary::before{content:"\1F4D8"}
+  .gbox>summary::after{content:"show the rule";margin-left:auto;font-weight:500;opacity:.7;font-size:12.5px}
+  .gbox[open]>summary::after{content:"hide"}
+  .gbox>summary:hover{background:rgba(0,0,0,.03)}
+  .gbox-body{padding:2px 16px 16px;font-size:14.5px}
+  .gbox-body .g-rule{border-left:3px solid var(--accent,#AD6A16);padding:2px 0 2px 14px;margin:0 0 14px}
+  .gbox-body h4{margin:0 0 4px;font-size:14px}
+  .gbox-body .g-form{display:inline-block;font-family:var(--mono,monospace);font-size:13px;font-weight:600;
+    background:var(--accent-soft,#F7E9D3);color:var(--accent-ink,#8A5310);padding:4px 10px;border-radius:8px;
+    margin:2px 0 6px;white-space:pre-wrap}
+  .gbox-body .g-when{margin:0 0 6px;opacity:.78}
+  .gbox-body .g-ex{margin:3px 0}
+  .gbox-body .g-bad{color:#AE372D;text-decoration:line-through}
+  .gbox-body .g-good{color:#2C7A57;font-weight:600}
+  .gbox-body .g-mis{display:grid;gap:2px;margin:0 0 8px;font-size:13.5px}
+  .gbox-body .g-more{display:inline-block;margin-top:6px;font-size:13px;font-weight:600}
+  @media print{.gbox{break-inside:avoid} .gbox>summary::after{display:none}}
+  input[type="text"].xwide{width:100%;max-width:28em}
+  .tiles{display:flex;flex-wrap:wrap;gap:8px;padding:12px;background:var(--surface-2);border-radius:10px;margin:0 0 14px}
+  .tile{font-family:var(--mono);font-size:13px;padding:6px 12px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:grab;user-select:none;touch-action:manipulation;transition:opacity .2s}
+  .tile:hover{border-color:var(--accent)}
+  .tile.picked{border-color:var(--accent);background:var(--accent-soft);color:var(--accent-ink);font-weight:600}
+  .tile.used{opacity:.28;text-decoration:line-through;cursor:default}
+  input.drop{width:12em;border-bottom-style:dashed !important}
+  input.drop.over{background:var(--accent-soft) !important;border-bottom-style:solid !important}
+  .dnd.picking input.drop:not([readonly]){cursor:copy;border-bottom-color:var(--accent)}
+  .ex-foot .btn{font-size:12.5px; font-weight:600; padding:5px 12px; border-radius:7px}
+  .ex-foot .btn.ghost{font-weight:500; color:var(--ink-soft); opacity:.85}
+  .ex-foot .btn.ghost:hover{opacity:1; border-color:var(--ink-soft)}
+  .gap-list .sentence{min-width:0}
+  .gap-list select{max-width:100%;min-width:0}
+  .pill.from{background:var(--surface-2);color:var(--ink-soft);margin-left:6px}
+  .ex-head .pill + .pill{margin-left:6px}
+  table.vb th{background:var(--accent-soft);color:var(--accent-ink);text-align:left;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:7px 10px}
+  table.vb td{padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  table.vb td:first-child{white-space:nowrap}
+  @media (max-width:620px){table.vb tr{display:grid;grid-template-columns:auto 1fr;border-bottom:1px solid var(--line)} table.vb td{border-bottom:0} table.vb td:last-child{grid-column:1/-1;padding-top:0;opacity:.85} table.vb th{display:block}}
+  input.own{margin-top:6px} input.own.ok{border-color:var(--ok);background:var(--ok-soft)} input.own.bad{border-color:var(--bad);background:var(--bad-soft)}
+  .own-mark{font-size:13px;color:var(--ink-soft)}
+  #facts{min-height:90px}
+  .wq{background:var(--surface-2);border-radius:12px;padding:16px 18px}
+  .wq-top{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12.5px;color:var(--ink-soft)}
+  .wq-bar{height:6px;background:var(--line);border-radius:99px;margin:8px 0 14px;overflow:hidden}
+  .wq-bar i{display:block;height:100%;background:var(--accent);transition:width .3s}
+  .wq-q{font-size:19px;margin:0 0 14px;font-family:var(--display)}
+  .wq-gap{border-bottom:2px solid var(--accent);padding:0 4px}
+  .wq-opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+  .wq-opt{font:inherit;font-size:15px;text-align:left;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+  .wq-opt:hover:not(:disabled){border-color:var(--accent)}
+  .wq-opt.ok{background:var(--ok-soft);border-color:var(--ok);color:var(--ok)}
+  .wq-opt.bad{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+  .wq-opt:disabled{cursor:default}
+  .wq-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px;min-height:34px;flex-wrap:wrap}
+  .wq-end{text-align:center} .wq-score{font-family:var(--display);font-size:44px;font-weight:700;color:var(--accent)}
+  .wq-miss{text-align:left;display:inline-block;margin:6px 0 14px}
+  .players{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:6px 0 16px}
+  .pcard{margin:0;background:var(--surface-2);border-radius:12px;overflow:hidden}
+  .pcard img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top}
+  .pcard figcaption{padding:8px 10px;font-size:15px;display:flex;flex-direction:column;gap:2px}
+  .pcard .credit{font-size:11px;color:var(--ink-soft)} .pcard .credit a{color:inherit}
+  @media (max-width:620px){.players{grid-template-columns:repeat(3,1fr);gap:6px} .pcard figcaption{font-size:13px;padding:6px} .pcard .credit{font-size:9.5px}}
+  .mail-head{font-family:var(--mono);font-size:13px;background:var(--surface);padding:8px 12px;border-radius:8px}
+</style>
+</head>
+<body>
+<style>
+.ew-back{position:sticky;top:0;z-index:99;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+  padding:10px 20px;background:linear-gradient(135deg,#6C4CF1,#FF4D8D);color:#fff;
+  font-family:"Inter",system-ui,sans-serif;font-size:14px;font-weight:600}
+.ew-back a{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);padding:6px 13px;border-radius:999px}
+.ew-back a:hover{background:rgba(255,255,255,.34)}
+@media print{.ew-back{display:none}}
+</style>
+<div class="ew-back">
+  <a href="../index.html">&larr; English Workspace</a>
+  <span>Lesson 13 &middot; Transfer Window</span>
+  <a href="../vocabulary.html" style="margin-left:auto">Vocabulary</a>
+  <a href="../grammar.html">Grammar</a>
+  <a href="../speaking.html">Speaking</a>
+  <a href="../homework.html">Homework</a>
+</div>
+
+<header class="top">
+  <div class="top-inner">
+    <p class="eyebrow">Lesson 13 · Student worksheet</p>
+    <h1>Transfer Window</h1>
+    <p class="meta"><span>A2+ → B1</span><span>60 min</span><span>11 tasks</span><span>who · which · where · whose</span></p>
+    <div class="tabs" role="tablist">
+      <button class="tab" id="tab-s" role="tab" aria-selected="true" aria-controls="view-s">Worksheet</button>
+      <button class="tab" id="tab-g" role="tab" aria-selected="false" aria-controls="view-g">Grammar</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+<section aria-labelledby="tab-s" class="view" id="view-s" role="tabpanel">
+<div class="progress-bar">
+<span class="label">Progress</span>
+<span class="track"><span class="fill" id="fill"></span></span>
+<span class="score" id="score">0 / 0</span>
+</div>
+<div class="intro">
+<h2>Lesson 13 — Transfer Window</h2>
+<p class="lead">The transfer window is open, the club has £30 million — and <b>you</b> are the manager. Today you read scouting reports, look at real players, argue with an agent and make the big decision. The grammar is the language of every scout: <b>who, which, where, whose</b> — <i>a striker <b>who</b> scores with both feet, a club <b>whose</b> fans never stop singing</i>.</p>
+</div>
+<div class="ex" data-ex="0" id="ex-0">
+<div class="ex-head"><span class="label">Warm-up A · Vocabulary quiz</span></div>
+<h2>20 words we've learnt</h2>
+<p class="task">Words from Lessons 4–12. Three kinds of questions: English → Ukrainian, Ukrainian → English, and a gap in a new sentence. One try per question — then press <b>Next</b>. Your score is saved, so I can see it.</p>
+<div id="wq" class="wq" aria-live="polite"></div>
+</div>
+<script type="application/json" id="wq-data">[{"w": "gutted", "uk": "дуже засмучений", "s": "We lost the final on penalties. I'm ___.", "t": "uk2en"}, {"w": "obviously", "uk": "очевидно, звісно", "s": "He's wearing a blue scarf, so ___ he supports Chelsea.", "t": "en2uk"}, {"w": "opponent", "uk": "суперник", "s": "Our next ___ is the team at the top of the league.", "t": "en2uk"}, {"w": "reliable", "uk": "надійний", "s": "My old bike is slow, but it's very ___.", "t": "uk2en"}, {"w": "exhausted", "uk": "виснажений", "s": "After the 10 km run I was completely ___.", "t": "en2uk"}, {"w": "badge", "uk": "емблема (клубу)", "s": "There's a lion on the club ___.", "t": "en2uk"}, {"w": "stubborn", "uk": "упертий", "s": "My grandad never changes his mind — he's so ___.", "t": "gap"}, {"w": "bench", "uk": "лава запасних", "s": "The new striker started the match on the ___.", "t": "gap"}, {"w": "stunned", "uk": "приголомшений", "s": "Everyone was ___ when the smallest team won 5–0.", "t": "uk2en"}, {"w": "get over", "uk": "оговтатися, пережити", "s": "It took her a week to ___ the flu.", "t": "en2uk"}, {"w": "embarrassing", "uk": "соромний, незручний", "s": "I fell over in front of the whole school — so ___!", "t": "gap"}, {"w": "look up to", "uk": "поважати, рівнятися на", "s": "Many young singers ___ their older stars.", "t": "gap"}, {"w": "take after", "uk": "бути схожим на (старшого родича)", "s": "Does Olya ___ her mum or her dad? — Her mum: they're both artists.", "t": "uk2en"}, {"w": "unforgettable", "uk": "незабутній", "s": "Our first trip to the sea was ___.", "t": "en2uk"}, {"w": "rely on", "uk": "покладатися на", "s": "You can ___ me — I'll be there at eight.", "t": "uk2en"}, {"w": "crowded", "uk": "переповнений, людний", "s": "The bus was so ___ that I couldn't sit down.", "t": "uk2en"}, {"w": "whereas", "uk": "тоді як", "s": "I love winter, ___ my sister prefers summer.", "t": "uk2en"}, {"w": "convenient", "uk": "зручний (за розташуванням, часом)", "s": "The shop is very ___ — it's right next to my house.", "t": "gap"}, {"w": "legend", "uk": "легенда", "s": "Pelé is a ___ of world football.", "t": "en2uk"}, {"w": "despite", "uk": "незважаючи на", "s": "We went for a walk ___ the cold weather.", "t": "gap"}]</script>
+<div class="ex" data-ex="1" id="ex-1">
+<div class="ex-head"><span class="label">Warm-up B · Grammar review</span></div>
+<h2>The passive — quick check</h2>
+<p class="task">Lesson 12 in six new sentences: <i>is / are / was / were + V3</i>.</p>
+<ul class="gap-list">
+<li><span class="sentence">Paper <input autocomplete="off" class="wide" data-answer="was invented" id="a1" type="text"/> in China about 2,000 years ago. <span class="cue">(invent)</span></span></li>
+<li><span class="sentence">Most of the world's coffee <input autocomplete="off" class="wide" data-answer="is grown" id="a2" type="text"/> in South America. <span class="cue">(grow)</span></span></li>
+<li><span class="sentence">The Eiffel Tower <input autocomplete="off" class="wide" data-answer="was built" id="a3" type="text"/> in 1889. <span class="cue">(build)</span></span></li>
+<li><span class="sentence">Our car <input autocomplete="off" class="wide" data-answer="is washed" id="a4" type="text"/> every Sunday. <span class="cue">(wash)</span></span></li>
+<li><span class="sentence">Two players <input autocomplete="off" class="wide" data-answer="were sent off" id="a5" type="text"/> in yesterday's match. <span class="cue">(send off)</span></span></li>
+<li><span class="sentence">The match <input autocomplete="off" class="wide" data-answer="wasn&#x27;t shown|was not shown" id="a6" type="text"/> on TV last night. <span class="cue">(not show)</span></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="1">Check</button>
+<button class="btn ghost" data-reveal="1">Show answers</button>
+<button class="btn ghost" data-hide="1" hidden>Hide answers</button>
+<span class="verdict" data-verdict="1"></span>
+</div>
+</div>
+<div class="blockhead"><span class="label">Part 1 · new grammar</span><h2>who, which, where, whose</h2></div>
+<div class="rule">
+<p style="margin:0 0 6px"><b>Two sentences → one.</b> <i>He's a striker. He scores with both feet.</i> → <i>He's a striker <b>who</b> scores with both feet.</i></p>
+<p style="margin:0 0 4px"><b>who</b> — people · <b>which</b> — things and animals · <b>that</b> — people <i>or</i> things (informal) · <b>where</b> — places · <b>whose</b> — «чий»: <i>a player <b>whose</b> father was a footballer</i>.</p>
+<p style="margin:0"><b>Don't repeat the person or thing:</b> <span class="wrong">✗ a striker who he scores</span> → <span class="right">✓ a striker who scores</span> · <span class="wrong">✗ the town where he was born there</span> → <span class="right">✓ the town where he was born</span></p>
+</div>
+<div class="ex" data-ex="2" id="ex-2">
+<div class="ex-head"><span class="label">Exercise 1 · Grammar · new</span></div>
+<h2>Choose the right word</h2>
+<p class="task">Who? Which? Where? Whose? Ask yourself: is it a <b>person</b>, a <b>thing</b>, a <b>place</b> — or does it mean <b>«чий»</b>?</p>
+<ul class="gap-list">
+<li><span class="sentence">A scout is a person <select data-answer="who" id="w1"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> finds new players for a club.</span></li>
+<li><span class="sentence">This is the stadium <select data-answer="where" id="w2"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> my dad saw his first match.</span></li>
+<li><span class="sentence">I've got a friend <select data-answer="whose" id="w3"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> brother plays for a youth team.</span></li>
+<li><span class="sentence">The contract <select data-answer="which" id="w4"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> he signed is for five years.</span></li>
+<li><span class="sentence">Kyiv is the city <select data-answer="where" id="w5"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> I was born.</span></li>
+<li><span class="sentence">That's the coach <select data-answer="whose" id="w6"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> team won the league.</span></li>
+<li><span class="sentence">The boots <select data-answer="which" id="w7"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> I bought last week are already broken.</span></li>
+<li><span class="sentence">A goalkeeper is a player <select data-answer="who" id="w8"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> can touch the ball with his hands.</span></li>
+<li><span class="sentence">I don't like films <select data-answer="which" id="w9"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> are too long.</span></li>
+<li><span class="sentence">The agent, <select data-answer="whose" id="w10"><option value="">—</option><option>who</option><option>which</option><option>where</option><option>whose</option></select> name I always forget, called again.</span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="2">Check</button>
+<button class="btn ghost" data-reveal="2">Show answers</button>
+<button class="btn ghost" data-hide="2" hidden>Hide answers</button>
+<span class="verdict" data-verdict="2"></span>
+</div>
+</div>
+<div class="ex" data-ex="3" id="ex-3">
+<div class="ex-head"><span class="label">Exercise 2 · Grammar · new</span></div>
+<h2>Two sentences → one</h2>
+<p class="task">Join the sentences with <i>who, which, where</i> or <i>whose</i>. Remember: don't repeat <i>he, it, her, here</i>.</p>
+<ul class="gap-list">
+<li><span class="sentence">He's a striker. He scores with both feet.<br/>→ He's a striker <input autocomplete="off" class="xwide" data-answer="who scores with both feet|that scores with both feet" id="j1" type="text"/>.</span></li>
+<li><span class="sentence">This is the town. Haaland was born here.<br/>→ This is the town <input autocomplete="off" class="xwide" data-answer="where haaland was born" id="j2" type="text"/>.</span></li>
+<li><span class="sentence">I met a girl. Her father is a referee.<br/>→ I met a girl <input autocomplete="off" class="xwide" data-answer="whose father is a referee" id="j3" type="text"/>.</span></li>
+<li><span class="sentence">They signed a player. He cost £20 million.<br/>→ They signed a player <input autocomplete="off" class="xwide" data-answer="who cost £20 million|that cost £20 million" id="j4" type="text"/>.</span></li>
+<li><span class="sentence">That's the shirt. I got it for my birthday.<br/>→ That's the shirt <input autocomplete="off" class="xwide" data-answer="which i got for my birthday|that i got for my birthday|i got for my birthday" id="j5" type="text"/>.</span></li>
+<li><span class="sentence">Manchester is a city. It has two big football clubs.<br/>→ Manchester is a city <input autocomplete="off" class="xwide" data-answer="which has two big football clubs|that has two big football clubs" id="j6" type="text"/>.</span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="3">Check</button>
+<button class="btn ghost" data-reveal="3">Show answers</button>
+<button class="btn ghost" data-hide="3" hidden>Hide answers</button>
+<span class="verdict" data-verdict="3"></span>
+</div>
+</div>
+<div class="ex" data-ex="4" id="ex-4">
+<div class="ex-head"><span class="label">Exercise 3 · Photos + Grammar</span></div>
+<h2>Who's who?</h2>
+<p class="task">Three real players. Read each clue and decide which photo it describes. Every clue is a relative clause!</p>
+<div class="players">
+<figure class="pcard"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lamine_Yamal_France_v_Spain_7.24.26-142.jpg/500px-Lamine_Yamal_France_v_Spain_7.24.26-142.jpg" alt="Player A" loading="lazy"/><figcaption><b>Player A</b><span class="credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Lamine_Yamal_France_v_Spain_7.24.26-142.jpg" target="_blank" rel="noopener">Bryan Berlin, CC BY-SA 4.0</a></span></figcaption></figure>
+<figure class="pcard"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/500px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg" alt="Player B" loading="lazy"/><figcaption><b>Player B</b><span class="credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg" target="_blank" rel="noopener">Bryan Berlin, CC BY-SA 4.0</a></span></figcaption></figure>
+<figure class="pcard"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg/500px-Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg" alt="Player C" loading="lazy"/><figcaption><b>Player C</b><span class="credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Bukayo_Saka_England_v_Ghana_23_June_2026-057_(cropped).jpg" target="_blank" rel="noopener">Bryan Berlin, CC BY-SA 4.0</a></span></figcaption></figure>
+</div>
+<ul class="gap-list">
+<li><span class="sentence">an English player whose parents come from Nigeria <select data-answer="Player C" id="ph1"><option value="">—</option><option>Player A</option><option>Player B</option><option>Player C</option></select></span></li>
+<li><span class="sentence">a striker who was born in Leeds, in England <select data-answer="Player B" id="ph2"><option value="">—</option><option>Player A</option><option>Player B</option><option>Player C</option></select></span></li>
+<li><span class="sentence">a striker who joined Manchester City from Borussia Dortmund in 2022 <select data-answer="Player B" id="ph3"><option value="">—</option><option>Player A</option><option>Player B</option><option>Player C</option></select></span></li>
+<li><span class="sentence">a player who was named Arsenal's Player of the Season two years in a row <select data-answer="Player C" id="ph4"><option value="">—</option><option>Player A</option><option>Player B</option><option>Player C</option></select></span></li>
+<li><span class="sentence">a player whose father also played in the Premier League <select data-answer="Player B" id="ph5"><option value="">—</option><option>Player A</option><option>Player B</option><option>Player C</option></select></span></li>
+<li><span class="sentence">a player who finished second in the 2025 Ballon d'Or when he was only 18 <select data-answer="Player A" id="ph6"><option value="">—</option><option>Player A</option><option>Player B</option><option>Player C</option></select></span></li>
+<li><span class="sentence">a winger who came through La Masia — the academy where Messi also grew up <select data-answer="Player A" id="ph7"><option value="">—</option><option>Player A</option><option>Player B</option><option>Player C</option></select></span></li>
+<li><span class="sentence">a winger who has played his whole club career for Arsenal <select data-answer="Player C" id="ph8"><option value="">—</option><option>Player A</option><option>Player B</option><option>Player C</option></select></span></li>
+<li><span class="sentence">the youngest player who has ever played for Spain <select data-answer="Player A" id="ph9"><option value="">—</option><option>Player A</option><option>Player B</option><option>Player C</option></select></span></li>
+</ul>
+<p style="margin-top:12px"><b>Then:</b> who are they? Say their names — and describe each player in <b>two</b> sentences of your own with <i>who, which, where</i> or <i>whose</i>: <i>He's a player who… He plays for a club whose…</i></p>
+<div class="ex-foot">
+<button class="btn" data-check="4">Check</button>
+<button class="btn ghost" data-reveal="4">Show answers</button>
+<button class="btn ghost" data-hide="4" hidden>Hide answers</button>
+<span class="verdict" data-verdict="4"></span>
+</div>
+</div>
+<div class="blockhead"><span class="label">Part 2 · the transfer window</span><h2>You're the gaffer</h2></div>
+<div class="ex" data-ex="5" id="ex-5">
+<div class="ex-head"><span class="label">Exercise 4 · Vocabulary · new</span></div>
+<h2>The language of transfers</h2>
+<p class="task">Every one of these words is in the scout's email below. Match each one to its meaning — notice how many meanings are relative clauses!</p>
+<ul class="gap-list">
+<li><span class="sentence"><b>wages</b> <select data-answer="the money a player gets every week" id="v1"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+<li><span class="sentence"><b>transfer window</b> <select data-answer="the period when clubs are allowed to buy and sell players" id="v2"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+<li><span class="sentence"><b>on loan</b> <select data-answer="playing for another club for a short time" id="v3"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+<li><span class="sentence"><b>agent</b> <select data-answer="a person who looks after a player&#x27;s business and money" id="v4"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+<li><span class="sentence"><b>bid</b> <select data-answer="an offer of money for a player" id="v5"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+<li><span class="sentence"><b>scout</b> <select data-answer="a person who watches matches to find good players" id="v6"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+<li><span class="sentence"><b>contract</b> <select data-answer="an official agreement about how long a player stays and what he earns" id="v7"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+<li><span class="sentence"><b>transfer fee</b> <select data-answer="the money one club pays another for a player" id="v8"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+<li><span class="sentence"><b>squad</b> <select data-answer="all the players a club can choose from" id="v9"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+<li><span class="sentence"><b>sign</b> <select data-answer="to make a player join your club officially" id="v10"><option value="">—</option><option>the period when clubs are allowed to buy and sell players</option><option>the money one club pays another for a player</option><option>an official agreement about how long a player stays and what he earns</option><option>playing for another club for a short time</option><option>an offer of money for a player</option><option>a person who watches matches to find good players</option><option>to make a player join your club officially</option><option>the money a player gets every week</option><option>a person who looks after a player&#x27;s business and money</option><option>all the players a club can choose from</option></select></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="5">Check</button>
+<button class="btn ghost" data-reveal="5">Show answers</button>
+<button class="btn ghost" data-hide="5" hidden>Hide answers</button>
+<span class="verdict" data-verdict="5"></span>
+</div>
+</div>
+<div class="ex" data-ex="6" id="ex-6">
+<div class="ex-head"><span class="label">Exercise 5 · Reading</span></div>
+<h2>An email from the chief scout</h2>
+<p class="task">Sam, the club's chief scout, sends you three names. Read the email, then answer.</p>
+<div class="reading mail">
+<p class="mail-head"><b>From:</b> Sam Okafor, chief scout<br/><b>To:</b> The Gaffer<br/><b>Subject:</b> Three names for the transfer window</p>
+<p>Boss,</p>
+<p>The <b>transfer window</b> closes on Friday, and we've still got £30 million to spend. We need a striker who can score fifteen goals a season, and a midfielder who can control the game. I've watched more than forty players this autumn. Here are the three I like most.</p>
+<p><b>1. Tomás Ruiz</b>, 23, striker, plays in Portugal. Tomás is a player who scores with both feet and with his head — eighteen goals last season. He's fast, confident and very ambitious. The problem? His <b>agent</b>, whose demands are always high, wants a <b>transfer fee</b> of £20 million and huge <b>wages</b>. And Tomás can be a bit arrogant: in March he was sent off for arguing with the referee.</p>
+<p><b>2. Kofi Mensah</b>, 19, midfielder, from Ghana. Kofi is playing <b>on loan</b> at a Dutch club where he has become a fan favourite. His passing is the best I've seen at his age, and he's the most hard-working player in the <b>squad</b>. He's quite shy and his English isn't great yet, so he'll need time. His club would accept a <b>bid</b> of £9 million.</p>
+<p><b>3. Danylo Kravets</b>, 27, midfielder, plays in Poland. Danylo is a player who never complains and never hides. He's the captain of a team which won the league last season, and every coach I spoke to called him reliable and calm. Last year he had a knee injury, but he got over it quickly and hasn't missed a match since. His <b>contract</b> ends next summer, so we could <b>sign</b> him for £11 million.</p>
+<p>My advice: Tomás is the one who will sell shirts, but Kofi and Danylo are the ones who will win matches. It's your decision, boss.</p>
+<p>Sam</p>
+</div>
+<h3>1. Which player…</h3>
+<ul class="gap-list">
+<li><span class="sentence">Which player is the most expensive? <select data-answer="Tomás" id="rw1"><option value="">—</option><option>Tomás</option><option>Kofi</option><option>Danylo</option></select></span></li>
+<li><span class="sentence">Which player is the youngest? <select data-answer="Kofi" id="rw2"><option value="">—</option><option>Tomás</option><option>Kofi</option><option>Danylo</option></select></span></li>
+<li><span class="sentence">Which player is playing for a club that doesn't own him? <select data-answer="Kofi" id="rw3"><option value="">—</option><option>Tomás</option><option>Kofi</option><option>Danylo</option></select></span></li>
+<li><span class="sentence">Which player had an injury last year? <select data-answer="Danylo" id="rw4"><option value="">—</option><option>Tomás</option><option>Kofi</option><option>Danylo</option></select></span></li>
+<li><span class="sentence">Which player was sent off for arguing? <select data-answer="Tomás" id="rw5"><option value="">—</option><option>Tomás</option><option>Kofi</option><option>Danylo</option></select></span></li>
+<li><span class="sentence">Which player is a captain? <select data-answer="Danylo" id="rw6"><option value="">—</option><option>Tomás</option><option>Kofi</option><option>Danylo</option></select></span></li>
+<li><span class="sentence">Which player needs time to learn the language? <select data-answer="Kofi" id="rw7"><option value="">—</option><option>Tomás</option><option>Kofi</option><option>Danylo</option></select></span></li>
+</ul>
+<h3>2. True or false?</h3>
+<ul class="gap-list">
+<li><span class="sentence">The club has got £30 million to spend.</span><span class="tf" data-answer="true" data-tf="rt1"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">The club needs a goalkeeper and a striker.</span><span class="tf" data-answer="false" data-tf="rt2"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">Tomás's agent is easy to work with.</span><span class="tf" data-answer="false" data-tf="rt3"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">Kofi's club would sell him for less than £10 million.</span><span class="tf" data-answer="true" data-tf="rt4"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">Danylo has missed many matches since his injury.</span><span class="tf" data-answer="false" data-tf="rt5"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">Sam thinks Tomás will win the most matches.</span><span class="tf" data-answer="false" data-tf="rt6"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+</ul>
+<h3>3. Finish the relative clause</h3>
+<p class="task" style="margin-bottom:6px">Copy the words from the email.</p>
+<ul class="gap-list">
+<li><span class="sentence">a striker <input autocomplete="off" class="xwide" data-answer="who can score fifteen goals a season" id="rr1" type="text"/> (para 1)</span></li>
+<li><span class="sentence">His agent, <input autocomplete="off" class="xwide" data-answer="whose demands are always high" id="rr2" type="text"/> … (para 2)</span></li>
+<li><span class="sentence">a Dutch club <input autocomplete="off" class="xwide" data-answer="where he has become a fan favourite" id="rr3" type="text"/> (para 3)</span></li>
+<li><span class="sentence">the captain of a team <input autocomplete="off" class="xwide" data-answer="which won the league last season" id="rr4" type="text"/> (para 4)</span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="6">Check</button>
+<button class="btn ghost" data-reveal="6">Show answers</button>
+<button class="btn ghost" data-hide="6" hidden>Hide answers</button>
+<span class="verdict" data-verdict="6"></span>
+</div>
+</div>
+<div class="ex" data-ex="7" id="ex-7">
+<div class="ex-head"><span class="label">Exercise 6 · Speaking · role-play</span></div>
+<h2>Deadline day</h2>
+<p class="task">Three rounds — and you have £30 million. Use <i>who, which, where, whose</i> every time you describe a player.</p>
+<ol>
+<li><b>The decision (2 min).</b> Which two players do you want, and why? <i>“I want Kofi, who…, because we need a player whose…”</i> I'll be the club owner — and I'll disagree with you!</li>
+<li><b>The negotiation (5 min).</b> I'm Tomás's agent. You want him for £15 million; I want £20 million and big wages. Try to get a deal. Useful: <i>That's too much. · Our final offer is… · What if we…? · Take it or leave it. · It's a deal!</i></li>
+<li><b>The press conference (3 min).</b> You've signed your new player. I'm a journalist (remember Lesson 9!): <i>Why did you choose him? What kind of player is he? Who did you compare him with?</i></li>
+</ol>
+<p><b>Bonus:</b> describe a player from your own team or class to me like a scout: <i>He's a defender who… He's the kind of player whose…</i></p>
+</div>
+<div class="blockhead"><span class="label">Part 3 · extra</span><h2>If we still have time</h2></div>
+<div class="ex extra" data-ex="8" id="ex-8">
+<div class="ex-head"><span class="label">Exercise 7 · Review</span><span class="pill">Extra</span></div>
+<h2>Find the mistake</h2>
+<p class="task">Correct the <b>bold</b> part. In the last one a word has to go — write <b>—</b>.</p>
+<ul class="gap-list">
+<li><span class="sentence">The player <b>which</b> scored is only 17. → <input autocomplete="off" class="wide" data-answer="who|that" id="x1" type="text"/></span></li>
+<li><span class="sentence">That's the club <b>who</b> I support. → <input autocomplete="off" class="wide" data-answer="which|that" id="x2" type="text"/></span></li>
+<li><span class="sentence">This is the house <b>which</b> I grew up. → <input autocomplete="off" class="wide" data-answer="where" id="x3" type="text"/></span></li>
+<li><span class="sentence">I know a boy <b>who's</b> dad is a coach. → <input autocomplete="off" class="wide" data-answer="whose" id="x4" type="text"/></span></li>
+<li><span class="sentence">The boots <b>who</b> I bought are too small. → <input autocomplete="off" class="wide" data-answer="which|that" id="x5" type="text"/></span></li>
+<li><span class="sentence">He's a striker who <b>he</b> never misses penalties. → <input autocomplete="off" class="wide" data-answer="—|nothing|delete|(delete)" id="x6" type="text"/></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="8">Check</button>
+<button class="btn ghost" data-reveal="8">Show answers</button>
+<button class="btn ghost" data-hide="8" hidden>Hide answers</button>
+<span class="verdict" data-verdict="8"></span>
+</div>
+</div>
+<div class="ex extra" data-ex="9" id="ex-9">
+<div class="ex-head"><span class="label">Exercise 8 · Vocabulary</span><span class="pill">Extra</span></div>
+<h2>Football dictionary</h2>
+<p class="task">Finish each definition. Then write <b>two</b> definitions of your own for me to guess: <i>It's a person who… / It's a place where…</i></p>
+<ul class="gap-list">
+<li><span class="sentence">A captain is a player <select data-answer="who wears the armband and leads the team." id="d1"><option value="">—</option><option>which one club pays another for a player.</option><option>who wears the armband and leads the team.</option><option>where the visiting fans sit.</option><option>where thousands of fans watch a match.</option><option>who scores most of the team&#x27;s goals.</option><option>whose job is to find the best deal for a player.</option></select></span></li>
+<li><span class="sentence">A stadium is a place <select data-answer="where thousands of fans watch a match." id="d2"><option value="">—</option><option>which one club pays another for a player.</option><option>who wears the armband and leads the team.</option><option>where the visiting fans sit.</option><option>where thousands of fans watch a match.</option><option>who scores most of the team&#x27;s goals.</option><option>whose job is to find the best deal for a player.</option></select></span></li>
+<li><span class="sentence">A transfer fee is money <select data-answer="which one club pays another for a player." id="d3"><option value="">—</option><option>which one club pays another for a player.</option><option>who wears the armband and leads the team.</option><option>where the visiting fans sit.</option><option>where thousands of fans watch a match.</option><option>who scores most of the team&#x27;s goals.</option><option>whose job is to find the best deal for a player.</option></select></span></li>
+<li><span class="sentence">An agent is a person <select data-answer="whose job is to find the best deal for a player." id="d4"><option value="">—</option><option>which one club pays another for a player.</option><option>who wears the armband and leads the team.</option><option>where the visiting fans sit.</option><option>where thousands of fans watch a match.</option><option>who scores most of the team&#x27;s goals.</option><option>whose job is to find the best deal for a player.</option></select></span></li>
+<li><span class="sentence">The away end is the part of the stadium <select data-answer="where the visiting fans sit." id="d5"><option value="">—</option><option>which one club pays another for a player.</option><option>who wears the armband and leads the team.</option><option>where the visiting fans sit.</option><option>where thousands of fans watch a match.</option><option>who scores most of the team&#x27;s goals.</option><option>whose job is to find the best deal for a player.</option></select></span></li>
+<li><span class="sentence">A striker is a player <select data-answer="who scores most of the team&#x27;s goals." id="d6"><option value="">—</option><option>which one club pays another for a player.</option><option>who wears the armband and leads the team.</option><option>where the visiting fans sit.</option><option>where thousands of fans watch a match.</option><option>who scores most of the team&#x27;s goals.</option><option>whose job is to find the best deal for a player.</option></select></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="9">Check</button>
+<button class="btn ghost" data-reveal="9">Show answers</button>
+<button class="btn ghost" data-hide="9" hidden>Hide answers</button>
+<span class="verdict" data-verdict="9"></span>
+</div>
+</div>
+<div class="ex extra" data-ex="10" id="ex-10">
+<div class="ex-head"><span class="label">Exercise 9 · Writing</span><span class="pill">Extra</span></div>
+<h2>Your scouting report</h2>
+<p class="task">You're a scout. Write 80–100 words about a player you know — a star, a teammate or a friend. Should the club sign him?</p>
+<p><b>Checklist:</b> four relative clauses (<i>who, which, where, whose</i> — at least three different ones) · three personality words · one passive · your advice at the end.</p>
+<textarea id="writing2" placeholder="Boss, I've found a player who…"></textarea>
+<div class="ex-foot"><span class="verdict" id="wcount2">0 words</span></div>
+<details><summary>Model answer — open only after you write your own</summary>
+<p style="margin:0">Boss, I've found a defender who could be perfect for us. His name is Ivan, he's 18, and he plays for a small club whose stadium is next to a factory. Ivan is a player who reads the game brilliantly — he was named the best young player in his league last season. He's calm, modest and very reliable. The only problem is his height: he isn't as tall as our other defenders. But he's the kind of player who never gives up. My advice: sign him before someone else does.</p>
+</details>
+</div>
+<div class="ex" style="background:var(--surface-2); box-shadow:none">
+<div class="ex-head"><span class="label">Homework</span></div>
+<p style="margin:0 0 8px">Homework is <b>everything we didn't finish today</b>. The <a href="../homework.html">Homework page</a> shows the exact list and updates itself.</p>
+<ol style="margin-bottom:0">
+<li>This page: every exercise that isn't done yet.</li>
+<li>Take the vocabulary quiz (Warm-up A) once more — try to get 20 / 20.</li>
+<li>Learn the transfer words — they're in the dictionary.</li>
+<li>The quiz in the Grammar section: <i>who, which, where, whose</i>.</li>
+</ol>
+</div>
+</section>
+<section aria-labelledby="tab-g" class="view" hidden="" id="view-g" role="tabpanel">
+<div class="intro">
+<h2>Граматика уроку</h2>
+<p class="lead">Підрядні означальні речення — спосіб з'єднати два короткі речення в одне довге і пояснити, <b>про кого чи про що</b> мова. Українською: «гравець, <i>який</i> забиває обома ногами», «клуб, <i>чиї</i> вболівальники…».</p>
+</div>
+<div class="tense">
+<span class="label">01 · слова-зв'язки</span>
+<h2>who · which · that · where · whose</h2>
+<div class="tbl-scroll"><table>
+<tr><th>слово</th><th>для чого</th><th>приклад</th></tr>
+<tr><td class="irr">who</td><td>люди — «який, яка, які»</td><td><i>a scout <b>who</b> finds new players</i></td></tr>
+<tr><td class="irr">which</td><td>речі, тварини</td><td><i>the contract <b>which</b> he signed</i></td></tr>
+<tr><td class="irr">that</td><td>люди <b>або</b> речі (у розмові)</td><td><i>a player <b>that</b> never gives up · the boots <b>that</b> I bought</i></td></tr>
+<tr><td class="irr">where</td><td>місця — «де»</td><td><i>the town <b>where</b> he was born</i></td></tr>
+<tr><td class="irr">whose</td><td>«чий, чия, чиї»</td><td><i>a player <b>whose</b> father was a footballer</i></td></tr>
+</table></div>
+</div>
+<div class="tense">
+<span class="label">02 · як з'єднати</span>
+<h2>Два речення → одне</h2>
+<div class="form">
+      He's a striker. <b>He</b> scores with both feet. → He's a striker <b>who</b> scores with both feet.<br/>
+      This is the town. Haaland was born <b>here</b>. → This is the town <b>where</b> Haaland was born.<br/>
+      I met a girl. <b>Her</b> father is a referee. → I met a girl <b>whose</b> father is a referee.
+    </div>
+<p>Слово-зв'язка <b>замінює</b> he / she / it / here / her — тому їх більше не повторюємо: <span class="wrong">✗ a striker who he scores</span> → <span class="right">✓ a striker who scores</span>.</p>
+</div>
+<div class="tense">
+<span class="label">03 · можна пропустити</span>
+<h2>the boots I bought</h2>
+<p>Якщо після <i>who / which / that</i> іде <b>інша особа</b> (I, you, he…), слово-зв'язку в розмові часто пропускають:</p>
+<div class="vs">
+<div><b>Можна пропустити</b><br/><i>the boots (which) <b>I</b> bought</i><br/><i>the player (who) <b>we</b> signed</i></div>
+<div><b>Не можна пропустити</b> — коли воно саме «робить» дію<br/><i>a player <b>who scores</b> a lot</i><br/><span class="wrong">✗ a player scores a lot</span></div>
+</div>
+</div>
+<div class="tense">
+<span class="label">04 · пастки</span>
+<h2>Типові помилки</h2>
+<div class="note"><span class="label">who's ≠ whose</span><i>who's</i> = who is: <i>Who's that?</i> · <i>whose</i> = чий: <i>a boy <b>whose</b> dad is a coach</i>. <span class="wrong">✗ a boy who's dad</span></div>
+<div class="note"><span class="label">which — не для людей</span><span class="wrong">✗ the player which scored</span> → <span class="right">✓ the player who scored</span></div>
+<div class="note"><span class="label">where — лише для місць з повним реченням</span><i>the house <b>where</b> I grew up</i> (=in which) · але <i>the house <b>which</b> I bought</i> (купив саме будинок, не «в ньому»).</div>
+</div>
+<div class="tense">
+<span class="label">05 · бонус</span>
+<h2>З комами — додаткова інформація</h2>
+<p>Якщо речення вже зрозуміле і ми просто додаємо факт, ставимо коми і <b>не</b> вживаємо <i>that</i>: <i>Haaland, <b>who</b> was born in Leeds, plays for Manchester City.</i> · <i>The agent, <b>whose</b> name I always forget, called again.</i></p>
+</div>
+</section>
+</main>
+
+<footer>Lesson 13 · Transfer Window. Relative clauses. Photos: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0.</footer>
+
+<script>
+(function(){
+  "use strict";
+  var LS = "ew-l13:";
+  function save(k,v){ try{ localStorage.setItem(LS+k, v); }catch(e){} }
+  function load(k){ try{ return localStorage.getItem(LS+k); }catch(e){ return null; } }
+
+  /* ---- tabs (built from whatever tabs this page has) ---- */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".tab"));
+  var views = tabs.map(function(t){ return document.getElementById(t.getAttribute("aria-controls")); });
+  var PAGEKEY = "tab:" + (document.body ? document.title : "x") + ":" + tabs.length;
+  tabs.forEach(function(t,i){
+    t.addEventListener("click", function(){
+      tabs.forEach(function(x,j){
+        x.setAttribute("aria-selected", j===i ? "true":"false");
+        if(views[j]) views[j].hidden = j!==i;
+      });
+      save(PAGEKEY, String(i));
+      window.scrollTo(0,0);
+    });
+  });
+  var savedTab = Number(load(PAGEKEY));
+  var startTab = (savedTab > 0 && tabs[savedTab]) ? tabs[savedTab] : tabs[0];
+  if(startTab) startTab.click();
+  window.scrollTo(0,0);
+
+  /* ---- normalisation ---- */
+  function norm(s){
+    return String(s||"").toLowerCase().trim()
+      .replace(/[‘’ʼ`]/g,"'")
+      .replace(/[.,!?;:]+$/,"")
+      .replace(/\s+/g," ");
+  }
+  function matches(val, answer){
+    return answer.split("|").map(norm).indexOf(norm(val)) !== -1;
+  }
+
+  var sheet = document.getElementById("view-s");
+  if(!sheet) return;
+
+  var state = {};
+  var scoreEl = document.getElementById("score");
+  var fillEl = document.getElementById("fill");
+  var TOTAL = sheet.querySelectorAll("[data-answer]").length;
+  if(scoreEl) scoreEl.textContent = "0 / " + TOTAL;
+
+  function updateScore(){
+    var n = 0;
+    for(var k in state){ if(state[k]) n++; }
+    if(scoreEl) scoreEl.textContent = n + " / " + TOTAL;
+    if(fillEl) fillEl.style.width = (TOTAL ? (n/TOTAL*100) : 0) + "%";
+  }
+
+  sheet.querySelectorAll("input[type=text], select, textarea").forEach(function(el){
+    if(!el.id) return;
+    var v = load(el.id);
+    if(v !== null) el.value = v;
+    el.addEventListener("input", function(){ save(el.id, el.value); el.classList.remove("ok","bad"); });
+    el.addEventListener("change", function(){ save(el.id, el.value); el.classList.remove("ok","bad"); });
+  });
+
+  sheet.querySelectorAll(".tf").forEach(function(group){
+    var key = group.getAttribute("data-tf");
+    var stored = load(key);
+    group.querySelectorAll("button").forEach(function(b){
+      if(stored === b.value) b.setAttribute("aria-pressed","true");
+      b.addEventListener("click", function(){
+        group.querySelectorAll("button").forEach(function(x){ x.setAttribute("aria-pressed","false"); x.classList.remove("ok","bad"); });
+        b.setAttribute("aria-pressed","true");
+        save(key, b.value);
+      });
+    });
+  });
+
+  sheet.querySelectorAll(".rgroup").forEach(function(g){
+    var key = g.getAttribute("data-radio");
+    var stored = load("r:"+key);
+    g.querySelectorAll("input[type=radio]").forEach(function(r){
+      if(stored === r.value) r.checked = true;
+      r.addEventListener("change", function(){
+        save("r:"+key, r.value);
+        g.querySelectorAll(".choice").forEach(function(c){ c.classList.remove("ok","bad"); });
+      });
+    });
+  });
+
+  function checkBox(box, reveal){
+    var n = 0, right = 0;
+
+    box.querySelectorAll("input[type=text][data-answer], select[data-answer]").forEach(function(el){
+      var ans = el.getAttribute("data-answer");
+      n++;
+      if(reveal){ el.value = ans.split("|")[0]; save(el.id, el.value); }
+      var good = matches(el.value, ans);
+      el.classList.toggle("ok", good);
+      el.classList.toggle("bad", !good);
+      state[el.id] = good;
+      if(good) right++;
+    });
+
+    box.querySelectorAll(".tf[data-answer]").forEach(function(g){
+      var ans = g.getAttribute("data-answer");
+      var key = g.getAttribute("data-tf");
+      n++;
+      g.querySelectorAll("button").forEach(function(b){
+        if(reveal){
+          b.setAttribute("aria-pressed", b.value===ans ? "true":"false");
+          if(b.value===ans) save(key, b.value);
+        }
+        b.classList.remove("ok","bad");
+        if(b.getAttribute("aria-pressed")==="true") b.classList.add(b.value===ans ? "ok" : "bad");
+      });
+      var chosen = g.querySelector('button[aria-pressed="true"]');
+      var good = !!chosen && chosen.value===ans;
+      state[key] = good;
+      if(good) right++;
+    });
+
+    box.querySelectorAll(".rgroup[data-answer]").forEach(function(g){
+      var ans = g.getAttribute("data-answer");
+      var key = g.getAttribute("data-radio");
+      n++;
+      g.querySelectorAll("input[type=radio]").forEach(function(r){
+        if(reveal && r.value===ans){ r.checked = true; save("r:"+key, r.value); }
+        r.parentElement.classList.remove("ok","bad");
+        if(r.checked) r.parentElement.classList.add(r.value===ans ? "ok":"bad");
+      });
+      var sel = g.querySelector("input[type=radio]:checked");
+      var good = !!sel && sel.value===ans;
+      state["r:"+key] = good;
+      if(good) right++;
+    });
+
+    return {n:n, right:right};
+  }
+
+  sheet.querySelectorAll("[data-check]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var id = btn.getAttribute("data-check");
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      var r = checkBox(box, false);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = r.right + " / " + r.n + (r.right===r.n ? " — perfect!" : " correct");
+      v.className = "verdict " + (r.right===r.n ? "good" : (r.right >= r.n/2 ? "" : "poor"));
+      updateScore();
+    });
+  });
+
+  /* ---- Show answers / Hide answers ----
+     Before revealing, the student's own answers are saved as a snapshot
+     (also in localStorage, so Hide still works after a reload).
+     Hide puts that snapshot back — empty fields become empty again. */
+  function takeSnap(box){
+    var s = {i:{}, tf:{}, r:{}};
+    box.querySelectorAll("input[type=text][data-answer], select[data-answer]").forEach(function(el){ s.i[el.id] = el.value; });
+    box.querySelectorAll(".tf[data-answer]").forEach(function(g){ var b = g.querySelector('button[aria-pressed="true"]'); s.tf[g.getAttribute("data-tf")] = b ? b.value : null; });
+    box.querySelectorAll(".rgroup[data-answer]").forEach(function(g){ var r = g.querySelector("input[type=radio]:checked"); s.r[g.getAttribute("data-radio")] = r ? r.value : null; });
+    return s;
+  }
+  function unsave(k){ try{ localStorage.removeItem(LS+k); }catch(e){} }
+  function putSnap(box, s){
+    var forget = [];
+    Object.keys(s.i).forEach(function(id){
+      var el = document.getElementById(id); if(!el) return;
+      el.value = s.i[id]; el.classList.remove("ok","bad"); save(id, el.value); delete state[id];
+      el.dispatchEvent(new Event("input", {bubbles:true}));
+    });
+    Object.keys(s.tf).forEach(function(k){
+      var g = box.querySelector('.tf[data-tf="'+k+'"]'); if(!g) return;
+      g.querySelectorAll("button").forEach(function(b){ b.setAttribute("aria-pressed", b.value===s.tf[k] ? "true":"false"); b.classList.remove("ok","bad"); });
+      if(s.tf[k] === null){ unsave(k); forget.push("tf:"+k); } else save(k, s.tf[k]);
+      delete state[k];
+    });
+    Object.keys(s.r).forEach(function(k){
+      var g = box.querySelector('.rgroup[data-radio="'+k+'"]'); if(!g) return;
+      g.querySelectorAll("input[type=radio]").forEach(function(r){ r.checked = r.value===s.r[k]; r.parentElement.classList.remove("ok","bad"); });
+      if(s.r[k] === null){ unsave("r:"+k); forget.push("radio:"+k); } else save("r:"+k, s.r[k]);
+      delete state["r:"+k];
+    });
+    document.dispatchEvent(new CustomEvent("ew:forget", {detail: forget}));
+  }
+  function hideBtn(id){ return sheet.querySelector('[data-hide="'+id+'"]'); }
+
+  sheet.querySelectorAll("[data-reveal]").forEach(function(btn){
+    var id = btn.getAttribute("data-reveal");
+    if(load("snap:"+id) && hideBtn(id)) hideBtn(id).hidden = false;
+    btn.addEventListener("click", function(){
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      if(!load("snap:"+id)) save("snap:"+id, JSON.stringify(takeSnap(box)));
+      checkBox(box, true);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = "answers shown";
+      v.className = "verdict";
+      if(hideBtn(id)) hideBtn(id).hidden = false;
+      updateScore();
+    });
+  });
+
+  sheet.querySelectorAll("[data-hide]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var id = btn.getAttribute("data-hide");
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      var s = null; try{ s = JSON.parse(load("snap:"+id) || "null"); }catch(e){}
+      if(!s){ s = takeSnap(box); Object.keys(s.i).forEach(function(k){ s.i[k]=""; }); Object.keys(s.tf).forEach(function(k){ s.tf[k]=null; }); Object.keys(s.r).forEach(function(k){ s.r[k]=null; }); }
+      putSnap(box, s);
+      unsave("snap:"+id);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = ""; v.className = "verdict";
+      btn.hidden = true;
+      updateScore();
+    });
+  });
+
+  function counter(taId, outId, lo, hi){
+    var ta = document.getElementById(taId), out = document.getElementById(outId);
+    if(!ta || !out) return;
+    function count(){
+      var w = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0;
+      out.textContent = w + (w===1 ? " word" : " words") + (w>=lo && w<=hi ? " — good length" : "");
+      out.className = "verdict" + (w>=lo && w<=hi ? " good" : "");
+    }
+    ta.addEventListener("input", count);
+    count();
+  }
+  counter("writing","wcount",70,95);
+  counter("writing2","wcount2",80,105);
+
+  updateScore();
+})();
+</script>
+
+<script>
+/* word bank: drag a tile onto a box, or tap a tile then tap a box; typing works too */
+(function(){
+  document.querySelectorAll(".dnd").forEach(function(box){
+    var tiles=[].slice.call(box.querySelectorAll(".tile")), slots=[].slice.call(box.querySelectorAll("input.drop")), picked=null;
+    function refresh(){
+      var used=slots.map(function(s){return s.value.trim().toLowerCase();});
+      tiles.forEach(function(t){ t.classList.toggle("used", used.indexOf(t.dataset.w.toLowerCase())!==-1); });
+      if(picked && picked.classList.contains("used")) pick(null);
+    }
+    function pick(t){ picked=t; tiles.forEach(function(x){x.classList.toggle("picked", x===t);}); box.classList.toggle("picking", !!t); }
+    function fill(s,w){
+      if(s.readOnly) return;
+      s.value=w; s.classList.remove("ok","bad");
+      s.dispatchEvent(new Event("input",{bubbles:true})); s.dispatchEvent(new Event("change",{bubbles:true}));
+      refresh();
+    }
+    tiles.forEach(function(t){
+      t.addEventListener("dragstart",function(e){ e.dataTransfer.setData("text/plain",t.dataset.w); e.dataTransfer.effectAllowed="copy"; });
+      t.addEventListener("click",function(){ if(t.classList.contains("used")) return; pick(picked===t?null:t); });
+      t.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); t.click(); } });
+    });
+    slots.forEach(function(s){
+      s.addEventListener("dragover",function(e){ e.preventDefault(); s.classList.add("over"); });
+      s.addEventListener("dragleave",function(){ s.classList.remove("over"); });
+      s.addEventListener("drop",function(e){ e.preventDefault(); s.classList.remove("over"); var w=e.dataTransfer.getData("text/plain"); if(w) fill(s,w); });
+      s.addEventListener("click",function(){ if(picked){ fill(s,picked.dataset.w); pick(null); } });
+      s.addEventListener("input",refresh);
+    });
+    refresh(); setInterval(refresh,1000);
+  });
+})();
+</script>
+<script>
+/* Warm-up A: one-question-at-a-time vocabulary quiz (20 words). Score is sent to the teacher page. */
+(function(){
+  var box=document.getElementById('wq'), raw=document.getElementById('wq-data'); if(!box||!raw) return;
+  var Q=JSON.parse(raw.textContent);
+  function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; } return a; }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  var order, i, score, wrong;
+  function start(){ order=shuffle(Q); i=0; score=0; wrong=[]; draw(); }
+  function draw(){
+    if(i>=order.length) return finish();
+    var q=order[i], others=shuffle(Q.filter(function(x){return x.w!==q.w;})).slice(0,3), prompt, right, opts;
+    if(q.t==='en2uk'){ prompt='What does <b>'+esc(q.w)+'</b> mean?'; right=q.uk; opts=shuffle([q.uk].concat(others.map(function(x){return x.uk;}))); }
+    else if(q.t==='uk2en'){ prompt='How do you say <b>«'+esc(q.uk)+'»</b> in English?'; right=q.w; opts=shuffle([q.w].concat(others.map(function(x){return x.w;}))); }
+    else { prompt='Fill the gap: <i>'+esc(q.s).replace('___','<span class="wq-gap">_____</span>')+'</i>'; right=q.w; opts=shuffle([q.w].concat(others.map(function(x){return x.w;}))); }
+    box.innerHTML='<div class="wq-top"><span>Question '+(i+1)+' of '+order.length+'</span><span>Score: '+score+'</span></div>'
+      +'<div class="wq-bar"><i style="width:'+(i/order.length*100)+'%"></i></div>'
+      +'<p class="wq-q">'+prompt+'</p><div class="wq-opts">'+opts.map(function(o){return '<button type="button" class="wq-opt" data-o="'+esc(o)+'">'+esc(o)+'</button>';}).join('')+'</div>'
+      +'<div class="wq-foot"><span class="wq-msg"></span><button type="button" class="btn wq-next" hidden>Next →</button></div>';
+    var done=false;
+    box.querySelector('.wq-opts').onclick=function(e){
+      var b=e.target.closest('.wq-opt'); if(!b||done) return; done=true;
+      var ok=b.getAttribute('data-o')===right;
+      if(ok) score++; else wrong.push(q);
+      box.querySelectorAll('.wq-opt').forEach(function(x){ x.disabled=true; if(x.getAttribute('data-o')===right) x.classList.add('ok'); else if(x===b) x.classList.add('bad'); });
+      box.querySelector('.wq-msg').innerHTML= ok ? '✓ Correct!' : '✗ It\'s <b>'+esc(q.w)+'</b> — '+esc(q.uk);
+      var n=box.querySelector('.wq-next'); n.hidden=false; n.textContent = i+1<order.length ? 'Next →' : 'See my score'; n.focus();
+      n.onclick=function(){ i++; draw(); };
+    };
+  }
+  function finish(){
+    try{ if(window.EW && EW.push) EW.push('quiz',{area:'Lesson 13 · warm-up quiz', score:score, total:order.length}); }catch(e){}
+    var msg = score===order.length ? 'Perfect — you remember everything! 🏆' : score>=15 ? 'Great memory! Look at the words you missed:' : 'Not bad — these words need another look:';
+    box.innerHTML='<div class="wq-end"><div class="wq-score">'+score+' / '+order.length+'</div><p>'+msg+'</p>'
+      +(wrong.length?'<ul class="wq-miss">'+wrong.map(function(q){return '<li><b>'+esc(q.w)+'</b> — '+esc(q.uk)+'</li>';}).join('')+'</ul>':'')
+      +'<button type="button" class="btn wq-again">Try again</button></div>';
+    box.querySelector('.wq-again').onclick=start;
+  }
+  start();
+})();
+</script>
+<script src="../assets/store.js?v=7"></script>
+<script src="../assets/wordgrab.js?v=7"></script>
+<script src="../assets/lesson-sync.js?v=7" data-lesson="lesson-13"></script>
+</body>
+</html>

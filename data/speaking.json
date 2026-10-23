@@ -1,5 +1,46 @@
 [
   {
+    "id": "sp-13",
+    "lesson": "lesson-13",
+    "title": "Deadline day",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Describe players with relative clauses, negotiate a transfer and defend a decision.",
+    "grammar": [
+      "relative-clauses",
+      "personality",
+      "passive"
+    ],
+    "warmup": [
+      "Which player would you buy for your favourite club? Why?",
+      "Describe a player in one sentence with who or whose.",
+      "Is it better to buy a young player or an experienced one?"
+    ],
+    "main": {
+      "task": "Choose two of the three players; negotiate with the agent; announce the signing at a press conference.",
+      "howto": "Use who, which, where, whose every time you describe a player. Negotiation: That's too much. · Our final offer is… · Take it or leave it.",
+      "prompts": [
+        "The decision: which two players and why?",
+        "The negotiation: £15 million vs £20 million",
+        "The press conference: why did you choose him?"
+      ]
+    },
+    "phrases": [
+      "He's a player who…",
+      "We need someone whose…",
+      "That's too much.",
+      "Our final offer is…",
+      "What if we…?",
+      "Take it or leave it.",
+      "It's a deal!"
+    ],
+    "followup": [
+      "Describe a player from your own team like a scout.",
+      "Should clubs spend so much money on players?"
+    ],
+    "teacher": "Catch 'which' for people and 'who's' for 'whose'. Disagree as the owner to make him defend his choice. Keep the agent tough!"
+  },
+  {
     "id": "sp-12",
     "lesson": "lesson-12",
     "title": "The name game",

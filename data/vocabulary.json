@@ -2540,5 +2540,137 @@
     "tags": [
       "british english"
     ]
+  },
+  {
+    "word": "transfer window",
+    "pos": "noun",
+    "def": "the period when clubs are allowed to buy and sell players",
+    "uk": "трансферне вікно",
+    "example": "The transfer window closes on Friday.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "transfer fee",
+    "pos": "noun",
+    "def": "the money one club pays another for a player",
+    "uk": "сума трансферу",
+    "example": "They paid a transfer fee of £20 million.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "contract",
+    "pos": "noun",
+    "def": "an official agreement about how long a player stays and what he earns",
+    "uk": "контракт",
+    "example": "His contract ends next summer.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "agent",
+    "pos": "noun",
+    "def": "a person who looks after a player's business and money",
+    "uk": "агент",
+    "example": "His agent wants huge wages.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "scout",
+    "pos": "noun",
+    "def": "a person who watches matches to find good players",
+    "uk": "скаут",
+    "example": "The chief scout watched forty players.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "squad",
+    "pos": "noun",
+    "def": "all the players a club can choose from",
+    "uk": "склад (команди)",
+    "example": "He's the hardest-working player in the squad.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "sign",
+    "pos": "verb",
+    "def": "to make a player join your club officially",
+    "uk": "підписати (гравця)",
+    "example": "We could sign him for £11 million.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "wages",
+    "pos": "noun",
+    "def": "the money a player gets every week",
+    "uk": "зарплата",
+    "example": "Footballers' wages are paid every week.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "on loan",
+    "pos": "phrase",
+    "def": "playing for another club for a short time",
+    "uk": "в оренді",
+    "example": "Kofi is playing on loan in the Netherlands.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "bid",
+    "pos": "noun",
+    "def": "an offer of money for a player",
+    "uk": "пропозиція (ціни)",
+    "example": "They accepted our bid of £9 million.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "deadline day",
+    "pos": "noun",
+    "def": "the last day of the transfer window",
+    "uk": "останній день трансферного вікна",
+    "example": "Everything happens on deadline day!",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
+  },
+  {
+    "word": "Take it or leave it.",
+    "pos": "phrase",
+    "def": "this is my final offer",
+    "uk": "Або так, або ніяк.",
+    "example": "£15 million — take it or leave it.",
+    "lesson": "lesson-13",
+    "tags": [
+      "transfers"
+    ]
   }
 ]

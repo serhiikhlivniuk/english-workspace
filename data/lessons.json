@@ -216,5 +216,26 @@
       "Preview: who / which / where / whose"
     ],
     "vocabCount": 22
+  },
+  {
+    "id": "lesson-13",
+    "number": 13,
+    "title": "Transfer Window",
+    "titleUk": "Підрядні речення: who / which / where / whose",
+    "date": "2026-10-23",
+    "time": "17:00",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-13.html",
+    "summary": "A 20-word quiz on everything we've learnt, then relative clauses — who, which, that, where, whose. Who's who with photos of three real players, the language of transfers, a chief scout's email about three players, and a deadline-day role-play: you're the manager with £30 million.",
+    "topics": [
+      "Vocabulary quiz: 20 words",
+      "Review: the passive",
+      "who / which / that / where / whose",
+      "Photos: who's who?",
+      "Transfer vocabulary",
+      "Role-play: deadline day"
+    ],
+    "vocabCount": 12
   }
 ]
