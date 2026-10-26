@@ -1,5 +1,35 @@
 [
   {
+    "id": "hw-14",
+    "lesson": "lesson-14",
+    "title": "Homework after Lesson 14",
+    "assigned": "2026-10-26",
+    "due": "2026-10-30",
+    "note": "The main task is Exercise 10 — your text about the film Cast Away. Everything else = what we didn't finish in class.",
+    "items": [
+      {
+        "id": "hw-14-1",
+        "text": "Exercise 10: describe the film Cast Away (Tom Hanks) and what Chuck did to survive on the island — 100–130 words, type it on the lesson page.",
+        "type": "writing",
+        "auto": "lesson-14",
+        "only": [
+          "11"
+        ]
+      },
+      {
+        "id": "hw-14-2",
+        "text": "Lesson 14: finish every other exercise we didn't get to in class.",
+        "type": "grammar",
+        "auto": "lesson-14"
+      },
+      {
+        "id": "hw-14-3",
+        "text": "Learn the survival words — they're in the dictionary — and take the Grammar quizzes: First conditional, and must · have to · should.",
+        "type": "vocab"
+      }
+    ]
+  },
+  {
     "id": "hw-13",
     "lesson": "lesson-13",
     "title": "Homework after Lesson 13",

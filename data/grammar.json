@@ -6144,5 +6144,297 @@
         "why": "A person → who (or nothing)."
       }
     ]
+  },
+  {
+    "id": "first-conditional",
+    "group": "Sentences",
+    "title": "First conditional",
+    "uk": "Умовні речення першого типу",
+    "level": "B1",
+    "summary": "if + Present Simple, will + verb — a real possibility and its result. Never will after if. unless = if not; when = it will surely happen.",
+    "lessons": [
+      "lesson-14"
+    ],
+    "rules": [
+      {
+        "name": "Form",
+        "form": "If + Present Simple, will / won't + verb",
+        "when": "A real possibility in the future and its result.",
+        "examples": [
+          {
+            "en": "If we light a fire, a ship will see the smoke.",
+            "uk": "Якщо ми розпалимо вогонь, корабель побачить дим."
+          }
+        ]
+      },
+      {
+        "name": "unless",
+        "form": "unless = if … not",
+        "when": "",
+        "examples": [
+          {
+            "en": "We'll get lost unless we take a map.",
+            "uk": "Ми заблукаємо, якщо не візьмемо мапу."
+          }
+        ]
+      },
+      {
+        "name": "when",
+        "form": "When + Present Simple, will …",
+        "when": "When we're sure it will happen.",
+        "examples": [
+          {
+            "en": "When the sun goes down, it will get cold.",
+            "uk": "Коли сяде сонце, стане холодно."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "If it will rain, we'll stay inside.",
+        "right": "If it rains, we'll stay inside.",
+        "note": "Present Simple after if"
+      },
+      {
+        "wrong": "I'll call you when I will arrive.",
+        "right": "I'll call you when I arrive.",
+        "note": "Present Simple after when"
+      },
+      {
+        "wrong": "We go to the beach if it's sunny tomorrow.",
+        "right": "We'll go to the beach if it's sunny tomorrow.",
+        "note": "will in the result"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "If it ___ tomorrow, we'll stay at home.",
+        "options": [
+          "rains",
+          "will rain",
+          "rained"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "If you don't hurry, you ___ the bus.",
+        "options": [
+          "miss",
+          "will miss",
+          "missed"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We'll get lost ___ we take a map.",
+        "options": [
+          "if",
+          "unless",
+          "when"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "If it ___ tomorrow, we'll stay at home.",
+        "options": [
+          "rains",
+          "will rain",
+          "rained"
+        ],
+        "answer": 0,
+        "why": "Present Simple after if."
+      },
+      {
+        "q": "If you don't hurry, you ___ the bus.",
+        "options": [
+          "miss",
+          "will miss",
+          "missed"
+        ],
+        "answer": 1,
+        "why": "will in the result."
+      },
+      {
+        "q": "We'll get lost ___ we take a map.",
+        "options": [
+          "if",
+          "unless",
+          "when"
+        ],
+        "answer": 1,
+        "why": "unless = if not."
+      },
+      {
+        "q": "I'll call you when I ___.",
+        "options": [
+          "arrive",
+          "will arrive",
+          "arrived"
+        ],
+        "answer": 0,
+        "why": "Present Simple after when."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "If you will see him, say hi.",
+          "If you see him, say hi."
+        ],
+        "answer": 1,
+        "why": "No will after if."
+      },
+      {
+        "q": "If he ___ every day, he'll get into the team.",
+        "options": [
+          "practise",
+          "practises",
+          "will practise"
+        ],
+        "answer": 1,
+        "why": "he → practises."
+      }
+    ]
+  },
+  {
+    "id": "modals-rules",
+    "group": "Verbs",
+    "title": "must · have to · mustn't · don't have to · should",
+    "uk": "Правила й поради",
+    "level": "A2+ → B1",
+    "summary": "must / have to = necessary · mustn't = forbidden · don't have to = not necessary · should = advice.",
+    "lessons": [
+      "lesson-14"
+    ],
+    "rules": [
+      {
+        "name": "Necessary",
+        "form": "must / have to + verb",
+        "when": "",
+        "examples": [
+          {
+            "en": "We have to find fresh water.",
+            "uk": "Ми мусимо знайти прісну воду."
+          }
+        ]
+      },
+      {
+        "name": "Forbidden",
+        "form": "mustn't + verb",
+        "when": "",
+        "examples": [
+          {
+            "en": "You mustn't drink seawater.",
+            "uk": "Не можна пити морську воду."
+          }
+        ]
+      },
+      {
+        "name": "Not necessary",
+        "form": "don't have to + verb",
+        "when": "",
+        "examples": [
+          {
+            "en": "You don't have to come if you're tired.",
+            "uk": "Не обов'язково приходити, якщо ти втомився."
+          }
+        ]
+      },
+      {
+        "name": "Advice",
+        "form": "should + verb",
+        "when": "",
+        "examples": [
+          {
+            "en": "You should sleep in the shade.",
+            "uk": "Тобі варто спати в тіні."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "You don't have to touch it — it's dangerous!",
+        "right": "You mustn't touch it — it's dangerous!",
+        "note": "forbidden → mustn't"
+      },
+      {
+        "wrong": "You must to go.",
+        "right": "You must go.",
+        "note": "no to after must"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "You ___ drink seawater — it's dangerous.",
+        "options": [
+          "mustn't",
+          "don't have to",
+          "should"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "It's Saturday — I ___ get up early.",
+        "options": [
+          "mustn't",
+          "don't have to",
+          "must"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "You look tired. You ___ go to bed.",
+        "options": [
+          "should",
+          "mustn't",
+          "don't have to"
+        ],
+        "answer": 0
+      }
+    ],
+    "practice": [
+      {
+        "q": "You ___ drink seawater — it's dangerous.",
+        "options": [
+          "mustn't",
+          "don't have to",
+          "should"
+        ],
+        "answer": 0,
+        "why": "Forbidden."
+      },
+      {
+        "q": "It's Saturday — I ___ get up early.",
+        "options": [
+          "mustn't",
+          "don't have to",
+          "must"
+        ],
+        "answer": 1,
+        "why": "Not necessary."
+      },
+      {
+        "q": "You look tired. You ___ go to bed.",
+        "options": [
+          "should",
+          "mustn't",
+          "don't have to"
+        ],
+        "answer": 0,
+        "why": "Advice."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "You must to wear a helmet.",
+          "You must wear a helmet."
+        ],
+        "answer": 1,
+        "why": "No to after must."
+      }
+    ]
   }
 ]

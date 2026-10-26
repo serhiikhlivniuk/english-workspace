@@ -2672,5 +2672,159 @@
     "tags": [
       "transfers"
     ]
+  },
+  {
+    "word": "decision",
+    "pos": "noun",
+    "def": "a choice that you make after thinking",
+    "uk": "рішення",
+    "example": "It's your decision, boss.",
+    "lesson": "lesson-13",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "medieval",
+    "pos": "adj",
+    "def": "from the Middle Ages (about 500–1500)",
+    "uk": "середньовічний",
+    "example": "Harry Hotspur was a medieval knight.",
+    "lesson": "lesson-12",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "survive",
+    "pos": "verb",
+    "def": "to stay alive in a very dangerous situation",
+    "uk": "вижити",
+    "example": "She survived eleven days in the jungle.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "survivor",
+    "pos": "noun",
+    "def": "a person who stays alive after an accident",
+    "uk": "той, хто вижив",
+    "example": "She was the only survivor of the crash.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "rescue",
+    "pos": "verb",
+    "def": "to save someone from danger",
+    "uk": "рятувати",
+    "example": "A ship rescued them after three days.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "shelter",
+    "pos": "noun",
+    "def": "a place that protects you from rain, sun or wind",
+    "uk": "укриття, притулок",
+    "example": "We'll build a shelter before it gets dark.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "stream",
+    "pos": "noun",
+    "def": "a small, narrow river",
+    "uk": "струмок",
+    "example": "If you follow a stream, it will lead you to a river.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "crash",
+    "pos": "noun",
+    "def": "an accident when a plane or car hits something",
+    "uk": "аварія, катастрофа",
+    "example": "Nobody else survived the crash.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "rainforest",
+    "pos": "noun",
+    "def": "a thick tropical forest where it rains a lot",
+    "uk": "тропічний ліс",
+    "example": "The plane fell into the Amazon rainforest.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "lightning",
+    "pos": "noun",
+    "def": "a flash of bright light in the sky during a storm",
+    "uk": "блискавка",
+    "example": "The plane was hit by lightning.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "wound",
+    "pos": "noun",
+    "def": "a cut or injury in your skin",
+    "uk": "рана",
+    "example": "The wound on her arm got infected.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "unless",
+    "pos": "conj",
+    "def": "if … not",
+    "uk": "якщо не",
+    "example": "We'll get lost unless we take a map.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "mustn't",
+    "pos": "modal",
+    "def": "it is not allowed — don't do it!",
+    "uk": "не можна, заборонено",
+    "example": "You mustn't drink seawater.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
+  },
+  {
+    "word": "don't have to",
+    "pos": "modal",
+    "def": "it isn't necessary",
+    "uk": "не обов'язково",
+    "example": "You don't have to come if you're tired.",
+    "lesson": "lesson-14",
+    "tags": [
+      "survival"
+    ]
   }
 ]

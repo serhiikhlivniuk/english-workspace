@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="en" data-base="../">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="English lesson 14 - Lost! A survival lesson: first conditional, unless, when, and rules with must, have to and should (A2+ to B1).">
+<style>html{color-scheme:light dark}img{max-width:100%}[hidden]{display:none !important}</style>
+<title>Lost!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --paper:#F4F5F1; --surface:#FFFFFF; --surface-2:#EBEEE7;
+    --ink:#17233D; --ink-soft:#5B6479; --line:#D9DDD5;
+    --accent:#AD6A16; --accent-ink:#8A5310; --accent-soft:#F7E9D3;
+    --ok:#2C7A57; --ok-soft:#DEEDE4;
+    --bad:#AE372D; --bad-soft:#F7DFDB;
+    --shadow:0 1px 2px rgba(23,35,61,.06), 0 8px 24px -16px rgba(23,35,61,.28);
+    --display:"Fraunces", Georgia, "Times New Roman", serif;
+    --body:"Karla", "Helvetica Neue", Arial, sans-serif;
+    --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#141A26; --surface:#1B2231; --surface-2:#232B3C;
+      --ink:#E9EBE5; --ink-soft:#9BA4B6; --line:#313B4E;
+      --accent:#E3A052; --accent-ink:#F0BB79; --accent-soft:#3A2D1B;
+      --ok:#74C79C; --ok-soft:#1D3A2B;
+      --bad:#E68678; --bad-soft:#3C221E;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#141A26; --surface:#1B2231; --surface-2:#232B3C;
+    --ink:#E9EBE5; --ink-soft:#9BA4B6; --line:#313B4E;
+    --accent:#E3A052; --accent-ink:#F0BB79; --accent-soft:#3A2D1B;
+    --ok:#74C79C; --ok-soft:#1D3A2B;
+    --bad:#E68678; --bad-soft:#3C221E;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--body); font-size:16px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:900px; margin:0 auto; padding-inline:20px; padding-block:0 64px}
+
+  header.top{border-bottom:1px solid var(--line); background:var(--paper); position:sticky; top:0; z-index:20}
+  .top-inner{max-width:900px; margin:0 auto; padding-inline:20px; padding-block:20px 0}
+  .eyebrow{font-family:var(--mono); font-size:11.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--accent); margin:0 0 6px}
+  h1{font-family:var(--display); font-weight:600; font-size:clamp(28px,5.4vw,40px); line-height:1.08; margin:0 0 8px; text-wrap:balance; letter-spacing:-.015em}
+  .meta{display:flex; flex-wrap:wrap; gap:6px 14px; margin:0 0 16px; font-family:var(--mono); font-size:12px; color:var(--ink-soft)}
+  .meta span::before{content:"· "; color:var(--line)}
+  .meta span:first-child::before{content:""}
+  .tabs{display:flex; gap:2px; flex-wrap:wrap}
+  .tab{appearance:none; border:1px solid var(--line); border-bottom:none; background:transparent; font-family:var(--body); font-weight:700; font-size:14px; color:var(--ink-soft); padding:9px 16px; border-radius:8px 8px 0 0; cursor:pointer; margin-bottom:-1px}
+  .tab[aria-selected="true"]{background:var(--surface); color:var(--ink); border-color:var(--line)}
+  .tab:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible, summary:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  h2{font-family:var(--display); font-weight:600; font-size:22px; line-height:1.2; margin:0 0 4px; letter-spacing:-.01em; text-wrap:balance}
+  h3{font-family:var(--body); font-weight:700; font-size:15px; margin:20px 0 6px}
+  p{margin:0 0 12px}
+  .lead{color:var(--ink-soft)}
+  .label{font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft)}
+  section.view[hidden]{display:none}
+  .intro{padding-block:28px 8px; border-bottom:1px solid var(--line); margin-bottom:8px}
+
+  .blockhead{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin:34px 0 0; padding:14px 18px; background:var(--ink); color:var(--paper); border-radius:10px}
+  .blockhead h2{color:var(--paper); margin:0}
+  .blockhead .label{color:var(--paper); opacity:.7}
+
+  .stage{display:grid; grid-template-columns:96px 1fr; gap:0 24px; padding-block:24px; border-bottom:1px solid var(--line)}
+  .clock{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); padding-top:4px}
+  .clock b{display:block; font-size:15px; font-weight:600; color:var(--accent); letter-spacing:-.02em}
+  .stage-num{font-family:var(--mono); font-size:11px; letter-spacing:.12em; color:var(--ink-soft); display:block; margin-bottom:2px}
+  ul,ol{margin:0 0 12px; padding-left:20px}
+  li{margin-bottom:5px}
+  li::marker{color:var(--ink-soft)}
+  .q{color:var(--accent-ink); font-style:italic}
+  .note{background:var(--surface-2); border-left:3px solid var(--accent); padding:12px 14px; margin:14px 0; font-size:14.5px; border-radius:0 6px 6px 0}
+  .note .label{display:block; margin-bottom:4px}
+  table{width:100%; border-collapse:collapse; font-size:14.5px; margin:8px 0 14px}
+  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); font-weight:500}
+  .tbl-scroll{overflow-x:auto}
+  .aims{background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:18px 20px; margin:20px 0}
+  .aims ul{margin-bottom:0}
+
+  .progress-bar{position:sticky; top:0; z-index:10; background:var(--paper); padding-block:14px 10px; border-bottom:1px solid var(--line); margin-bottom:4px; display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+  .track{flex:1 1 160px; height:6px; background:var(--surface-2); border-radius:99px; overflow:hidden}
+  .fill{height:100%; width:0%; background:var(--accent); transition:width .35s ease}
+  .score{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); white-space:nowrap}
+  .ex{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin:18px 0; box-shadow:var(--shadow)}
+  .ex.extra{border-style:dashed; border-color:var(--accent); box-shadow:none}
+  .ex-head{display:flex; align-items:baseline; gap:10px; margin-bottom:10px; flex-wrap:wrap}
+  .pill{font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; background:var(--accent-soft); color:var(--accent-ink); border-radius:99px; padding:3px 9px; font-weight:600}
+  .task{font-size:14.5px; color:var(--ink-soft); margin-bottom:14px}
+  .sort-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:8px}
+  .sort-row{display:flex; align-items:center; gap:8px; background:var(--surface-2); border-radius:8px; padding:6px 8px 6px 12px}
+  .sort-row span{flex:1; font-size:14.5px}
+  .def-list{display:grid; gap:8px}
+  .def-row{display:flex; align-items:center; gap:10px; background:var(--surface-2); border-radius:8px; padding:8px 10px 8px 13px; flex-wrap:wrap}
+  .def-row span{flex:1 1 220px; font-size:14.5px}
+  select, input[type="text"], textarea{font-family:var(--body); font-size:15px; color:var(--ink); background:var(--paper); border:1px solid var(--line); border-radius:6px; padding:6px 8px}
+  select{font-family:var(--mono); font-size:13px; padding:5px 6px; max-width:100%}
+  input[type="text"]{width:9.5em; background:transparent; border:none; border-bottom:2px solid var(--line); border-radius:0; padding:2px 4px}
+  input[type="text"].wide{width:13em}
+  textarea{width:100%; min-height:120px; line-height:1.6; resize:vertical}
+  .gap-list{list-style:none; padding:0; counter-reset:g}
+  .gap-list li{counter-increment:g; display:flex; gap:10px; align-items:baseline; padding:7px 0; border-bottom:1px dashed var(--line); flex-wrap:wrap}
+  .gap-list li:last-child{border-bottom:none}
+  .gap-list li::before{content:counter(g); font-family:var(--mono); font-size:12px; color:var(--ink-soft); min-width:1.2em}
+  .sentence{flex:1 1 240px}
+  .cue{font-family:var(--mono); font-size:12.5px; color:var(--accent-ink)}
+  .ok{border-color:var(--ok) !important; background:var(--ok-soft) !important}
+  .bad{border-color:var(--bad) !important; background:var(--bad-soft) !important}
+  input.ok, input.bad{background:transparent !important}
+  input.ok{border-bottom-color:var(--ok) !important; color:var(--ok)}
+  input.bad{border-bottom-color:var(--bad) !important; color:var(--bad)}
+  .choice{display:block; padding:8px 12px; border:1px solid var(--line); border-radius:8px; margin-bottom:6px; cursor:pointer; font-size:15px; background:var(--paper)}
+  .choice input{margin-right:8px; accent-color:var(--accent)}
+  .tf{display:flex; gap:8px; flex:0 0 auto}
+  .tf button{font-family:var(--mono); font-size:12px; letter-spacing:.06em; padding:5px 12px; border:1px solid var(--line); background:var(--paper); color:var(--ink-soft); border-radius:6px; cursor:pointer}
+  .tf button[aria-pressed="true"]{background:var(--accent-soft); border-color:var(--accent); color:var(--accent-ink); font-weight:600}
+  .btn{font-family:var(--body); font-weight:700; font-size:14px; cursor:pointer; background:var(--ink); color:var(--paper); border:1px solid var(--ink); border-radius:8px; padding:9px 18px}
+  .btn.ghost{background:transparent; color:var(--ink-soft); border-color:var(--line); font-weight:500}
+  .ex-foot{display:flex; gap:10px; align-items:center; margin-top:16px; flex-wrap:wrap}
+  .verdict{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft)}
+  .verdict.good{color:var(--ok)}
+  .verdict.poor{color:var(--bad)}
+
+  .reading{background:var(--surface-2); border-radius:10px; padding:18px 20px; margin-bottom:16px; font-size:16px; line-height:1.78}
+  .reading p{margin:0 0 10px}
+  .reading p:last-child{margin:0}
+  .reading .gloss{border-bottom:1px dotted var(--accent); cursor:help}
+
+  .videocard{display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap; background:var(--accent-soft); border:1px solid var(--accent); border-radius:12px; padding:18px 20px; margin:16px 0}
+  .videocard div{flex:1 1 240px}
+  .videocard h3{margin-top:0}
+  a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px}
+  .playbtn{display:inline-block; font-family:var(--body); font-weight:700; font-size:14px; background:var(--ink); color:var(--paper); text-decoration:none; border-radius:8px; padding:10px 18px; white-space:nowrap}
+  .freq-scale{display:grid; grid-template-columns:repeat(auto-fit,minmax(88px,1fr)); gap:6px; margin:10px 0 14px}
+  .freq-scale div{background:var(--surface-2); border-radius:8px; padding:8px 10px; text-align:center}
+  .freq-scale b{display:block; font-size:14.5px}
+  .freq-scale small{font-family:var(--mono); font-size:11px; color:var(--ink-soft)}
+  .rule{border:1px dashed var(--accent); border-radius:10px; padding:14px 16px; margin:12px 0; background:var(--paper)}
+  .rule code, code{font-family:var(--mono); font-size:13.5px; background:var(--surface-2); padding:1px 5px; border-radius:4px}
+  details{border-top:1px solid var(--line); padding-top:12px; margin-top:14px}
+  summary{cursor:pointer; font-family:var(--mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft)}
+  details[open] summary{margin-bottom:10px; color:var(--accent)}
+  footer{margin-top:40px; padding-top:20px; border-top:1px solid var(--line); font-size:13.5px; color:var(--ink-soft)}
+
+  .tense{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin:18px 0; box-shadow:var(--shadow)}
+  .tense .form{font-family:var(--mono); font-size:14px; background:var(--surface-2); border-radius:8px; padding:12px 14px; margin:10px 0; line-height:1.9; overflow-x:auto}
+  .tense .form b{color:var(--accent-ink)}
+  .signals{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 4px}
+  .signals span{font-family:var(--mono); font-size:12px; background:var(--accent-soft); color:var(--accent-ink); border-radius:99px; padding:4px 10px}
+  .vs{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:12px 0}
+  .vs div{background:var(--surface-2); border-radius:8px; padding:12px 14px; font-size:14.5px}
+  .wrong{color:var(--bad)}
+  .right{color:var(--ok)}
+  .irr{font-family:var(--mono); font-size:13px}
+
+  .wordbank{display:flex; flex-wrap:wrap; gap:6px; margin:0 0 14px; padding:12px 14px; background:var(--surface-2); border-radius:8px}
+  .wordbank span{font-family:var(--mono); font-size:12.5px; background:var(--paper); border:1px solid var(--line); border-radius:99px; padding:3px 10px}
+  .stem{font-weight:700; margin:16px 0 6px}
+  .daytag{font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--paper); background:var(--accent); border-radius:99px; padding:3px 10px; font-weight:600}
+  .clockface{font-family:var(--mono); font-size:15px; font-weight:600; color:var(--accent-ink); background:var(--accent-soft); border-radius:6px; padding:3px 9px; margin-right:6px}
+  .fig{margin:16px 0}
+  .fig svg{display:block; margin:0 auto; max-width:100%; height:auto; color:var(--ink)}
+  figure{margin:16px 0}
+  figcaption{font-family:var(--mono); font-size:11px; letter-spacing:.07em; text-transform:uppercase; color:var(--ink-soft); text-align:center; margin-top:8px; line-height:1.5}
+  .scene-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(178px,1fr)); gap:14px; margin:14px 0}
+  .scene{background:var(--surface-2); border-radius:10px; padding:12px; display:flex; flex-direction:column; gap:10px}
+  .scene svg{width:100%; height:auto; color:var(--ink)}
+  .scene .scene-num{font-family:var(--mono); font-size:11px; letter-spacing:.1em; color:var(--ink-soft)}
+  .scene .choice{margin-bottom:4px; font-size:14px; padding:6px 10px}
+  .icon-row{display:flex; align-items:center; gap:10px; flex:1 1 220px}
+  .icon-row svg{width:32px; height:32px; flex:0 0 auto; color:var(--ink)}
+  .board{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:14px 0}
+  .board figure{margin:0; background:var(--surface-2); border-radius:10px; padding:10px}
+  .board figcaption{margin-top:6px; text-transform:none; letter-spacing:0; font-family:var(--body); font-size:13px}
+  .board svg{color:var(--ink)}
+  @media (max-width:620px){
+    .stage{grid-template-columns:1fr; gap:8px}
+    .clock{display:flex; gap:10px; align-items:baseline; padding-top:0}
+    .clock b{display:inline}
+    .ex,.tense{padding:16px 15px}
+    .vs{grid-template-columns:1fr}
+  }
+  @media (prefers-reduced-motion: reduce){*{transition:none !important; animation:none !important}}
+  @media print{header.top{position:static} .progress-bar{display:none} .btn{display:none} section.view[hidden]{display:block !important} details{display:block} details summary{display:none}}
+</style>
+
+<style>
+  .gref{display:grid;gap:10px;margin:12px 0 16px}
+  .gbox{border:1px solid var(--line,#D9DDD5);border-radius:14px;background:var(--surface-2,#EBEEE7);overflow:hidden}
+  .gbox>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+    padding:9px 14px;font-family:var(--body,system-ui,sans-serif);font-size:13.5px;font-weight:700;
+    color:var(--accent,#AD6A16)}
+  .gbox>summary::-webkit-details-marker{display:none}
+  .gbox>summary::before{content:"\1F4D8"}
+  .gbox>summary::after{content:"show the rule";margin-left:auto;font-weight:500;opacity:.7;font-size:12.5px}
+  .gbox[open]>summary::after{content:"hide"}
+  .gbox>summary:hover{background:rgba(0,0,0,.03)}
+  .gbox-body{padding:2px 16px 16px;font-size:14.5px}
+  .gbox-body .g-rule{border-left:3px solid var(--accent,#AD6A16);padding:2px 0 2px 14px;margin:0 0 14px}
+  .gbox-body h4{margin:0 0 4px;font-size:14px}
+  .gbox-body .g-form{display:inline-block;font-family:var(--mono,monospace);font-size:13px;font-weight:600;
+    background:var(--accent-soft,#F7E9D3);color:var(--accent-ink,#8A5310);padding:4px 10px;border-radius:8px;
+    margin:2px 0 6px;white-space:pre-wrap}
+  .gbox-body .g-when{margin:0 0 6px;opacity:.78}
+  .gbox-body .g-ex{margin:3px 0}
+  .gbox-body .g-bad{color:#AE372D;text-decoration:line-through}
+  .gbox-body .g-good{color:#2C7A57;font-weight:600}
+  .gbox-body .g-mis{display:grid;gap:2px;margin:0 0 8px;font-size:13.5px}
+  .gbox-body .g-more{display:inline-block;margin-top:6px;font-size:13px;font-weight:600}
+  @media print{.gbox{break-inside:avoid} .gbox>summary::after{display:none}}
+  input[type="text"].xwide{width:100%;max-width:28em}
+  .tiles{display:flex;flex-wrap:wrap;gap:8px;padding:12px;background:var(--surface-2);border-radius:10px;margin:0 0 14px}
+  .tile{font-family:var(--mono);font-size:13px;padding:6px 12px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:grab;user-select:none;touch-action:manipulation;transition:opacity .2s}
+  .tile:hover{border-color:var(--accent)}
+  .tile.picked{border-color:var(--accent);background:var(--accent-soft);color:var(--accent-ink);font-weight:600}
+  .tile.used{opacity:.28;text-decoration:line-through;cursor:default}
+  input.drop{width:12em;border-bottom-style:dashed !important}
+  input.drop.over{background:var(--accent-soft) !important;border-bottom-style:solid !important}
+  .dnd.picking input.drop:not([readonly]){cursor:copy;border-bottom-color:var(--accent)}
+  .ex-foot .btn{font-size:12.5px; font-weight:600; padding:5px 12px; border-radius:7px}
+  .ex-foot .btn.ghost{font-weight:500; color:var(--ink-soft); opacity:.85}
+  .ex-foot .btn.ghost:hover{opacity:1; border-color:var(--ink-soft)}
+  .gap-list .sentence{min-width:0}
+  .gap-list select{max-width:100%;min-width:0}
+  .pill.from{background:var(--surface-2);color:var(--ink-soft);margin-left:6px}
+  .ex-head .pill + .pill{margin-left:6px}
+  table.vb th{background:var(--accent-soft);color:var(--accent-ink);text-align:left;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:7px 10px}
+  table.vb td{padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  table.vb td:first-child{white-space:nowrap}
+  @media (max-width:620px){table.vb tr{display:grid;grid-template-columns:auto 1fr;border-bottom:1px solid var(--line)} table.vb td{border-bottom:0} table.vb td:last-child{grid-column:1/-1;padding-top:0;opacity:.85} table.vb th{display:block}}
+  input.own{margin-top:6px} input.own.ok{border-color:var(--ok);background:var(--ok-soft)} input.own.bad{border-color:var(--bad);background:var(--bad-soft)}
+  .own-mark{font-size:13px;color:var(--ink-soft)}
+  #facts{min-height:90px}
+  .wq{background:var(--surface-2);border-radius:12px;padding:16px 18px}
+  .wq-top{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12.5px;color:var(--ink-soft)}
+  .wq-bar{height:6px;background:var(--line);border-radius:99px;margin:8px 0 14px;overflow:hidden}
+  .wq-bar i{display:block;height:100%;background:var(--accent);transition:width .3s}
+  .wq-q{font-size:19px;margin:0 0 14px;font-family:var(--display)}
+  .wq-gap{border-bottom:2px solid var(--accent);padding:0 4px}
+  .wq-opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+  .wq-opt{font:inherit;font-size:15px;text-align:left;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+  .wq-opt:hover:not(:disabled){border-color:var(--accent)}
+  .wq-opt.ok{background:var(--ok-soft);border-color:var(--ok);color:var(--ok)}
+  .wq-opt.bad{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+  .wq-opt:disabled{cursor:default}
+  .wq-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px;min-height:34px;flex-wrap:wrap}
+  .wq-end{text-align:center} .wq-score{font-family:var(--display);font-size:44px;font-weight:700;color:var(--accent)}
+  .wq-miss{text-align:left;display:inline-block;margin:6px 0 14px}
+  .players{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:6px 0 16px}
+  .pcard{margin:0;background:var(--surface-2);border-radius:12px;overflow:hidden}
+  .pcard img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top}
+  .pcard figcaption{padding:8px 10px;font-size:15px;display:flex;flex-direction:column;gap:2px}
+  .pcard .credit{font-size:11px;color:var(--ink-soft)} .pcard .credit a{color:inherit}
+  @media (max-width:620px){.players{grid-template-columns:repeat(3,1fr);gap:6px} .pcard figcaption{font-size:13px;padding:6px} .pcard .credit{font-size:9.5px}}
+  .mail-head{font-family:var(--mono);font-size:13px;background:var(--surface);padding:8px 12px;border-radius:8px}
+  .picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px;margin:6px 0 8px}
+  .pick{display:flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font-size:15px}
+  .pick.on{border-color:var(--accent);background:var(--accent-soft);font-weight:600}
+  .pick input:disabled + *{opacity:.5}
+  .pick-count{font-family:var(--mono);font-size:13px;color:var(--ink-soft);margin:0 0 10px}
+</style>
+</head>
+<body>
+<style>
+.ew-back{position:sticky;top:0;z-index:99;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+  padding:10px 20px;background:linear-gradient(135deg,#6C4CF1,#FF4D8D);color:#fff;
+  font-family:"Inter",system-ui,sans-serif;font-size:14px;font-weight:600}
+.ew-back a{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);padding:6px 13px;border-radius:999px}
+.ew-back a:hover{background:rgba(255,255,255,.34)}
+@media print{.ew-back{display:none}}
+</style>
+<div class="ew-back">
+  <a href="../index.html">&larr; English Workspace</a>
+  <span>Lesson 14 &middot; Lost!</span>
+  <a href="../vocabulary.html" style="margin-left:auto">Vocabulary</a>
+  <a href="../grammar.html">Grammar</a>
+  <a href="../speaking.html">Speaking</a>
+  <a href="../homework.html">Homework</a>
+</div>
+
+<header class="top">
+  <div class="top-inner">
+    <p class="eyebrow">Lesson 14 · Student worksheet</p>
+    <h1>Lost!</h1>
+    <p class="meta"><span>A2+ → B1</span><span>60 min</span><span>12 tasks</span><span>If … will · must / should</span></p>
+    <div class="tabs" role="tablist">
+      <button class="tab" id="tab-s" role="tab" aria-selected="true" aria-controls="view-s">Worksheet</button>
+      <button class="tab" id="tab-g" role="tab" aria-selected="false" aria-controls="view-g">Grammar</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+<section aria-labelledby="tab-s" class="view" id="view-s" role="tabpanel">
+<div class="progress-bar">
+<span class="label">Progress</span>
+<span class="track"><span class="fill" id="fill"></span></span>
+<span class="score" id="score">0 / 0</span>
+</div>
+<div class="intro">
+<h2>Lesson 14 — Lost!</h2>
+<p class="lead">Your plane has come down near a tiny island. There's no phone signal, the sun is hot and nobody knows where you are. What will you do? Today we talk about survival — and use the grammar that every survival guide is full of: <b>if</b> (<i>If we drink seawater, we'll get even thirstier</i>) and rules with <b>must, have to, should</b>. But first — your scouting report, and a quick word quiz.</p>
+</div>
+<div class="ex" data-ex="0" id="ex-0">
+<div class="ex-head"><span class="label">Warm-up A · Your homework</span></div>
+<h2>Fix the scouting report</h2>
+<p class="task">These sentences come from <b>your</b> scouting report — great ideas, small mistakes. Correct the <b>bold</b> part. The grey hint tells you the rule.</p>
+<ul class="gap-list">
+<li><span class="sentence">His transfer <b>lee</b> is about $200 million. → <input autocomplete="off" class="wide" data-answer="fee" id="f1" type="text"/> <span class="cue">transfer fee — сума трансферу</span></span></li>
+<li><span class="sentence">He scored nearly 44 goals of the <b>session</b>. → <input autocomplete="off" class="wide" data-answer="season" id="f2" type="text"/> <span class="cue">session = сесія, засідання; season = сезон</span></span></li>
+<li><span class="sentence">He plays <b>in</b> Real Madrid. → <input autocomplete="off" class="wide" data-answer="for" id="f3" type="text"/> <span class="cue">play <b>for</b> a club</span></span></li>
+<li><span class="sentence">His transfer fee is 200 <b>millions</b> dollars. → <input autocomplete="off" class="wide" data-answer="million" id="f4" type="text"/> <span class="cue">після числа — без -s: 200 million, 3 thousand</span></span></li>
+<li><span class="sentence">The risks are <b>bigs</b>. → <input autocomplete="off" class="wide" data-answer="big" id="f5" type="text"/> <span class="cue">прикметники не мають множини</span></span></li>
+<li><span class="sentence">He promised to <b>became</b> more hard-working. → <input autocomplete="off" class="wide" data-answer="become" id="f6" type="text"/> <span class="cue">після to — перша форма</span></span></li>
+<li><span class="sentence">He's the most ambitious player I <b>ever seen</b>. → <input autocomplete="off" class="wide" data-answer="&#x27;ve ever seen|have ever seen|ve ever seen" id="f7" type="text"/> <span class="cue">the most … I've ever + V3</span></span></li>
+<li><span class="sentence">I think it would be <b>the</b> great transfer. → <input autocomplete="off" class="wide" data-answer="a" id="f8" type="text"/> <span class="cue">один із багатьох → a</span></span></li>
+<li><span class="sentence">I would <b>contract</b> with him. → <input autocomplete="off" class="wide" data-answer="sign|sign him" id="f9" type="text"/> <span class="cue">contract — іменник; дієслово — sign a player</span></span></li>
+<li><span class="sentence">Well, it's your decision, boss. I've just <b>bided</b>. → <input autocomplete="off" class="wide" data-answer="made a bid|bid" id="f10" type="text"/> <span class="cue">bid — bid — bid, або made a bid</span></span></li>
+</ul>
+<div class="note"><span class="label">What you did really well</span>three relative clauses (<i>a player <b>who</b> scored…, <b>who</b> plays…, <b>who</b> recently destroyed…</i>), a superlative with <i>ever</i>, personality words (<i>ambitious, shy</i>), linkers (<i>First, However, Well</i>) and even a conditional: <i>“Imagine <b>if we had</b> more money, obviously <b>we'd buy</b> him.”</i> That's B1+ grammar — and today we'll learn the easier, more common type of <i>if</i>.<br/><b>One more thing:</b> «я» in English is always a capital <b>I</b> — <span class="wrong">✗ i've found</span> → <span class="right">✓ I've found</span>.</div>
+<div class="ex-foot">
+<button class="btn" data-check="0">Check</button>
+<button class="btn ghost" data-reveal="0">Show answers</button>
+<button class="btn ghost" data-hide="0" hidden>Hide answers</button>
+<span class="verdict" data-verdict="0"></span>
+</div>
+</div>
+<div class="ex" data-ex="1" id="ex-1">
+<div class="ex-head"><span class="label">Warm-up B · Vocabulary quiz</span></div>
+<h2>12 words from Lessons 12–13</h2>
+<p class="task">Words from the nicknames lesson, the transfer window — and the two words you saved yourself (<i>decision, medieval</i>). One try per question. Your score is saved.</p>
+<div id="wq" class="wq" aria-live="polite"></div>
+</div>
+<script type="application/json" id="wq-data">[{"w": "gutted", "uk": "дуже засмучений", "s": "She missed the concert by five minutes — she was ___.", "t": "uk2en"}, {"w": "mate", "uk": "друже, приятель", "s": "“Thanks, ___!” — “No problem.”", "t": "gap"}, {"w": "nickname", "uk": "прізвисько", "s": "My grandad's ___ at school was “Professor”.", "t": "uk2en"}, {"w": "decision", "uk": "рішення", "s": "It's a difficult ___, but I think we should sign him.", "t": "en2uk"}, {"w": "on loan", "uk": "в оренді", "s": "He isn't our player — he's only here ___ until May.", "t": "en2uk"}, {"w": "scout", "uk": "скаут", "s": "A ___ watched him play three times before the club made an offer.", "t": "gap"}, {"w": "squad", "uk": "склад (команди)", "s": "There are 25 players in the ___.", "t": "gap"}, {"w": "wages", "uk": "зарплата", "s": "Footballers in England get their ___ every week.", "t": "uk2en"}, {"w": "contract", "uk": "контракт", "s": "She signed a two-year ___ with a new club.", "t": "en2uk"}, {"w": "badge", "uk": "емблема (клубу)", "s": "The club ___ shows a cannon.", "t": "gap"}, {"w": "found", "uk": "заснувати", "s": "They want to ___ a new chess club at school.", "t": "en2uk"}, {"w": "medieval", "uk": "середньовічний", "s": "The castle is ___ — it's about 700 years old.", "t": "uk2en"}]</script>
+<div class="blockhead"><span class="label">Part 1 · new grammar</span><h2>If … , … will …</h2></div>
+<div class="rule">
+<p style="margin:0 0 6px"><b>First conditional</b> — a real possibility and its result: <i><b>If</b> we <b>light</b> a fire, a ship <b>will see</b> the smoke.</i></p>
+<p style="margin:0 0 6px"><b>if + Present Simple</b>, <b>will + verb</b>. Never <i>will</i> after <i>if</i>: <span class="wrong">✗ If it will rain</span> → <span class="right">✓ If it rains, we'll build a shelter.</span> The two halves can swap: <i>We'll build a shelter if it rains.</i> (no comma)</p>
+<p style="margin:0"><b>unless</b> = if … not: <i>We'll die of thirst <b>unless</b> we find water.</i> · <b>when</b> = we're sure it will happen: <i><b>When</b> the sun goes down, it will get cold.</i></p>
+</div>
+<div class="ex" data-ex="2" id="ex-2">
+<div class="ex-head"><span class="label">Exercise 1 · Grammar · new</span></div>
+<h2>Survival tips: match the halves</h2>
+<p class="task">Join each <i>if</i>-half with its result. Notice: Present Simple after <i>if</i>, <i>will / might</i> in the result.</p>
+<ul class="gap-list">
+<li><span class="sentence">If you eat a berry you don't know, <select data-answer="you might get very ill." id="h1"><option value="">—</option><option>you&#x27;ll get sunstroke.</option><option>a ship might see the smoke.</option><option>you&#x27;ll get even thirstier.</option><option>you might get very ill.</option><option>a plane will see it from the air.</option><option>the current will take you away.</option><option>we&#x27;ll collect the water in leaves.</option><option>it&#x27;ll be easier to find us.</option></select></span></li>
+<li><span class="sentence">If you drink seawater, <select data-answer="you&#x27;ll get even thirstier." id="h2"><option value="">—</option><option>you&#x27;ll get sunstroke.</option><option>a ship might see the smoke.</option><option>you&#x27;ll get even thirstier.</option><option>you might get very ill.</option><option>a plane will see it from the air.</option><option>the current will take you away.</option><option>we&#x27;ll collect the water in leaves.</option><option>it&#x27;ll be easier to find us.</option></select></span></li>
+<li><span class="sentence">If we light a fire on the beach, <select data-answer="a ship might see the smoke." id="h3"><option value="">—</option><option>you&#x27;ll get sunstroke.</option><option>a ship might see the smoke.</option><option>you&#x27;ll get even thirstier.</option><option>you might get very ill.</option><option>a plane will see it from the air.</option><option>the current will take you away.</option><option>we&#x27;ll collect the water in leaves.</option><option>it&#x27;ll be easier to find us.</option></select></span></li>
+<li><span class="sentence">If we stay together, <select data-answer="it&#x27;ll be easier to find us." id="h4"><option value="">—</option><option>you&#x27;ll get sunstroke.</option><option>a ship might see the smoke.</option><option>you&#x27;ll get even thirstier.</option><option>you might get very ill.</option><option>a plane will see it from the air.</option><option>the current will take you away.</option><option>we&#x27;ll collect the water in leaves.</option><option>it&#x27;ll be easier to find us.</option></select></span></li>
+<li><span class="sentence">If you swim out too far, <select data-answer="the current will take you away." id="h5"><option value="">—</option><option>you&#x27;ll get sunstroke.</option><option>a ship might see the smoke.</option><option>you&#x27;ll get even thirstier.</option><option>you might get very ill.</option><option>a plane will see it from the air.</option><option>the current will take you away.</option><option>we&#x27;ll collect the water in leaves.</option><option>it&#x27;ll be easier to find us.</option></select></span></li>
+<li><span class="sentence">If you don't wear a hat, <select data-answer="you&#x27;ll get sunstroke." id="h6"><option value="">—</option><option>you&#x27;ll get sunstroke.</option><option>a ship might see the smoke.</option><option>you&#x27;ll get even thirstier.</option><option>you might get very ill.</option><option>a plane will see it from the air.</option><option>the current will take you away.</option><option>we&#x27;ll collect the water in leaves.</option><option>it&#x27;ll be easier to find us.</option></select></span></li>
+<li><span class="sentence">If we write SOS on the sand, <select data-answer="a plane will see it from the air." id="h7"><option value="">—</option><option>you&#x27;ll get sunstroke.</option><option>a ship might see the smoke.</option><option>you&#x27;ll get even thirstier.</option><option>you might get very ill.</option><option>a plane will see it from the air.</option><option>the current will take you away.</option><option>we&#x27;ll collect the water in leaves.</option><option>it&#x27;ll be easier to find us.</option></select></span></li>
+<li><span class="sentence">If it rains tonight, <select data-answer="we&#x27;ll collect the water in leaves." id="h8"><option value="">—</option><option>you&#x27;ll get sunstroke.</option><option>a ship might see the smoke.</option><option>you&#x27;ll get even thirstier.</option><option>you might get very ill.</option><option>a plane will see it from the air.</option><option>the current will take you away.</option><option>we&#x27;ll collect the water in leaves.</option><option>it&#x27;ll be easier to find us.</option></select></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="2">Check</button>
+<button class="btn ghost" data-reveal="2">Show answers</button>
+<button class="btn ghost" data-hide="2" hidden>Hide answers</button>
+<span class="verdict" data-verdict="2"></span>
+</div>
+</div>
+<div class="ex" data-ex="3" id="ex-3">
+<div class="ex-head"><span class="label">Exercise 2 · Grammar · new</span></div>
+<h2>Everyday ifs</h2>
+<p class="task">Back to normal life. Put the verbs in the right form. Short forms (<i>'ll, won't, don't</i>) and full forms are both fine.</p>
+<ul class="gap-list">
+<li><span class="sentence">If it <input autocomplete="off" class="wide" data-answer="is" id="c1a" type="text"/> sunny tomorrow, we <input autocomplete="off" class="wide" data-answer="&#x27;ll go|will go" id="c1b" type="text"/> to the beach. <span class="cue">(be / go)</span></span></li>
+<li><span class="sentence">If you <input autocomplete="off" class="wide" data-answer="don&#x27;t hurry|do not hurry" id="c2a" type="text"/>, you <input autocomplete="off" class="wide" data-answer="&#x27;ll miss|will miss" id="c2b" type="text"/> the bus. <span class="cue">(not hurry / miss)</span></span></li>
+<li><span class="sentence">My mum <input autocomplete="off" class="wide" data-answer="&#x27;ll be|will be" id="c3a" type="text"/> angry if I <input autocomplete="off" class="wide" data-answer="lose" id="c3b" type="text"/> my phone again. <span class="cue">(be / lose)</span></span></li>
+<li><span class="sentence">If he <input autocomplete="off" class="wide" data-answer="practises|practices" id="c4a" type="text"/> every day, he <input autocomplete="off" class="wide" data-answer="&#x27;ll get|will get" id="c4b" type="text"/> into the team. <span class="cue">(practise / get)</span></span></li>
+<li><span class="sentence">We <input autocomplete="off" class="wide" data-answer="won&#x27;t finish|will not finish" id="c5a" type="text"/> the project unless we <input autocomplete="off" class="wide" data-answer="start" id="c5b" type="text"/> today. <span class="cue">(not finish / start)</span></span></li>
+<li><span class="sentence">If the shop <input autocomplete="off" class="wide" data-answer="is" id="c6a" type="text"/> closed, I <input autocomplete="off" class="wide" data-answer="&#x27;ll buy|will buy" id="c6b" type="text"/> bread tomorrow. <span class="cue">(be / buy)</span></span></li>
+<li><span class="sentence">When I <input autocomplete="off" class="wide" data-answer="get" id="c7a" type="text"/> home, I <input autocomplete="off" class="wide" data-answer="&#x27;ll call|will call" id="c7b" type="text"/> you. <span class="cue">(get / call)</span></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="3">Check</button>
+<button class="btn ghost" data-reveal="3">Show answers</button>
+<button class="btn ghost" data-hide="3" hidden>Hide answers</button>
+<span class="verdict" data-verdict="3"></span>
+</div>
+</div>
+<div class="ex" data-ex="4" id="ex-4">
+<div class="ex-head"><span class="label">Exercise 3 · Grammar · new</span></div>
+<h2>Rules on the island</h2>
+<p class="task"><b>must / have to</b> — necessary · <b>mustn't</b> — forbidden! · <b>don't have to</b> — not necessary (you can if you want) · <b>should</b> — good advice.</p>
+<div class="note"><span class="label">The big trap</span><b>mustn't</b> ≠ <b>don't have to</b>. <i>You mustn't swim here</i> = заборонено. <i>You don't have to swim</i> = не обов'язково.</div>
+<ul class="gap-list">
+<li><span class="sentence">You <select data-answer="mustn&#x27;t" id="m1"><option value="">—</option><option>must</option><option>mustn&#x27;t</option><option>have to</option><option>don&#x27;t have to</option><option>should</option></select> drink seawater — it can kill you.</span></li>
+<li><span class="sentence">We <select data-answer="have to" id="m2"><option value="">—</option><option>must</option><option>mustn&#x27;t</option><option>have to</option><option>don&#x27;t have to</option><option>should</option></select> find fresh water in the next three days.</span></li>
+<li><span class="sentence">You <select data-answer="should" id="m3"><option value="">—</option><option>must</option><option>mustn&#x27;t</option><option>have to</option><option>don&#x27;t have to</option><option>should</option></select> sleep in the shade during the hottest hours — it's a good idea.</span></li>
+<li><span class="sentence">We <select data-answer="don&#x27;t have to" id="m4"><option value="">—</option><option>must</option><option>mustn&#x27;t</option><option>have to</option><option>don&#x27;t have to</option><option>should</option></select> walk far — there's a stream behind the trees.</span></li>
+<li><span class="sentence">You <select data-answer="mustn&#x27;t" id="m5"><option value="">—</option><option>must</option><option>mustn&#x27;t</option><option>have to</option><option>don&#x27;t have to</option><option>should</option></select> eat berries that you don't know.</span></li>
+<li><span class="sentence">Everyone <select data-answer="must" id="m6"><option value="">—</option><option>must</option><option>mustn&#x27;t</option><option>have to</option><option>don&#x27;t have to</option><option>should</option></select> stay in the group. That's the rule!</span></li>
+<li><span class="sentence">We <select data-answer="should" id="m7"><option value="">—</option><option>must</option><option>mustn&#x27;t</option><option>have to</option><option>don&#x27;t have to</option><option>should</option></select> build the shelter before it gets dark.</span></li>
+<li><span class="sentence">You <select data-answer="don&#x27;t have to" id="m8"><option value="">—</option><option>must</option><option>mustn&#x27;t</option><option>have to</option><option>don&#x27;t have to</option><option>should</option></select> wear shoes on the sand, but it's safer.</span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="4">Check</button>
+<button class="btn ghost" data-reveal="4">Show answers</button>
+<button class="btn ghost" data-hide="4" hidden>Hide answers</button>
+<span class="verdict" data-verdict="4"></span>
+</div>
+</div>
+<div class="blockhead"><span class="label">Part 2 · a true story</span><h2>She fell from the sky</h2></div>
+<div class="ex" data-ex="5" id="ex-5">
+<div class="ex-head"><span class="label">Exercise 4 · Vocabulary · new</span></div>
+<h2>Survival words</h2>
+<p class="task">You'll need all these words in the true story below. Match each one to its meaning.</p>
+<ul class="gap-list">
+<li><span class="sentence"><b>crash</b> <select data-answer="an accident when a plane or car hits something" id="v1"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+<li><span class="sentence"><b>wound</b> <select data-answer="a cut or injury in your skin" id="v2"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+<li><span class="sentence"><b>rescue</b> <select data-answer="to save someone from danger" id="v3"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+<li><span class="sentence"><b>rainforest</b> <select data-answer="a thick tropical forest where it rains a lot" id="v4"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+<li><span class="sentence"><b>injury</b> <select data-answer="damage to your body" id="v5"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+<li><span class="sentence"><b>shelter</b> <select data-answer="a place that protects you from rain, sun or wind" id="v6"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+<li><span class="sentence"><b>lightning</b> <select data-answer="a flash of bright light in the sky during a storm" id="v7"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+<li><span class="sentence"><b>stream</b> <select data-answer="a small, narrow river" id="v8"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+<li><span class="sentence"><b>survivor</b> <select data-answer="a person who stays alive after an accident" id="v9"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+<li><span class="sentence"><b>survive</b> <select data-answer="to stay alive in a very dangerous situation" id="v10"><option value="">—</option><option>a place that protects you from rain, sun or wind</option><option>an accident when a plane or car hits something</option><option>a cut or injury in your skin</option><option>a thick tropical forest where it rains a lot</option><option>damage to your body</option><option>to stay alive in a very dangerous situation</option><option>a person who stays alive after an accident</option><option>a small, narrow river</option><option>a flash of bright light in the sky during a storm</option><option>to save someone from danger</option></select></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="5">Check</button>
+<button class="btn ghost" data-reveal="5">Show answers</button>
+<button class="btn ghost" data-hide="5" hidden>Hide answers</button>
+<span class="verdict" data-verdict="5"></span>
+</div>
+</div>
+<div class="ex" data-ex="6" id="ex-6">
+<div class="ex-head"><span class="label">Exercise 5 · Reading</span></div>
+<h2>Eleven days in the jungle</h2>
+<p class="task">A true story from 1971. Read it, then do the tasks.</p>
+<div class="reading">
+<p>On 24 December 1971, seventeen-year-old Juliane Koepcke got on a plane in Lima, the capital of Peru. She was flying with her mother to the Amazon <b>rainforest</b>, where her parents, two German scientists, had a research station. The day before, she had finished school. It was supposed to be a short Christmas flight.</p>
+<p>During the flight, the plane flew into a terrible storm. It was hit by <b>lightning</b> and broke apart in the air. Juliane fell about three kilometres, still in her seat — and landed in the thick jungle alive. Experts think the seat and the trees slowed her fall. She had a broken collarbone, a deep cut on her arm and an eye <b>injury</b>, but she could walk. She was the only <b>survivor</b> of the <b>crash</b>.</p>
+<p>Juliane didn't panic. She had spent a lot of time at the research station, and her parents had taught her the rules of the jungle. The most important one was simple: <i>if you get lost, find water and follow it. If you follow a <b>stream</b>, it will lead you to a river — and if you find a river, you will find people.</i></p>
+<p>So she walked through the water, day after day. She had almost no food, only a small bag of sweets. Insects bit her all the time, and the <b>wound</b> on her arm got infected. She knew she mustn't stop for long, and that walking in the water was easier than fighting through the thick forest.</p>
+<p>After nine days she found a small hut on the river bank. She was too weak to go on, so she waited until a group of local forest workers came back to the hut. A few hours later, they cleaned her wound, took her down the river by boat, and she was flown to a hospital. She had <b>survived</b>.</p>
+<p>Juliane later became a biologist, like her parents, and returned to the rainforest to work. She has always said that the jungle knowledge her parents gave her helped her to survive.</p>
+</div>
+<h3>1. True or false?</h3>
+<ul class="gap-list">
+<li><span class="sentence">Juliane was travelling with her father.</span><span class="tf" data-answer="false" data-tf="rt1"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">The plane was hit by lightning.</span><span class="tf" data-answer="true" data-tf="rt2"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">She was the only person who survived the crash.</span><span class="tf" data-answer="true" data-tf="rt3"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">She had no injuries at all.</span><span class="tf" data-answer="false" data-tf="rt4"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">She followed the water because of her parents' advice.</span><span class="tf" data-answer="true" data-tf="rt5"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">She found people after two days.</span><span class="tf" data-answer="false" data-tf="rt6"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+<li><span class="sentence">Later she became a scientist.</span><span class="tf" data-answer="true" data-tf="rt7"><button type="button" value="true">True</button><button type="button" value="false">False</button></span></li>
+</ul>
+<h3>2. Put the events in order</h3>
+<ul class="gap-list">
+<li><span class="sentence">1. <select data-answer="The plane flew into a storm." id="ro1"><option value="">—</option><option>She found a hut by the river.</option><option>The plane flew into a storm.</option><option>She walked along the water for days.</option><option>Local workers took her down the river.</option><option>She landed in the jungle.</option></select></span></li>
+<li><span class="sentence">2. <select data-answer="She landed in the jungle." id="ro2"><option value="">—</option><option>She found a hut by the river.</option><option>The plane flew into a storm.</option><option>She walked along the water for days.</option><option>Local workers took her down the river.</option><option>She landed in the jungle.</option></select></span></li>
+<li><span class="sentence">3. <select data-answer="She walked along the water for days." id="ro3"><option value="">—</option><option>She found a hut by the river.</option><option>The plane flew into a storm.</option><option>She walked along the water for days.</option><option>Local workers took her down the river.</option><option>She landed in the jungle.</option></select></span></li>
+<li><span class="sentence">4. <select data-answer="She found a hut by the river." id="ro4"><option value="">—</option><option>She found a hut by the river.</option><option>The plane flew into a storm.</option><option>She walked along the water for days.</option><option>Local workers took her down the river.</option><option>She landed in the jungle.</option></select></span></li>
+<li><span class="sentence">5. <select data-answer="Local workers took her down the river." id="ro5"><option value="">—</option><option>She found a hut by the river.</option><option>The plane flew into a storm.</option><option>She walked along the water for days.</option><option>Local workers took her down the river.</option><option>She landed in the jungle.</option></select></span></li>
+</ul>
+<h3>3. Her parents' rule</h3>
+<p class="task" style="margin-bottom:6px">Copy the missing words from paragraph 3.</p>
+<ul class="gap-list">
+<li><span class="sentence">if you get lost, <input autocomplete="off" class="wide" data-answer="find water" id="rr1" type="text"/> and follow it.</span></li>
+<li><span class="sentence">If you follow a stream, it <input autocomplete="off" class="wide" data-answer="will lead you" id="rr2" type="text"/> to a river</span></li>
+<li><span class="sentence">… and if you find a river, you <input autocomplete="off" class="wide" data-answer="will find people" id="rr3" type="text"/>.</span></li>
+</ul>
+<details><summary>Think about it</summary><p style="margin:0">What would you do first if you were in Juliane's place? Notice: <i>if you <b>were</b> …, what <b>would</b> you do</i> is a different, harder type of <i>if</i> — for imaginary situations. You used one in your report: <i>“Imagine if we <b>had</b> more money, we'<b>d buy</b> him.”</i> We'll learn it properly later. Today: just notice it.</p></details>
+<div class="ex-foot">
+<button class="btn" data-check="6">Check</button>
+<button class="btn ghost" data-reveal="6">Show answers</button>
+<button class="btn ghost" data-hide="6" hidden>Hide answers</button>
+<span class="verdict" data-verdict="6"></span>
+</div>
+</div>
+<div class="ex" data-ex="7" id="ex-7">
+<div class="ex-head"><span class="label">Exercise 6 · Speaking · game</span></div>
+<h2>Five things for the island</h2>
+<p class="task">You can save only <b>five</b> things from the plane. Choose them — then defend every choice with <i>if</i>. I'll argue with you!</p>
+<div class="picks"><label class="pick"><input type="checkbox" id="k1" value="a knife"/> a knife</label>
+<label class="pick"><input type="checkbox" id="k2" value="a mobile phone (no signal)"/> a mobile phone (no signal)</label>
+<label class="pick"><input type="checkbox" id="k3" value="a mirror"/> a mirror</label>
+<label class="pick"><input type="checkbox" id="k4" value="a lighter"/> a lighter</label>
+<label class="pick"><input type="checkbox" id="k5" value="a 5-litre bottle of water"/> a 5-litre bottle of water</label>
+<label class="pick"><input type="checkbox" id="k6" value="a fishing net"/> a fishing net</label>
+<label class="pick"><input type="checkbox" id="k7" value="a blanket"/> a blanket</label>
+<label class="pick"><input type="checkbox" id="k8" value="a guitar"/> a guitar</label>
+<label class="pick"><input type="checkbox" id="k9" value="a first-aid kit"/> a first-aid kit</label>
+<label class="pick"><input type="checkbox" id="k10" value="a rope"/> a rope</label>
+<label class="pick"><input type="checkbox" id="k11" value="a bag of chocolate"/> a bag of chocolate</label>
+<label class="pick"><input type="checkbox" id="k12" value="a map of the ocean"/> a map of the ocean</label>
+<label class="pick"><input type="checkbox" id="k13" value="a plastic sheet"/> a plastic sheet</label>
+<label class="pick"><input type="checkbox" id="k14" value="a football"/> a football</label>
+<label class="pick"><input type="checkbox" id="k15" value="a cooking pot"/> a cooking pot</label></div>
+<p class="pick-count" id="pick-count">0 / 5 chosen</p>
+<ol>
+<li><b>Defend it:</b> <i>“If we take the mirror, a plane will see the light.” · “If we don't take the lighter, we won't be able to cook.”</i></li>
+<li><b>Chain game:</b> I start — <i>“If it rains tonight, …”</i> — you finish and start a new <i>if</i> from your result: <i>“…we'll stay in the shelter. If we stay in the shelter, …”</i> How long can we go?</li>
+<li><b>Island rules:</b> make five rules for your group with <i>must, mustn't, have to, don't have to, should</i>.</li>
+</ol>
+</div>
+<div class="blockhead"><span class="label">Part 3 · extra</span><h2>If we still have time</h2></div>
+<div class="ex extra" data-ex="8" id="ex-8">
+<div class="ex-head"><span class="label">Exercise 7 · Review</span><span class="pill">Extra</span></div>
+<h2>Find the mistake</h2>
+<p class="task">Correct the <b>bold</b> part.</p>
+<ul class="gap-list">
+<li><span class="sentence">If it <b>will rain</b>, we'll stay inside. → <input autocomplete="off" class="wide" data-answer="rains" id="x1" type="text"/></span></li>
+<li><span class="sentence">If you <b>will see</b> a snake, don't move. → <input autocomplete="off" class="wide" data-answer="see" id="x2" type="text"/></span></li>
+<li><span class="sentence">We <b>go</b> to the beach if it's sunny tomorrow. → <input autocomplete="off" class="wide" data-answer="&#x27;ll go|will go" id="x3" type="text"/></span></li>
+<li><span class="sentence">If he doesn't <b>studies</b>, he'll fail. → <input autocomplete="off" class="wide" data-answer="study" id="x4" type="text"/></span></li>
+<li><span class="sentence">You <b>don't have to</b> touch that — it's dangerous! → <input autocomplete="off" class="wide" data-answer="mustn&#x27;t|must not" id="x5" type="text"/></span></li>
+<li><span class="sentence">I'll call you when I <b>will arrive</b>. → <input autocomplete="off" class="wide" data-answer="arrive" id="x6" type="text"/></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="8">Check</button>
+<button class="btn ghost" data-reveal="8">Show answers</button>
+<button class="btn ghost" data-hide="8" hidden>Hide answers</button>
+<span class="verdict" data-verdict="8"></span>
+</div>
+</div>
+<div class="ex extra" data-ex="9" id="ex-9">
+<div class="ex-head"><span class="label">Exercise 8 · Grammar</span><span class="pill">Extra</span></div>
+<h2>if, unless or when?</h2>
+<p class="task"><b>if</b> — maybe · <b>unless</b> — if not · <b>when</b> — it will surely happen.</p>
+<ul class="gap-list">
+<li><span class="sentence">We'll get lost <select data-answer="unless" id="u1"><option value="">—</option><option>if</option><option>unless</option><option>when</option></select> we take a map.</span></li>
+<li><span class="sentence"><select data-answer="When" id="u2"><option value="">—</option><option>If</option><option>Unless</option><option>When</option></select> the sun goes down, it will get cold.</span></li>
+<li><span class="sentence">You can borrow my bike <select data-answer="if" id="u3"><option value="">—</option><option>if</option><option>unless</option><option>when</option></select> you bring it back tomorrow.</span></li>
+<li><span class="sentence">I won't go <select data-answer="unless" id="u4"><option value="">—</option><option>if</option><option>unless</option><option>when</option></select> you come with me.</span></li>
+<li><span class="sentence"><select data-answer="When" id="u5"><option value="">—</option><option>If</option><option>Unless</option><option>When</option></select> I'm 18, I'll learn to drive.</span></li>
+<li><span class="sentence">Take an umbrella <select data-answer="if" id="u6"><option value="">—</option><option>if</option><option>unless</option><option>when</option></select> it looks cloudy.</span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="9">Check</button>
+<button class="btn ghost" data-reveal="9">Show answers</button>
+<button class="btn ghost" data-hide="9" hidden>Hide answers</button>
+<span class="verdict" data-verdict="9"></span>
+</div>
+</div>
+<div class="ex extra" data-ex="10" id="ex-10">
+<div class="ex-head"><span class="label">Exercise 9 · Writing</span><span class="pill">Extra</span></div>
+<h2>My survival plan</h2>
+<p class="task">You're on the island with two friends. Write 80–100 words: what will you do on the first three days?</p>
+<p><b>Checklist:</b> three sentences with <i>if</i> (one with <i>unless</i> or <i>when</i>) · two rules with <i>must / mustn't / have to / should</i> · three words from today (<i>shelter, stream, rescue…</i>) · capital <b>I</b> every time!</p>
+<textarea id="writing2" placeholder="On the first day, we'll…"></textarea>
+<div class="ex-foot"><span class="verdict" id="wcount2">0 words</span></div>
+<details><summary>Model answer — open only after you write your own</summary>
+<p style="margin:0">On the first day, we'll build a shelter near the trees, because if we sleep on the beach, the wind will be too cold. We have to find fresh water quickly, and we mustn't drink seawater. If we find a stream, we'll follow it. On the second day, we'll write SOS on the sand with stones. When a plane flies over, the pilot will see it. We should also keep a fire burning all the time. Unless it rains a lot, I'm sure we'll be rescued in a few days.</p>
+</details>
+</div>
+<div class="ex" data-ex="11" id="ex-11">
+<div class="ex-head"><span class="label">Exercise 10 · Writing</span><span class="pill">Homework</span></div>
+<h2>Cast Away</h2>
+<p class="task">Watch (or remember) the film <i>Cast Away</i> (2000) with Tom Hanks. He plays Chuck Noland, a FedEx manager whose plane crashes into the Pacific Ocean. Chuck ends up alone on a desert island — for four years. Write 100–130 words: what is the film about, and what did Chuck do to survive?</p>
+<p><b>Answer these questions in your text:</b></p>
+<ol>
+<li>Who is Chuck, and how does he end up on the island?</li>
+<li>What problems does he have at first — water, food, fire, shelter, injuries?</li>
+<li>What does he do to survive? (Think about the coconuts, the fire, the fish, the FedEx boxes, the cave…)</li>
+<li>Who is Wilson, and why is he so important for Chuck?</li>
+<li>How does Chuck finally leave the island?</li>
+<li>Your opinion: would <i>you</i> survive? What would you do differently? Use <i>if</i>: <i>If I were on that island, I'd…</i> or <i>If I get lost one day, I'll…</i></li>
+</ol>
+<p><b>Checklist:</b> Past Simple for the story · two sentences with <i>if</i> · one rule with <i>must / have to / mustn't</i> · one relative clause (<i>who, which, where</i>) · one passive (<i>he was rescued…</i>) · three words from today (<i>survive, shelter, rescue, stream, wound…</i>) · capital <b>I</b>!</p>
+<textarea id="castaway" placeholder="Cast Away is a film about a man who…"></textarea>
+<div class="ex-foot"><span class="verdict" id="wcount3">0 words</span></div>
+<details><summary>Useful words</summary><p style="margin:0"><b>crash-land</b> — здійснити аварійну посадку · <b>washed up</b> — викинутий хвилями на берег · <b>coconut</b> — кокос · <b>cave</b> — печера · <b>spear</b> — спис · <b>raft</b> — пліт · <b>sail</b> — вітрило · <b>tide</b> — приплив · <b>volleyball</b> — волейбольний м'яч · <b>lonely</b> — самотній · <b>give up hope</b> — втратити надію</p></details>
+</div>
+<script>
+(function(){ var ta=document.getElementById('castaway'), out=document.getElementById('wcount3'); if(!ta||!out) return;
+  function c(){ var w=ta.value.trim()?ta.value.trim().split(/\s+/).length:0; out.textContent=w+(w===1?' word':' words')+(w>=100&&w<=130?' — good length':''); out.className='verdict'+(w>=100&&w<=130?' good':''); }
+  ta.addEventListener('input',c); setTimeout(c,1500); c(); })();
+</script>
+<div class="ex" style="background:var(--surface-2); box-shadow:none">
+<div class="ex-head"><span class="label">Homework</span></div>
+<p style="margin:0 0 8px">Homework is <b>everything we didn't finish today</b>. The <a href="../homework.html">Homework page</a> shows the exact list and updates itself.</p>
+<ol style="margin-bottom:0">
+<li>This page: every exercise that isn't done yet.</li>
+<li><b>Exercise 10:</b> describe the film <i>Cast Away</i> and how Chuck survived on the island (100–130 words). This is the main task.</li>
+<li>Learn the survival words — they're in the dictionary — and take the Grammar quiz: <i>First conditional</i>.</li>
+<li>Extra: Exercise 9 — <i>My survival plan</i>, 80–100 words.</li>
+</ol>
+</div>
+</section>
+<section aria-labelledby="tab-g" class="view" hidden="" id="view-g" role="tabpanel">
+<div class="intro">
+<h2>Граматика уроку</h2>
+<p class="lead">Умовні речення першого типу — про реальну можливість у майбутньому і її наслідок. Плюс модальні дієслова для правил і порад.</p>
+</div>
+<div class="tense">
+<span class="label">01 · first conditional</span>
+<h2>If + Present Simple, will + дієслово</h2>
+<div class="form">
+      If we <b>light</b> a fire, a ship <b>will see</b> the smoke.<br/>
+      If you <b>don't wear</b> a hat, you<b>'ll get</b> sunstroke.<br/>
+      We<b>'ll build</b> a shelter if it <b>rains</b>.
+    </div>
+<p>Українською кажемо «якщо піде дощ» (майбутній час), а англійською після <b>if</b> — <b>теперішній</b>: <span class="wrong">✗ If it will rain</span> → <span class="right">✓ If it rains</span>.</p>
+<p><b>Кома:</b> якщо речення починається з <i>if</i> — ставимо кому. Якщо <i>if</i> посередині — без коми.</p>
+<p>Замість <i>will</i> можна <b>might</b> (можливо), <b>can</b> (зможеш) або наказ: <i>If you see a snake, <b>don't move</b>.</i></p>
+</div>
+<div class="tense">
+<span class="label">02 · if · unless · when</span>
+<h2>Три слова — три значення</h2>
+<div class="tbl-scroll"><table>
+<tr><th>слово</th><th>значення</th><th>приклад</th></tr>
+<tr><td class="irr">if</td><td>якщо (може статися, а може й ні)</td><td><i>If it rains, we'll stay inside.</i></td></tr>
+<tr><td class="irr">unless</td><td>якщо не</td><td><i>We'll get lost unless we take a map.</i> = if we don't take</td></tr>
+<tr><td class="irr">when</td><td>коли (точно станеться)</td><td><i>When the sun goes down, it'll get cold.</i></td></tr>
+</table></div>
+<p>Після <i>when</i> теж теперішній час: <span class="wrong">✗ when I will arrive</span> → <span class="right">✓ when I arrive</span>.</p>
+</div>
+<div class="tense">
+<span class="label">03 · правила й поради</span>
+<h2>must · have to · mustn't · don't have to · should</h2>
+<div class="tbl-scroll"><table>
+<tr><th>дієслово</th><th>значення</th><th>приклад</th></tr>
+<tr><td class="irr">must / have to</td><td>треба, обов'язково</td><td><i>We have to find water.</i></td></tr>
+<tr><td class="irr">mustn't</td><td>не можна, заборонено</td><td><i>You mustn't drink seawater.</i></td></tr>
+<tr><td class="irr">don't have to</td><td>не обов'язково</td><td><i>You don't have to swim — you can walk.</i></td></tr>
+<tr><td class="irr">should</td><td>варто, порада</td><td><i>You should sleep in the shade.</i></td></tr>
+</table></div>
+<div class="note"><span class="label">Пастка</span><b>mustn't</b> ≠ <b>don't have to</b>. Після всіх них — перша форма без <i>to</i> (крім have to): <span class="wrong">✗ must to go</span> → <span class="right">✓ must go</span>.</div>
+</div>
+<div class="tense">
+<span class="label">04 · з твого звіту</span>
+<h2>Помилки, на яких варто зупинитися</h2>
+<div class="tbl-scroll"><table>
+<tr><th>було</th><th>треба</th><th>правило</th></tr>
+<tr><td><span class="wrong">i've found</span></td><td class="irr">I've found</td><td>«я» — завжди велика I</td></tr>
+<tr><td><span class="wrong">200 millions $</span></td><td class="irr">$200 million</td><td>після числа — без -s</td></tr>
+<tr><td><span class="wrong">risks are bigs</span></td><td class="irr">the risks are big</td><td>прикметники без множини</td></tr>
+<tr><td><span class="wrong">to became</span></td><td class="irr">to become</td><td>після to — перша форма</td></tr>
+<tr><td><span class="wrong">the most … I ever seen</span></td><td class="irr">the most … I've ever seen</td><td>ever + Present Perfect</td></tr>
+<tr><td><span class="wrong">plays in Real</span></td><td class="irr">plays for Real</td><td>play for a club</td></tr>
+<tr><td><span class="wrong">contract with him</span></td><td class="irr">sign him</td><td>sign a player</td></tr>
+</table></div>
+</div>
+</section>
+</main>
+
+<footer>Lesson 14 · Lost! First conditional and rules with must / have to / should.</footer>
+
+<script>
+(function(){
+  "use strict";
+  var LS = "ew-l14:";
+  function save(k,v){ try{ localStorage.setItem(LS+k, v); }catch(e){} }
+  function load(k){ try{ return localStorage.getItem(LS+k); }catch(e){ return null; } }
+
+  /* ---- tabs (built from whatever tabs this page has) ---- */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".tab"));
+  var views = tabs.map(function(t){ return document.getElementById(t.getAttribute("aria-controls")); });
+  var PAGEKEY = "tab:" + (document.body ? document.title : "x") + ":" + tabs.length;
+  tabs.forEach(function(t,i){
+    t.addEventListener("click", function(){
+      tabs.forEach(function(x,j){
+        x.setAttribute("aria-selected", j===i ? "true":"false");
+        if(views[j]) views[j].hidden = j!==i;
+      });
+      save(PAGEKEY, String(i));
+      window.scrollTo(0,0);
+    });
+  });
+  var savedTab = Number(load(PAGEKEY));
+  var startTab = (savedTab > 0 && tabs[savedTab]) ? tabs[savedTab] : tabs[0];
+  if(startTab) startTab.click();
+  window.scrollTo(0,0);
+
+  /* ---- normalisation ---- */
+  function norm(s){
+    return String(s||"").toLowerCase().trim()
+      .replace(/[‘’ʼ`]/g,"'")
+      .replace(/[.,!?;:]+$/,"")
+      .replace(/\s+/g," ");
+  }
+  function matches(val, answer){
+    return answer.split("|").map(norm).indexOf(norm(val)) !== -1;
+  }
+
+  var sheet = document.getElementById("view-s");
+  if(!sheet) return;
+
+  var state = {};
+  var scoreEl = document.getElementById("score");
+  var fillEl = document.getElementById("fill");
+  var TOTAL = sheet.querySelectorAll("[data-answer]").length;
+  if(scoreEl) scoreEl.textContent = "0 / " + TOTAL;
+
+  function updateScore(){
+    var n = 0;
+    for(var k in state){ if(state[k]) n++; }
+    if(scoreEl) scoreEl.textContent = n + " / " + TOTAL;
+    if(fillEl) fillEl.style.width = (TOTAL ? (n/TOTAL*100) : 0) + "%";
+  }
+
+  sheet.querySelectorAll("input[type=text], select, textarea").forEach(function(el){
+    if(!el.id) return;
+    var v = load(el.id);
+    if(v !== null) el.value = v;
+    el.addEventListener("input", function(){ save(el.id, el.value); el.classList.remove("ok","bad"); });
+    el.addEventListener("change", function(){ save(el.id, el.value); el.classList.remove("ok","bad"); });
+  });
+
+  sheet.querySelectorAll(".tf").forEach(function(group){
+    var key = group.getAttribute("data-tf");
+    var stored = load(key);
+    group.querySelectorAll("button").forEach(function(b){
+      if(stored === b.value) b.setAttribute("aria-pressed","true");
+      b.addEventListener("click", function(){
+        group.querySelectorAll("button").forEach(function(x){ x.setAttribute("aria-pressed","false"); x.classList.remove("ok","bad"); });
+        b.setAttribute("aria-pressed","true");
+        save(key, b.value);
+      });
+    });
+  });
+
+  sheet.querySelectorAll(".rgroup").forEach(function(g){
+    var key = g.getAttribute("data-radio");
+    var stored = load("r:"+key);
+    g.querySelectorAll("input[type=radio]").forEach(function(r){
+      if(stored === r.value) r.checked = true;
+      r.addEventListener("change", function(){
+        save("r:"+key, r.value);
+        g.querySelectorAll(".choice").forEach(function(c){ c.classList.remove("ok","bad"); });
+      });
+    });
+  });
+
+  function checkBox(box, reveal){
+    var n = 0, right = 0;
+
+    box.querySelectorAll("input[type=text][data-answer], select[data-answer]").forEach(function(el){
+      var ans = el.getAttribute("data-answer");
+      n++;
+      if(reveal){ el.value = ans.split("|")[0]; save(el.id, el.value); }
+      var good = matches(el.value, ans);
+      el.classList.toggle("ok", good);
+      el.classList.toggle("bad", !good);
+      state[el.id] = good;
+      if(good) right++;
+    });
+
+    box.querySelectorAll(".tf[data-answer]").forEach(function(g){
+      var ans = g.getAttribute("data-answer");
+      var key = g.getAttribute("data-tf");
+      n++;
+      g.querySelectorAll("button").forEach(function(b){
+        if(reveal){
+          b.setAttribute("aria-pressed", b.value===ans ? "true":"false");
+          if(b.value===ans) save(key, b.value);
+        }
+        b.classList.remove("ok","bad");
+        if(b.getAttribute("aria-pressed")==="true") b.classList.add(b.value===ans ? "ok" : "bad");
+      });
+      var chosen = g.querySelector('button[aria-pressed="true"]');
+      var good = !!chosen && chosen.value===ans;
+      state[key] = good;
+      if(good) right++;
+    });
+
+    box.querySelectorAll(".rgroup[data-answer]").forEach(function(g){
+      var ans = g.getAttribute("data-answer");
+      var key = g.getAttribute("data-radio");
+      n++;
+      g.querySelectorAll("input[type=radio]").forEach(function(r){
+        if(reveal && r.value===ans){ r.checked = true; save("r:"+key, r.value); }
+        r.parentElement.classList.remove("ok","bad");
+        if(r.checked) r.parentElement.classList.add(r.value===ans ? "ok":"bad");
+      });
+      var sel = g.querySelector("input[type=radio]:checked");
+      var good = !!sel && sel.value===ans;
+      state["r:"+key] = good;
+      if(good) right++;
+    });
+
+    return {n:n, right:right};
+  }
+
+  sheet.querySelectorAll("[data-check]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var id = btn.getAttribute("data-check");
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      var r = checkBox(box, false);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = r.right + " / " + r.n + (r.right===r.n ? " — perfect!" : " correct");
+      v.className = "verdict " + (r.right===r.n ? "good" : (r.right >= r.n/2 ? "" : "poor"));
+      updateScore();
+    });
+  });
+
+  /* ---- Show answers / Hide answers ----
+     Before revealing, the student's own answers are saved as a snapshot
+     (also in localStorage, so Hide still works after a reload).
+     Hide puts that snapshot back — empty fields become empty again. */
+  function takeSnap(box){
+    var s = {i:{}, tf:{}, r:{}};
+    box.querySelectorAll("input[type=text][data-answer], select[data-answer]").forEach(function(el){ s.i[el.id] = el.value; });
+    box.querySelectorAll(".tf[data-answer]").forEach(function(g){ var b = g.querySelector('button[aria-pressed="true"]'); s.tf[g.getAttribute("data-tf")] = b ? b.value : null; });
+    box.querySelectorAll(".rgroup[data-answer]").forEach(function(g){ var r = g.querySelector("input[type=radio]:checked"); s.r[g.getAttribute("data-radio")] = r ? r.value : null; });
+    return s;
+  }
+  function unsave(k){ try{ localStorage.removeItem(LS+k); }catch(e){} }
+  function putSnap(box, s){
+    var forget = [];
+    Object.keys(s.i).forEach(function(id){
+      var el = document.getElementById(id); if(!el) return;
+      el.value = s.i[id]; el.classList.remove("ok","bad"); save(id, el.value); delete state[id];
+      el.dispatchEvent(new Event("input", {bubbles:true}));
+    });
+    Object.keys(s.tf).forEach(function(k){
+      var g = box.querySelector('.tf[data-tf="'+k+'"]'); if(!g) return;
+      g.querySelectorAll("button").forEach(function(b){ b.setAttribute("aria-pressed", b.value===s.tf[k] ? "true":"false"); b.classList.remove("ok","bad"); });
+      if(s.tf[k] === null){ unsave(k); forget.push("tf:"+k); } else save(k, s.tf[k]);
+      delete state[k];
+    });
+    Object.keys(s.r).forEach(function(k){
+      var g = box.querySelector('.rgroup[data-radio="'+k+'"]'); if(!g) return;
+      g.querySelectorAll("input[type=radio]").forEach(function(r){ r.checked = r.value===s.r[k]; r.parentElement.classList.remove("ok","bad"); });
+      if(s.r[k] === null){ unsave("r:"+k); forget.push("radio:"+k); } else save("r:"+k, s.r[k]);
+      delete state["r:"+k];
+    });
+    document.dispatchEvent(new CustomEvent("ew:forget", {detail: forget}));
+  }
+  function hideBtn(id){ return sheet.querySelector('[data-hide="'+id+'"]'); }
+
+  sheet.querySelectorAll("[data-reveal]").forEach(function(btn){
+    var id = btn.getAttribute("data-reveal");
+    if(load("snap:"+id) && hideBtn(id)) hideBtn(id).hidden = false;
+    btn.addEventListener("click", function(){
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      if(!load("snap:"+id)) save("snap:"+id, JSON.stringify(takeSnap(box)));
+      checkBox(box, true);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = "answers shown";
+      v.className = "verdict";
+      if(hideBtn(id)) hideBtn(id).hidden = false;
+      updateScore();
+    });
+  });
+
+  sheet.querySelectorAll("[data-hide]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var id = btn.getAttribute("data-hide");
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      var s = null; try{ s = JSON.parse(load("snap:"+id) || "null"); }catch(e){}
+      if(!s){ s = takeSnap(box); Object.keys(s.i).forEach(function(k){ s.i[k]=""; }); Object.keys(s.tf).forEach(function(k){ s.tf[k]=null; }); Object.keys(s.r).forEach(function(k){ s.r[k]=null; }); }
+      putSnap(box, s);
+      unsave("snap:"+id);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = ""; v.className = "verdict";
+      btn.hidden = true;
+      updateScore();
+    });
+  });
+
+  function counter(taId, outId, lo, hi){
+    var ta = document.getElementById(taId), out = document.getElementById(outId);
+    if(!ta || !out) return;
+    function count(){
+      var w = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0;
+      out.textContent = w + (w===1 ? " word" : " words") + (w>=lo && w<=hi ? " — good length" : "");
+      out.className = "verdict" + (w>=lo && w<=hi ? " good" : "");
+    }
+    ta.addEventListener("input", count);
+    count();
+  }
+  counter("writing","wcount",70,95);
+  counter("writing2","wcount2",80,105);
+
+  updateScore();
+})();
+</script>
+
+<script>
+/* word bank: drag a tile onto a box, or tap a tile then tap a box; typing works too */
+(function(){
+  document.querySelectorAll(".dnd").forEach(function(box){
+    var tiles=[].slice.call(box.querySelectorAll(".tile")), slots=[].slice.call(box.querySelectorAll("input.drop")), picked=null;
+    function refresh(){
+      var used=slots.map(function(s){return s.value.trim().toLowerCase();});
+      tiles.forEach(function(t){ t.classList.toggle("used", used.indexOf(t.dataset.w.toLowerCase())!==-1); });
+      if(picked && picked.classList.contains("used")) pick(null);
+    }
+    function pick(t){ picked=t; tiles.forEach(function(x){x.classList.toggle("picked", x===t);}); box.classList.toggle("picking", !!t); }
+    function fill(s,w){
+      if(s.readOnly) return;
+      s.value=w; s.classList.remove("ok","bad");
+      s.dispatchEvent(new Event("input",{bubbles:true})); s.dispatchEvent(new Event("change",{bubbles:true}));
+      refresh();
+    }
+    tiles.forEach(function(t){
+      t.addEventListener("dragstart",function(e){ e.dataTransfer.setData("text/plain",t.dataset.w); e.dataTransfer.effectAllowed="copy"; });
+      t.addEventListener("click",function(){ if(t.classList.contains("used")) return; pick(picked===t?null:t); });
+      t.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); t.click(); } });
+    });
+    slots.forEach(function(s){
+      s.addEventListener("dragover",function(e){ e.preventDefault(); s.classList.add("over"); });
+      s.addEventListener("dragleave",function(){ s.classList.remove("over"); });
+      s.addEventListener("drop",function(e){ e.preventDefault(); s.classList.remove("over"); var w=e.dataTransfer.getData("text/plain"); if(w) fill(s,w); });
+      s.addEventListener("click",function(){ if(picked){ fill(s,picked.dataset.w); pick(null); } });
+      s.addEventListener("input",refresh);
+    });
+    refresh(); setInterval(refresh,1000);
+  });
+})();
+</script>
+<script>
+/* Warm-up A: one-question-at-a-time vocabulary quiz (20 words). Score is sent to the teacher page. */
+(function(){
+  var box=document.getElementById('wq'), raw=document.getElementById('wq-data'); if(!box||!raw) return;
+  var Q=JSON.parse(raw.textContent);
+  function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; } return a; }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  var order, i, score, wrong;
+  function start(){ order=shuffle(Q); i=0; score=0; wrong=[]; draw(); }
+  function draw(){
+    if(i>=order.length) return finish();
+    var q=order[i], others=shuffle(Q.filter(function(x){return x.w!==q.w;})).slice(0,3), prompt, right, opts;
+    if(q.t==='en2uk'){ prompt='What does <b>'+esc(q.w)+'</b> mean?'; right=q.uk; opts=shuffle([q.uk].concat(others.map(function(x){return x.uk;}))); }
+    else if(q.t==='uk2en'){ prompt='How do you say <b>«'+esc(q.uk)+'»</b> in English?'; right=q.w; opts=shuffle([q.w].concat(others.map(function(x){return x.w;}))); }
+    else { prompt='Fill the gap: <i>'+esc(q.s).replace('___','<span class="wq-gap">_____</span>')+'</i>'; right=q.w; opts=shuffle([q.w].concat(others.map(function(x){return x.w;}))); }
+    box.innerHTML='<div class="wq-top"><span>Question '+(i+1)+' of '+order.length+'</span><span>Score: '+score+'</span></div>'
+      +'<div class="wq-bar"><i style="width:'+(i/order.length*100)+'%"></i></div>'
+      +'<p class="wq-q">'+prompt+'</p><div class="wq-opts">'+opts.map(function(o){return '<button type="button" class="wq-opt" data-o="'+esc(o)+'">'+esc(o)+'</button>';}).join('')+'</div>'
+      +'<div class="wq-foot"><span class="wq-msg"></span><button type="button" class="btn wq-next" hidden>Next →</button></div>';
+    var done=false;
+    box.querySelector('.wq-opts').onclick=function(e){
+      var b=e.target.closest('.wq-opt'); if(!b||done) return; done=true;
+      var ok=b.getAttribute('data-o')===right;
+      if(ok) score++; else wrong.push(q);
+      box.querySelectorAll('.wq-opt').forEach(function(x){ x.disabled=true; if(x.getAttribute('data-o')===right) x.classList.add('ok'); else if(x===b) x.classList.add('bad'); });
+      box.querySelector('.wq-msg').innerHTML= ok ? '✓ Correct!' : '✗ It\'s <b>'+esc(q.w)+'</b> — '+esc(q.uk);
+      var n=box.querySelector('.wq-next'); n.hidden=false; n.textContent = i+1<order.length ? 'Next →' : 'See my score'; n.focus();
+      n.onclick=function(){ i++; draw(); };
+    };
+  }
+  function finish(){
+    try{ if(window.EW && EW.push) EW.push('quiz',{area:'Lesson 14 · warm-up quiz', score:score, total:order.length}); }catch(e){}
+    var msg = score===order.length ? 'Perfect — you remember everything! 🏆' : score>=order.length*0.75 ? 'Great memory! Look at the words you missed:' : 'Not bad — these words need another look:';
+    box.innerHTML='<div class="wq-end"><div class="wq-score">'+score+' / '+order.length+'</div><p>'+msg+'</p>'
+      +(wrong.length?'<ul class="wq-miss">'+wrong.map(function(q){return '<li><b>'+esc(q.w)+'</b> — '+esc(q.uk)+'</li>';}).join('')+'</ul>':'')
+      +'<button type="button" class="btn wq-again">Try again</button></div>';
+    box.querySelector('.wq-again').onclick=start;
+  }
+  start();
+})();
+</script>
+<script>
+/* Exercise 6: pick at most five items */
+(function(){
+  var boxes=[].slice.call(document.querySelectorAll('.picks input[type=checkbox]')), out=document.getElementById('pick-count'); if(!boxes.length) return;
+  function upd(){ var n=boxes.filter(function(b){return b.checked;}).length; out.textContent=n+' / 5 chosen'+(n===5?' — now defend them!':''); boxes.forEach(function(b){ b.disabled = !b.checked && n>=5; b.parentElement.classList.toggle('on', b.checked); }); }
+  boxes.forEach(function(b){ b.addEventListener('change',upd); }); upd(); setInterval(upd,1500);
+})();
+</script>
+<script src="../assets/store.js?v=7"></script>
+<script src="../assets/wordgrab.js?v=7"></script>
+<script src="../assets/lesson-sync.js?v=7" data-lesson="lesson-14"></script>
+</body>
+</html>

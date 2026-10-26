@@ -237,5 +237,27 @@
       "Role-play: deadline day"
     ],
     "vocabCount": 12
+  },
+  {
+    "id": "lesson-14",
+    "number": 14,
+    "title": "Lost!",
+    "titleUk": "Умовні речення першого типу; must / have to / should",
+    "date": "2026-10-26",
+    "time": "17:30",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-14.html",
+    "summary": "We fix the scouting report from Lesson 13 and take a quick word quiz. Then a survival lesson: the first conditional (if + Present Simple, will), unless and when, rules with must / mustn't / have to / don't have to / should, the true story of Juliane Koepcke who survived eleven days in the Amazon, and a desert-island game.",
+    "topics": [
+      "Homework review: the scouting report",
+      "Vocabulary quiz: Lessons 12–13",
+      "First conditional: if … will",
+      "unless · when",
+      "must · mustn't · have to · don't have to · should",
+      "True story: eleven days in the jungle",
+      "Game: five things for the island"
+    ],
+    "vocabCount": 14
   }
 ]

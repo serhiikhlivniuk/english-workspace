@@ -1,5 +1,44 @@
 [
   {
+    "id": "sp-14",
+    "lesson": "lesson-14",
+    "title": "Five things for the island",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Choose and defend survival items with the first conditional; make rules with must / mustn't / have to / should.",
+    "grammar": [
+      "first-conditional",
+      "modals-rules"
+    ],
+    "warmup": [
+      "Have you ever been lost? What happened?",
+      "What will you do if it rains all weekend?",
+      "What's the most useful thing you always carry?"
+    ],
+    "main": {
+      "task": "Choose five of fifteen items from the plane and defend every choice with if. Then the if-chain game and five island rules.",
+      "howto": "If we take the mirror, a plane will see the light. · We mustn't… · We have to… · We should…",
+      "prompts": [
+        "Defend your five items",
+        "If-chain: If it rains tonight, …",
+        "Five rules for the group"
+      ]
+    },
+    "phrases": [
+      "If we take…, we'll be able to…",
+      "If we don't…, we won't…",
+      "Unless we…, …",
+      "We have to…",
+      "We mustn't…",
+      "We should…"
+    ],
+    "followup": [
+      "What would you miss most on the island?",
+      "Who would you take with you — and why?"
+    ],
+    "teacher": "Argue against every choice to make him defend it. Catch 'If it will…' and 'must to' on the spot. Check the capital I in anything he writes."
+  },
+  {
     "id": "sp-13",
     "lesson": "lesson-13",
     "title": "Deadline day",
