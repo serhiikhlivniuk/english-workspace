@@ -2826,5 +2826,192 @@
     "tags": [
       "survival"
     ]
+  },
+  {
+    "word": "gripping",
+    "pos": "adj",
+    "def": "so exciting that you can't stop watching or reading",
+    "uk": "захопливий",
+    "example": "It's one of the most gripping films of its time.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "obsessed with",
+    "pos": "adj",
+    "def": "thinking about something all the time",
+    "uk": "одержимий чимось",
+    "example": "Chuck is obsessed with time.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "cargo plane",
+    "pos": "noun",
+    "def": "a plane that carries goods, not passengers",
+    "uk": "вантажний літак",
+    "example": "His cargo plane crashes into the ocean.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "washed ashore",
+    "pos": "phrase",
+    "def": "carried onto the beach by the waves",
+    "uk": "викинутий хвилями на берег",
+    "example": "He is washed ashore on a tiny island.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "dialogue",
+    "pos": "noun",
+    "def": "the words the characters say in a film or book",
+    "uk": "діалог",
+    "example": "For an hour there is almost no dialogue.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "succeed",
+    "pos": "verb",
+    "def": "to manage to do what you tried to do",
+    "uk": "досягти мети, вдатися",
+    "example": "When he finally succeeds, he dances around the fire.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "get rid of",
+    "pos": "phrase",
+    "def": "to remove or throw away something you don't want",
+    "uk": "позбутися",
+    "example": "I need to get rid of my old shoes.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "loneliness",
+    "pos": "noun",
+    "def": "the feeling of being alone and sad",
+    "uk": "самотність",
+    "example": "The hardest thing on the island is loneliness.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "raft",
+    "pos": "noun",
+    "def": "a flat boat made of wood or plastic",
+    "uk": "пліт",
+    "example": "Chuck builds a raft and escapes.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "sail",
+    "pos": "noun",
+    "def": "a big piece of cloth that catches the wind on a boat",
+    "uk": "вітрило",
+    "example": "He uses part of a toilet as a sail.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "outstanding performance",
+    "pos": "phrase",
+    "def": "excellent acting",
+    "uk": "видатна гра (актора)",
+    "example": "Tom Hanks gives an outstanding performance.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "be nominated for",
+    "pos": "phrase",
+    "def": "to be chosen as one of the people who could win a prize",
+    "uk": "бути номінованим на",
+    "example": "He was nominated for an Oscar.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "viewer",
+    "pos": "noun",
+    "def": "a person who watches a film or TV",
+    "uk": "глядач",
+    "example": "Some viewers find the ending too long.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "verdict",
+    "pos": "noun",
+    "def": "a final opinion or decision",
+    "uk": "висновок, вердикт",
+    "example": "Verdict: a gripping survival story.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "advice",
+    "pos": "noun",
+    "def": "uncountable: an opinion about what someone should do",
+    "uk": "порада, поради",
+    "example": "Can I give you some advice?",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "information",
+    "pos": "noun",
+    "def": "uncountable: facts about something",
+    "uk": "інформація",
+    "example": "We need some information about the island.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
+  },
+  {
+    "word": "furniture",
+    "pos": "noun",
+    "def": "uncountable: tables, chairs, beds and so on",
+    "uk": "меблі",
+    "example": "The furniture in the hut was very old.",
+    "lesson": "lesson-15",
+    "tags": [
+      "film review"
+    ]
   }
 ]

@@ -1,5 +1,44 @@
 [
   {
+    "id": "sp-15",
+    "lesson": "lesson-15",
+    "title": "Would you survive?",
+    "minutes": 10,
+    "level": "A2+ → B1",
+    "goal": "Talk about the film Cast Away and about yourself on a desert island, using if, must / have to and words from the review.",
+    "grammar": [
+      "first-conditional",
+      "countable-uncountable"
+    ],
+    "warmup": [
+      "Have you seen Cast Away?",
+      "What's the best survival film you know?",
+      "How many stars would you give it?"
+    ],
+    "main": {
+      "task": "Discuss the film and your own desert island choices.",
+      "howto": "Use words from the review: gripping, loneliness, obsessed with, outstanding performance… and if-sentences.",
+      "prompts": [
+        "Is talking to a volleyball crazy or clever?",
+        "Hunger, loneliness or boredom — what's hardest?",
+        "What are people your age obsessed with?",
+        "Desert island five: a film, a song, a game, a person, an object"
+      ]
+    },
+    "phrases": [
+      "It's gripping.",
+      "The best scene is…",
+      "I'd give it … stars.",
+      "If I were Chuck, I'd…",
+      "We'd have to…"
+    ],
+    "followup": [
+      "Would you like to watch it now?",
+      "What would you do differently?"
+    ],
+    "teacher": "Collect his mistakes with uncountables (advices, informations) and the capital I. Introduce 'If I were…, I'd…' only as a chunk."
+  },
+  {
     "id": "sp-14",
     "lesson": "lesson-14",
     "title": "Five things for the island",

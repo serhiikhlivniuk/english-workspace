@@ -6436,5 +6436,174 @@
         "why": "No to after must."
       }
     ]
+  },
+  {
+    "id": "countable-uncountable",
+    "group": "Nouns",
+    "title": "Countable and uncountable",
+    "uk": "Злічувані й незлічувані іменники",
+    "level": "A2+ → B1",
+    "summary": "Countable: a coconut, two coconuts. Uncountable: water, food, advice, information — no a, no -s. some in positive sentences, any in questions and negatives; many + countable, much + uncountable.",
+    "lessons": [
+      "lesson-15"
+    ],
+    "rules": [
+      {
+        "name": "Uncountable nouns",
+        "form": "water, food, fruit, meat, money, time, energy, advice, information, furniture, news",
+        "when": "No a / an, no -s.",
+        "examples": [
+          {
+            "en": "Can I give you some advice?",
+            "uk": "Можна дати тобі пораду?"
+          }
+        ]
+      },
+      {
+        "name": "some / any",
+        "form": "some + positive · any + questions and negatives",
+        "when": "",
+        "examples": [
+          {
+            "en": "We've got some water, but we haven't got any food.",
+            "uk": "У нас є трохи води, але немає їжі."
+          }
+        ]
+      },
+      {
+        "name": "much / many / a lot of",
+        "form": "many + countable · much + uncountable · a lot of + both",
+        "when": "much and many mostly in questions and negatives.",
+        "examples": [
+          {
+            "en": "How many coconuts? How much water?",
+            "uk": "Скільки кокосів? Скільки води?"
+          }
+        ]
+      },
+      {
+        "name": "a few / a little",
+        "form": "a few + countable · a little + uncountable",
+        "when": "a small amount",
+        "examples": [
+          {
+            "en": "We caught a few fish and found a little rice.",
+            "uk": "Ми впіймали кілька рибин і знайшли трохи рису."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "advices, informations",
+        "right": "advice, information",
+        "note": "uncountable — no -s"
+      },
+      {
+        "wrong": "a water",
+        "right": "some water / a bottle of water",
+        "note": "no a with uncountable"
+      },
+      {
+        "wrong": "How much coconuts?",
+        "right": "How many coconuts?",
+        "note": "countable → many"
+      },
+      {
+        "wrong": "We haven't got some matches.",
+        "right": "We haven't got any matches.",
+        "note": "negative → any"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Can you give me some ___?",
+        "options": [
+          "advice",
+          "advices",
+          "an advice"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How ___ water is left?",
+        "options": [
+          "many",
+          "much",
+          "a few"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "We haven't got ___ matches.",
+        "options": [
+          "some",
+          "any",
+          "much"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "Can you give me some ___?",
+        "options": [
+          "advice",
+          "advices",
+          "an advice"
+        ],
+        "answer": 0,
+        "why": "advice is uncountable."
+      },
+      {
+        "q": "How ___ water is left?",
+        "options": [
+          "many",
+          "much",
+          "a few"
+        ],
+        "answer": 1,
+        "why": "water → much."
+      },
+      {
+        "q": "We haven't got ___ matches.",
+        "options": [
+          "some",
+          "any",
+          "much"
+        ],
+        "answer": 1,
+        "why": "negative → any."
+      },
+      {
+        "q": "How ___ coconuts did you find?",
+        "options": [
+          "much",
+          "many",
+          "a little"
+        ],
+        "answer": 1,
+        "why": "coconuts → many."
+      },
+      {
+        "q": "Put ___ salt on the fish.",
+        "options": [
+          "a few",
+          "a little",
+          "many"
+        ],
+        "answer": 1,
+        "why": "salt is uncountable → a little."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "The furnitures are old.",
+          "The furniture is old."
+        ],
+        "answer": 1,
+        "why": "furniture is uncountable."
+      }
+    ]
   }
 ]

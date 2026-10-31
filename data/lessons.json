@@ -259,5 +259,27 @@
       "Game: five things for the island"
     ],
     "vocabCount": 14
+  },
+  {
+    "id": "lesson-15",
+    "number": 15,
+    "title": "Cast Away",
+    "titleUk": "Рецензія на фільм; злічувані й незлічувані іменники",
+    "date": "2026-10-31",
+    "time": "15:00",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-15.html",
+    "summary": "We fix the survival plan from Lesson 14 and take a 12-word quiz. Countable and uncountable nouns with some, any, much, many, a few, a little. A review of the film Cast Away with words to learn and sentences to translate, a speaking round — would you survive? — and your own text about the film. Extra: a real review by Roger Ebert.",
+    "topics": [
+      "Homework review: the survival plan",
+      "Vocabulary quiz: Lesson 14",
+      "Countable and uncountable nouns",
+      "some · any · much · many · a few · a little",
+      "Film review: Cast Away",
+      "Translation practice",
+      "Writing: Cast Away in your words"
+    ],
+    "vocabCount": 17
   }
 ]

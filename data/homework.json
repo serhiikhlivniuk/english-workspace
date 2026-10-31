@@ -1,5 +1,35 @@
 [
   {
+    "id": "hw-15",
+    "lesson": "lesson-15",
+    "title": "Homework after Lesson 15",
+    "assigned": "2026-10-31",
+    "due": "2026-11-02",
+    "note": "The main task is your text about Cast Away (Exercise 7). Everything else = what we didn't finish in class.",
+    "items": [
+      {
+        "id": "hw-15-1",
+        "text": "Exercise 7: your text about Cast Away — 100–130 words, type it on the lesson page.",
+        "type": "writing",
+        "auto": "lesson-15",
+        "only": [
+          "8"
+        ]
+      },
+      {
+        "id": "hw-15-2",
+        "text": "Lesson 15: finish every other exercise we didn't get to in class.",
+        "type": "grammar",
+        "auto": "lesson-15"
+      },
+      {
+        "id": "hw-15-3",
+        "text": "Learn the words from the review — they're in the dictionary — and take the Grammar quiz: Countable and uncountable.",
+        "type": "vocab"
+      }
+    ]
+  },
+  {
     "id": "hw-14",
     "lesson": "lesson-14",
     "title": "Homework after Lesson 14",
