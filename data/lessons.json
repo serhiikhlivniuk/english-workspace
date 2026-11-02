@@ -281,5 +281,26 @@
       "Writing: Cast Away in your words"
     ],
     "vocabCount": 17
+  },
+  {
+    "id": "lesson-16",
+    "number": 16,
+    "title": "What If…?",
+    "titleUk": "Умовні речення: zero, first, second",
+    "date": "2026-11-02",
+    "time": "17:00",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-16.html",
+    "summary": "Three kinds of if: facts (zero), real possibilities (first) and imagination (second). A science-or-myth quiz, a colour table of the three conditionals, three exercises, an interactive story with seven endings — The blue door — and a What If wheel for speaking.",
+    "topics": [
+      "Science or myth: zero conditional",
+      "Vocabulary review: Lesson 15",
+      "Zero · first · second conditional",
+      "Interactive story: The blue door",
+      "Speaking: the What If wheel",
+      "Writing: my superpower"
+    ],
+    "vocabCount": 8
   }
 ]

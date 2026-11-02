@@ -3013,5 +3013,93 @@
     "tags": [
       "film review"
     ]
+  },
+  {
+    "word": "myth",
+    "pos": "noun",
+    "def": "something many people believe that is not true",
+    "uk": "міф",
+    "example": "It's a myth that goldfish forget everything in three seconds.",
+    "lesson": "lesson-16",
+    "tags": [
+      "what if"
+    ]
+  },
+  {
+    "word": "boil",
+    "pos": "verb",
+    "def": "when a liquid gets so hot that it bubbles",
+    "uk": "кипіти",
+    "example": "Water boils at 100 °C.",
+    "lesson": "lesson-16",
+    "tags": [
+      "what if"
+    ]
+  },
+  {
+    "word": "melt",
+    "pos": "verb",
+    "def": "to change from solid to liquid because of heat",
+    "uk": "танути",
+    "example": "If you heat ice, it melts.",
+    "lesson": "lesson-16",
+    "tags": [
+      "what if"
+    ]
+  },
+  {
+    "word": "invisible",
+    "pos": "adj",
+    "def": "impossible to see",
+    "uk": "невидимий",
+    "example": "If I were invisible, I'd go to the cinema for free.",
+    "lesson": "lesson-16",
+    "tags": [
+      "what if"
+    ]
+  },
+  {
+    "word": "superpower",
+    "pos": "noun",
+    "def": "a special power, like in comic books",
+    "uk": "суперсила",
+    "example": "If you could have one superpower, what would it be?",
+    "lesson": "lesson-16",
+    "tags": [
+      "what if"
+    ]
+  },
+  {
+    "word": "attic",
+    "pos": "noun",
+    "def": "the room at the top of a house, under the roof",
+    "uk": "горище",
+    "example": "She found a blue door in the attic.",
+    "lesson": "lesson-16",
+    "tags": [
+      "what if"
+    ]
+  },
+  {
+    "word": "would rather",
+    "pos": "phrase",
+    "def": "would prefer",
+    "uk": "краще б (волів би)",
+    "example": "I'd rather fly than breathe underwater.",
+    "lesson": "lesson-16",
+    "tags": [
+      "what if"
+    ]
+  },
+  {
+    "word": "disappear",
+    "pos": "verb",
+    "def": "to go away so that nobody can see it",
+    "uk": "зникати",
+    "example": "If you stay longer than an hour, the door disappears.",
+    "lesson": "lesson-16",
+    "tags": [
+      "what if"
+    ]
   }
 ]

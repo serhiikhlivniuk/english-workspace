@@ -6605,5 +6605,176 @@
         "why": "furniture is uncountable."
       }
     ]
+  },
+  {
+    "id": "conditionals-012",
+    "group": "Sentences",
+    "title": "Conditionals 0, 1, 2",
+    "uk": "Умовні речення: нульовий, перший, другий типи",
+    "level": "B1",
+    "summary": "Zero: If + Present, Present (facts). First: If + Present, will (real future). Second: If + Past, would (imaginary now).",
+    "lessons": [
+      "lesson-16"
+    ],
+    "rules": [
+      {
+        "name": "Zero conditional",
+        "form": "If + Present Simple, Present Simple",
+        "when": "Facts and things that are always true.",
+        "examples": [
+          {
+            "en": "If you heat ice, it melts.",
+            "uk": "Якщо нагріти лід, він тане."
+          }
+        ]
+      },
+      {
+        "name": "First conditional",
+        "form": "If + Present Simple, will + verb",
+        "when": "A real possibility in the future.",
+        "examples": [
+          {
+            "en": "If it snows tomorrow, we'll build a snowman.",
+            "uk": "Якщо завтра піде сніг, ми зліпимо сніговика."
+          }
+        ]
+      },
+      {
+        "name": "Second conditional",
+        "form": "If + Past Simple, would + verb",
+        "when": "Imaginary or impossible situations now; dreams; advice.",
+        "examples": [
+          {
+            "en": "If I had a million dollars, I'd buy an island.",
+            "uk": "Якби в мене був мільйон, я б купив острів."
+          },
+          {
+            "en": "If I were you, I'd say sorry.",
+            "uk": "На твоєму місці я б вибачився."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "If it will rain…",
+        "right": "If it rains…",
+        "note": "no will after if"
+      },
+      {
+        "wrong": "If I would have wings…",
+        "right": "If I had wings…",
+        "note": "no would after if"
+      },
+      {
+        "wrong": "If I am you, I'd…",
+        "right": "If I were you, I'd…",
+        "note": "second → past form"
+      },
+      {
+        "wrong": "If I had time, I will help.",
+        "right": "If I had time, I would help.",
+        "note": "had → would"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "If you heat ice, it ___.",
+        "options": [
+          "melts",
+          "will melt",
+          "would melt"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "If I ___ a million dollars, I'd buy an island.",
+        "options": [
+          "have",
+          "had",
+          "will have"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "If it rains tomorrow, we ___ at home.",
+        "options": [
+          "stay",
+          "'ll stay",
+          "'d stayed"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "If I ___ you, I'd apologise.",
+        "options": [
+          "am",
+          "were",
+          "will be"
+        ],
+        "answer": 1
+      }
+    ],
+    "practice": [
+      {
+        "q": "If you heat ice, it ___.",
+        "options": [
+          "melts",
+          "will melt",
+          "would melt"
+        ],
+        "answer": 0,
+        "why": "A fact → zero conditional."
+      },
+      {
+        "q": "If I ___ a million dollars, I'd buy an island.",
+        "options": [
+          "have",
+          "had",
+          "will have"
+        ],
+        "answer": 1,
+        "why": "Imaginary → if + past."
+      },
+      {
+        "q": "If it rains tomorrow, we ___ at home.",
+        "options": [
+          "stay",
+          "'ll stay",
+          "'d stayed"
+        ],
+        "answer": 1,
+        "why": "Real future → will."
+      },
+      {
+        "q": "If I ___ you, I'd apologise.",
+        "options": [
+          "am",
+          "were",
+          "will be"
+        ],
+        "answer": 1,
+        "why": "If I were you…"
+      },
+      {
+        "q": "If I could fly, I ___ take the bus.",
+        "options": [
+          "won't",
+          "wouldn't",
+          "don't"
+        ],
+        "answer": 1,
+        "why": "Second → would."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "If it will snow, we'll ski.",
+          "If it snows, we'll ski."
+        ],
+        "answer": 1,
+        "why": "No will after if."
+      }
+    ]
   }
 ]

@@ -1,5 +1,44 @@
 [
   {
+    "id": "hw-16",
+    "lesson": "lesson-16",
+    "title": "Homework after Lesson 16",
+    "assigned": "2026-11-02",
+    "due": "2026-11-06",
+    "note": "The main task is Exercise 7 — My superpower or your own story ending.",
+    "items": [
+      {
+        "id": "hw-16-1",
+        "text": "Exercise 7: My superpower, or your own ending for The blue door — 80–100 words.",
+        "type": "writing",
+        "auto": "lesson-16",
+        "only": [
+          "8"
+        ]
+      },
+      {
+        "id": "hw-16-2",
+        "text": "Find all seven endings of The blue door (Exercise 4).",
+        "type": "reading"
+      },
+      {
+        "id": "hw-16-3",
+        "text": "Lesson 15, Exercise 7: your text about Cast Away, if it isn't finished.",
+        "type": "writing",
+        "auto": "lesson-15",
+        "only": [
+          "8"
+        ]
+      },
+      {
+        "id": "hw-16-4",
+        "text": "Lesson 16: finish the other exercises and take the Grammar quiz: Conditionals 0, 1, 2.",
+        "type": "grammar",
+        "auto": "lesson-16"
+      }
+    ]
+  },
+  {
     "id": "hw-15",
     "lesson": "lesson-15",
     "title": "Homework after Lesson 15",

@@ -1,0 +1,980 @@
+<!doctype html>
+<html lang="en" data-base="../">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="English lesson 16 - What If…? Zero, first and second conditionals with a science-or-myth quiz, an interactive story and a speaking wheel (A2+ to B1).">
+<style>html{color-scheme:light dark}img{max-width:100%}[hidden]{display:none !important}</style>
+<title>What If…?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --paper:#F4F5F1; --surface:#FFFFFF; --surface-2:#EBEEE7;
+    --ink:#17233D; --ink-soft:#5B6479; --line:#D9DDD5;
+    --accent:#AD6A16; --accent-ink:#8A5310; --accent-soft:#F7E9D3;
+    --ok:#2C7A57; --ok-soft:#DEEDE4;
+    --bad:#AE372D; --bad-soft:#F7DFDB;
+    --shadow:0 1px 2px rgba(23,35,61,.06), 0 8px 24px -16px rgba(23,35,61,.28);
+    --display:"Fraunces", Georgia, "Times New Roman", serif;
+    --body:"Karla", "Helvetica Neue", Arial, sans-serif;
+    --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#141A26; --surface:#1B2231; --surface-2:#232B3C;
+      --ink:#E9EBE5; --ink-soft:#9BA4B6; --line:#313B4E;
+      --accent:#E3A052; --accent-ink:#F0BB79; --accent-soft:#3A2D1B;
+      --ok:#74C79C; --ok-soft:#1D3A2B;
+      --bad:#E68678; --bad-soft:#3C221E;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#141A26; --surface:#1B2231; --surface-2:#232B3C;
+    --ink:#E9EBE5; --ink-soft:#9BA4B6; --line:#313B4E;
+    --accent:#E3A052; --accent-ink:#F0BB79; --accent-soft:#3A2D1B;
+    --ok:#74C79C; --ok-soft:#1D3A2B;
+    --bad:#E68678; --bad-soft:#3C221E;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--body); font-size:16px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:900px; margin:0 auto; padding-inline:20px; padding-block:0 64px}
+
+  header.top{border-bottom:1px solid var(--line); background:var(--paper); position:sticky; top:0; z-index:20}
+  .top-inner{max-width:900px; margin:0 auto; padding-inline:20px; padding-block:20px 0}
+  .eyebrow{font-family:var(--mono); font-size:11.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--accent); margin:0 0 6px}
+  h1{font-family:var(--display); font-weight:600; font-size:clamp(28px,5.4vw,40px); line-height:1.08; margin:0 0 8px; text-wrap:balance; letter-spacing:-.015em}
+  .meta{display:flex; flex-wrap:wrap; gap:6px 14px; margin:0 0 16px; font-family:var(--mono); font-size:12px; color:var(--ink-soft)}
+  .meta span::before{content:"· "; color:var(--line)}
+  .meta span:first-child::before{content:""}
+  .tabs{display:flex; gap:2px; flex-wrap:wrap}
+  .tab{appearance:none; border:1px solid var(--line); border-bottom:none; background:transparent; font-family:var(--body); font-weight:700; font-size:14px; color:var(--ink-soft); padding:9px 16px; border-radius:8px 8px 0 0; cursor:pointer; margin-bottom:-1px}
+  .tab[aria-selected="true"]{background:var(--surface); color:var(--ink); border-color:var(--line)}
+  .tab:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible, summary:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+  h2{font-family:var(--display); font-weight:600; font-size:22px; line-height:1.2; margin:0 0 4px; letter-spacing:-.01em; text-wrap:balance}
+  h3{font-family:var(--body); font-weight:700; font-size:15px; margin:20px 0 6px}
+  p{margin:0 0 12px}
+  .lead{color:var(--ink-soft)}
+  .label{font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft)}
+  section.view[hidden]{display:none}
+  .intro{padding-block:28px 8px; border-bottom:1px solid var(--line); margin-bottom:8px}
+
+  .blockhead{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin:34px 0 0; padding:14px 18px; background:var(--ink); color:var(--paper); border-radius:10px}
+  .blockhead h2{color:var(--paper); margin:0}
+  .blockhead .label{color:var(--paper); opacity:.7}
+
+  .stage{display:grid; grid-template-columns:96px 1fr; gap:0 24px; padding-block:24px; border-bottom:1px solid var(--line)}
+  .clock{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); padding-top:4px}
+  .clock b{display:block; font-size:15px; font-weight:600; color:var(--accent); letter-spacing:-.02em}
+  .stage-num{font-family:var(--mono); font-size:11px; letter-spacing:.12em; color:var(--ink-soft); display:block; margin-bottom:2px}
+  ul,ol{margin:0 0 12px; padding-left:20px}
+  li{margin-bottom:5px}
+  li::marker{color:var(--ink-soft)}
+  .q{color:var(--accent-ink); font-style:italic}
+  .note{background:var(--surface-2); border-left:3px solid var(--accent); padding:12px 14px; margin:14px 0; font-size:14.5px; border-radius:0 6px 6px 0}
+  .note .label{display:block; margin-bottom:4px}
+  table{width:100%; border-collapse:collapse; font-size:14.5px; margin:8px 0 14px}
+  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); font-weight:500}
+  .tbl-scroll{overflow-x:auto}
+  .aims{background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:18px 20px; margin:20px 0}
+  .aims ul{margin-bottom:0}
+
+  .progress-bar{position:sticky; top:0; z-index:10; background:var(--paper); padding-block:14px 10px; border-bottom:1px solid var(--line); margin-bottom:4px; display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+  .track{flex:1 1 160px; height:6px; background:var(--surface-2); border-radius:99px; overflow:hidden}
+  .fill{height:100%; width:0%; background:var(--accent); transition:width .35s ease}
+  .score{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); white-space:nowrap}
+  .ex{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin:18px 0; box-shadow:var(--shadow)}
+  .ex.extra{border-style:dashed; border-color:var(--accent); box-shadow:none}
+  .ex-head{display:flex; align-items:baseline; gap:10px; margin-bottom:10px; flex-wrap:wrap}
+  .pill{font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; background:var(--accent-soft); color:var(--accent-ink); border-radius:99px; padding:3px 9px; font-weight:600}
+  .task{font-size:14.5px; color:var(--ink-soft); margin-bottom:14px}
+  .sort-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:8px}
+  .sort-row{display:flex; align-items:center; gap:8px; background:var(--surface-2); border-radius:8px; padding:6px 8px 6px 12px}
+  .sort-row span{flex:1; font-size:14.5px}
+  .def-list{display:grid; gap:8px}
+  .def-row{display:flex; align-items:center; gap:10px; background:var(--surface-2); border-radius:8px; padding:8px 10px 8px 13px; flex-wrap:wrap}
+  .def-row span{flex:1 1 220px; font-size:14.5px}
+  select, input[type="text"], textarea{font-family:var(--body); font-size:15px; color:var(--ink); background:var(--paper); border:1px solid var(--line); border-radius:6px; padding:6px 8px}
+  select{font-family:var(--mono); font-size:13px; padding:5px 6px; max-width:100%}
+  input[type="text"]{width:9.5em; background:transparent; border:none; border-bottom:2px solid var(--line); border-radius:0; padding:2px 4px}
+  input[type="text"].wide{width:13em}
+  textarea{width:100%; min-height:120px; line-height:1.6; resize:vertical}
+  .gap-list{list-style:none; padding:0; counter-reset:g}
+  .gap-list li{counter-increment:g; display:flex; gap:10px; align-items:baseline; padding:7px 0; border-bottom:1px dashed var(--line); flex-wrap:wrap}
+  .gap-list li:last-child{border-bottom:none}
+  .gap-list li::before{content:counter(g); font-family:var(--mono); font-size:12px; color:var(--ink-soft); min-width:1.2em}
+  .sentence{flex:1 1 240px}
+  .cue{font-family:var(--mono); font-size:12.5px; color:var(--accent-ink)}
+  .ok{border-color:var(--ok) !important; background:var(--ok-soft) !important}
+  .bad{border-color:var(--bad) !important; background:var(--bad-soft) !important}
+  input.ok, input.bad{background:transparent !important}
+  input.ok{border-bottom-color:var(--ok) !important; color:var(--ok)}
+  input.bad{border-bottom-color:var(--bad) !important; color:var(--bad)}
+  .choice{display:block; padding:8px 12px; border:1px solid var(--line); border-radius:8px; margin-bottom:6px; cursor:pointer; font-size:15px; background:var(--paper)}
+  .choice input{margin-right:8px; accent-color:var(--accent)}
+  .tf{display:flex; gap:8px; flex:0 0 auto}
+  .tf button{font-family:var(--mono); font-size:12px; letter-spacing:.06em; padding:5px 12px; border:1px solid var(--line); background:var(--paper); color:var(--ink-soft); border-radius:6px; cursor:pointer}
+  .tf button[aria-pressed="true"]{background:var(--accent-soft); border-color:var(--accent); color:var(--accent-ink); font-weight:600}
+  .btn{font-family:var(--body); font-weight:700; font-size:14px; cursor:pointer; background:var(--ink); color:var(--paper); border:1px solid var(--ink); border-radius:8px; padding:9px 18px}
+  .btn.ghost{background:transparent; color:var(--ink-soft); border-color:var(--line); font-weight:500}
+  .ex-foot{display:flex; gap:10px; align-items:center; margin-top:16px; flex-wrap:wrap}
+  .verdict{font-family:var(--mono); font-size:12.5px; color:var(--ink-soft)}
+  .verdict.good{color:var(--ok)}
+  .verdict.poor{color:var(--bad)}
+
+  .reading{background:var(--surface-2); border-radius:10px; padding:18px 20px; margin-bottom:16px; font-size:16px; line-height:1.78}
+  .reading p{margin:0 0 10px}
+  .reading p:last-child{margin:0}
+  .reading .gloss{border-bottom:1px dotted var(--accent); cursor:help}
+
+  .videocard{display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap; background:var(--accent-soft); border:1px solid var(--accent); border-radius:12px; padding:18px 20px; margin:16px 0}
+  .videocard div{flex:1 1 240px}
+  .videocard h3{margin-top:0}
+  a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px}
+  .playbtn{display:inline-block; font-family:var(--body); font-weight:700; font-size:14px; background:var(--ink); color:var(--paper); text-decoration:none; border-radius:8px; padding:10px 18px; white-space:nowrap}
+  .freq-scale{display:grid; grid-template-columns:repeat(auto-fit,minmax(88px,1fr)); gap:6px; margin:10px 0 14px}
+  .freq-scale div{background:var(--surface-2); border-radius:8px; padding:8px 10px; text-align:center}
+  .freq-scale b{display:block; font-size:14.5px}
+  .freq-scale small{font-family:var(--mono); font-size:11px; color:var(--ink-soft)}
+  .rule{border:1px dashed var(--accent); border-radius:10px; padding:14px 16px; margin:12px 0; background:var(--paper)}
+  .rule code, code{font-family:var(--mono); font-size:13.5px; background:var(--surface-2); padding:1px 5px; border-radius:4px}
+  details{border-top:1px solid var(--line); padding-top:12px; margin-top:14px}
+  summary{cursor:pointer; font-family:var(--mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft)}
+  details[open] summary{margin-bottom:10px; color:var(--accent)}
+  footer{margin-top:40px; padding-top:20px; border-top:1px solid var(--line); font-size:13.5px; color:var(--ink-soft)}
+
+  .tense{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin:18px 0; box-shadow:var(--shadow)}
+  .tense .form{font-family:var(--mono); font-size:14px; background:var(--surface-2); border-radius:8px; padding:12px 14px; margin:10px 0; line-height:1.9; overflow-x:auto}
+  .tense .form b{color:var(--accent-ink)}
+  .signals{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 4px}
+  .signals span{font-family:var(--mono); font-size:12px; background:var(--accent-soft); color:var(--accent-ink); border-radius:99px; padding:4px 10px}
+  .vs{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:12px 0}
+  .vs div{background:var(--surface-2); border-radius:8px; padding:12px 14px; font-size:14.5px}
+  .wrong{color:var(--bad)}
+  .right{color:var(--ok)}
+  .irr{font-family:var(--mono); font-size:13px}
+
+  .wordbank{display:flex; flex-wrap:wrap; gap:6px; margin:0 0 14px; padding:12px 14px; background:var(--surface-2); border-radius:8px}
+  .wordbank span{font-family:var(--mono); font-size:12.5px; background:var(--paper); border:1px solid var(--line); border-radius:99px; padding:3px 10px}
+  .stem{font-weight:700; margin:16px 0 6px}
+  .daytag{font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--paper); background:var(--accent); border-radius:99px; padding:3px 10px; font-weight:600}
+  .clockface{font-family:var(--mono); font-size:15px; font-weight:600; color:var(--accent-ink); background:var(--accent-soft); border-radius:6px; padding:3px 9px; margin-right:6px}
+  .fig{margin:16px 0}
+  .fig svg{display:block; margin:0 auto; max-width:100%; height:auto; color:var(--ink)}
+  figure{margin:16px 0}
+  figcaption{font-family:var(--mono); font-size:11px; letter-spacing:.07em; text-transform:uppercase; color:var(--ink-soft); text-align:center; margin-top:8px; line-height:1.5}
+  .scene-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(178px,1fr)); gap:14px; margin:14px 0}
+  .scene{background:var(--surface-2); border-radius:10px; padding:12px; display:flex; flex-direction:column; gap:10px}
+  .scene svg{width:100%; height:auto; color:var(--ink)}
+  .scene .scene-num{font-family:var(--mono); font-size:11px; letter-spacing:.1em; color:var(--ink-soft)}
+  .scene .choice{margin-bottom:4px; font-size:14px; padding:6px 10px}
+  .icon-row{display:flex; align-items:center; gap:10px; flex:1 1 220px}
+  .icon-row svg{width:32px; height:32px; flex:0 0 auto; color:var(--ink)}
+  .board{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:14px 0}
+  .board figure{margin:0; background:var(--surface-2); border-radius:10px; padding:10px}
+  .board figcaption{margin-top:6px; text-transform:none; letter-spacing:0; font-family:var(--body); font-size:13px}
+  .board svg{color:var(--ink)}
+  @media (max-width:620px){
+    .stage{grid-template-columns:1fr; gap:8px}
+    .clock{display:flex; gap:10px; align-items:baseline; padding-top:0}
+    .clock b{display:inline}
+    .ex,.tense{padding:16px 15px}
+    .vs{grid-template-columns:1fr}
+  }
+  @media (prefers-reduced-motion: reduce){*{transition:none !important; animation:none !important}}
+  @media print{header.top{position:static} .progress-bar{display:none} .btn{display:none} section.view[hidden]{display:block !important} details{display:block} details summary{display:none}}
+</style>
+
+<style>
+  .gref{display:grid;gap:10px;margin:12px 0 16px}
+  .gbox{border:1px solid var(--line,#D9DDD5);border-radius:14px;background:var(--surface-2,#EBEEE7);overflow:hidden}
+  .gbox>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+    padding:9px 14px;font-family:var(--body,system-ui,sans-serif);font-size:13.5px;font-weight:700;
+    color:var(--accent,#AD6A16)}
+  .gbox>summary::-webkit-details-marker{display:none}
+  .gbox>summary::before{content:"\1F4D8"}
+  .gbox>summary::after{content:"show the rule";margin-left:auto;font-weight:500;opacity:.7;font-size:12.5px}
+  .gbox[open]>summary::after{content:"hide"}
+  .gbox>summary:hover{background:rgba(0,0,0,.03)}
+  .gbox-body{padding:2px 16px 16px;font-size:14.5px}
+  .gbox-body .g-rule{border-left:3px solid var(--accent,#AD6A16);padding:2px 0 2px 14px;margin:0 0 14px}
+  .gbox-body h4{margin:0 0 4px;font-size:14px}
+  .gbox-body .g-form{display:inline-block;font-family:var(--mono,monospace);font-size:13px;font-weight:600;
+    background:var(--accent-soft,#F7E9D3);color:var(--accent-ink,#8A5310);padding:4px 10px;border-radius:8px;
+    margin:2px 0 6px;white-space:pre-wrap}
+  .gbox-body .g-when{margin:0 0 6px;opacity:.78}
+  .gbox-body .g-ex{margin:3px 0}
+  .gbox-body .g-bad{color:#AE372D;text-decoration:line-through}
+  .gbox-body .g-good{color:#2C7A57;font-weight:600}
+  .gbox-body .g-mis{display:grid;gap:2px;margin:0 0 8px;font-size:13.5px}
+  .gbox-body .g-more{display:inline-block;margin-top:6px;font-size:13px;font-weight:600}
+  @media print{.gbox{break-inside:avoid} .gbox>summary::after{display:none}}
+  input[type="text"].xwide{width:100%;max-width:28em}
+  .tiles{display:flex;flex-wrap:wrap;gap:8px;padding:12px;background:var(--surface-2);border-radius:10px;margin:0 0 14px}
+  .tile{font-family:var(--mono);font-size:13px;padding:6px 12px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:grab;user-select:none;touch-action:manipulation;transition:opacity .2s}
+  .tile:hover{border-color:var(--accent)}
+  .tile.picked{border-color:var(--accent);background:var(--accent-soft);color:var(--accent-ink);font-weight:600}
+  .tile.used{opacity:.28;text-decoration:line-through;cursor:default}
+  input.drop{width:12em;border-bottom-style:dashed !important}
+  input.drop.over{background:var(--accent-soft) !important;border-bottom-style:solid !important}
+  .dnd.picking input.drop:not([readonly]){cursor:copy;border-bottom-color:var(--accent)}
+  .ex-foot .btn{font-size:12.5px; font-weight:600; padding:5px 12px; border-radius:7px}
+  .ex-foot .btn.ghost{font-weight:500; color:var(--ink-soft); opacity:.85}
+  .ex-foot .btn.ghost:hover{opacity:1; border-color:var(--ink-soft)}
+  .gap-list .sentence{min-width:0}
+  .gap-list select{max-width:100%;min-width:0}
+  .pill.from{background:var(--surface-2);color:var(--ink-soft);margin-left:6px}
+  .ex-head .pill + .pill{margin-left:6px}
+  table.vb th{background:var(--accent-soft);color:var(--accent-ink);text-align:left;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:7px 10px}
+  table.vb td{padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  table.vb td:first-child{white-space:nowrap}
+  @media (max-width:620px){table.vb tr{display:grid;grid-template-columns:auto 1fr;border-bottom:1px solid var(--line)} table.vb td{border-bottom:0} table.vb td:last-child{grid-column:1/-1;padding-top:0;opacity:.85} table.vb th{display:block}}
+  input.own{margin-top:6px} input.own.ok{border-color:var(--ok);background:var(--ok-soft)} input.own.bad{border-color:var(--bad);background:var(--bad-soft)}
+  .own-mark{font-size:13px;color:var(--ink-soft)}
+  #facts{min-height:90px}
+  .wq{background:var(--surface-2);border-radius:12px;padding:16px 18px}
+  .wq-top{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12.5px;color:var(--ink-soft)}
+  .wq-bar{height:6px;background:var(--line);border-radius:99px;margin:8px 0 14px;overflow:hidden}
+  .wq-bar i{display:block;height:100%;background:var(--accent);transition:width .3s}
+  .wq-q{font-size:19px;margin:0 0 14px;font-family:var(--display)}
+  .wq-gap{border-bottom:2px solid var(--accent);padding:0 4px}
+  .wq-opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+  .wq-opt{font:inherit;font-size:15px;text-align:left;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+  .wq-opt:hover:not(:disabled){border-color:var(--accent)}
+  .wq-opt.ok{background:var(--ok-soft);border-color:var(--ok);color:var(--ok)}
+  .wq-opt.bad{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+  .wq-opt:disabled{cursor:default}
+  .wq-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px;min-height:34px;flex-wrap:wrap}
+  .wq-end{text-align:center} .wq-score{font-family:var(--display);font-size:44px;font-weight:700;color:var(--accent)}
+  .wq-miss{text-align:left;display:inline-block;margin:6px 0 14px}
+  .players{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:6px 0 16px}
+  .pcard{margin:0;background:var(--surface-2);border-radius:12px;overflow:hidden}
+  .pcard img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top}
+  .pcard figcaption{padding:8px 10px;font-size:15px;display:flex;flex-direction:column;gap:2px}
+  .pcard .credit{font-size:11px;color:var(--ink-soft)} .pcard .credit a{color:inherit}
+  @media (max-width:620px){.players{grid-template-columns:repeat(3,1fr);gap:6px} .pcard figcaption{font-size:13px;padding:6px} .pcard .credit{font-size:9.5px}}
+  .mail-head{font-family:var(--mono);font-size:13px;background:var(--surface);padding:8px 12px;border-radius:8px}
+  .picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px;margin:6px 0 8px}
+  .pick{display:flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font-size:15px}
+  .pick.on{border-color:var(--accent);background:var(--accent-soft);font-weight:600}
+  .pick input:disabled + *{opacity:.5}
+  .pick-count{font-family:var(--mono);font-size:13px;color:var(--ink-soft);margin:0 0 10px}
+  .review .rev-head{font-size:17px;border-bottom:1px solid var(--line);padding-bottom:8px}
+  .review .rev-head span{font-size:13.5px;color:var(--ink-soft)}
+  /* ---- Lesson 16: colour ---- */
+  :root{ --c-sci:#0E9F8E; --c-voc:#7C5CFF; --c-gram:#E8590C; --c-story:#2F6BEB; --c-talk:#D6336C; --c-extra:#8A8F98; }
+  .hero16{display:grid;grid-template-columns:200px 1fr;gap:0;padding:0;overflow:hidden;background:linear-gradient(135deg,#1b2a6b,#5b2a86 55%,#c2255c);color:#fff;border:0}
+  .hero16 .hero-img{background-size:cover;background-position:center;min-height:190px}
+  .hero16 .hero-text{padding:20px 22px}
+  .hero16 h2{color:#fff} .hero16 .lead{color:rgba(255,255,255,.92)} .hero16 .lead b{color:#FFD43B}
+  @media (max-width:620px){ .hero16{grid-template-columns:1fr} .hero16 .hero-img{min-height:150px} }
+  .ex.tone-sci{border-top:5px solid var(--c-sci)} .ex.tone-voc{border-top:5px solid var(--c-voc)} .ex.tone-gram{border-top:5px solid var(--c-gram)}
+  .ex.tone-story{border-top:5px solid var(--c-story)} .ex.tone-talk{border-top:5px solid var(--c-talk)} .ex.tone-extra{border-top:5px dashed var(--c-extra)}
+  .ex.tone-sci .ex-head .label{color:var(--c-sci)} .ex.tone-voc .ex-head .label{color:var(--c-voc)} .ex.tone-gram .ex-head .label{color:var(--c-gram)}
+  .ex.tone-story .ex-head .label{color:var(--c-story)} .ex.tone-talk .ex-head .label{color:var(--c-talk)}
+  .blockhead.bh-gram{background:linear-gradient(120deg,#E8590C,#F59F00)} .blockhead.bh-story{background:linear-gradient(120deg,#2F6BEB,#7C5CFF)}
+  .blockhead.bh-talk{background:linear-gradient(120deg,#D6336C,#F76707)} .blockhead.bh-extra{background:linear-gradient(120deg,#495057,#868E96)}
+  .blockhead.bh-gram h2,.blockhead.bh-story h2,.blockhead.bh-talk h2,.blockhead.bh-extra h2{color:#fff} .blockhead[class*="bh-"] .label{color:#fff;opacity:.85}
+  .ctable{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}
+  .cc{border-radius:14px;padding:14px 16px;color:#1d1d1f} .cc p{margin:6px 0}
+  .cc.c0{background:#D3F9D8} .cc.c1{background:#D0EBFF} .cc.c2{background:#FFE3E3}
+  .cc-h{font-weight:700;font-size:16px;display:flex;align-items:center;gap:8px}
+  .cc-n{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;color:#fff;font-weight:700}
+  .c0 .cc-n{background:#2B8A3E} .c1 .cc-n{background:#1971C2} .c2 .cc-n{background:#C92A2A}
+  .cc-f{font-family:var(--mono);font-size:13px;font-weight:600;background:rgba(255,255,255,.65);border-radius:8px;padding:5px 8px}
+  .cc-w{font-size:14px} .cc-e{font-style:italic;font-size:14.5px}
+  @media (max-width:760px){ .ctable{grid-template-columns:1fr} }
+  .sm-opts{display:grid;grid-template-columns:1fr 1fr;gap:10px} .sm-o{text-align:center;font-weight:700;font-size:16px}
+  .story{background:linear-gradient(180deg,#EDF2FF,#F8F0FC);border-radius:14px;padding:16px;color:#1d1d1f}
+  .st-img{height:220px;border-radius:12px;background-size:cover;background-position:center;margin-bottom:12px}
+  .st-text{font-size:17px;line-height:1.6;margin:0 0 12px}
+  .st-gate{background:#fff;border-radius:12px;padding:12px 14px;border:1px dashed #2F6BEB}
+  .st-q{margin:0 0 8px;font-weight:600} .st-opts{display:flex;gap:8px;flex-wrap:wrap} .st-opts .wq-opt{flex:0 1 auto;color:#1d1d1f;background:#fff}
+  .st-hint{margin:8px 0 0;font-size:14px;color:#495057;min-height:1em}
+  .st-choices{display:flex;flex-direction:column;gap:8px;margin-top:12px} .st-choices .btn{text-align:left;background:#2F6BEB;color:#fff;border-color:#2F6BEB}
+  .st-end{text-align:center;padding:10px} .st-end p{font-size:17px;line-height:1.6}
+  .st-badge{display:inline-block;background:#FFD43B;color:#1d1d1f;font-weight:700;border-radius:99px;padding:5px 14px}
+  .story-found{font-family:var(--mono);font-size:13px;color:var(--ink-soft);margin:10px 0 0}
+  .wheel{background:linear-gradient(135deg,#D6336C,#F76707);border-radius:16px;padding:18px;color:#fff}
+  .wheel-q{font-family:var(--display);font-size:22px;min-height:64px;display:flex;align-items:center} .wheel-q.rolling{opacity:.6}
+  .wheel-ctrl{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:12px}
+  .wheel-ctrl .btn{background:#fff;color:#C2255C;border-color:#fff;font-weight:700}
+  .wheel-t{font-family:var(--mono);font-size:22px;font-weight:700;min-width:2.2em} .wheel-t.low{color:#FFE066}
+  .wheel-score{margin-left:auto;font-size:14px} .wheel-score .pt{font:inherit;font-weight:700;background:rgba(255,255,255,.25);color:#fff;border:0;border-radius:8px;padding:3px 10px;cursor:pointer}
+</style>
+</head>
+<body>
+<style>
+.ew-back{position:sticky;top:0;z-index:99;display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+  padding:10px 20px;background:linear-gradient(135deg,#6C4CF1,#FF4D8D);color:#fff;
+  font-family:"Inter",system-ui,sans-serif;font-size:14px;font-weight:600}
+.ew-back a{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);padding:6px 13px;border-radius:999px}
+.ew-back a:hover{background:rgba(255,255,255,.34)}
+@media print{.ew-back{display:none}}
+</style>
+<div class="ew-back">
+  <a href="../index.html">&larr; English Workspace</a>
+  <span>Lesson 16 &middot; What If…?</span>
+  <a href="../vocabulary.html" style="margin-left:auto">Vocabulary</a>
+  <a href="../grammar.html">Grammar</a>
+  <a href="../speaking.html">Speaking</a>
+  <a href="../homework.html">Homework</a>
+</div>
+
+<header class="top">
+  <div class="top-inner">
+    <p class="eyebrow">Lesson 16 · Student worksheet</p>
+    <h1>What If…?</h1>
+    <p class="meta"><span>A2+ → B1</span><span>60 min</span><span>9 tasks</span><span>Conditionals 0 · 1 · 2</span></p>
+    <div class="tabs" role="tablist">
+      <button class="tab" id="tab-s" role="tab" aria-selected="true" aria-controls="view-s">Worksheet</button>
+      <button class="tab" id="tab-g" role="tab" aria-selected="false" aria-controls="view-g">Grammar</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+<section aria-labelledby="tab-s" class="view" id="view-s" role="tabpanel">
+<div class="progress-bar">
+<span class="label">Progress</span>
+<span class="track"><span class="fill" id="fill"></span></span>
+<span class="score" id="score">0 / 0</span>
+</div>
+<div class="intro hero16">
+<div class="hero-img" style="background-image:url(https://images.pexels.com/photos/10531646/pexels-photo-10531646.jpeg?auto=compress&cs=tinysrgb&w=800)"></div>
+<div class="hero-text">
+<h2>Lesson 16 — What If…?</h2>
+<p class="lead">What happens if you shout in space? What will happen if you open a strange blue door? What would you do if you could become invisible? Today: <b>three kinds of “if”</b> — facts, real possibilities and pure fantasy. Science or myth, a story where <b>you</b> choose what happens, and a wheel of crazy questions.</p>
+</div>
+</div>
+<div class="ex tone-sci" data-ex="0" id="ex-0">
+<div class="ex-head"><span class="label">Warm-up A · Science or myth?</span></div>
+<h2>True science — or a myth?</h2>
+<p class="task">Ten “if” facts. Some are real science, some are myths that many people believe. Decide — then read why. Notice the grammar: <b>if + Present, Present</b>. That's the <b>zero conditional</b> — for facts that are always true.</p>
+<div id="sm" class="wq sm" aria-live="polite"></div>
+</div>
+<script type="application/json" id="sm-data">[{"s": "If you touch a toad, you get warts.", "a": false, "why": "Myth. Warts come from a human virus, not from toads."}, {"s": "If you shave your hair, it grows back thicker and darker.", "a": false, "why": "Myth. It only feels thicker because the cut end is blunt."}, {"s": "If you heat water to 100 °C at sea level, it boils.", "a": true, "why": "True. At sea level water boils at 100 °C."}, {"s": "If you leave a metal spoon in hot tea, the handle gets hot.", "a": true, "why": "True. Metal carries heat very well."}, {"s": "If you drop a piece of toast with butter, it always lands butter-side down.", "a": false, "why": "Myth — not <i>always</i>. It often does from table height, because the toast turns only half a circle before it hits the floor."}, {"s": "If lightning hits a place once, it never hits the same place again.", "a": false, "why": "Myth. Tall buildings like the Empire State Building are hit many times every year."}, {"s": "If you mix red and yellow paint, you get orange.", "a": true, "why": "True — red + yellow = orange."}, {"s": "If a goldfish sees something, it forgets it after three seconds.", "a": false, "why": "Myth. Goldfish can remember things for months."}, {"s": "If you shout in space, nobody can hear you.", "a": true, "why": "True. Sound needs air (or water) to travel — and space is almost empty."}, {"s": "If you go up a high mountain, water boils at a lower temperature.", "a": true, "why": "True. There is less air pressure, so water boils below 100 °C."}]</script>
+<div class="ex tone-voc" data-ex="1" id="ex-1">
+<div class="ex-head"><span class="label">Warm-up B · Vocabulary review</span></div>
+<h2>Words from the Cast Away review</h2>
+<p class="task">Drag each word onto its meaning — or tap, then tap the box, or just type. Three tiles are extra.</p>
+<div class="dnd">
+<div class="tiles" aria-label="Word bank"><span class="tile" draggable="true" role="button" tabindex="0" data-w="gripping">gripping</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="loneliness">loneliness</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="raft">raft</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="sail">sail</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="viewer">viewer</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="verdict">verdict</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="obsessed with">obsessed with</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="washed ashore">washed ashore</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="succeed">succeed</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="get rid of">get rid of</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="advice">advice</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="furniture">furniture</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="dialogue">dialogue</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="cargo plane">cargo plane</span><span class="tile" draggable="true" role="button" tabindex="0" data-w="masterclass">masterclass</span></div>
+<div class="def-list">
+<label class="def-row"><span lang="uk">викинутий хвилями на берег</span><input autocomplete="off" class="drop" data-answer="washed ashore" id="u1" type="text"/></label>
+<label class="def-row"><span lang="uk">досягти мети</span><input autocomplete="off" class="drop" data-answer="succeed" id="u2" type="text"/></label>
+<label class="def-row"><span lang="uk">меблі</span><input autocomplete="off" class="drop" data-answer="furniture" id="u3" type="text"/></label>
+<label class="def-row"><span lang="uk">самотність</span><input autocomplete="off" class="drop" data-answer="loneliness" id="u4" type="text"/></label>
+<label class="def-row"><span lang="uk">висновок, вердикт</span><input autocomplete="off" class="drop" data-answer="verdict" id="u5" type="text"/></label>
+<label class="def-row"><span lang="uk">одержимий чимось</span><input autocomplete="off" class="drop" data-answer="obsessed with" id="u6" type="text"/></label>
+<label class="def-row"><span lang="uk">пліт</span><input autocomplete="off" class="drop" data-answer="raft" id="u7" type="text"/></label>
+<label class="def-row"><span lang="uk">захопливий</span><input autocomplete="off" class="drop" data-answer="gripping" id="u8" type="text"/></label>
+<label class="def-row"><span lang="uk">позбутися</span><input autocomplete="off" class="drop" data-answer="get rid of" id="u9" type="text"/></label>
+<label class="def-row"><span lang="uk">вітрило</span><input autocomplete="off" class="drop" data-answer="sail" id="u10" type="text"/></label>
+<label class="def-row"><span lang="uk">глядач</span><input autocomplete="off" class="drop" data-answer="viewer" id="u11" type="text"/></label>
+<label class="def-row"><span lang="uk">порада, поради</span><input autocomplete="off" class="drop" data-answer="advice" id="u12" type="text"/></label>
+</div>
+</div>
+<div class="ex-foot">
+<button class="btn" data-check="1">Check</button>
+<button class="btn ghost" data-reveal="1">Show answers</button>
+<button class="btn ghost" data-hide="1" hidden>Hide answers</button>
+<span class="verdict" data-verdict="1"></span>
+</div>
+</div>
+<div class="blockhead bh-gram"><span class="label">Part 1 · grammar</span><h2>Three kinds of “if”</h2></div>
+<div class="ctable">
+<div class="cc c0"><div class="cc-h"><span class="cc-n">0</span> Zero conditional</div>
+<p class="cc-f">If + Present Simple, Present Simple</p>
+<p class="cc-w"><b>When:</b> facts, science, things that are <b>always</b> true.<br/><b>Ukrainian:</b> «якщо …, то завжди …»</p>
+<p class="cc-e">If you <b>heat</b> ice, it <b>melts</b>.<br/>If plants <b>don't get</b> water, they <b>die</b>.</p></div>
+<div class="cc c1"><div class="cc-h"><span class="cc-n">1</span> First conditional</div>
+<p class="cc-f">If + Present Simple, will + verb</p>
+<p class="cc-w"><b>When:</b> a <b>real</b> possibility in the future and its result.<br/><b>Ukrainian:</b> «якщо …, то …» (майбутнє)</p>
+<p class="cc-e">If it <b>snows</b> tomorrow, we<b>'ll build</b> a snowman.<br/>If you <b>don't hurry</b>, you<b>'ll miss</b> the bus.</p></div>
+<div class="cc c2"><div class="cc-h"><span class="cc-n">2</span> Second conditional</div>
+<p class="cc-f">If + Past Simple, would + verb</p>
+<p class="cc-w"><b>When:</b> <b>imaginary</b> or impossible situations now — dreams, fantasy, advice.<br/><b>Ukrainian:</b> «якби …, то б …»</p>
+<p class="cc-e">If I <b>had</b> a million dollars, I<b>'d buy</b> an island.<br/>If I <b>were</b> you, I<b>'d say</b> sorry.</p></div>
+</div>
+<div class="rule">
+<p style="margin:0 0 6px"><b>Never <i>will</i> or <i>would</i> after <i>if</i>:</b> <span class="wrong">✗ If it will rain</span> · <span class="wrong">✗ If I would have</span> → <span class="right">✓ If it rains · If I had</span></p>
+<p style="margin:0 0 6px"><b>Past form ≠ past time.</b> <i>If I had a dog…</i> is about <b>now</b> — I don't have one. The past form just shows it's not real.</p>
+<p style="margin:0"><b>were</b> for everybody: <i>If I <b>were</b> you… If he <b>were</b> taller…</i> (<i>was</i> is OK in conversation, but <i>were</i> is better). <b>could</b> = would be able to: <i>If I could fly…</i> · Comma only when <i>if</i> comes first.</p>
+</div>
+<div class="ex tone-gram" data-ex="2" id="ex-2">
+<div class="ex-head"><span class="label">Exercise 1 · Grammar</span></div>
+<h2>Zero, first or second?</h2>
+<p class="task">Fact? Real possibility? Or fantasy? Look at the verbs — they tell you.</p>
+<ul class="gap-list">
+<li><span class="sentence">If my sister calls, I'll tell her the news. <select data-answer="First" id="t1"><option value="">—</option><option>Zero</option><option>First</option><option>Second</option></select></span></li>
+<li><span class="sentence">If plants don't get water, they die. <select data-answer="Zero" id="t2"><option value="">—</option><option>Zero</option><option>First</option><option>Second</option></select></span></li>
+<li><span class="sentence">If I were a bird, I'd fly south every winter. <select data-answer="Second" id="t3"><option value="">—</option><option>Zero</option><option>First</option><option>Second</option></select></span></li>
+<li><span class="sentence">If it snows tomorrow, we'll build a snowman. <select data-answer="First" id="t4"><option value="">—</option><option>Zero</option><option>First</option><option>Second</option></select></span></li>
+<li><span class="sentence">If dogs could talk, they'd complain about cats. <select data-answer="Second" id="t5"><option value="">—</option><option>Zero</option><option>First</option><option>Second</option></select></span></li>
+<li><span class="sentence">If I had a million dollars, I'd buy an island. <select data-answer="Second" id="t6"><option value="">—</option><option>Zero</option><option>First</option><option>Second</option></select></span></li>
+<li><span class="sentence">If you don't study, you'll fail the test. <select data-answer="First" id="t7"><option value="">—</option><option>Zero</option><option>First</option><option>Second</option></select></span></li>
+<li><span class="sentence">If you mix blue and yellow, you get green. <select data-answer="Zero" id="t8"><option value="">—</option><option>Zero</option><option>First</option><option>Second</option></select></span></li>
+<li><span class="sentence">If you heat ice, it melts. <select data-answer="Zero" id="t9"><option value="">—</option><option>Zero</option><option>First</option><option>Second</option></select></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="2">Check</button>
+<button class="btn ghost" data-reveal="2">Show answers</button>
+<button class="btn ghost" data-hide="2" hidden>Hide answers</button>
+<span class="verdict" data-verdict="2"></span>
+</div>
+</div>
+<div class="ex tone-gram" data-ex="3" id="ex-3">
+<div class="ex-head"><span class="label">Exercise 2 · Grammar</span></div>
+<h2>All three together</h2>
+<p class="task">First decide: fact, real or fantasy? Then put the verbs in the right form.</p>
+<ul class="gap-list">
+<li><span class="sentence">If you <input autocomplete="off" class="wide" data-answer="press" id="c1a" type="text"/> this button, the light <input autocomplete="off" class="wide" data-answer="goes" id="c1b" type="text"/> on. <span class="cue">(press / go)</span></span></li>
+<li><span class="sentence">If we <input autocomplete="off" class="wide" data-answer="miss" id="c2a" type="text"/> the bus, we <input autocomplete="off" class="wide" data-answer="&#x27;ll be|will be" id="c2b" type="text"/> late. <span class="cue">(miss / be)</span></span></li>
+<li><span class="sentence">If I <input autocomplete="off" class="wide" data-answer="were|was" id="c3a" type="text"/> taller, I <input autocomplete="off" class="wide" data-answer="&#x27;d play|would play" id="c3b" type="text"/> basketball. <span class="cue">(be / play)</span></span></li>
+<li><span class="sentence">If she <input autocomplete="off" class="wide" data-answer="had" id="c4a" type="text"/> more time, she <input autocomplete="off" class="wide" data-answer="&#x27;d learn|would learn" id="c4b" type="text"/> Japanese. <span class="cue">(have / learn)</span></span></li>
+<li><span class="sentence">If you <input autocomplete="off" class="wide" data-answer="don&#x27;t water|do not water" id="c5a" type="text"/> a cactus for a month, it still <input autocomplete="off" class="wide" data-answer="survives" id="c5b" type="text"/>. <span class="cue">(not water / survive)</span></span></li>
+<li><span class="sentence">If it <input autocomplete="off" class="wide" data-answer="rains" id="c6a" type="text"/> on Saturday, we <input autocomplete="off" class="wide" data-answer="&#x27;ll watch|will watch" id="c6b" type="text"/> a film at home. <span class="cue">(rain / watch)</span></span></li>
+<li><span class="sentence">If I <input autocomplete="off" class="wide" data-answer="lived" id="c7a" type="text"/> by the sea, I <input autocomplete="off" class="wide" data-answer="&#x27;d swim|would swim" id="c7b" type="text"/> every day. <span class="cue">(live / swim)</span></span></li>
+<li><span class="sentence">If my phone <input autocomplete="off" class="wide" data-answer="dies" id="c8a" type="text"/>, I <input autocomplete="off" class="wide" data-answer="&#x27;ll call|will call" id="c8b" type="text"/> you from Dad's phone. <span class="cue">(die / call)</span></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="3">Check</button>
+<button class="btn ghost" data-reveal="3">Show answers</button>
+<button class="btn ghost" data-hide="3" hidden>Hide answers</button>
+<span class="verdict" data-verdict="3"></span>
+</div>
+</div>
+<div class="ex tone-gram" data-ex="4" id="ex-4">
+<div class="ex-head"><span class="label">Exercise 3 · Grammar</span></div>
+<h2>If only…</h2>
+<p class="task">Real life is boring. Turn each fact into a <b>second conditional</b> dream.</p>
+<ul class="gap-list">
+<li><span class="sentence">I don't have a dog, so I can't take it for walks.<br/>→ If I <input autocomplete="off" class="wide" data-answer="had" id="d1a" type="text"/> a dog, I <input autocomplete="off" class="xwide" data-answer="&#x27;d take|would take|could take" id="d1b" type="text"/> it for walks.</span></li>
+<li><span class="sentence">I'm not rich, so I can't travel around the world.<br/>→ If I <input autocomplete="off" class="wide" data-answer="were|was" id="d2a" type="text"/> rich, I <input autocomplete="off" class="xwide" data-answer="&#x27;d travel|would travel|could travel" id="d2b" type="text"/> around the world.</span></li>
+<li><span class="sentence">We don't live in London, so we don't see the Thames every day.<br/>→ If we <input autocomplete="off" class="wide" data-answer="lived" id="d3a" type="text"/> in London, we <input autocomplete="off" class="xwide" data-answer="&#x27;d see|would see|could see" id="d3b" type="text"/> the Thames every day.</span></li>
+<li><span class="sentence">He doesn't speak French, so he can't talk to his cousin in Paris.<br/>→ If he <input autocomplete="off" class="wide" data-answer="spoke" id="d4a" type="text"/> French, he <input autocomplete="off" class="xwide" data-answer="could|would be able to" id="d4b" type="text"/> talk to his cousin in Paris.</span></li>
+<li><span class="sentence">I can't fly, so I take the bus to school.<br/>→ If I <input autocomplete="off" class="wide" data-answer="could" id="d5a" type="text"/> fly, I <input autocomplete="off" class="xwide" data-answer="wouldn&#x27;t take|would not take" id="d5b" type="text"/> the bus to school.</span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="4">Check</button>
+<button class="btn ghost" data-reveal="4">Show answers</button>
+<button class="btn ghost" data-hide="4" hidden>Hide answers</button>
+<span class="verdict" data-verdict="4"></span>
+</div>
+</div>
+<div class="blockhead bh-story"><span class="label">Part 2 · story</span><h2>The blue door</h2></div>
+<div class="ex tone-story" data-ex="5" id="ex-5">
+<div class="ex-head"><span class="label">Exercise 4 · Interactive story</span></div>
+<h2>Choose your path</h2>
+<p class="task">You decide what happens. At every step, answer the grammar question to unlock your choices. There are <b>seven different endings</b> — how many can you find? Read the story out loud, and before every choice, say what will happen: <i>“If I open the door, I think…”</i></p>
+<div id="story" class="story" aria-live="polite"></div>
+<p class="story-found" id="story-found"></p>
+</div>
+<script type="application/json" id="story-data">{"start": {"img": "https://images.pexels.com/photos/18385265/pexels-photo-18385265.jpeg?auto=compress&cs=tinysrgb&w=800", "text": "It's a rainy Saturday at your grandma's house. In the attic, behind some old boxes, you find a small blue door that wasn't there yesterday. There's a note on it: <i>“If you open me, you will never be the same.”</i>", "q": "If you ___ the door, what will happen?", "opts": ["open", "will open", "opened"], "a": "open", "hint": "First conditional: if + Present Simple.", "choices": [["Open the door", "corridor"], ["Go downstairs and ask Grandma", "grandma"]]}, "grandma": {"img": null, "text": "Grandma smiles. <i>“Ah, the blue door. If you knock three times, it opens to wherever you want. But be careful: if you stay longer than one hour, the door disappears.”</i>", "q": "If you knock three times, the door ___.", "opts": ["opens", "would open", "opened"], "a": "opens", "hint": "A magic rule that is always true → zero conditional.", "choices": [["Go back and knock three times", "corridor"], ["Forget the door and watch TV", "end_tv"]]}, "corridor": {"img": null, "text": "Behind the door there's a long, silent corridor with three more doors. One is silver and cold, one is green and smells of trees, and one is made of glass.", "q": "If I ___ go anywhere in the world, I'd choose…", "opts": ["could", "can", "will"], "a": "could", "hint": "Imaginary → second conditional: if + could.", "choices": [["The silver door", "space"], ["The green door", "forest"], ["The glass door", "mirror"]]}, "space": {"img": "https://images.pexels.com/photos/11479921/pexels-photo-11479921.jpeg?auto=compress&cs=tinysrgb&w=800", "text": "You're floating above the Moon in a space suit! It's completely silent. You try to shout, but nobody can hear you. An astronaut waves and points at a broken antenna. Her message appears on your screen: <i>“If you help me fix it, I'll take you home.”</i>", "q": "If there ___ no air, sound doesn't travel.", "opts": ["is", "will be", "would be"], "a": "is", "hint": "A scientific fact → zero conditional.", "choices": [["Help the astronaut", "end_hero"], ["Just look at the Earth for a while", "end_late"]]}, "forest": {"img": "https://images.pexels.com/photos/36619092/pexels-photo-36619092.jpeg?auto=compress&cs=tinysrgb&w=800", "text": "You're in a dark forest under a sky full of stars. Two green eyes are watching you — a black cat. <i>“I know the way home,”</i> it says. <i>“I'll show you if you answer my question: if you were an animal, what would you be?”</i>", "q": "If I ___ an animal, I'd be a fox.", "opts": ["were", "am", "will be"], "a": "were", "hint": "Imaginary → second conditional: if I were…", "choices": [["Answer the cat honestly", "end_friend"], ["Run away into the trees", "end_lost"]]}, "mirror": {"img": "https://images.pexels.com/photos/20277789/pexels-photo-20277789.jpeg?auto=compress&cs=tinysrgb&w=800", "text": "Behind the glass door is a huge old mirror. You look into it… and there's nobody there. You're invisible! A voice says: <i>“One hour. Use it well.”</i>", "q": "If I were invisible for a day, I ___ to the cinema for free.", "opts": ["would go", "will go", "go"], "a": "would go", "hint": "Second conditional: would + verb.", "choices": [["Use your power to help someone", "end_helper"], ["Play tricks on your family", "end_caught"]]}, "end_tv": {"end": "The boring ending", "text": "You watch TV all afternoon. When you go back upstairs, the blue door has gone. If you don't take chances, nothing changes… Try again!"}, "end_hero": {"end": "The hero ending", "text": "Together you fix the antenna. The astronaut gives you a thumbs-up, and suddenly you're back in Grandma's attic — with a tiny piece of moon rock in your pocket."}, "end_late": {"end": "The late ending", "text": "The Earth is so beautiful that you forget the time. One hour passes… and you wake up on the attic floor. Was it a dream? If you look at your watch, it says 4:44. Every time."}, "end_friend": {"end": "The friendship ending", "text": "The cat likes your answer. It leads you along a path of glowing stones back to the blue door. Next morning there's a black cat sitting on Grandma's doorstep. It winks."}, "end_lost": {"end": "The lost ending", "text": "You run and run until you're completely lost. If you get lost in a forest, you should stay in one place… but it's too late. Luckily, Grandma's voice calls you for dinner, and the forest disappears."}, "end_helper": {"end": "The helper ending", "text": "You find your neighbour's lost dog and lead it home without anyone seeing you. When you become visible again, your neighbour is crying with happiness. Nobody ever finds out it was you."}, "end_caught": {"end": "The caught ending", "text": "You move Grandma's glasses and eat a piece of cake from the kitchen. But dogs don't need eyes to find you! Grandma's dog barks, the hour ends, and you become visible — with cake all over your face."}}</script>
+<div class="blockhead bh-talk"><span class="label">Part 3 · speaking</span><h2>The What If wheel</h2></div>
+<div class="ex tone-talk" data-ex="6" id="ex-6">
+<div class="ex-head"><span class="label">Exercise 5 · Speaking game</span></div>
+<h2>Spin the wheel</h2>
+<p class="task">Press <b>Spin</b>. You have <b>30 seconds</b> to answer — and every answer needs an <i>if</i>-sentence. Then I spin and you ask me. One point for a good answer, one more for perfect grammar!</p>
+<div class="wheel">
+<div class="wheel-q" id="wheel-q">Press “Spin” to get a question…</div>
+<div class="wheel-ctrl"><button type="button" class="btn" id="wheel-spin">🎡 Spin</button><span class="wheel-t" id="wheel-t">30</span>
+<span class="wheel-score">You <button type="button" class="pt" data-p="me">0</button> · Teacher <button type="button" class="pt" data-p="t">0</button></span></div>
+</div>
+<p style="margin-top:12px"><b>Remember:</b> imaginary → <i>If I <b>were / had / could</b>…, I<b>'d</b>…</i> · real → <i>If it <b>snows</b>, I<b>'ll</b>…</i> · <b>Would you rather</b> → <i>I'd rather… because if I…</i></p>
+</div>
+<script type="application/json" id="wheel-data">["What would you do if you woke up as a cat?", "If you could have one superpower, what would it be?", "What would you do if you were invisible for a day?", "If you could meet any person from history, who would it be?", "What would you do if you found $1,000 in the street?", "If you could live in any country, where would you live?", "What would you do if the internet stopped working for a month?", "If you were the head of your school for a day, what would you change?", "What would you buy if you had a million dollars?", "If you could speak to animals, which animal would you talk to first?", "What would you do if you met an alien?", "If you could travel in time, would you go to the past or the future?", "What would you do if you were the last person on Earth?", "If you could swap lives with someone for a week, who would it be?", "What will you do if it snows this weekend?", "What will you do if you get a good mark in English?", "Would you rather be able to fly or breathe underwater? Why?", "Would you rather be famous or rich? Why?", "Would you rather never use your phone again or never watch TV again?", "Would you rather live on the Moon or at the bottom of the sea?"]</script>
+<div class="blockhead bh-extra"><span class="label">Part 4 · extra</span><h2>If we still have time</h2></div>
+<div class="ex extra tone-extra" data-ex="7" id="ex-7">
+<div class="ex-head"><span class="label">Exercise 6 · Review</span><span class="pill">Extra</span></div>
+<h2>Find the mistake</h2>
+<p class="task">Correct the <b>bold</b> part.</p>
+<ul class="gap-list">
+<li><span class="sentence">If it <b>will rain</b>, we'll stay in. → <input autocomplete="off" class="wide" data-answer="rains" id="x1" type="text"/></span></li>
+<li><span class="sentence">If I <b>would have</b> wings, I'd fly. → <input autocomplete="off" class="wide" data-answer="had" id="x2" type="text"/></span></li>
+<li><span class="sentence">If I <b>am</b> you, I'd say sorry. → <input autocomplete="off" class="wide" data-answer="were|was" id="x3" type="text"/></span></li>
+<li><span class="sentence">If you <b>will press</b> this button, it beeps. → <input autocomplete="off" class="wide" data-answer="press" id="x4" type="text"/></span></li>
+<li><span class="sentence">If I had more time, I <b>will</b> help you. → <input autocomplete="off" class="wide" data-answer="would|&#x27;d" id="x5" type="text"/></span></li>
+<li><span class="sentence">If he <b>studys</b>, he'll pass. → <input autocomplete="off" class="wide" data-answer="studies" id="x6" type="text"/></span></li>
+</ul>
+<div class="ex-foot">
+<button class="btn" data-check="7">Check</button>
+<button class="btn ghost" data-reveal="7">Show answers</button>
+<button class="btn ghost" data-hide="7" hidden>Hide answers</button>
+<span class="verdict" data-verdict="7"></span>
+</div>
+</div>
+<div class="ex extra tone-extra" data-ex="8" id="ex-8">
+<div class="ex-head"><span class="label">Exercise 7 · Writing</span><span class="pill">Homework</span></div>
+<h2>My superpower</h2>
+<p class="task">Choose <b>one</b> — 80–100 words:</p>
+<ol>
+<li><b>My superpower.</b> If you could have one superpower, what would it be? What would you do with it — and what problems could it cause?</li>
+<li><b>A new path.</b> Write your own new ending for <i>The blue door</i> — a fourth door, or a different choice.</li>
+</ol>
+<p><b>Checklist:</b> one zero, two first and three second conditionals · <i>were</i> at least once · three words from the last two lessons · capital <b>I</b>!</p>
+<textarea id="writing2" placeholder="If I could have one superpower, I'd…"></textarea>
+<div class="ex-foot"><span class="verdict" id="wcount2">0 words</span></div>
+<details><summary>Model answer — open only after you write your own</summary>
+<p style="margin:0">If I could have one superpower, I'd choose teleportation. If I could teleport, I'd never be late for school again — and I'd visit my cousins in Canada every weekend. If you teleport, you don't need planes, so it's good for the planet too! But there are problems. If I teleported into the wrong place, I'd be in big trouble. And if my friends find out, they'll ask me to carry them everywhere. So if I get this power one day, I'll keep it a secret.</p>
+</details>
+</div>
+<div class="ex" style="background:var(--surface-2); box-shadow:none">
+<div class="ex-head"><span class="label">Homework</span></div>
+<p style="margin:0 0 8px">The <a href="../homework.html">Homework page</a> shows the exact list and updates itself.</p>
+<ol style="margin-bottom:0">
+<li><b>Exercise 7:</b> <i>My superpower</i> or your own story ending, 80–100 words. This is the main task.</li>
+<li>Find all seven endings of <i>The blue door</i>!</li>
+<li>Lesson 15: your text about <i>Cast Away</i>, if it isn't finished.</li>
+<li>This page: every exercise that isn't done yet, and the Grammar quiz: <i>Conditionals 0, 1, 2</i>.</li>
+</ol>
+</div>
+</section>
+<section aria-labelledby="tab-g" class="view" hidden="" id="view-g" role="tabpanel">
+<div class="intro">
+<h2>Граматика уроку</h2>
+<p class="lead">Три типи умовних речень. Головне питання — <b>наскільки це реально?</b> Завжди правда → zero. Реально може статися → first. Уява, мрія, неможливе зараз → second.</p>
+</div>
+<div class="tense">
+<span class="label">01 · таблиця</span>
+<h2>Zero · First · Second</h2>
+<div class="tbl-scroll"><table>
+<tr><th>тип</th><th>форма</th><th>коли</th><th>приклад</th></tr>
+<tr><td><b>Zero</b></td><td class="irr">If + Present, Present</td><td>факти, закони природи, «завжди так»</td><td><i>If you heat ice, it melts.</i></td></tr>
+<tr><td><b>First</b></td><td class="irr">If + Present, will + V</td><td>реальна можливість у майбутньому</td><td><i>If it snows, we'll build a snowman.</i></td></tr>
+<tr><td><b>Second</b></td><td class="irr">If + Past, would + V</td><td>уявне, неможливе зараз, мрії, поради</td><td><i>If I had wings, I'd fly to school.</i></td></tr>
+</table></div>
+<div class="note"><span class="label">Порівняй</span><i>If I <b>have</b> time, I<b>'ll</b> help you.</i> — можливо, час буде. · <i>If I <b>had</b> time, I<b>'d</b> help you.</i> — часу немає, це лише уява.</div>
+</div>
+<div class="tense">
+<span class="label">02 · second conditional</span>
+<h2>Якби… то б…</h2>
+<div class="form">
+      If I <b>had</b> a million, I<b>'d</b> (would) <b>buy</b> an island.<br/>
+      If I <b>were</b> you, I<b>'d</b> say sorry. (were — для всіх осіб)<br/>
+      If I <b>could</b> fly, I <b>wouldn't</b> take the bus.
+    </div>
+<p>Минула форма (<i>had, were, could, lived</i>) тут <b>не про минуле</b> — вона показує, що ситуація нереальна. Українською це «якби … , то б …».</p>
+</div>
+<div class="tense">
+<span class="label">03 · пастки</span>
+<h2>Типові помилки</h2>
+<div class="tbl-scroll"><table>
+<tr><th>неправильно</th><th>правильно</th><th>чому</th></tr>
+<tr><td><span class="wrong">If it will rain…</span></td><td class="irr">If it rains…</td><td>після if немає will</td></tr>
+<tr><td><span class="wrong">If I would have…</span></td><td class="irr">If I had…</td><td>після if немає would</td></tr>
+<tr><td><span class="wrong">If I am you, I'd…</span></td><td class="irr">If I were you, I'd…</td><td>second → минула форма</td></tr>
+<tr><td><span class="wrong">If I had time, I will help.</span></td><td class="irr">…, I would help.</td><td>had → would, не will</td></tr>
+</table></div>
+<p><b>Кома:</b> тільки коли <i>if</i> на початку: <i>If it rains, we'll stay in.</i> / <i>We'll stay in if it rains.</i></p>
+</div>
+</section>
+</main>
+
+<footer>Lesson 16 · What If…? Zero, first and second conditionals. Photos: Pexels (free to use).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var LS = "ew-l16:";
+  function save(k,v){ try{ localStorage.setItem(LS+k, v); }catch(e){} }
+  function load(k){ try{ return localStorage.getItem(LS+k); }catch(e){ return null; } }
+
+  /* ---- tabs (built from whatever tabs this page has) ---- */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".tab"));
+  var views = tabs.map(function(t){ return document.getElementById(t.getAttribute("aria-controls")); });
+  var PAGEKEY = "tab:" + (document.body ? document.title : "x") + ":" + tabs.length;
+  tabs.forEach(function(t,i){
+    t.addEventListener("click", function(){
+      tabs.forEach(function(x,j){
+        x.setAttribute("aria-selected", j===i ? "true":"false");
+        if(views[j]) views[j].hidden = j!==i;
+      });
+      save(PAGEKEY, String(i));
+      window.scrollTo(0,0);
+    });
+  });
+  var savedTab = Number(load(PAGEKEY));
+  var startTab = (savedTab > 0 && tabs[savedTab]) ? tabs[savedTab] : tabs[0];
+  if(startTab) startTab.click();
+  window.scrollTo(0,0);
+
+  /* ---- normalisation ---- */
+  function norm(s){
+    return String(s||"").toLowerCase().trim()
+      .replace(/[‘’ʼ`]/g,"'")
+      .replace(/[.,!?;:]+$/,"")
+      .replace(/\s+/g," ");
+  }
+  function matches(val, answer){
+    return answer.split("|").map(norm).indexOf(norm(val)) !== -1;
+  }
+
+  var sheet = document.getElementById("view-s");
+  if(!sheet) return;
+
+  var state = {};
+  var scoreEl = document.getElementById("score");
+  var fillEl = document.getElementById("fill");
+  var TOTAL = sheet.querySelectorAll("[data-answer]").length;
+  if(scoreEl) scoreEl.textContent = "0 / " + TOTAL;
+
+  function updateScore(){
+    var n = 0;
+    for(var k in state){ if(state[k]) n++; }
+    if(scoreEl) scoreEl.textContent = n + " / " + TOTAL;
+    if(fillEl) fillEl.style.width = (TOTAL ? (n/TOTAL*100) : 0) + "%";
+  }
+
+  sheet.querySelectorAll("input[type=text], select, textarea").forEach(function(el){
+    if(!el.id) return;
+    var v = load(el.id);
+    if(v !== null) el.value = v;
+    el.addEventListener("input", function(){ save(el.id, el.value); el.classList.remove("ok","bad"); });
+    el.addEventListener("change", function(){ save(el.id, el.value); el.classList.remove("ok","bad"); });
+  });
+
+  sheet.querySelectorAll(".tf").forEach(function(group){
+    var key = group.getAttribute("data-tf");
+    var stored = load(key);
+    group.querySelectorAll("button").forEach(function(b){
+      if(stored === b.value) b.setAttribute("aria-pressed","true");
+      b.addEventListener("click", function(){
+        group.querySelectorAll("button").forEach(function(x){ x.setAttribute("aria-pressed","false"); x.classList.remove("ok","bad"); });
+        b.setAttribute("aria-pressed","true");
+        save(key, b.value);
+      });
+    });
+  });
+
+  sheet.querySelectorAll(".rgroup").forEach(function(g){
+    var key = g.getAttribute("data-radio");
+    var stored = load("r:"+key);
+    g.querySelectorAll("input[type=radio]").forEach(function(r){
+      if(stored === r.value) r.checked = true;
+      r.addEventListener("change", function(){
+        save("r:"+key, r.value);
+        g.querySelectorAll(".choice").forEach(function(c){ c.classList.remove("ok","bad"); });
+      });
+    });
+  });
+
+  function checkBox(box, reveal){
+    var n = 0, right = 0;
+
+    box.querySelectorAll("input[type=text][data-answer], select[data-answer]").forEach(function(el){
+      var ans = el.getAttribute("data-answer");
+      n++;
+      if(reveal){ el.value = ans.split("|")[0]; save(el.id, el.value); }
+      var good = matches(el.value, ans);
+      el.classList.toggle("ok", good);
+      el.classList.toggle("bad", !good);
+      state[el.id] = good;
+      if(good) right++;
+    });
+
+    box.querySelectorAll(".tf[data-answer]").forEach(function(g){
+      var ans = g.getAttribute("data-answer");
+      var key = g.getAttribute("data-tf");
+      n++;
+      g.querySelectorAll("button").forEach(function(b){
+        if(reveal){
+          b.setAttribute("aria-pressed", b.value===ans ? "true":"false");
+          if(b.value===ans) save(key, b.value);
+        }
+        b.classList.remove("ok","bad");
+        if(b.getAttribute("aria-pressed")==="true") b.classList.add(b.value===ans ? "ok" : "bad");
+      });
+      var chosen = g.querySelector('button[aria-pressed="true"]');
+      var good = !!chosen && chosen.value===ans;
+      state[key] = good;
+      if(good) right++;
+    });
+
+    box.querySelectorAll(".rgroup[data-answer]").forEach(function(g){
+      var ans = g.getAttribute("data-answer");
+      var key = g.getAttribute("data-radio");
+      n++;
+      g.querySelectorAll("input[type=radio]").forEach(function(r){
+        if(reveal && r.value===ans){ r.checked = true; save("r:"+key, r.value); }
+        r.parentElement.classList.remove("ok","bad");
+        if(r.checked) r.parentElement.classList.add(r.value===ans ? "ok":"bad");
+      });
+      var sel = g.querySelector("input[type=radio]:checked");
+      var good = !!sel && sel.value===ans;
+      state["r:"+key] = good;
+      if(good) right++;
+    });
+
+    return {n:n, right:right};
+  }
+
+  sheet.querySelectorAll("[data-check]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var id = btn.getAttribute("data-check");
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      var r = checkBox(box, false);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = r.right + " / " + r.n + (r.right===r.n ? " — perfect!" : " correct");
+      v.className = "verdict " + (r.right===r.n ? "good" : (r.right >= r.n/2 ? "" : "poor"));
+      updateScore();
+    });
+  });
+
+  /* ---- Show answers / Hide answers ----
+     Before revealing, the student's own answers are saved as a snapshot
+     (also in localStorage, so Hide still works after a reload).
+     Hide puts that snapshot back — empty fields become empty again. */
+  function takeSnap(box){
+    var s = {i:{}, tf:{}, r:{}};
+    box.querySelectorAll("input[type=text][data-answer], select[data-answer]").forEach(function(el){ s.i[el.id] = el.value; });
+    box.querySelectorAll(".tf[data-answer]").forEach(function(g){ var b = g.querySelector('button[aria-pressed="true"]'); s.tf[g.getAttribute("data-tf")] = b ? b.value : null; });
+    box.querySelectorAll(".rgroup[data-answer]").forEach(function(g){ var r = g.querySelector("input[type=radio]:checked"); s.r[g.getAttribute("data-radio")] = r ? r.value : null; });
+    return s;
+  }
+  function unsave(k){ try{ localStorage.removeItem(LS+k); }catch(e){} }
+  function putSnap(box, s){
+    var forget = [];
+    Object.keys(s.i).forEach(function(id){
+      var el = document.getElementById(id); if(!el) return;
+      el.value = s.i[id]; el.classList.remove("ok","bad"); save(id, el.value); delete state[id];
+      el.dispatchEvent(new Event("input", {bubbles:true}));
+    });
+    Object.keys(s.tf).forEach(function(k){
+      var g = box.querySelector('.tf[data-tf="'+k+'"]'); if(!g) return;
+      g.querySelectorAll("button").forEach(function(b){ b.setAttribute("aria-pressed", b.value===s.tf[k] ? "true":"false"); b.classList.remove("ok","bad"); });
+      if(s.tf[k] === null){ unsave(k); forget.push("tf:"+k); } else save(k, s.tf[k]);
+      delete state[k];
+    });
+    Object.keys(s.r).forEach(function(k){
+      var g = box.querySelector('.rgroup[data-radio="'+k+'"]'); if(!g) return;
+      g.querySelectorAll("input[type=radio]").forEach(function(r){ r.checked = r.value===s.r[k]; r.parentElement.classList.remove("ok","bad"); });
+      if(s.r[k] === null){ unsave("r:"+k); forget.push("radio:"+k); } else save("r:"+k, s.r[k]);
+      delete state["r:"+k];
+    });
+    document.dispatchEvent(new CustomEvent("ew:forget", {detail: forget}));
+  }
+  function hideBtn(id){ return sheet.querySelector('[data-hide="'+id+'"]'); }
+
+  sheet.querySelectorAll("[data-reveal]").forEach(function(btn){
+    var id = btn.getAttribute("data-reveal");
+    if(load("snap:"+id) && hideBtn(id)) hideBtn(id).hidden = false;
+    btn.addEventListener("click", function(){
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      if(!load("snap:"+id)) save("snap:"+id, JSON.stringify(takeSnap(box)));
+      checkBox(box, true);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = "answers shown";
+      v.className = "verdict";
+      if(hideBtn(id)) hideBtn(id).hidden = false;
+      updateScore();
+    });
+  });
+
+  sheet.querySelectorAll("[data-hide]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var id = btn.getAttribute("data-hide");
+      var box = sheet.querySelector('.ex[data-ex="'+id+'"]');
+      var s = null; try{ s = JSON.parse(load("snap:"+id) || "null"); }catch(e){}
+      if(!s){ s = takeSnap(box); Object.keys(s.i).forEach(function(k){ s.i[k]=""; }); Object.keys(s.tf).forEach(function(k){ s.tf[k]=null; }); Object.keys(s.r).forEach(function(k){ s.r[k]=null; }); }
+      putSnap(box, s);
+      unsave("snap:"+id);
+      var v = box.querySelector('[data-verdict="'+id+'"]');
+      v.textContent = ""; v.className = "verdict";
+      btn.hidden = true;
+      updateScore();
+    });
+  });
+
+  function counter(taId, outId, lo, hi){
+    var ta = document.getElementById(taId), out = document.getElementById(outId);
+    if(!ta || !out) return;
+    function count(){
+      var w = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0;
+      out.textContent = w + (w===1 ? " word" : " words") + (w>=lo && w<=hi ? " — good length" : "");
+      out.className = "verdict" + (w>=lo && w<=hi ? " good" : "");
+    }
+    ta.addEventListener("input", count);
+    count();
+  }
+  counter("writing","wcount",70,95);
+  counter("writing2","wcount2",80,105);
+
+  updateScore();
+})();
+</script>
+
+<script>
+/* word bank: drag a tile onto a box, or tap a tile then tap a box; typing works too */
+(function(){
+  document.querySelectorAll(".dnd").forEach(function(box){
+    var tiles=[].slice.call(box.querySelectorAll(".tile")), slots=[].slice.call(box.querySelectorAll("input.drop")), picked=null;
+    function refresh(){
+      var used=slots.map(function(s){return s.value.trim().toLowerCase();});
+      tiles.forEach(function(t){ t.classList.toggle("used", used.indexOf(t.dataset.w.toLowerCase())!==-1); });
+      if(picked && picked.classList.contains("used")) pick(null);
+    }
+    function pick(t){ picked=t; tiles.forEach(function(x){x.classList.toggle("picked", x===t);}); box.classList.toggle("picking", !!t); }
+    function fill(s,w){
+      if(s.readOnly) return;
+      s.value=w; s.classList.remove("ok","bad");
+      s.dispatchEvent(new Event("input",{bubbles:true})); s.dispatchEvent(new Event("change",{bubbles:true}));
+      refresh();
+    }
+    tiles.forEach(function(t){
+      t.addEventListener("dragstart",function(e){ e.dataTransfer.setData("text/plain",t.dataset.w); e.dataTransfer.effectAllowed="copy"; });
+      t.addEventListener("click",function(){ if(t.classList.contains("used")) return; pick(picked===t?null:t); });
+      t.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); t.click(); } });
+    });
+    slots.forEach(function(s){
+      s.addEventListener("dragover",function(e){ e.preventDefault(); s.classList.add("over"); });
+      s.addEventListener("dragleave",function(){ s.classList.remove("over"); });
+      s.addEventListener("drop",function(e){ e.preventDefault(); s.classList.remove("over"); var w=e.dataTransfer.getData("text/plain"); if(w) fill(s,w); });
+      s.addEventListener("click",function(){ if(picked){ fill(s,picked.dataset.w); pick(null); } });
+      s.addEventListener("input",refresh);
+    });
+    refresh(); setInterval(refresh,1000);
+  });
+})();
+</script>
+<script>
+/* Warm-up A: one-question-at-a-time vocabulary quiz (20 words). Score is sent to the teacher page. */
+(function(){
+  var box=document.getElementById('wq'), raw=document.getElementById('wq-data'); if(!box||!raw) return;
+  var Q=JSON.parse(raw.textContent);
+  function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; } return a; }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  var order, i, score, wrong;
+  function start(){ order=shuffle(Q); i=0; score=0; wrong=[]; draw(); }
+  function draw(){
+    if(i>=order.length) return finish();
+    var q=order[i], others=shuffle(Q.filter(function(x){return x.w!==q.w;})).slice(0,3), prompt, right, opts;
+    if(q.t==='en2uk'){ prompt='What does <b>'+esc(q.w)+'</b> mean?'; right=q.uk; opts=shuffle([q.uk].concat(others.map(function(x){return x.uk;}))); }
+    else if(q.t==='uk2en'){ prompt='How do you say <b>«'+esc(q.uk)+'»</b> in English?'; right=q.w; opts=shuffle([q.w].concat(others.map(function(x){return x.w;}))); }
+    else { prompt='Fill the gap: <i>'+esc(q.s).replace('___','<span class="wq-gap">_____</span>')+'</i>'; right=q.w; opts=shuffle([q.w].concat(others.map(function(x){return x.w;}))); }
+    box.innerHTML='<div class="wq-top"><span>Question '+(i+1)+' of '+order.length+'</span><span>Score: '+score+'</span></div>'
+      +'<div class="wq-bar"><i style="width:'+(i/order.length*100)+'%"></i></div>'
+      +'<p class="wq-q">'+prompt+'</p><div class="wq-opts">'+opts.map(function(o){return '<button type="button" class="wq-opt" data-o="'+esc(o)+'">'+esc(o)+'</button>';}).join('')+'</div>'
+      +'<div class="wq-foot"><span class="wq-msg"></span><button type="button" class="btn wq-next" hidden>Next →</button></div>';
+    var done=false;
+    box.querySelector('.wq-opts').onclick=function(e){
+      var b=e.target.closest('.wq-opt'); if(!b||done) return; done=true;
+      var ok=b.getAttribute('data-o')===right;
+      if(ok) score++; else wrong.push(q);
+      box.querySelectorAll('.wq-opt').forEach(function(x){ x.disabled=true; if(x.getAttribute('data-o')===right) x.classList.add('ok'); else if(x===b) x.classList.add('bad'); });
+      box.querySelector('.wq-msg').innerHTML= ok ? '✓ Correct!' : '✗ It\'s <b>'+esc(q.w)+'</b> — '+esc(q.uk);
+      var n=box.querySelector('.wq-next'); n.hidden=false; n.textContent = i+1<order.length ? 'Next →' : 'See my score'; n.focus();
+      n.onclick=function(){ i++; draw(); };
+    };
+  }
+  function finish(){
+    try{ if(window.EW && EW.push) EW.push('quiz',{area:'Lesson 15 · warm-up quiz', score:score, total:order.length}); }catch(e){}
+    var msg = score===order.length ? 'Perfect — you remember everything! 🏆' : score>=order.length*0.75 ? 'Great memory! Look at the words you missed:' : 'Not bad — these words need another look:';
+    box.innerHTML='<div class="wq-end"><div class="wq-score">'+score+' / '+order.length+'</div><p>'+msg+'</p>'
+      +(wrong.length?'<ul class="wq-miss">'+wrong.map(function(q){return '<li><b>'+esc(q.w)+'</b> — '+esc(q.uk)+'</li>';}).join('')+'</ul>':'')
+      +'<button type="button" class="btn wq-again">Try again</button></div>';
+    box.querySelector('.wq-again').onclick=start;
+  }
+  start();
+})();
+</script>
+<script>
+/* Lesson 16 widgets: science-or-myth quiz, choose-your-path story, What-If wheel */
+(function(){
+  function esc(s){ return String(s); }
+  function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; } return a; }
+  function store(k,v){ try{ if(window.EW && EW.set) EW.set(k,v); else localStorage.setItem('ew-l16x:'+k, JSON.stringify(v)); }catch(e){} }
+  function load(k,d){ try{ if(window.EW && EW.get) return EW.get(k,d); var v=localStorage.getItem('ew-l16x:'+k); return v?JSON.parse(v):d; }catch(e){ return d; } }
+
+  /* ---------- Science or myth ---------- */
+  var sm=document.getElementById('sm'), smRaw=document.getElementById('sm-data');
+  if(sm && smRaw){
+    var SM=JSON.parse(smRaw.textContent), order, i, score;
+    function smStart(){ order=shuffle(SM); i=0; score=0; smDraw(); }
+    function smDraw(){
+      if(i>=order.length){
+        try{ if(window.EW && EW.push) EW.push('quiz',{area:'Lesson 16 · science or myth', score:score, total:order.length}); }catch(e){}
+        sm.innerHTML='<div class="wq-end"><div class="wq-score">'+score+' / '+order.length+'</div><p>'+(score>=8?'You\'re a real scientist! 🔬':'Science is full of surprises!')+'</p><button type="button" class="btn sm-again">Play again</button></div>';
+        sm.querySelector('.sm-again').onclick=smStart; return;
+      }
+      var q=order[i];
+      sm.innerHTML='<div class="wq-top"><span>Fact '+(i+1)+' of '+order.length+'</span><span>Score: '+score+'</span></div>'
+        +'<div class="wq-bar"><i style="width:'+(i/order.length*100)+'%"></i></div>'
+        +'<p class="wq-q">'+q.s+'</p><div class="sm-opts"><button type="button" class="wq-opt sm-o" data-v="1">🔬 Science</button><button type="button" class="wq-opt sm-o" data-v="0">🦄 Myth</button></div>'
+        +'<div class="wq-foot"><span class="wq-msg"></span><button type="button" class="btn wq-next" hidden>Next →</button></div>';
+      var done=false;
+      sm.querySelector('.sm-opts').onclick=function(e){
+        var b=e.target.closest('.sm-o'); if(!b||done) return; done=true;
+        var ok=(b.getAttribute('data-v')==='1')===q.a; if(ok) score++;
+        sm.querySelectorAll('.sm-o').forEach(function(x){ x.disabled=true; if((x.getAttribute('data-v')==='1')===q.a) x.classList.add('ok'); else if(x===b) x.classList.add('bad'); });
+        sm.querySelector('.wq-msg').innerHTML=(ok?'✓ ':'✗ ')+q.why;
+        var n=sm.querySelector('.wq-next'); n.hidden=false; n.textContent=i+1<order.length?'Next →':'See my score'; n.onclick=function(){ i++; smDraw(); };
+      };
+    }
+    smStart();
+  }
+
+  /* ---------- Choose your path ---------- */
+  var st=document.getElementById('story'), stRaw=document.getElementById('story-data'), found=document.getElementById('story-found');
+  if(st && stRaw){
+    var S=JSON.parse(stRaw.textContent), ENDS=Object.keys(S).filter(function(k){return S[k].end;});
+    var got=load('story:l16:endings',[]); if(!Array.isArray(got)) got=[];
+    function showFound(){ found.innerHTML='Endings found: <b>'+got.length+' / '+ENDS.length+'</b>'+(got.length?' — '+got.map(function(k){return S[k].end;}).join(', '):''); }
+    function go(key){
+      var n=S[key];
+      if(n.end){
+        if(got.indexOf(key)<0){ got.push(key); store('story:l16:endings',got); }
+        st.innerHTML='<div class="st-end"><span class="st-badge">🏁 '+n.end+'</span><p>'+n.text+'</p><button type="button" class="btn st-restart">↺ Start again</button></div>';
+        st.querySelector('.st-restart').onclick=function(){ go('start'); st.scrollIntoView({behavior:'smooth',block:'start'}); };
+        showFound(); return;
+      }
+      var opts=shuffle(n.opts);
+      st.innerHTML=(n.img?'<div class="st-img" style="background-image:url('+n.img+')"></div>':'')
+        +'<p class="st-text">'+n.text+'</p>'
+        +'<div class="st-gate"><p class="st-q">🔒 '+n.q.replace('___','<span class="wq-gap">_____</span>')+'</p><div class="st-opts">'
+        +opts.map(function(o){return '<button type="button" class="wq-opt st-o" data-o="'+o+'">'+o+'</button>';}).join('')+'</div><p class="st-hint"></p></div>'
+        +'<div class="st-choices" hidden>'+n.choices.map(function(c){return '<button type="button" class="btn st-c" data-to="'+c[1]+'">'+c[0]+' →</button>';}).join('')+'</div>';
+      st.querySelector('.st-opts').onclick=function(e){
+        var b=e.target.closest('.st-o'); if(!b||b.disabled) return;
+        if(b.getAttribute('data-o')===n.a){
+          b.classList.add('ok'); st.querySelectorAll('.st-o').forEach(function(x){x.disabled=true;});
+          st.querySelector('.st-hint').textContent='✓ Unlocked! Now choose — and say what will happen.';
+          st.querySelector('.st-choices').hidden=false;
+        } else { b.classList.add('bad'); b.disabled=true; st.querySelector('.st-hint').textContent='✗ Try again. Hint: '+n.hint; }
+      };
+      st.querySelector('.st-choices').onclick=function(e){ var c=e.target.closest('.st-c'); if(c) go(c.getAttribute('data-to')); };
+    }
+    go('start'); showFound();
+  }
+
+  /* ---------- What-If wheel ---------- */
+  var wq=document.getElementById('wheel-q'), wRaw=document.getElementById('wheel-data'), spin=document.getElementById('wheel-spin'), wt=document.getElementById('wheel-t');
+  if(wq && wRaw && spin){
+    var W=JSON.parse(wRaw.textContent), deck=shuffle(W), timer=null;
+    spin.onclick=function(){
+      if(!deck.length) deck=shuffle(W);
+      clearInterval(timer); spin.disabled=true; var k=0, final=deck.pop();
+      var roll=setInterval(function(){ wq.textContent=W[Math.floor(Math.random()*W.length)]; wq.classList.add('rolling'); if(++k>14){ clearInterval(roll); wq.classList.remove('rolling'); wq.textContent=final; spin.disabled=false; start(); } },70);
+    };
+    function start(){ var s=30; wt.textContent=s; wt.className='wheel-t'; timer=setInterval(function(){ s--; wt.textContent=s; if(s<=10) wt.className='wheel-t low'; if(s<=0){ clearInterval(timer); wt.textContent='⏰'; } },1000); }
+    document.querySelectorAll('.wheel-score .pt').forEach(function(b){ b.onclick=function(){ b.textContent=String(+b.textContent+1); }; b.oncontextmenu=function(e){ e.preventDefault(); b.textContent=String(Math.max(0,+b.textContent-1)); }; });
+  }
+})();
+</script>
+<script src="../assets/store.js?v=7"></script>
+<script src="../assets/wordgrab.js?v=7"></script>
+<script src="../assets/lesson-sync.js?v=7" data-lesson="lesson-16"></script>
+</body>
+</html>

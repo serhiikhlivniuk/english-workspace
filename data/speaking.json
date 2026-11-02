@@ -1,5 +1,41 @@
 [
   {
+    "id": "sp-16",
+    "lesson": "lesson-16",
+    "title": "The What If wheel",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Answer imaginary and real what-if questions with the second and first conditional; argue in Would you rather?",
+    "grammar": [
+      "conditionals-012"
+    ],
+    "warmup": [
+      "What will you do if it snows this weekend?",
+      "If you could have one superpower, what would it be?",
+      "Would you rather fly or be invisible?"
+    ],
+    "main": {
+      "task": "Spin the wheel, answer in 30 seconds with an if-sentence, then ask the teacher. Points for good answers and perfect grammar.",
+      "howto": "Imaginary → If I were / had / could…, I'd… · Real → If it…, I'll… · Would you rather → I'd rather…",
+      "prompts": [
+        "What would you do if you woke up as a cat?",
+        "If you could meet any person from history, who would it be?",
+        "Would you rather be famous or rich?"
+      ]
+    },
+    "phrases": [
+      "If I were…, I'd…",
+      "If I could…, I'd…",
+      "I'd rather… because…",
+      "If that happened, I'd probably…"
+    ],
+    "followup": [
+      "Which ending of The blue door did you like most?",
+      "Is it better to be invisible or to fly? Why?"
+    ],
+    "teacher": "Give an extra point only when the conditional is perfect. Catch 'If I would…' and 'If I am you' on the spot."
+  },
+  {
     "id": "sp-15",
     "lesson": "lesson-15",
     "title": "Would you survive?",
