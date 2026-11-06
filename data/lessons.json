@@ -302,5 +302,26 @@
       "Writing: my superpower"
     ],
     "vocabCount": 8
+  },
+  {
+    "id": "lesson-17",
+    "number": 17,
+    "title": "Happy Accidents",
+    "titleUk": "Умовні речення третього типу; усі чотири типи",
+    "date": "2026-11-06",
+    "time": "17:00",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-17.html",
+    "summary": "Three quick warm-ups on conditionals 0, 1 and 2, then the third conditional — the past that can't change. A colour table of all four types, exercises on the third conditional, regrets and a mixed bag of all four. True stories of inventions made by accident (penicillin, the microwave, Velcro, Post-it notes), the interactive story Grandma's clock with five endings, and a speaking wheel with everyday questions.",
+    "topics": [
+      "Warm-ups: conditionals 0, 1, 2",
+      "Third conditional: if + had + V3, would have + V3",
+      "All four conditionals together",
+      "Reading: happy accidents",
+      "Interactive story: Grandma's clock",
+      "Speaking wheel: everyday English"
+    ],
+    "vocabCount": 11
   }
 ]

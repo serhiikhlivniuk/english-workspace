@@ -6776,5 +6776,168 @@
         "why": "No will after if."
       }
     ]
+  },
+  {
+    "id": "third-conditional",
+    "group": "Sentences",
+    "title": "Third conditional",
+    "uk": "Умовні речення третього типу",
+    "level": "B1",
+    "summary": "If + had + V3, would have + V3 — an imaginary past: it didn't happen. For regrets and lucky accidents.",
+    "lessons": [
+      "lesson-17"
+    ],
+    "rules": [
+      {
+        "name": "Form",
+        "form": "If + had + V3, would have + V3",
+        "when": "The past that can't change — imagine a different past.",
+        "examples": [
+          {
+            "en": "If I had left earlier, I wouldn't have missed the bus.",
+            "uk": "Якби я вийшов раніше, я б не пропустив автобус."
+          }
+        ]
+      },
+      {
+        "name": "Reality is the opposite",
+        "form": "didn't → had · did → hadn't",
+        "when": "Positive in reality becomes negative in the conditional, and the other way round.",
+        "examples": [
+          {
+            "en": "I didn't charge my phone. → If I had charged it, it wouldn't have died.",
+            "uk": "Я не зарядив телефон. → Якби я його зарядив, він би не розрядився."
+          }
+        ]
+      },
+      {
+        "name": "All four types",
+        "form": "0: Present+Present · 1: Present+will · 2: Past+would · 3: had V3+would have V3",
+        "when": "facts · real future · imaginary now · imaginary past",
+        "examples": [
+          {
+            "en": "If Fleming had cleaned his dishes, he wouldn't have discovered penicillin.",
+            "uk": "Якби Флемінг помив чашки, він не відкрив би пеніцилін."
+          }
+        ]
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "If I would have known…",
+        "right": "If I had known…",
+        "note": "no would after if"
+      },
+      {
+        "wrong": "…I would have went",
+        "right": "…I would have gone",
+        "note": "V3 after have"
+      },
+      {
+        "wrong": "…we wouldn't missed",
+        "right": "…we wouldn't have missed",
+        "note": "don't lose have"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "If I ___ earlier, I wouldn't have missed the bus.",
+        "options": [
+          "left",
+          "had left",
+          "would leave"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "If she had studied, she ___ the exam.",
+        "options": [
+          "would pass",
+          "would have passed",
+          "had passed"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "If you heat ice, it ___.",
+        "options": [
+          "melts",
+          "would melt",
+          "would have melted"
+        ],
+        "answer": 0
+      }
+    ],
+    "practice": [
+      {
+        "q": "If I ___ earlier, I wouldn't have missed the bus.",
+        "options": [
+          "left",
+          "had left",
+          "would leave"
+        ],
+        "answer": 1,
+        "why": "Third: if + had + V3."
+      },
+      {
+        "q": "If she had studied, she ___ the exam.",
+        "options": [
+          "would pass",
+          "would have passed",
+          "had passed"
+        ],
+        "answer": 1,
+        "why": "would have + V3."
+      },
+      {
+        "q": "If you heat ice, it ___.",
+        "options": [
+          "melts",
+          "would melt",
+          "would have melted"
+        ],
+        "answer": 0,
+        "why": "A fact → zero."
+      },
+      {
+        "q": "If I won a holiday, I ___ to Japan.",
+        "options": [
+          "'ll go",
+          "'d go",
+          "'d have gone"
+        ],
+        "answer": 1,
+        "why": "Second: past → would."
+      },
+      {
+        "q": "If it rains, we ___ at home.",
+        "options": [
+          "'ll stay",
+          "'d stay",
+          "'d have stayed"
+        ],
+        "answer": 0,
+        "why": "First: present → will."
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "If I would have known, I'd have helped.",
+          "If I had known, I'd have helped."
+        ],
+        "answer": 1,
+        "why": "No would after if."
+      },
+      {
+        "q": "We would have ___ to the beach.",
+        "options": [
+          "went",
+          "gone",
+          "go"
+        ],
+        "answer": 1,
+        "why": "V3: gone."
+      }
+    ]
   }
 ]

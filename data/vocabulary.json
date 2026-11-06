@@ -3101,5 +3101,137 @@
     "tags": [
       "what if"
     ]
+  },
+  {
+    "word": "joyful",
+    "pos": "adj",
+    "def": "very happy",
+    "uk": "радісний",
+    "example": "It's one of the most joyful scenes in the film.",
+    "lesson": "lesson-15",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "match",
+    "pos": "noun",
+    "def": "a small stick that makes fire when you rub it (plural: matches)",
+    "uk": "сірник",
+    "example": "I don't have any matches.",
+    "lesson": "lesson-15",
+    "tags": [
+      "my words"
+    ]
+  },
+  {
+    "word": "by accident",
+    "pos": "phrase",
+    "def": "without planning it",
+    "uk": "випадково",
+    "example": "Penicillin was discovered by accident.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
+  },
+  {
+    "word": "mould",
+    "pos": "noun",
+    "def": "a soft green or blue growth on old food",
+    "uk": "пліснява",
+    "example": "A strange mould was growing on the dish.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
+  },
+  {
+    "word": "bacteria",
+    "pos": "noun",
+    "def": "very small living things, some cause illness",
+    "uk": "бактерії",
+    "example": "Around the mould, the bacteria had died.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
+  },
+  {
+    "word": "invention",
+    "pos": "noun",
+    "def": "something new that someone has made",
+    "uk": "винахід",
+    "example": "Velcro is a Swiss invention.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
+  },
+  {
+    "word": "discover",
+    "pos": "verb",
+    "def": "to find something for the first time",
+    "uk": "відкрити, виявити",
+    "example": "Fleming discovered penicillin in 1928.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
+  },
+  {
+    "word": "glue",
+    "pos": "noun",
+    "def": "a substance that sticks things together",
+    "uk": "клей",
+    "example": "He put some glue on his bookmarks.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
+  },
+  {
+    "word": "curious",
+    "pos": "adj",
+    "def": "wanting to know about something",
+    "uk": "допитливий",
+    "example": "He was curious, so he tried popcorn.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
+  },
+  {
+    "word": "regret",
+    "pos": "noun / verb",
+    "def": "a feeling of being sorry about something you did",
+    "uk": "жаль; шкодувати",
+    "example": "My only regret is that I didn't study more.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
+  },
+  {
+    "word": "second chance",
+    "pos": "phrase",
+    "def": "another opportunity to do something",
+    "uk": "другий шанс",
+    "example": "The clock gives you a second chance.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
+  },
+  {
+    "word": "wind (up)",
+    "pos": "verb",
+    "def": "to turn a key to make a clock work (wound, wound)",
+    "uk": "заводити (годинник)",
+    "example": "If you wind it up, it gives you a second chance.",
+    "lesson": "lesson-17",
+    "tags": [
+      "happy accidents"
+    ]
   }
 ]

@@ -1,5 +1,43 @@
 [
   {
+    "id": "sp-17",
+    "lesson": "lesson-17",
+    "title": "Talk to me",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Everyday conversation: talk for one minute about your life, decisions and lucky accidents; use the third conditional where it fits.",
+    "grammar": [
+      "third-conditional",
+      "conditionals-012"
+    ],
+    "warmup": [
+      "What did you do last weekend?",
+      "What's the best decision you've ever made?",
+      "Tell me about a lucky accident in your life."
+    ],
+    "main": {
+      "task": "Spin the wheel, talk for one minute, then ask the teacher the same question.",
+      "howto": "Talk like with a friend: To be honest… · Let me think… · The thing is… · Actually…",
+      "prompts": [
+        "What would you have done differently last summer?",
+        "Which invention could you not live without?",
+        "What's a mistake you learned something from?"
+      ]
+    },
+    "phrases": [
+      "To be honest…",
+      "Let me think…",
+      "The thing is…",
+      "Actually…",
+      "If I had…, I would have…"
+    ],
+    "followup": [
+      "Which ending of Grandma's clock did you like most?",
+      "Which happy accident is the most important?"
+    ],
+    "teacher": "Keep it natural — correct only big mistakes during the minute, note the rest. Push for one third conditional in every answer about the past."
+  },
+  {
     "id": "sp-16",
     "lesson": "lesson-16",
     "title": "The What If wheel",
