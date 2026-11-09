@@ -1,5 +1,35 @@
 [
   {
+    "id": "hw-18",
+    "lesson": "lesson-18",
+    "title": "Homework after Lesson 18",
+    "assigned": "2026-11-09",
+    "due": "2026-11-13",
+    "note": "The main task is Exercise 7 — write a mystery for me to solve.",
+    "items": [
+      {
+        "id": "hw-18-1",
+        "text": "Exercise 7: A mystery for me — 90–120 words, all four conditionals, three suspects, two clues and one lie.",
+        "type": "writing",
+        "auto": "lesson-18",
+        "only": [
+          "9"
+        ]
+      },
+      {
+        "id": "hw-18-2",
+        "text": "Lesson 18: finish the other exercises and solve the Silver Owl case if you haven't yet.",
+        "type": "grammar",
+        "auto": "lesson-18"
+      },
+      {
+        "id": "hw-18-3",
+        "text": "Learn the 10 detective words from Lesson 18 (suspect, clue, alibi…).",
+        "type": "vocab"
+      }
+    ]
+  },
+  {
     "id": "hw-17",
     "lesson": "lesson-17",
     "title": "Homework after Lesson 17",

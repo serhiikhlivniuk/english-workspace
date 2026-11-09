@@ -1,5 +1,43 @@
 [
   {
+    "id": "sp-18",
+    "lesson": "lesson-18",
+    "title": "Mystery talk",
+    "minutes": 12,
+    "level": "A2+ → B1",
+    "goal": "Everyday conversation about mysteries, lost things and right and wrong; one if-sentence in every answer.",
+    "grammar": [
+      "third-conditional",
+      "conditionals-012",
+      "articles"
+    ],
+    "warmup": [
+      "Have you ever lost something important?",
+      "Are you good at noticing small details?",
+      "Which detective film or series do you like?"
+    ],
+    "main": {
+      "task": "Spin the wheel, talk for one minute, then ask the teacher the same question.",
+      "howto": "Think like a detective: I think… because… · It can't be… · If he had…, he would have…",
+      "prompts": [
+        "What would you do if you saw someone stealing in a shop?",
+        "If you had been Peruggia, would you have returned the painting?",
+        "What would happen if there were no police for a day?"
+      ]
+    },
+    "phrases": [
+      "I think it was… because…",
+      "It can't be… — he has an alibi.",
+      "If she had…, she would have…",
+      "To be honest…"
+    ],
+    "followup": [
+      "Was Peruggia a clever thief or just lucky?",
+      "Explain the Silver Owl case in five sentences."
+    ],
+    "teacher": "Ask him to retell the case with at least two third conditionals. Correct articles gently on the spot (the best, a/an by sound)."
+  },
+  {
     "id": "sp-17",
     "lesson": "lesson-17",
     "title": "Talk to me",

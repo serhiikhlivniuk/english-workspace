@@ -3233,5 +3233,115 @@
     "tags": [
       "happy accidents"
     ]
+  },
+  {
+    "word": "suspect",
+    "pos": "noun",
+    "def": "a person who may have done a crime",
+    "uk": "підозрюваний",
+    "example": "The police questioned four suspects.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
+  },
+  {
+    "word": "clue",
+    "pos": "noun",
+    "def": "a sign or fact that helps you solve a mystery",
+    "uk": "доказ, підказка",
+    "example": "The wet umbrella was the most important clue.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
+  },
+  {
+    "word": "witness",
+    "pos": "noun",
+    "def": "a person who saw something happen",
+    "uk": "свідок",
+    "example": "A witness saw a man near the museum.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
+  },
+  {
+    "word": "alibi",
+    "pos": "noun",
+    "def": "proof that you were somewhere else when a crime happened",
+    "uk": "алібі",
+    "example": "Tom had an alibi: he was at the cinema.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
+  },
+  {
+    "word": "thumbprint",
+    "pos": "noun",
+    "def": "the mark your thumb leaves on a surface",
+    "uk": "відбиток великого пальця",
+    "example": "Peruggia left a thumbprint on the glass.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
+  },
+  {
+    "word": "footprint",
+    "pos": "noun",
+    "def": "the mark a foot or shoe leaves on the ground",
+    "uk": "слід (ноги)",
+    "example": "There were no footprints in the mud.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
+  },
+  {
+    "word": "theft",
+    "pos": "noun",
+    "def": "the crime of stealing",
+    "uk": "крадіжка",
+    "example": "The theft was noticed the next day.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
+  },
+  {
+    "word": "innocent",
+    "pos": "adjective",
+    "def": "not guilty of a crime",
+    "uk": "невинний",
+    "example": "If he were innocent, he wouldn't run away.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
+  },
+  {
+    "word": "accuse (of)",
+    "pos": "verb",
+    "def": "to say that someone did something wrong",
+    "uk": "звинувачувати (в)",
+    "example": "Don't accuse anyone before you have three clues.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
+  },
+  {
+    "word": "unplug",
+    "pos": "verb",
+    "def": "to disconnect a machine from the electricity",
+    "uk": "вимкнути з розетки",
+    "example": "Someone unplugged the camera at 9:12.",
+    "lesson": "lesson-18",
+    "tags": [
+      "detective"
+    ]
   }
 ]

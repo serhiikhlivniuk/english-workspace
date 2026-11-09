@@ -323,5 +323,26 @@
       "Speaking wheel: everyday English"
     ],
     "vocabCount": 11
+  },
+  {
+    "id": "lesson-18",
+    "number": 18,
+    "title": "The Case of the Silver Owl",
+    "titleUk": "Артиклі (повторення); усі чотири типи умовних речень",
+    "date": "2026-11-09",
+    "time": "17:30",
+    "level": "A2+ → B1",
+    "duration": "60 min",
+    "file": "lessons/lesson-18.html",
+    "summary": "Three warm-ups on articles (a/an by sound, a/the/no article in a news story, find the mistake), then a review of all four conditionals: match the halves and name the type, a mixed bag and detective deductions with the third conditional. The true story of the Mona Lisa theft (1911), an interactive investigation — collect five clues and name the thief — and a speaking wheel with mystery questions.",
+    "topics": [
+      "Warm-ups: articles a / an / the / —",
+      "Conditionals 0, 1, 2, 3: match and name the type",
+      "Detective deductions: third conditional",
+      "Reading: the Mona Lisa theft",
+      "Interactive case: the Silver Owl",
+      "Speaking wheel: mystery talk"
+    ],
+    "vocabCount": 10
   }
 ]
